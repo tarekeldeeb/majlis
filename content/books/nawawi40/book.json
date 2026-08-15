@@ -1,0 +1,11 @@
+{
+  "id": "nawawi40",
+  "title": "الأربعون النووية",
+  "author": "الإمام يحيى بن شرف النووي",
+  "count": 42,
+  "source": {
+    "repo": "AhmedBaset/hadith-json",
+    "url": "https://raw.githubusercontent.com/AhmedBaset/hadith-json/main/db/by_book/forties/nawawi40.json",
+    "bookId": 10
+  }
+}

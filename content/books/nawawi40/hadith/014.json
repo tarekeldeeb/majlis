@@ -1,0 +1,25 @@
+{
+  "id": "nawawi40:14",
+  "book": "nawawi40",
+  "number": 14,
+  "matn": {
+    "arabic": "عَنْ ابْنِ مَسْعُودٍ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صلى الله عليه و سلم \"لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ  إلَّا بِإِحْدَى ثَلَاثٍ: الثَّيِّبُ الزَّانِي، وَالنَّفْسُ بِالنَّفْسِ، وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ\".   \n \n، ",
+    "sourceId": 40957
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "ingested",
+    "reviewers": [],
+    "approvedAt": null
+  }
+}

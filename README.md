@@ -1,0 +1,28 @@
+# Majlis — مجلس
+
+An open-source interactive hadith audiobook (web / iOS / Android). Majlis reads hadith books aloud; after each hadith it reads its manners (آداب), benefits (فوائد), and conclusive meaning (المعنى الإجمالي). Listeners can pause anytime and discuss the hadith with a grounded assistant that answers with cited, logical arguments — never fatwas.
+
+Named after **مجالس السماع** — the traditional gatherings where hadith books were read aloud and discussed.
+
+## Status
+
+Phase 0 — content pipeline. First book: الأربعون النووية (40 Hadith Nawawi).
+
+## Layout
+
+| Path | Purpose |
+|---|---|
+| `content/` | Reviewed content assets (books, commentary, review state) |
+| `pipeline/` | Build-time scripts: ingest → draft → review → TTS → package |
+| `docs/` | Content schema, review workflow, TTS evaluation |
+| `app/` | React Native (Expo) app — Phase 1 |
+| `server/` | Chat backend (LLM providers + MCP clients) — Phase 2 |
+
+## Principles
+
+- **Strictly open source / free components.** No paid or proprietary dependency anywhere.
+- **Human-reviewed content only.** Every commentary segment is signed off by two reviewers (Dr Yasmeen Farouk, Tarek Eldeeb) before it ships. See `docs/review-workflow.md`.
+- **Matn is immutable.** Hadith text is stored verbatim from its source and never machine-altered.
+- **Arabic-first.** v1 is Arabic-only: content, audio, and UI (RTL).
+
+See `CLAUDE.md` for full architecture and roadmap.

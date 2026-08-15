@@ -1,0 +1,25 @@
+{
+  "id": "nawawi40:16",
+  "book": "nawawi40",
+  "number": 16,
+  "matn": {
+    "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَجُلًا قَالَ لِلنَّبِيِّ صلى الله عليه و سلم أَوْصِنِي. قَالَ: لَا تَغْضَبْ، فَرَدَّدَ مِرَارًا، قَالَ: لَا تَغْضَبْ\" .   \n .",
+    "sourceId": 40959
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "ingested",
+    "reviewers": [],
+    "approvedAt": null
+  }
+}

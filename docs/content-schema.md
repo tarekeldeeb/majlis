@@ -1,0 +1,59 @@
+# Content schema (v1, Arabic-only)
+
+One JSON file per hadith at `content/books/<bookId>/hadith/<NNN>.json`, plus a `book.json` per book. Files are the review unit: one hadith = one file = one reviewable diff.
+
+## Hadith file
+
+```jsonc
+{
+  "id": "nawawi40:1",            // "<bookId>:<number>", stable app-wide reference
+  "book": "nawawi40",
+  "number": 1,                   // idInBook from the source
+  "matn": {
+    "arabic": "…",               // verbatim from source — IMMUTABLE after ingest
+    "sourceId": 40944            // hadith id in AhmedBaset/hadith-json
+  },
+  "commentary": {
+    "adab": ["…"],               // آداب — manners drawn from the hadith
+    "fawaid": ["…"],             // فوائد — benefits / lessons
+    "meaning": "…",              // المعنى الإجمالي — conclusive meaning, read last
+    "relatedAyat": [             // Quranic cross-references (resolved via Tarteel MCP)
+      { "ref": "98:5", "text": "…" }
+    ],
+    "sources": ["…"]             // the shurūḥ this commentary is grounded in
+  },
+  "audio": {
+    "matn": null,                // CDN path once generated, e.g. "nawawi40/001-matn.mp3"
+    "commentary": null
+  },
+  "review": {
+    "status": "ingested",        // ingested | draft | approved
+    "reviewers": [],             // names, filled at approval
+    "approvedAt": null           // ISO date
+  }
+}
+```
+
+## Review states
+
+- `ingested` — matn only, straight from the source; commentary empty.
+- `draft` — commentary drafted (LLM-assisted, grounded in classical shurūḥ), awaiting review.
+- `approved` — both reviewers signed off. **Only `approved` hadiths reach release builds.**
+
+Any edit to an `approved` commentary resets status to `draft` and clears `reviewers`.
+
+## Book file (`book.json`)
+
+```jsonc
+{
+  "id": "nawawi40",
+  "title": "الأربعون النووية",
+  "author": "الإمام يحيى بن شرف النووي",
+  "count": 42,
+  "source": { "repo": "AhmedBaset/hadith-json", "url": "…", "bookId": 10 }
+}
+```
+
+## Source & licensing note
+
+Text is ingested from [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) (data originally from sunnah.com). That repo carries **no license file**; we rely only on the **Arabic matn**, which is ancient public-domain text. We do not ship its English translations (v1 is Arabic-only; translation licensing must be revisited before any English version).
