@@ -21,5 +21,5 @@ Goal: choose one open/free TTS able to read **fully diacritized classical Arabic
 
 ## Constraints
 
-- Input text must be fully diacritized; where source tashkeel is partial, run a diacritizer first (e.g. Tashkeela-trained models — free) and have reviewers verify.
+- Input text must be fully diacritized. 40 Nawawi is already diacritized in-source. For رياض الصالحين (largely undiacritized), the plan is **tashkeel transfer**: match each hadith back to its origin in the fully diacritized 9-books collections of the same hadith-json repo (Bukhari measured at ~88% diacritic density) guided by the embedded takhrīj, align the normalized text, and copy the diacritics over. Fallback for unmatched/adapted wording: an open automatic diacritizer (e.g. CAMeL Tools / CATT), with low-confidence hadiths flagged for reviewer spot-checks. Checked and ruled out: دليل الفالحين's machine-readable edition (Shamela #140) is undiacritized (~0.1% density) — it serves as commentary grounding only.
 - The engine must run locally (build machine) — no paid API.
