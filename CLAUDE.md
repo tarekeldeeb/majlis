@@ -15,6 +15,7 @@ Named after *majālis al-samāʿ* — the traditional gatherings where hadith bo
   Both speak one OpenAI-compatible chat interface so the app logic never knows which is active.
 - **Content review:** every generated commentary segment requires human sign-off by **Dr Yasmeen Farouk** and **Tarek Eldeeb** before it ships. Unreviewed content never reaches release builds.
 - **Licensing constraint:** strictly open-source or free components. No paid/proprietary dependencies anywhere in the stack.
+- **Project license:** Waqf General Public License 2.0 (رخصة وقف العامّة) — `LICENSE` (Arabic, authoritative) + `LICENSE-en` (informal translation). Note: Waqf is not OSI/SPDX-listed, which affects F-Droid main-repo eligibility (Phase 4) and inbound/outbound compatibility with OSI-only projects.
 
 ## Architecture
 

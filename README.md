@@ -26,3 +26,7 @@ Phase 0 — content pipeline. First book: الأربعون النووية (40 Ha
 - **Arabic-first.** v1 is Arabic-only: content, audio, and UI (RTL).
 
 See `CLAUDE.md` for full architecture and roadmap.
+
+## License
+
+Majlis is released under the **Waqf General Public License 2.0** (رخصة وقف العامّة) — the project is a perpetual endowment (وقف) for the benefit of all. The authoritative license text is the Arabic `LICENSE`; `LICENSE-en` is the informal English translation. See the [official Waqf license repository](https://github.com/ojuba-org/waqf).

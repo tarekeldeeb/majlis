@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "prestart": "npm run sync-content",
- "start": "expo start",
- "build:web": "npm run sync-content && expo export --platform web",
+    "start": "expo start",
+    "build:web": "npm run sync-content && expo export --platform web",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -30,5 +30,6 @@
     "@types/react": "~19.2.2",
     "typescript": "~6.0.3"
   },
-  "private": true
+  "private": true,
+  "license": "SEE LICENSE IN ../LICENSE"
 }
