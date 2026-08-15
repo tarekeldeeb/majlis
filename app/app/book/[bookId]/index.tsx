@@ -2,8 +2,10 @@ import React, { useMemo, useState } from 'react';
 import { FlatList, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { HadithListItem } from '../../../src/components/HadithListItem';
+import { ProgressBar } from '../../../src/components/ProgressBar';
 import { theme, toArabicDigits } from '../../../src/constants/theme';
 import { getBook, getHadithsForBook } from '../../../src/data';
+import { useProgress } from '../../../src/progress/progress';
 import type { Hadith } from '../../../src/types/content';
 
 export default function BookViewScreen() {
@@ -13,6 +15,10 @@ export default function BookViewScreen() {
   const currentBookId = typeof bookId === 'string' ? bookId : 'nawawi40';
   const book = getBook(currentBookId);
   const hadiths = getHadithsForBook(currentBookId);
+  const { isDone, bookProgress } = useProgress();
+
+  const doneCount = bookProgress(currentBookId).done.length;
+  const ratio = hadiths.length > 0 ? doneCount / hadiths.length : 0;
 
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -22,7 +28,8 @@ export default function BookViewScreen() {
     return hadiths.filter((h) => {
       const matchNumber = String(h.number).includes(query) || toArabicDigits(h.number).includes(query);
       const matchMatn = h.matn?.arabic?.toLowerCase().includes(query);
-      return matchNumber || matchMatn;
+      const matchChapter = h.chapter?.title?.toLowerCase().includes(query);
+      return matchNumber || matchMatn || matchChapter;
     });
   }, [hadiths, searchQuery]);
 
@@ -36,22 +43,28 @@ export default function BookViewScreen() {
         data={filteredHadiths}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
-          <HadithListItem hadith={item} onPress={() => handleOpenHadith(item)} />
+          <HadithListItem
+            hadith={item}
+            done={isDone(currentBookId, item.number)}
+            onPress={() => handleOpenHadith(item)}
+          />
         )}
         contentContainerStyle={styles.listContent}
         ListHeaderComponent={
           <View style={styles.header}>
-            {/* Book metadata card */}
+            {/* Book metadata + progress */}
             <View style={styles.metaCard}>
               <Text style={styles.bookTitle}>{book?.title || 'الأربعون النووية'}</Text>
               <Text style={styles.bookAuthor}>{book?.author || 'الإمام يحيى بن شرف النووي'}</Text>
-              <View style={styles.statsRow}>
-                <View style={styles.statChip}>
-                  <Text style={styles.statText}>{toArabicDigits(hadiths.length)} حديثًا</Text>
-                </View>
-                <View style={styles.reviewBanner}>
-                  <View style={styles.reviewDot} />
-                  <Text style={styles.reviewBannerText}>المحتوى قيد المراجعة والاعتماد</Text>
+              <View style={styles.progressGroup}>
+                <ProgressBar ratio={ratio} />
+                <View style={styles.progressLabelRow}>
+                  <Text style={styles.progressLabel}>
+                    أتممت {toArabicDigits(doneCount)} من {toArabicDigits(hadiths.length)} حديثًا
+                  </Text>
+                  <Text style={styles.progressPct}>
+                    {toArabicDigits(Math.round(ratio * 100))}٪
+                  </Text>
                 </View>
               </View>
             </View>
@@ -60,7 +73,7 @@ export default function BookViewScreen() {
             <View style={styles.searchContainer}>
               <TextInput
                 style={styles.searchInput}
-                placeholder="ابحث برقم الحديث أو بنص المتن..."
+                placeholder="ابحث برقم الحديث أو بنص المتن أو الباب..."
                 placeholderTextColor={theme.colors.textMuted}
                 value={searchQuery}
                 onChangeText={setSearchQuery}
@@ -104,62 +117,39 @@ const styles = StyleSheet.create({
     padding: theme.spacing.lg,
     borderWidth: 1,
     borderColor: theme.colors.border,
-    gap: theme.spacing.xs,
+    gap: theme.spacing.sm,
   },
   bookTitle: {
     ...theme.typography.title,
     fontSize: 22,
     color: theme.colors.text,
+    fontFamily: theme.matnFontFamily,
   },
   bookAuthor: {
     ...theme.typography.body,
     color: theme.colors.accent,
     fontWeight: '600',
   },
-  statsRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    flexWrap: 'wrap',
-    gap: theme.spacing.sm,
+  progressGroup: {
+    gap: 6,
     marginTop: theme.spacing.sm,
     paddingTop: theme.spacing.sm,
     borderTopWidth: 1,
     borderTopColor: theme.colors.borderSubtle,
   },
-  statChip: {
-    backgroundColor: theme.colors.primaryLight,
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderRadius: theme.radius.full,
-  },
-  statText: {
-    fontSize: 12,
-    fontWeight: '700',
-    color: theme.colors.primary,
-    writingDirection: 'rtl',
-  },
-  reviewBanner: {
+  progressLabelRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: theme.colors.unreviewedBg,
-    borderColor: theme.colors.unreviewedBorder,
-    borderWidth: 1,
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderRadius: theme.radius.full,
-    gap: 6,
+    justifyContent: 'space-between',
   },
-  reviewDot: {
-    width: 6,
-    height: 6,
-    borderRadius: 3,
-    backgroundColor: theme.colors.unreviewedText,
+  progressLabel: {
+    ...theme.typography.caption,
+    color: theme.colors.textSecondary,
   },
-  reviewBannerText: {
-    fontSize: 11,
-    fontWeight: '600',
-    color: theme.colors.unreviewedText,
-    writingDirection: 'rtl',
+  progressPct: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: theme.colors.goldDeep,
   },
   searchContainer: {
     backgroundColor: theme.colors.surface,

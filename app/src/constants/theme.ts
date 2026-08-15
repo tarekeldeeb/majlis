@@ -37,6 +37,11 @@ export const theme = {
     accentLight: '#FEF3C7',
     accentBorder: '#FDE68A',
 
+    gold: '#A8853B', // Brass gold — progress, ornaments
+    goldDeep: '#8C6D2F',
+    goldLight: '#F4EDDC',
+    progressTrack: '#E9E4D8',
+
     unreviewedBg: '#FEF3C7', // Warm amber badge for unreviewed content
     unreviewedText: '#92400E',
     unreviewedBorder: '#FCD34D',
@@ -61,10 +66,16 @@ export const theme = {
     lg: 16,
     full: 9999,
   },
+  // Classic Naskh-style serif for sacred text; system UI font elsewhere.
+  matnFontFamily: Platform.select({
+    ios: 'Damascus',
+    android: 'serif',
+    default: "'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif",
+  }),
   typography: {
     matn: {
-      fontSize: 22,
-      lineHeight: 40,
+      fontSize: 23,
+      lineHeight: 44,
       textAlign: 'right' as const,
       writingDirection: 'rtl' as const,
     },

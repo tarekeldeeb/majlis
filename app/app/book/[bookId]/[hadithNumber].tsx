@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { AudioPlayerBar } from '../../../src/components/AudioPlayerBar';
 import { CommentarySection } from '../../../src/components/CommentarySection';
-import { ReviewBadge } from '../../../src/components/ReviewBadge';
 import { formatHadithTitle, theme, toArabicDigits } from '../../../src/constants/theme';
 import { getBook, getHadithByNumber, getHadithsForBook } from '../../../src/data';
+import { useProgress } from '../../../src/progress/progress';
 
-export default function HadithPlayerScreen() {
+export default function HadithScreen() {
   const router = useRouter();
   const { bookId, hadithNumber } = useLocalSearchParams<{
     bookId: string;
@@ -22,19 +21,23 @@ export default function HadithPlayerScreen() {
   const totalCount = allHadiths.length || 42;
   const hadith = getHadithByNumber(currentBookId, num);
 
+  const { isDone, toggleDone, markVisited } = useProgress();
+  const done = isDone(currentBookId, num);
+  const [showDiscuss, setShowDiscuss] = useState(false);
+
+  useEffect(() => {
+    if (hadith) markVisited(currentBookId, num);
+    setShowDiscuss(false);
+  }, [currentBookId, num, hadith, markVisited]);
+
   const hasPrev = num > 1;
   const hasNext = num < totalCount;
 
   const handlePrev = () => {
-    if (hasPrev) {
-      router.replace(`/book/${currentBookId}/${num - 1}`);
-    }
+    if (hasPrev) router.replace(`/book/${currentBookId}/${num - 1}`);
   };
-
   const handleNext = () => {
-    if (hasNext) {
-      router.replace(`/book/${currentBookId}/${num + 1}`);
-    }
+    if (hasNext) router.replace(`/book/${currentBookId}/${num + 1}`);
   };
 
   if (!hadith) {
@@ -55,7 +58,7 @@ export default function HadithPlayerScreen() {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={true}
       >
-        {/* Navigation Bar between Hadiths */}
+        {/* Position within the journey */}
         <View style={styles.navHeader}>
           <Pressable
             onPress={handlePrev}
@@ -63,7 +66,7 @@ export default function HadithPlayerScreen() {
             style={[styles.navBtn, !hasPrev && styles.navBtnDisabled]}
           >
             <Text style={[styles.navBtnText, !hasPrev && styles.navBtnTextDisabled]}>
-              → الحديث السابق
+              → السابق
             </Text>
           </Pressable>
 
@@ -79,48 +82,81 @@ export default function HadithPlayerScreen() {
             style={[styles.navBtn, !hasNext && styles.navBtnDisabled]}
           >
             <Text style={[styles.navBtnText, !hasNext && styles.navBtnTextDisabled]}>
-              الحديث التالي ←
+              التالي ←
             </Text>
           </Pressable>
         </View>
 
-        {/* Hadith Heading & Review Badge */}
+        {/* Heading */}
         <View style={styles.titleCard}>
-          <View style={styles.titleRow}>
-            <Text style={styles.hadithMainTitle}>{formatHadithTitle(hadith.number)}</Text>
-            <ReviewBadge status={hadith.review?.status} size="medium" />
-          </View>
-          <Text style={styles.bookSubTitle}>{book?.title || 'الأربعون النووية'}</Text>
+          <Text style={styles.hadithMainTitle}>{formatHadithTitle(hadith.number)}</Text>
+          <Text style={styles.bookSubTitle}>
+            {book?.title}
+            {hadith.chapter?.title ? ` — ${hadith.chapter.title}` : ''}
+          </Text>
         </View>
 
-        {/* Matn Section */}
+        {/* Matn */}
         <View style={styles.matnCard}>
+          <View style={styles.matnOrnamentRule} />
           <View style={styles.matnHeader}>
-            <Text style={styles.matnLabel}>نص الحديث الشريف</Text>
+            <Text style={styles.matnLabel}>نَصُّ الْحَدِيثِ الشَّرِيفِ</Text>
           </View>
           <Text style={styles.matnBody} selectable>
             {hadith.matn?.arabic}
           </Text>
         </View>
 
-        {/* Review Notes banner if present */}
-        {hadith.review?.notes && (
-          <View style={styles.reviewNotesCard}>
-            <Text style={styles.reviewNotesTitle}>ملاحظة المراجعة والتحقيق:</Text>
-            <Text style={styles.reviewNotesText}>{hadith.review.notes}</Text>
+        {/* Commentary (آداب / فوائد / المعنى الإجمالي) */}
+        <CommentarySection commentary={hadith.commentary} />
+
+        {/* Discussion panel (Phase 2 entry point) */}
+        {showDiscuss && (
+          <View style={styles.discussCard}>
+            <Text style={styles.discussTitle}>مناقشة الحديث</Text>
+            <Text style={styles.discussText}>
+              المناقشة التفاعلية قادمة في المرحلة الثانية بإذن الله: ستحاور مساعدًا مستندًا إلى
+              نص الحديث وشرحه ومصادره، يجيبك بحجج موثقة دون إفتاء.
+            </Text>
           </View>
         )}
 
-        {/* Commentary Sections (آداب / فوائد / المعنى الإجمالي) */}
-        <CommentarySection commentary={hadith.commentary} />
-
-        {/* Bottom padding for fixed player bar */}
         <View style={styles.bottomSpacer} />
       </ScrollView>
 
-      {/* Non-functional Audiobook Player Bar */}
-      <View style={styles.playerBarContainer}>
-        <AudioPlayerBar hadithNumber={num} totalHadiths={totalCount} />
+      {/* Journey action bar: listen / done / discuss */}
+      <View style={styles.actionBar}>
+        <Pressable style={[styles.actionBtn, styles.actionBtnDisabled]} disabled>
+          <Text style={styles.actionBtnTextDisabled}>استمع</Text>
+          <View style={styles.soonBadge}>
+            <Text style={styles.soonBadgeText}>قريبًا</Text>
+          </View>
+        </Pressable>
+
+        <Pressable
+          onPress={() => toggleDone(currentBookId, num)}
+          style={({ pressed }) => [
+            styles.actionBtn,
+            done ? styles.actionBtnDone : styles.actionBtnOutline,
+            pressed && styles.actionBtnPressed,
+          ]}
+        >
+          <Text style={done ? styles.actionBtnTextOnGold : styles.actionBtnTextOutline}>
+            {done ? '✓ تَمَّ' : 'أتممتُ الحديث'}
+          </Text>
+        </Pressable>
+
+        <Pressable
+          onPress={() => setShowDiscuss((v) => !v)}
+          style={({ pressed }) => [
+            styles.actionBtn,
+            styles.actionBtnOutline,
+            showDiscuss && styles.actionBtnActive,
+            pressed && styles.actionBtnPressed,
+          ]}
+        >
+          <Text style={styles.actionBtnTextOutline}>ناقش</Text>
+        </Pressable>
       </View>
     </View>
   );
@@ -185,17 +221,11 @@ const styles = StyleSheet.create({
     borderColor: theme.colors.border,
     gap: 4,
   },
-  titleRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    flexWrap: 'wrap',
-    gap: theme.spacing.xs,
-  },
   hadithMainTitle: {
     ...theme.typography.title,
     fontSize: 22,
     color: theme.colors.text,
+    fontFamily: theme.matnFontFamily,
   },
   bookSubTitle: {
     ...theme.typography.caption,
@@ -213,6 +243,14 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
     elevation: 1,
   },
+  matnOrnamentRule: {
+    height: 3,
+    backgroundColor: theme.colors.gold,
+    borderRadius: 2,
+    width: 64,
+    alignSelf: 'center',
+    marginBottom: theme.spacing.md,
+  },
   matnHeader: {
     borderBottomWidth: 1,
     borderBottomColor: theme.colors.borderSubtle,
@@ -221,41 +259,104 @@ const styles = StyleSheet.create({
   },
   matnLabel: {
     ...theme.typography.subtitle,
-    color: theme.colors.accent,
+    color: theme.colors.goldDeep,
     fontSize: 14,
   },
   matnBody: {
     ...theme.typography.matn,
     color: theme.colors.text,
     textAlign: 'justify',
+    fontFamily: theme.matnFontFamily,
   },
-  reviewNotesCard: {
-    backgroundColor: theme.colors.unreviewedBg,
-    borderColor: theme.colors.unreviewedBorder,
+  discussCard: {
+    backgroundColor: theme.colors.primaryLight,
+    borderColor: theme.colors.primaryBorder,
     borderWidth: 1,
     borderRadius: theme.radius.md,
     padding: theme.spacing.md,
-    gap: 4,
+    gap: 6,
   },
-  reviewNotesTitle: {
-    ...theme.typography.caption,
-    fontWeight: '700',
-    color: theme.colors.unreviewedText,
+  discussTitle: {
+    ...theme.typography.subtitle,
+    color: theme.colors.primary,
   },
-  reviewNotesText: {
+  discussText: {
     ...theme.typography.body,
-    fontSize: 13,
-    lineHeight: 20,
-    color: theme.colors.unreviewedText,
+    color: theme.colors.textSecondary,
+    lineHeight: 24,
   },
   bottomSpacer: {
-    height: 140, // Ensure content can scroll above the floating player bar
+    height: 96,
   },
-  playerBarContainer: {
+  actionBar: {
     position: 'absolute',
     bottom: 0,
     left: 0,
     right: 0,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    gap: theme.spacing.sm,
+    backgroundColor: theme.colors.primary,
+    paddingVertical: theme.spacing.md,
+    paddingHorizontal: theme.spacing.md,
+    borderTopWidth: 2,
+    borderTopColor: theme.colors.gold,
+  },
+  actionBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 6,
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: 10,
+    borderRadius: theme.radius.sm,
+    minWidth: 96,
+  },
+  actionBtnPressed: {
+    opacity: 0.85,
+  },
+  actionBtnDisabled: {
+    backgroundColor: 'rgba(255, 253, 247, 0.08)',
+  },
+  actionBtnOutline: {
+    borderWidth: 1,
+    borderColor: 'rgba(255, 253, 247, 0.45)',
+  },
+  actionBtnActive: {
+    backgroundColor: 'rgba(255, 253, 247, 0.12)',
+  },
+  actionBtnDone: {
+    backgroundColor: theme.colors.gold,
+  },
+  actionBtnTextOutline: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#FAF9F6',
+    writingDirection: 'rtl',
+  },
+  actionBtnTextOnGold: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#2A2513',
+    writingDirection: 'rtl',
+  },
+  actionBtnTextDisabled: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: 'rgba(250, 249, 246, 0.55)',
+    writingDirection: 'rtl',
+  },
+  soonBadge: {
+    backgroundColor: 'rgba(255, 253, 247, 0.14)',
+    paddingHorizontal: 6,
+    paddingVertical: 1,
+    borderRadius: theme.radius.full,
+  },
+  soonBadgeText: {
+    fontSize: 10,
+    color: 'rgba(250, 249, 246, 0.7)',
+    writingDirection: 'rtl',
   },
   errorContainer: {
     flex: 1,

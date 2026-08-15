@@ -1,138 +1,202 @@
 import React from 'react';
-import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { theme, toArabicDigits } from '../src/constants/theme';
-import { getBooks } from '../src/data';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { ProgressBar } from '../src/components/ProgressBar';
+import { formatHadithTitle, theme, toArabicDigits } from '../src/constants/theme';
+import { getBook, getBooks } from '../src/data';
+import { nextHadithNumber, useProgress } from '../src/progress/progress';
 import type { Book } from '../src/types/content';
 
-export default function LibraryScreen() {
+export default function JourneyScreen() {
   const router = useRouter();
   const books = getBooks();
+  const { bookProgress, lastVisited } = useProgress();
 
-  const handleOpenBook = (bookId: string) => {
-    router.push(`/book/${bookId}`);
+  const continueBook = lastVisited ? getBook(lastVisited.bookId) : undefined;
+
+  const openHadith = (bookId: string, num: number) => {
+    router.push(`/book/${bookId}/${num}`);
   };
 
-  const renderBookItem = ({ item }: { item: Book }) => (
-    <Pressable
-      onPress={() => handleOpenBook(item.id)}
-      style={({ pressed }) => [styles.bookCard, pressed && styles.bookCardPressed]}
-    >
-      <View style={styles.bookHeader}>
-        <View style={styles.badgeRow}>
-          <View style={styles.countBadge}>
-            <Text style={styles.countText}>{toArabicDigits(item.count)} حديثًا</Text>
+  const renderBookCard = (book: Book) => {
+    const progress = bookProgress(book.id);
+    const doneCount = progress.done.length;
+    const ratio = book.count > 0 ? doneCount / book.count : 0;
+    const next = nextHadithNumber(progress, book.count);
+    const started = doneCount > 0 || progress.last !== null;
+
+    return (
+      <View key={book.id} style={styles.bookCard}>
+        <View style={styles.bookHeaderRow}>
+          <View style={styles.bookTitleGroup}>
+            <Text style={styles.bookTitle}>{book.title}</Text>
+            <Text style={styles.bookAuthor}>{book.author}</Text>
           </View>
-          <View style={styles.statusBadge}>
-            <Text style={styles.statusText}>قيد المراجعة</Text>
+          <View style={styles.countPill}>
+            <Text style={styles.countPillText}>{toArabicDigits(book.count)} حديثًا</Text>
           </View>
         </View>
-        <Text style={styles.bookTitle}>{item.title}</Text>
-        <Text style={styles.bookAuthor}>{item.author}</Text>
-      </View>
 
-      <Text style={styles.bookDesc}>
-        مجموعة الأحاديث النبوية الجامعة التي تدور عليها أصول الإسلام وقواعد الأحكام، مع شروحها والآداب والفوائد المستنبطة منها.
-      </Text>
+        <View style={styles.progressGroup}>
+          <ProgressBar ratio={ratio} />
+          <View style={styles.progressLabelRow}>
+            <Text style={styles.progressLabel}>
+              أتممت {toArabicDigits(doneCount)} من {toArabicDigits(book.count)}
+            </Text>
+            <Text style={styles.progressPct}>{toArabicDigits(Math.round(ratio * 100))}٪</Text>
+          </View>
+        </View>
 
-      <View style={styles.bookFooter}>
-        <View style={styles.openBtn}>
-          <Text style={styles.openBtnText}>تصفح الأحاديث</Text>
-          <Text style={styles.chevron}>←</Text>
+        <View style={styles.bookActionsRow}>
+          <Pressable
+            onPress={() => openHadith(book.id, next)}
+            style={({ pressed }) => [styles.primaryBtn, pressed && styles.primaryBtnPressed]}
+          >
+            <Text style={styles.primaryBtnText}>
+              {started ? 'واصل المجلس' : 'ابدأ المجلس'}
+            </Text>
+          </Pressable>
+          <Pressable
+            onPress={() => router.push(`/book/${book.id}`)}
+            style={({ pressed }) => [styles.secondaryBtn, pressed && styles.secondaryBtnPressed]}
+          >
+            <Text style={styles.secondaryBtnText}>تصفح الأحاديث</Text>
+          </Pressable>
         </View>
       </View>
-    </Pressable>
-  );
+    );
+  };
 
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={books}
-        keyExtractor={(item) => item.id}
-        renderItem={renderBookItem}
-        contentContainerStyle={styles.listContent}
-        ListHeaderComponent={
-          <View style={styles.header}>
-            <View style={styles.heroCard}>
-              <Text style={styles.heroBrand}>مَجْلِس</Text>
-              <Text style={styles.heroTagline}>
-                مكتبة تفاعلية تجمع بين نص الحديث النبوي، والشرح الصوتي، والآداب والفوائد المستفادة.
-              </Text>
-            </View>
+    <SafeAreaView style={styles.safe} edges={['top']}>
+      <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+        {/* Hero */}
+        <View style={styles.hero}>
+          <Text style={styles.heroBrand}>مَجْلِس</Text>
+          <View style={styles.heroRule} />
+          <Text style={styles.heroTagline}>
+            مجالس السماع من جديد — اقرأ الحديث، واستمع إلى شرحه وفوائده، وناقشه في رحلة تعلُّم
+            متدرجة.
+          </Text>
+        </View>
 
-            <View style={styles.sectionHeadingRow}>
-              <Text style={styles.sectionHeading}>كتب الحديث</Text>
-              <Text style={styles.sectionSub}>{toArabicDigits(books.length)} كتاب متوفر</Text>
-            </View>
-          </View>
-        }
-        ListFooterComponent={
-          <View style={styles.upcomingSection}>
-            <Text style={styles.upcomingHeading}>كتب قادمة قريبًا</Text>
-            <View style={styles.upcomingCard}>
-              <View style={styles.upcomingHeader}>
-                <Text style={styles.upcomingTitle}>رياض الصالحين</Text>
-                <View style={styles.soonBadge}>
-                  <Text style={styles.soonText}>قريبًا</Text>
-                </View>
-              </View>
-              <Text style={styles.upcomingAuthor}>الإمام النووي رحمه الله</Text>
-              <Text style={styles.upcomingDesc}>
-                أكثر من ١٩٠٠ حديث في الآداب والأخلاق والأعمال الصالحة.
+        {/* Continue where you left off */}
+        {lastVisited && continueBook && (
+          <Pressable
+            onPress={() => openHadith(lastVisited.bookId, lastVisited.number)}
+            style={({ pressed }) => [styles.continueCard, pressed && styles.continueCardPressed]}
+          >
+            <View style={styles.continueTextGroup}>
+              <Text style={styles.continueKicker}>واصل مجلسك الأخير</Text>
+              <Text style={styles.continueTitle}>
+                {continueBook.title} — {formatHadithTitle(lastVisited.number)}
               </Text>
             </View>
-          </View>
-        }
-      />
-    </View>
+            <View style={styles.continueBtn}>
+              <Text style={styles.continueBtnText}>متابعة ←</Text>
+            </View>
+          </Pressable>
+        )}
+
+        {/* Books journey */}
+        <View style={styles.sectionHeadingRow}>
+          <Text style={styles.sectionHeading}>رحلتك في كتب الحديث</Text>
+        </View>
+        {books.map(renderBookCard)}
+
+        <Text style={styles.footerNote}>وقفٌ لله تعالى — مشروع مفتوح المصدر برخصة وقف العامة</Text>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safe: {
     flex: 1,
     backgroundColor: theme.colors.background,
   },
-  listContent: {
+  container: {
+    flex: 1,
+  },
+  content: {
     padding: theme.spacing.md,
     gap: theme.spacing.md,
+    paddingBottom: theme.spacing.xxl,
   },
-  header: {
-    marginBottom: theme.spacing.md,
-    gap: theme.spacing.lg,
-  },
-  heroCard: {
+  hero: {
     backgroundColor: theme.colors.primary,
     borderRadius: theme.radius.lg,
-    padding: theme.spacing.lg,
-    gap: theme.spacing.xs,
+    paddingVertical: theme.spacing.xl,
+    paddingHorizontal: theme.spacing.lg,
+    alignItems: 'center',
+    gap: theme.spacing.sm,
   },
   heroBrand: {
-    fontSize: 26,
+    fontSize: 34,
     fontWeight: '800',
     color: '#FAF9F6',
-    textAlign: 'right',
     writingDirection: 'rtl',
+    fontFamily: theme.matnFontFamily,
+  },
+  heroRule: {
+    width: 56,
+    height: 2,
+    backgroundColor: theme.colors.gold,
+    borderRadius: 1,
   },
   heroTagline: {
     ...theme.typography.body,
-    color: '#D1E0D7',
-    marginTop: 4,
-    lineHeight: 22,
+    color: '#D8E2DA',
+    textAlign: 'center',
+    lineHeight: 24,
   },
-  sectionHeadingRow: {
+  continueCard: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    backgroundColor: theme.colors.goldLight,
+    borderColor: theme.colors.gold,
+    borderWidth: 1,
+    borderRadius: theme.radius.md,
+    padding: theme.spacing.md,
+    gap: theme.spacing.sm,
+  },
+  continueCardPressed: {
+    backgroundColor: '#EEE3C8',
+  },
+  continueTextGroup: {
+    flex: 1,
+    gap: 2,
+  },
+  continueKicker: {
+    ...theme.typography.caption,
+    color: theme.colors.goldDeep,
+    fontWeight: '700',
+  },
+  continueTitle: {
+    ...theme.typography.subtitle,
+    color: theme.colors.text,
+  },
+  continueBtn: {
+    backgroundColor: theme.colors.gold,
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: 8,
+    borderRadius: theme.radius.sm,
+  },
+  continueBtnText: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: '#FFFDF7',
+    writingDirection: 'rtl',
+  },
+  sectionHeadingRow: {
     paddingHorizontal: theme.spacing.xs,
+    marginTop: theme.spacing.sm,
   },
   sectionHeading: {
     ...theme.typography.title,
     color: theme.colors.text,
-  },
-  sectionSub: {
-    ...theme.typography.caption,
-    color: theme.colors.textMuted,
   },
   bookCard: {
     backgroundColor: theme.colors.surface,
@@ -140,139 +204,106 @@ const styles = StyleSheet.create({
     padding: theme.spacing.lg,
     borderWidth: 1,
     borderColor: theme.colors.border,
+    gap: theme.spacing.md,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.05,
     shadowRadius: 4,
     elevation: 2,
-    gap: theme.spacing.md,
   },
-  bookCardPressed: {
-    backgroundColor: theme.colors.surfaceSubtle,
-    borderColor: theme.colors.primaryBorder,
-  },
-  bookHeader: {
-    gap: theme.spacing.xs,
-  },
-  badgeRow: {
+  bookHeaderRow: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     justifyContent: 'space-between',
-    marginBottom: 4,
+    gap: theme.spacing.sm,
   },
-  countBadge: {
-    backgroundColor: theme.colors.primaryLight,
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    borderRadius: theme.radius.full,
-  },
-  countText: {
-    fontSize: 12,
-    fontWeight: '700',
-    color: theme.colors.primary,
-    writingDirection: 'rtl',
-  },
-  statusBadge: {
-    backgroundColor: theme.colors.unreviewedBg,
-    borderColor: theme.colors.unreviewedBorder,
-    borderWidth: 1,
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: theme.radius.full,
-  },
-  statusText: {
-    fontSize: 11,
-    fontWeight: '600',
-    color: theme.colors.unreviewedText,
-    writingDirection: 'rtl',
+  bookTitleGroup: {
+    flex: 1,
+    gap: 2,
   },
   bookTitle: {
     ...theme.typography.title,
     fontSize: 22,
     color: theme.colors.text,
+    fontFamily: theme.matnFontFamily,
   },
   bookAuthor: {
     ...theme.typography.body,
     color: theme.colors.accent,
     fontWeight: '600',
   },
-  bookDesc: {
-    ...theme.typography.body,
-    color: theme.colors.textSecondary,
-    lineHeight: 22,
-  },
-  bookFooter: {
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-    paddingTop: theme.spacing.sm,
-    borderTopWidth: 1,
-    borderTopColor: theme.colors.borderSubtle,
-  },
-  openBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
+  countPill: {
     backgroundColor: theme.colors.primaryLight,
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: theme.radius.sm,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: theme.radius.full,
   },
-  openBtnText: {
-    fontSize: 13,
+  countPillText: {
+    fontSize: 12,
     fontWeight: '700',
     color: theme.colors.primary,
     writingDirection: 'rtl',
   },
-  chevron: {
-    fontSize: 14,
-    color: theme.colors.primary,
+  progressGroup: {
+    gap: 6,
   },
-  upcomingSection: {
-    marginTop: theme.spacing.lg,
-    gap: theme.spacing.sm,
-  },
-  upcomingHeading: {
-    ...theme.typography.subtitle,
-    color: theme.colors.textSecondary,
-    paddingHorizontal: theme.spacing.xs,
-  },
-  upcomingCard: {
-    backgroundColor: theme.colors.backgroundSecondary,
-    borderRadius: theme.radius.md,
-    padding: theme.spacing.md,
-    borderWidth: 1,
-    borderColor: theme.colors.borderSubtle,
-    borderStyle: 'dashed',
-    gap: 4,
-  },
-  upcomingHeader: {
+  progressLabelRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  upcomingTitle: {
-    ...theme.typography.subtitle,
-    color: theme.colors.textMuted,
+  progressLabel: {
+    ...theme.typography.caption,
+    color: theme.colors.textSecondary,
   },
-  soonBadge: {
-    backgroundColor: 'rgba(0, 0, 0, 0.05)',
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: theme.radius.full,
+  progressPct: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: theme.colors.goldDeep,
   },
-  soonText: {
-    fontSize: 11,
-    color: theme.colors.textMuted,
-    fontWeight: '600',
+  bookActionsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: theme.spacing.sm,
+    paddingTop: theme.spacing.sm,
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.borderSubtle,
+  },
+  primaryBtn: {
+    backgroundColor: theme.colors.primary,
+    paddingHorizontal: theme.spacing.lg,
+    paddingVertical: 10,
+    borderRadius: theme.radius.sm,
+  },
+  primaryBtnPressed: {
+    backgroundColor: '#2C5243',
+  },
+  primaryBtnText: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: theme.colors.textInverse,
     writingDirection: 'rtl',
   },
-  upcomingAuthor: {
-    ...theme.typography.caption,
-    color: theme.colors.textMuted,
+  secondaryBtn: {
+    borderColor: theme.colors.primaryBorder,
+    borderWidth: 1,
+    paddingHorizontal: theme.spacing.md,
+    paddingVertical: 9,
+    borderRadius: theme.radius.sm,
   },
-  upcomingDesc: {
+  secondaryBtnPressed: {
+    backgroundColor: theme.colors.primaryLight,
+  },
+  secondaryBtnText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: theme.colors.primary,
+    writingDirection: 'rtl',
+  },
+  footerNote: {
     ...theme.typography.caption,
     color: theme.colors.textMuted,
-    marginTop: 2,
+    textAlign: 'center',
+    marginTop: theme.spacing.lg,
   },
 });

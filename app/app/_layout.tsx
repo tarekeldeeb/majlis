@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { setupRTL, theme } from '../src/constants/theme';
+import { ProgressProvider } from '../src/progress/progress';
 
 // Force RTL immediately on module load
 setupRTL();
@@ -12,12 +13,12 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <>
+    <ProgressProvider>
       <StatusBar style="dark" />
       <Stack
         screenOptions={{
           headerStyle: {
-            backgroundColor: theme.colors.surface,
+            backgroundColor: theme.colors.background,
           },
           headerTintColor: theme.colors.primary,
           headerTitleStyle: {
@@ -34,15 +35,15 @@ export default function RootLayout() {
         <Stack.Screen
           name="index"
           options={{
-            title: 'المكتبة',
-            headerLargeTitle: false,
+            title: 'مجلس',
+            headerShown: false,
           }}
         />
         <Stack.Screen
           name="book/[bookId]/index"
           options={{
-            title: 'الأربعون النووية',
-            headerBackTitle: 'المكتبة',
+            title: 'الكتاب',
+            headerBackTitle: 'المجلس',
           }}
         />
         <Stack.Screen
@@ -59,6 +60,6 @@ export default function RootLayout() {
           }}
         />
       </Stack>
-    </>
+    </ProgressProvider>
   );
 }

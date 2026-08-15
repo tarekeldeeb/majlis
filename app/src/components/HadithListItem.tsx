@@ -2,23 +2,18 @@ import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { formatHadithTitle, theme, toArabicDigits } from '../constants/theme';
 import type { Hadith } from '../types/content';
-import { ReviewBadge } from './ReviewBadge';
 
 interface HadithListItemProps {
   hadith: Hadith;
+  done?: boolean;
   onPress: () => void;
 }
 
-export function HadithListItem({ hadith, onPress }: HadithListItemProps) {
+export function HadithListItem({ hadith, done = false, onPress }: HadithListItemProps) {
   // Extract a clean short excerpt of the matn
   const fullMatn = hadith.matn?.arabic || '';
   const cleanMatn = fullMatn.replace(/\s+/g, ' ').trim();
   const excerpt = cleanMatn.length > 130 ? cleanMatn.slice(0, 130) + '...' : cleanMatn;
-
-  const hasCommentary =
-    (hadith.commentary?.adab && hadith.commentary.adab.length > 0) ||
-    (hadith.commentary?.fawaid && hadith.commentary.fawaid.length > 0) ||
-    !!hadith.commentary?.meaning;
 
   return (
     <Pressable
@@ -27,35 +22,30 @@ export function HadithListItem({ hadith, onPress }: HadithListItemProps) {
     >
       <View style={styles.topRow}>
         <View style={styles.titleGroup}>
-          <View style={styles.numberPill}>
-            <Text style={styles.numberText}>{toArabicDigits(hadith.number)}</Text>
+          <View style={[styles.numberPill, done && styles.numberPillDone]}>
+            <Text style={[styles.numberText, done && styles.numberTextDone]}>
+              {done ? '✓' : toArabicDigits(hadith.number)}
+            </Text>
           </View>
-          <Text style={styles.titleText}>{formatHadithTitle(hadith.number)}</Text>
+          <View style={styles.titleTexts}>
+            <Text style={styles.titleText}>{formatHadithTitle(hadith.number)}</Text>
+            {hadith.chapter?.title ? (
+              <Text style={styles.chapterText} numberOfLines={1}>
+                {hadith.chapter.title}
+              </Text>
+            ) : null}
+          </View>
         </View>
-
-        <ReviewBadge status={hadith.review?.status} size="small" />
+        {done && (
+          <View style={styles.doneTag}>
+            <Text style={styles.doneTagText}>تَمَّ</Text>
+          </View>
+        )}
       </View>
 
       <Text style={styles.excerptText} numberOfLines={3}>
         {excerpt}
       </Text>
-
-      <View style={styles.footerRow}>
-        {hasCommentary ? (
-          <View style={styles.tag}>
-            <Text style={styles.tagText}>مع الشرح والفوائد</Text>
-          </View>
-        ) : (
-          <View style={styles.tagSubtle}>
-            <Text style={styles.tagSubtleText}>المتن فقط</Text>
-          </View>
-        )}
-
-        <View style={styles.readMoreGroup}>
-          <Text style={styles.readMoreText}>قراءة واستماع</Text>
-          <Text style={styles.chevron}>←</Text>
-        </View>
-      </View>
     </Pressable>
   );
 }
@@ -83,11 +73,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     marginBottom: theme.spacing.sm,
+    gap: theme.spacing.sm,
   },
   titleGroup: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: theme.spacing.sm,
+    flex: 1,
+  },
+  titleTexts: {
+    flex: 1,
+    gap: 1,
   },
   numberPill: {
     width: 28,
@@ -99,65 +95,44 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  numberPillDone: {
+    backgroundColor: theme.colors.gold,
+    borderColor: theme.colors.goldDeep,
+  },
   numberText: {
     fontSize: 13,
     fontWeight: '700',
     color: theme.colors.primary,
   },
+  numberTextDone: {
+    color: '#FFFDF7',
+  },
   titleText: {
     ...theme.typography.subtitle,
     color: theme.colors.text,
   },
+  chapterText: {
+    ...theme.typography.caption,
+    fontSize: 12,
+    color: theme.colors.textMuted,
+  },
+  doneTag: {
+    backgroundColor: theme.colors.goldLight,
+    borderColor: theme.colors.gold,
+    borderWidth: 1,
+    paddingHorizontal: 8,
+    paddingVertical: 2,
+    borderRadius: theme.radius.full,
+  },
+  doneTagText: {
+    fontSize: 11,
+    fontWeight: '700',
+    color: theme.colors.goldDeep,
+    writingDirection: 'rtl',
+  },
   excerptText: {
     ...theme.typography.body,
     color: theme.colors.textSecondary,
-    marginBottom: theme.spacing.sm,
     lineHeight: 22,
-  },
-  footerRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingTop: theme.spacing.xs,
-    borderTopWidth: 1,
-    borderTopColor: theme.colors.borderSubtle,
-  },
-  tag: {
-    backgroundColor: theme.colors.primaryLight,
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: theme.radius.sm,
-  },
-  tagText: {
-    fontSize: 11,
-    color: theme.colors.primary,
-    fontWeight: '600',
-    writingDirection: 'rtl',
-  },
-  tagSubtle: {
-    backgroundColor: theme.colors.backgroundSecondary,
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: theme.radius.sm,
-  },
-  tagSubtleText: {
-    fontSize: 11,
-    color: theme.colors.textMuted,
-    writingDirection: 'rtl',
-  },
-  readMoreGroup: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-  },
-  readMoreText: {
-    fontSize: 12,
-    fontWeight: '600',
-    color: theme.colors.primary,
-    writingDirection: 'rtl',
-  },
-  chevron: {
-    fontSize: 12,
-    color: theme.colors.primary,
   },
 });
