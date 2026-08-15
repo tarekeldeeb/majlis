@@ -9,6 +9,7 @@ One JSON file per hadith at `content/books/<bookId>/hadith/<NNN>.json`, plus a `
   "id": "nawawi40:1",            // "<bookId>:<number>", stable app-wide reference
   "book": "nawawi40",
   "number": 1,                   // idInBook from the source
+  "chapter": { "id": 1, "title": "كتاب الأدب" },  // optional; books with real chapter structure (e.g. رياض الصالحين)
   "matn": {
     "arabic": "…",               // verbatim from source — IMMUTABLE after ingest
     "sourceId": 40944            // hadith id in AhmedBaset/hadith-json
@@ -50,12 +51,16 @@ Any edit to an `approved` commentary resets status to `draft` and clears `review
   "title": "الأربعون النووية",
   "author": "الإمام يحيى بن شرف النووي",
   "count": 42,
+  "chapters": [{ "id": 1, "title": "…" }],
   "source": { "repo": "AhmedBaset/hadith-json", "url": "…", "bookId": 10 }
 }
 ```
+
+Hadith filenames are zero-padded to at least 3 digits (4 for رياض الصالحين's 1896).
 
 ## Sources & licensing (dual-source strategy)
 
 - **Matn** comes from [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) (data originally from sunnah.com) because its Arabic is **fully diacritized** — required for TTS. That repo carries no license file; we rely only on the Arabic matn, which is ancient public-domain text. We do not ship its English translations (v1 is Arabic-only; translation licensing must be revisited before any English version).
 - **Commentary grounding** comes from [osamayy/40-hadith-nawawi-db](https://github.com/osamayy/40-hadith-nawawi-db) (**public domain / Unlicense**), which carries a classical شرح وفوائد text per hadith, plus other classical shurūḥ named in `commentary.sources`. These references are mirrored under `content/references/` for drafting and review; they are never shipped in the app.
 - Osamayy's undiacritized matn also serves as a **correctness cross-check** on hadith-json (e.g. it exposed the missing mention of Imam Muslim in hadith 1's attribution).
+- **رياض الصالحين** (`riyad_assalihin`, 1,896 hadiths, 20 chapters) is ingested from the same hadith-json repo. Its matn is **largely undiacritized** — the TTS stage must run an automatic diacritizer (with spot-check QA) before synthesis, unlike the fully diacritized 40 Nawawi text.

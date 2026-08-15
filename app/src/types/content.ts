@@ -30,10 +30,16 @@ export interface HadithReview {
   notes?: string;
 }
 
+export interface Chapter {
+  id: number;
+  title: string;
+}
+
 export interface Hadith {
   id: string;
   book: string;
   number: number;
+  chapter?: Chapter;
   matn: HadithMatn;
   commentary: HadithCommentary;
   audio?: HadithAudio;
@@ -51,6 +57,7 @@ export interface Book {
   title: string;
   author: string;
   count: number;
+  chapters?: Chapter[];
   source?: BookSource;
 }
 
