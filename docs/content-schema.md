@@ -12,7 +12,11 @@ One JSON file per hadith at `content/books/<bookId>/hadith/<NNN>.json`, plus a `
   "chapter": { "id": 1, "title": "كتاب الأدب" },  // optional; books with real chapter structure (e.g. رياض الصالحين)
   "matn": {
     "arabic": "…",               // verbatim from source — IMMUTABLE after ingest
-    "sourceId": 40944            // hadith id in AhmedBaset/hadith-json
+    "sourceId": 40944,           // hadith id in AhmedBaset/hadith-json
+    "diacritized": "…",          // optional: tashkeel-transferred span (see pipeline/diacritize/), null if not matched
+    "diacritizationSource": {    // provenance for the transfer, present iff "diacritized" is present
+      "collection": "bukhari", "sourceId": 41796, "coverage": 0.70, "partial": true
+    }
   },
   "commentary": {
     "adab": ["…"],               // آداب — manners drawn from the hadith

@@ -29,14 +29,15 @@ Open-source interactive hadith audiobook (web / iOS / Android). The app reads ha
 - Sharh references mirrored: osamayy (42 files) under `content/references/nawawi40/`.
 - Expo app scaffold works (web verified): library → book list → hadith screen with commentary + placeholder audio bar. Content bundled via `app/scripts/sync-content.mjs` (gitignored copies; `content/` is the single source of truth; hooks: `prestart`, `build:web`).
 - Gates: `npm run sync-content`, `npx tsc --noEmit`, `npx expo export --platform web` — all green as of last commit.
-- Ibn Uthaymeen sharh download from Shamela in progress (resumable script `scrape_9260.sh` in session scratchpad; ~3,771 pages). Parser ready: `pipeline/ingest/parse_uthaymeen_sharh.py <cache-dir>` (segments by hadith markers + [الشرح] blocks, aligns by normalized matn because the sharh uses standard Riyad numbering ≠ our ingest numbering).
+- Ibn Uthaymeen sharh download from Shamela in progress (resumable script `scrape_9260.sh` in session scratchpad; ~3,771 pages, ~61%+ done, 0 failures). Parser ready: `pipeline/ingest/parse_uthaymeen_sharh.py <cache-dir>` (segments by hadith markers + [الشرح] blocks, aligns by normalized matn because the sharh uses standard Riyad numbering ≠ our ingest numbering).
+- **Tashkeel transfer done (partial)**: `pipeline/diacritize/fetch_9books.mjs` + `transfer_tashkeel.mjs` matched 558/1896 Riyad hadiths (29%, avg 70% coverage) against the diacritized 9-books; stored in `matn.diacritized`/`matn.diacritizationSource` (matn.arabic untouched). Ceiling is real (Nawawi paraphrases; some citations outside the 9 books) — see `docs/tts-evaluation.md` for the full breakdown. Remaining 1,338 need the auto-diacritizer fallback.
 
 ## In flight / next
 
 1. **App redesign (user-centered)** — two books as a learning journey with per-book progress bars; navigate → read → listen → discuss from any hadith; elegant, classic-with-modern-touch visual language. Progress stored locally (AsyncStorage/localStorage). Discuss = entry point UI now, wired to chat in Phase 2.
 2. **Finish sharh scrape → run parser** → `content/references/riyad_assalihin/` + match-rate report.
 3. **Riyad commentary generation** — distill آداب/فوائد/معنى per hadith from the Uthaymeen reference (batch pipeline + spot checks). 1,896 hadiths → needs batching strategy.
-4. **Tashkeel transfer pipeline** (`pipeline/diacritize/`) — download 9-books, match, transfer, flag residue.
+4. **Auto-diacritizer fallback** for the 1,338 Riyad hadiths the tashkeel transfer didn't match (evaluate CAMeL Tools / CATT; flag low-confidence output for reviewer spot-check).
 5. **TTS bake-off** (`docs/tts-evaluation.md`) — candidates: Habibi, ClArTTS-trained, Piper ar_JO (fallback). Render hadith 001 matn + commentary per engine; blind rating by both reviewers; then batch audio generation for approved content only.
 6. **Phase 2 — discussion chat**: `server/` FastAPI/Node; RAG over hadith+commentary; MCP: Tarteel (`https://mcp.tarteel.ai/mcp`, Quran-only: search_verses/get_verse/get_juz) + hadith-mcp/sunnah.com. Providers: FreeTier + ByoKey behind one interface (BYO-key settings UI in the app). Citations mandatory; no fatwas.
 7. **Phase 3 — user features & scale**: chapter-based navigation for رياض الصالحين (data already carries أبواب), bookmarks and personal notes, offline audio downloads per book, listening playlists (باب or كتاب as a session), device TTS fallback for chat replies, settings screen. Riyad commentary + audio complete by end of this phase.

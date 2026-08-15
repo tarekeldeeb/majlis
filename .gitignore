@@ -8,3 +8,6 @@ build/
 
 # Generated audio is published to the CDN, not committed
 content/audio/
+
+# Local scratch caches for pipeline scripts
+.cache/
