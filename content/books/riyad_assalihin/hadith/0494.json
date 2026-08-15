@@ -8,7 +8,13 @@
   },
   "matn": {
     "arabic": "وعنها أن النبي صلى الله عليه وسلم، كان ينام أول الليل، ويقوم آخره فيصلي‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 41559
+    "sourceId": 41559,
+    "diacritized": "وَعَنْهَا أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ يَنَامُ أَوَّلَ اللَّيْلِ وَيَقُومُ آخِرَهُ فَيُصَلِّي مُتَّفَقٌ عَلَيْهِ",
+    "diacritizationSource": {
+      "method": "catt-auto",
+      "model": "abjadai/catt (encoder-decoder)",
+      "needsReview": true
+    }
   },
   "commentary": {
     "adab": [],
