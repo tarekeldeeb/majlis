@@ -54,6 +54,8 @@ Any edit to an `approved` commentary resets status to `draft` and clears `review
 }
 ```
 
-## Source & licensing note
+## Sources & licensing (dual-source strategy)
 
-Text is ingested from [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) (data originally from sunnah.com). That repo carries **no license file**; we rely only on the **Arabic matn**, which is ancient public-domain text. We do not ship its English translations (v1 is Arabic-only; translation licensing must be revisited before any English version).
+- **Matn** comes from [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) (data originally from sunnah.com) because its Arabic is **fully diacritized** — required for TTS. That repo carries no license file; we rely only on the Arabic matn, which is ancient public-domain text. We do not ship its English translations (v1 is Arabic-only; translation licensing must be revisited before any English version).
+- **Commentary grounding** comes from [osamayy/40-hadith-nawawi-db](https://github.com/osamayy/40-hadith-nawawi-db) (**public domain / Unlicense**), which carries a classical شرح وفوائد text per hadith, plus other classical shurūḥ named in `commentary.sources`. These references are mirrored under `content/references/` for drafting and review; they are never shipped in the app.
+- Osamayy's undiacritized matn also serves as a **correctness cross-check** on hadith-json (e.g. it exposed the missing mention of Imam Muslim in hadith 1's attribution).

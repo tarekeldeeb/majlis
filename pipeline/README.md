@@ -2,7 +2,7 @@
 
 Build-time stages; each stage reads/writes `content/` and is safe to re-run:
 
-1. **ingest/** — fetch source books, write matn-only hadith files (never overwrites existing files).
+1. **ingest/** — fetch source books, write matn-only hadith files (never overwrites existing files). `fetch_osamayy_refs.mjs` additionally mirrors the public-domain sharh per hadith into `content/references/` as drafting material (verbatim mirror, safe to re-run).
 2. **draft/** — LLM-assisted commentary drafting grounded in classical shurūḥ (Phase 0, upcoming).
 3. **tts/** — generate audio for `approved` hadiths only (engine chosen via `docs/tts-evaluation.md`).
 4. **package/** — bundle `approved` content + audio manifests into app assets; must exclude anything not approved.
