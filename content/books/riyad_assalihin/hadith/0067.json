@@ -8,7 +8,13 @@
   },
   "matn": {
     "arabic": "وعن أنس رضى الله عنه قال‏:‏ رأيت رسول الله صلى الله عليه وسلم جالساً مقعياً يأكل تمراً.‏ ‏‏((رواه مسلم))‏",
-    "sourceId": 41132
+    "sourceId": 41132,
+    "diacritized": "وَعَنْ أَنَسٍ رَضِىَ اللَّهُ عَنْهُ قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم جَالِسًا مُقْعِيًا يَأْكُلُ تَمْرًا رَوَاهُ مُسْلِمٌ",
+    "diacritizationSource": {
+      "method": "catt-auto",
+      "model": "abjadai/catt (encoder-decoder)",
+      "needsReview": true
+    }
   },
   "commentary": {
     "adab": [],
