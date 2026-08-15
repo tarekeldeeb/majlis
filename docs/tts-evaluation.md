@@ -36,4 +36,12 @@ Root cause of the ceiling (confirmed by sampling — every hadith had *some* can
 | قَالَ: سَمِعْتُ | قَالَسَمِعَتْ | dropped space/punctuation at the colon |
 
 **Verdict: not acceptable for unsupervised use on scripture meant to be read aloud** — rejected as a ship-ready solution. It could still serve as a rough first-pass draft for human correction, but that isn't materially faster than a reviewer diacritizing from scratch. Next candidates to evaluate: CAMeL Tools (BERT-based disambiguation, heavier install, likely much higher accuracy) or a dedicated diacritization model (e.g. Shakkelha, a fine-tuned transformer). This blocks TTS for the 1,338 unmatched Riyad hadiths until resolved; the 558 tashkeel-transferred + all 42 Nawawi hadiths are unaffected and can proceed to the TTS bake-off now.
+
+## Bake-off — pipeline feasibility check (2026-08-15)
+
+**Piper (`ar_JO-kareem-medium`, MIT, fully offline, ~63 MB model):** confirmed the technical pipeline works end-to-end — installed via `pip install piper-tts`, synthesized hadith 001's full diacritized matn to a valid 22.05kHz mono WAV (53s, no errors). Sample kept at `.cache/tts-eval/hadith001_piper.wav` (gitignored, local only).
+
+**Important limit on this check: I cannot listen to audio, so this confirms the pipeline runs — it is not a quality judgment.** Naturalness, correct pronunciation, and tone-appropriateness for scripture can only be assessed by a human listener. This is exactly why `docs/review-workflow.md`'s bake-off step requires both reviewers to rate samples blind — that step still needs to happen before any candidate is chosen. Habibi and ClArTTS-trained models remain unevaluated (Habibi in particular has no confirmed pip-installable inference path checked yet).
+
+**Next action:** generate one sample per remaining candidate for hadith 001, then hand all samples to Dr Yasmeen Farouk and Tarek Eldeeb for the blind rating described in the Method section above.
 - The engine must run locally (build machine) — no paid API.
