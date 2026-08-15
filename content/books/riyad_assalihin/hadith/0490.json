@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ كان النبي صلى الله عليه وسلم ، يصلي من الليل مثنى مثنى، ويوتر بركعة‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 41555
+    "sourceId": 41555,
+    "diacritized": "كَانَ النَّبِيُّ صلى الله عليه وسلم يُصَلِّي مِنَ اللَّيْلِ مَثْنَى مَثْنَى، وَيُوتِرُ بِرَكْعَةٍ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 968,
+      "coverage": 0.765,
+      "matchedWords": 13,
+      "totalWords": 17,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 14,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

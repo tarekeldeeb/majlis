@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه عن النبى صلى الله عليه وسلم قال‏:‏ “يسروا ولا تعسروا وبشروا ولا تنفروا ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42918
+    "sourceId": 42918,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ يَسِّرُوا وَلاَ تُعَسِّرُوا، وَبَشِّرُوا وَلاَ تُنَفِّرُوا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 69,
+      "coverage": 0.65,
+      "matchedWords": 13,
+      "totalWords": 20,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

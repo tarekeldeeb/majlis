@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عباس، رضي الله عنهما، قال‏:‏ كان رسول الله صلى الله عليه وسلم ‏\n\"‏لا يفطر أيام البيض في حضر ولا سفر‏\"‏ ‏(‏‏(‏رواه النسائي بإسناد حسن‏)‏‏)‏‏.‏",
-    "sourceId": 41650
+    "sourceId": 41650,
+    "diacritized": "قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم لاَ يُفْطِرُ أَيَّامَ الْبِيضِ فِي حَضَرٍ وَلاَ سَفَرٍ",
+    "diacritizationSource": {
+      "collection": "nasai",
+      "sourceId": 17086,
+      "coverage": 0.615,
+      "matchedWords": 16,
+      "totalWords": 26,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

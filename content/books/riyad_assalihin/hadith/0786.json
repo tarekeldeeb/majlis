@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن النعمان بن بشير رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏الدعاء هو العبادة‏\"‏‏.‏",
-    "sourceId": 41851
+    "sourceId": 41851,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الدُّعَاءُ هُوَ الْعِبَادَةُ",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 21984,
+      "coverage": 0.588,
+      "matchedWords": 10,
+      "totalWords": 17,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

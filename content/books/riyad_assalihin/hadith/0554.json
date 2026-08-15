@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن سهل بن سعد رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا يزال الناس بخير ما عجلوا الفطر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
-    "sourceId": 41619
+    "sourceId": 41619,
+    "diacritized": "عَنْ سَهْلِ، بْنِ سَعْدٍ - رضى الله عنه - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ لاَ يَزَالُ النَّاسُ بِخَيْرٍ مَا عَجَّلُوا الْفِطْرَ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9715,
+      "coverage": 0.917,
+      "matchedWords": 22,
+      "totalWords": 24,
+      "riyadWordStart": 0,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

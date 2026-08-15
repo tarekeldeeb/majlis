@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي  هريرة رضي الله عنه عن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏لا ترغبوا عن آبائكم، فمن رغب عن أبيه، فهو كافر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42189
+    "sourceId": 42189,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ لاَ تَرْغَبُوا عَنْ آبَائِكُمْ، فَمَنْ رَغِبَ عَنْ أَبِيهِ فَهُوَ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 6522,
+      "coverage": 0.64,
+      "matchedWords": 16,
+      "totalWords": 25,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

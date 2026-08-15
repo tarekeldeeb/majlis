@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن جابر رضي الله عنه قال‏:‏ سئل رسول الله صلى الله عليه وسلم ‏:‏ أي الصلاة أفضل‏؟‏ قال‏:‏ ‏\n\"‏طول القنوت‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41562
+    "sourceId": 41562,
+    "diacritized": "قَالَ سُئِلَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَىُّ الصَّلاَةِ أَفْضَلُ قَالَ ‏\n\"‏ طُولُ الْقُنُوتِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8939,
+      "coverage": 0.667,
+      "matchedWords": 14,
+      "totalWords": 21,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عبد الله بن عمرو رضي الله عنهما أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏قد أفلح من أسلم، ورزق كفافاً، وقنعه الله بما آتاه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42804
+    "sourceId": 42804,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ قَدْ أَفْلَحَ مَنْ أَسْلَمَ وَرُزِقَ كَفَافًا وَقَنَّعَهُ اللَّهُ بِمَا آتَاهُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9587,
+      "coverage": 0.643,
+      "matchedWords": 18,
+      "totalWords": 28,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 25,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

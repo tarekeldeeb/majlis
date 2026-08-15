@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي عبد الله جابر بن سمرة رضي الله عنهما قال‏:‏ ‏\n\"‏كنت أصلى مع النبي صلى الله عليه وسلم الصلوات، فكانت صلاته قصداً وخطبته قصداً‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42430
+    "sourceId": 42430,
+    "diacritized": "قَالَ كُنْتُ أُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم الصَّلَوَاتِ فَكَانَتْ صَلاَتُهُ قَصْدًا وَخُطْبَتُهُ قَصْدًا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9173,
+      "coverage": 0.556,
+      "matchedWords": 15,
+      "totalWords": 27,
+      "riyadWordStart": 10,
+      "riyadWordEnd": 24,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

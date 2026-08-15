@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه، قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏أكثرت عليكم في السواك‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 41585
+    "sourceId": 41585,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ أَكْثَرْتُ عَلَيْكُمْ فِي السِّوَاكِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 867,
+      "coverage": 0.632,
+      "matchedWords": 12,
+      "totalWords": 19,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبى هريرة رضى الله عنه قال ‏:‏ قال رسول الله  صلى الله عليه وسلم ‏:‏طعام الاثنين كافي الثلاثة، وطعام الثلاثة كافي الأربعة‏\"‏.‏ ((متفق عليه))",
-    "sourceId": 41140
+    "sourceId": 41140,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ طَعَامُ الاِثْنَيْنِ كَافِي الثَّلاَثَةِ، وَطَعَامُ الثَّلاَثَةِ كَافِي الأَرْبَعَةِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5178,
+      "coverage": 0.667,
+      "matchedWords": 16,
+      "totalWords": 24,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

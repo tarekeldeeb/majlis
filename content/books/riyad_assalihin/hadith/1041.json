@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ ‏\n\"‏الحلف منفقة للسلعة، ممحقة للكسب‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42106
+    "sourceId": 42106,
+    "diacritized": "هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\n\"‏ الْحَلِفُ مُنَفِّقَةٌ لِلسِّلْعَةِ مُمْحِقَةٌ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2012,
+      "coverage": 0.773,
+      "matchedWords": 17,
+      "totalWords": 22,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

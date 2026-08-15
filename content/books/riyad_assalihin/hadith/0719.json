@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن مسعود رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ “أولى الناس بي يوم القيامة أكثرهم علي صلاة‏\"‏ رواه الترمذي وقال حديث حسن‏.‏",
-    "sourceId": 41784
+    "sourceId": 41784,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَوْلَى النَّاسِ بِي يَوْمَ الْقِيَامَةِ أَكْثَرُهُمْ عَلَىَّ صَلاَةً",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 26264,
+      "coverage": 0.593,
+      "matchedWords": 16,
+      "totalWords": 27,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

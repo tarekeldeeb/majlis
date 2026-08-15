@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن جرير بن عبد الله رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏ من لا يرحم الناس لا يرحمه الله ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 42509
+    "sourceId": 42509,
+    "diacritized": "قَالَ قَالَ رَسُولُ\n اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَنْ لاَ يَرْحَمِ النَّاسَ لاَ يَرْحَمْهُ اللَّهُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 13151,
+      "coverage": 0.6,
+      "matchedWords": 15,
+      "totalWords": 25,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

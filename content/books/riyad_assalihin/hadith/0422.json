@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنها قالت‏:‏ لم يكن النبي، صلى الله عليه وسلم على شيء من النوافل أشد تعاهدًا منه على ركعتي الفجر‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 41487
+    "sourceId": 41487,
+    "diacritized": "قَالَتْ لَمْ يَكُنِ النَّبِيُّ صلى الله عليه وسلم عَلَى شَىْءٍ مِنَ النَّوَافِلِ أَشَدَّ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1129,
+      "coverage": 0.619,
+      "matchedWords": 13,
+      "totalWords": 21,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 13,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن جرير بن عبد الله رضي الله عنه قال ‏:‏ قال رسول الله صلى الله عليه وسلم  ‏:‏‏\n\"‏أيما عبد أبق، فقد برئت منه الذمة ‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏",
-    "sourceId": 42154
+    "sourceId": 42154,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ أَيُّمَا عَبْدٍ أَبَقَ فَقَدْ بَرِئَتْ مِنْهُ الذِّمَّةُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 7412,
+      "coverage": 0.6,
+      "matchedWords": 15,
+      "totalWords": 25,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

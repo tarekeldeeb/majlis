@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ كنا إذا بايعنا رسول الله صلى الله عليه وسلم على السمع والطاعة يقول لنا‏:‏ “فيما استطعتم” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
-    "sourceId": 42945
+    "sourceId": 42945,
+    "diacritized": "قَالَ كُنَّا إِذَا بَايَعْنَا رَسُولَ اللَّهِ صلى الله عليه وسلم عَلَى السَّمْعِ وَالطَّاعَةِ يَقُولُ لَنَا ‏\n\"‏ فِيمَا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 6929,
+      "coverage": 0.8,
+      "matchedWords": 16,
+      "totalWords": 20,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

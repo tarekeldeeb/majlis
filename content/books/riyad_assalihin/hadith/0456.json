@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي سعيد الخدري رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أوتروا قبل أن تصبحوا‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41521
+    "sourceId": 41521,
+    "diacritized": "أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\n\"‏ أَوْتِرُوا قَبْلَ أَنْ تُصْبِحُوا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8934,
+      "coverage": 0.55,
+      "matchedWords": 11,
+      "totalWords": 20,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

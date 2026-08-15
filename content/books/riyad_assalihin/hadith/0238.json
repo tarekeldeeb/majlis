@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن معاذ رضي الله عنه قال‏:‏ قال رسول الله صلى  الله عليه وسلم  ‏:‏ ‏\n\"‏من كان آخر كلامه لا إله إلا الله دخل الجنة‏\"‏ ‏(‏‏(‏رواه أبو داود والحاكم وقال‏:‏ صحيح الإسناد‏)‏‏)‏‏.‏",
-    "sourceId": 41303
+    "sourceId": 41303,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَنْ كَانَ آخِرُ كَلاَمِهِ لاَ إِلَهَ إِلاَّ اللَّهُ دَخَلَ الْجَنَّةَ",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 23621,
+      "coverage": 0.6,
+      "matchedWords": 18,
+      "totalWords": 30,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

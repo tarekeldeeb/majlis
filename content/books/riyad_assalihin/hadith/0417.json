@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه قال قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏وسطوا الإمام، وسدوا الخلل‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
-    "sourceId": 41482
+    "sourceId": 41482,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ وَسِّطُوا الإِمَامَ وَسُدُّوا الْخَلَلَ",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 21185,
+      "coverage": 0.571,
+      "matchedWords": 12,
+      "totalWords": 21,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

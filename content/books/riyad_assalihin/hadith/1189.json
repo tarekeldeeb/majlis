@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن سعيد بن زيد رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ ‏\n\"‏الكمأة من المن، وماؤها شفاء للعين‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42254
+    "sourceId": 42254,
+    "diacritized": "قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى\n الله عليه وسلم يَقُولُ ‏\n\"‏ الْكَمْأَةُ مِنَ الْمَنِّ وَمَاؤُهَا شِفَاءٌ لِلْعَيْنِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 12483,
+      "coverage": 0.625,
+      "matchedWords": 15,
+      "totalWords": 24,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

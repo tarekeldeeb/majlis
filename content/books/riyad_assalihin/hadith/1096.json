@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أنس رضي الله عنه قال‏:‏ نهى رسول الله صلى الله عليه وسلم  أن يبيع حاضر لباد وإن كان أخاه لأبيه وأمه‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42161
+    "sourceId": 42161,
+    "diacritized": "رضى الله عنه ـ قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَبِيعَ حَاضِرٌ لِبَادٍ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2064,
+      "coverage": 0.625,
+      "matchedWords": 15,
+      "totalWords": 24,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عمر رضي الله عنهما، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أحفوا الشوارب وأعفوا اللحى‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 41591
+    "sourceId": 41591,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ أَحْفُوا الشَّوَارِبَ وَأَعْفُوا اللِّحَى",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 7783,
+      "coverage": 0.579,
+      "matchedWords": 11,
+      "totalWords": 19,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

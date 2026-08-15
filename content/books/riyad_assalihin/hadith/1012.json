@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏الجرس مزامير الشيطان‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏",
-    "sourceId": 42077
+    "sourceId": 42077,
+    "diacritized": "صلى الله عليه وسلم قَالَ\n ‏\n\"‏ الْجَرَسُ مَزَامِيرُ الشَّيْطَانِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 12682,
+      "coverage": 0.615,
+      "matchedWords": 8,
+      "totalWords": 13,
+      "riyadWordStart": 3,
+      "riyadWordEnd": 10,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

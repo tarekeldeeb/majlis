@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبي قتادة رضي الله عنه أنه سمع رسول الله صلى الله عليه وسلم  يقول‏:‏ ‏\n\"‏إياكم وكثرة الحلف في البيع، فإنه ينفق ثم يمحق‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42107
+    "sourceId": 42107,
+    "diacritized": "أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\n\"‏ إِيَّاكُمْ وَكَثْرَةَ الْحَلِفِ فِي الْبَيْعِ فَإِنَّهُ يُنَفِّقُ ثُمَّ يَمْحَقُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 11274,
+      "coverage": 0.692,
+      "matchedWords": 18,
+      "totalWords": 26,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

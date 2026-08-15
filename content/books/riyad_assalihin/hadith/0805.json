@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه أن النبي صلى الله عليه وسلم، كان يقول‏:‏ ‏\n\"‏اللهم إني أعوذ بك من البرص والجنون، والجذام، وسيئ الأسقام‏\"‏‏.‏ رواه أبو داود بإسناد صحيح‏.‏",
-    "sourceId": 41870
+    "sourceId": 41870,
+    "diacritized": "أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقُولُ ‏\n\"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ وَالْجُنُونِ وَالْجُذَامِ",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 22059,
+      "coverage": 0.571,
+      "matchedWords": 16,
+      "totalWords": 28,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 20,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

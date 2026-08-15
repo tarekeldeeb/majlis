@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏يصلون لكم، فإن أصابوا فلكم، وإن أخطؤوا فلكم وعليهم‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 42224
+    "sourceId": 42224,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ يُصَلُّونَ لَكُمْ، فَإِنْ أَصَابُوا فَلَكُمْ، وَإِنْ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 677,
+      "coverage": 0.7,
+      "matchedWords": 14,
+      "totalWords": 20,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 14,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي  سليمان خالد بن الوليد رضي الله عنه قال‏:‏ “لقد انقطعت في يدي يوم مؤته تسعة أسياف، فما بقي في يدي إلا صفيحة يمانية‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 42241
+    "sourceId": 42241,
+    "diacritized": "لَقَدِ انْقَطَعَتْ فِي يَدِي يَوْمَ مُوتَةَ تِسْعَةُ أَسْيَافٍ، فَمَا بَقِيَ فِي يَدِي إِلاَّ صَفِيحَةٌ يَمَانِيَةٌ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 4083,
+      "coverage": 0.556,
+      "matchedWords": 15,
+      "totalWords": 27,
+      "riyadWordStart": 10,
+      "riyadWordEnd": 24,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أنس رضي الله عنه قال‏:‏ نهى النبي صلى الله عليه وسلم  أن يتزعفر الرجل‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42184
+    "sourceId": 42184,
+    "diacritized": "قَالَ نَهَى النَّبِيُّ صلى الله عليه وسلم أَنْ يَتَزَعْفَرَ الرَّجُلُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5619,
+      "coverage": 0.588,
+      "matchedWords": 10,
+      "totalWords": 17,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 14,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

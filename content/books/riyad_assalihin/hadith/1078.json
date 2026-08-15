@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبي مرثد كناز بن الحصين رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ ‏\n\"‏لا تصلوا إلى القبور، ولا تجلسوا عليها‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42143
+    "sourceId": 42143,
+    "diacritized": "قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\n\"‏ لاَ تُصَلُّوا إِلَى الْقُبُورِ وَلاَ تَجْلِسُوا عَلَيْهَا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9413,
+      "coverage": 0.593,
+      "matchedWords": 16,
+      "totalWords": 27,
+      "riyadWordStart": 9,
+      "riyadWordEnd": 24,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

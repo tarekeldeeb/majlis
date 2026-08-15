@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏الدنيا سجن المؤمن وجنة الكافر‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42751
+    "sourceId": 42751,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ الدُّنْيَا سِجْنُ الْمُؤْمِنِ\n وَجَنَّةُ الْكَافِرِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 14510,
+      "coverage": 0.813,
+      "matchedWords": 13,
+      "totalWords": 16,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 13,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

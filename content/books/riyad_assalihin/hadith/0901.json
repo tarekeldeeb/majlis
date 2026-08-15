@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏ لا تناجشوا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 41966
+    "sourceId": 41966,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ لاَ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2074,
+      "coverage": 0.692,
+      "matchedWords": 9,
+      "totalWords": 13,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 9,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

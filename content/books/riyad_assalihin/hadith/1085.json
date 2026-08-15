@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبي هريرة وعائشة رضي الله عنهما أن النبي صلى الله عليه وسلم  نهى عن الوصال‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42150
+    "sourceId": 42150,
+    "diacritized": "رضى الله عنهما - أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى عَنِ الْوِصَالِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9724,
+      "coverage": 0.667,
+      "matchedWords": 12,
+      "totalWords": 18,
+      "riyadWordStart": 4,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

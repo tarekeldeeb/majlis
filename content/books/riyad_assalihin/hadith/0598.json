@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنها أن رسول الله صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏ما من يوم أكثر من أن يعتق الله فيه عبدًا من النار من يوم عرفة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41663
+    "sourceId": 41663,
+    "diacritized": "إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ مَا مِنْ يَوْمٍ أَكْثَرَ مِنْ أَنْ يُعْتِقَ اللَّهُ فِيهِ عَبْدًا مِنَ النَّارِ مِنْ يَوْمِ عَرَفَةَ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 10443,
+      "coverage": 0.885,
+      "matchedWords": 23,
+      "totalWords": 26,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

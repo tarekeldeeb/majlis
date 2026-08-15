@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة رضي الله عنها أن رسول الله صلى الله عليه وسلم قال‏:‏ “من ظلم قيد شبر من الأرض طوقه من سبع أرضين” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 42488
+    "sourceId": 42488,
+    "diacritized": "رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ مَنْ ظَلَمَ قِيدَ شِبْرٍ مِنَ الأَرْضِ طُوِّقَهُ مِنْ سَبْعِ أَرَضِينَ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 11285,
+      "coverage": 0.68,
+      "matchedWords": 17,
+      "totalWords": 25,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

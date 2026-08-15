@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من طلب الشهادة صادقًا أعطيها ولو لم تصبه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41708
+    "sourceId": 41708,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَنْ طَلَبَ الشَّهَادَةَ صَادِقًا أُعْطِيَهَا وَلَوْ لَمْ\n تُصِبْهُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 12070,
+      "coverage": 0.696,
+      "matchedWords": 16,
+      "totalWords": 23,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 20,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

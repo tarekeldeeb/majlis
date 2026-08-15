@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن معاوية رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏المؤذنون أطول الناس أعناقًا يوم القيامة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41420
+    "sourceId": 41420,
+    "diacritized": "سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\n\"‏ الْمُؤَذِّنُونَ أَطْوَلُ النَّاسِ أَعْنَاقًا يَوْمَ الْقِيَامَةِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8033,
+      "coverage": 0.636,
+      "matchedWords": 14,
+      "totalWords": 22,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

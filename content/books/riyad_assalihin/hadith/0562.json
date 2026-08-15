@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ من لم يدع قول الزور والعمل به فليس لله حاجة في أن يدع طعامه وشرابه‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 41627
+    "sourceId": 41627,
+    "diacritized": "صلى الله عليه وسلم ‏\n\"‏ مَنْ لَمْ يَدَعْ قَوْلَ الزُّورِ وَالْعَمَلَ بِهِ فَلَيْسَ لِلَّهِ حَاجَةٌ فِي أَنْ يَدَعَ طَعَامَهُ وَشَرَابَهُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1835,
+      "coverage": 0.76,
+      "matchedWords": 19,
+      "totalWords": 25,
+      "riyadWordStart": 4,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

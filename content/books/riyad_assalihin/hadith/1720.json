@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة، رضي الله عنها قالت‏:‏ توفي رسول الله صلى الله عليه وسلم ودرعه مرهونة عند يهودي في ثلاثين صاعاً من شعير‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42785
+    "sourceId": 42785,
+    "diacritized": "عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ تُوُفِّيَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَدِرْعُهُ مَرْهُونَةٌ عِنْدَ يَهُودِيٍّ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2798,
+      "coverage": 0.667,
+      "matchedWords": 16,
+      "totalWords": 24,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏يتبع الدجال من يهود أصبهان سبعون ألفا عليهم الطيالسة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42198
+    "sourceId": 42198,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ يَتْبَعُ الدَّجَّالَ\n مِنْ يَهُودِ أَصْبَهَانَ سَبْعُونَ أَلْفًا عَلَيْهِمُ الطَّيَالِسَةُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 14485,
+      "coverage": 0.739,
+      "matchedWords": 17,
+      "totalWords": 23,
+      "riyadWordStart": 4,
+      "riyadWordEnd": 20,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

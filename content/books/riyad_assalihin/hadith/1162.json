@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه عن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏أحب البلاد إلى الله مساجدها ، وأبغض البلاد إلى الله أسواقها‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42227
+    "sourceId": 42227,
+    "diacritized": "صلى الله عليه وسلم قَالَ ‏\n\"‏ أَحَبُّ الْبِلاَدِ إِلَى اللَّهِ مَسَاجِدُهَا وَأَبْغَضُ الْبِلاَدِ إِلَى اللَّهِ أَسْوَاقُهَا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8700,
+      "coverage": 0.75,
+      "matchedWords": 15,
+      "totalWords": 20,
+      "riyadWordStart": 3,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

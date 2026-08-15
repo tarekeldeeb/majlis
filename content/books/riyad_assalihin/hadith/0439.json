@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم كان إذا لم يصلِ أربعًا قبل الظهر، صلاهن بعدها‏.‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
-    "sourceId": 41504
+    "sourceId": 41504,
+    "diacritized": "أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا لَمْ يُصَلِّ أَرْبَعًا قَبْلَ الظُّهْرِ صَلاَّهُنَّ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 26207,
+      "coverage": 0.56,
+      "matchedWords": 14,
+      "totalWords": 25,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

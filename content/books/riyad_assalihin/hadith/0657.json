@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن سلمه بن الأكوع، رضي الله عنه قال‏:‏ مر النبي صلى الله عليه وسلم على نفر ينتضلون، فقال‏:‏ ‏\n\"‏ارموا بني إسماعيل فإن أباكم كان راميًا‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 41722
+    "sourceId": 41722,
+    "diacritized": "سَلَمَةَ بْنَ الأَكْوَعِ ـ رضى الله عنه ـ قَالَ مَرَّ النَّبِيُّ صلى الله عليه وسلم عَلَى نَفَرٍ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2782,
+      "coverage": 0.556,
+      "matchedWords": 15,
+      "totalWords": 27,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

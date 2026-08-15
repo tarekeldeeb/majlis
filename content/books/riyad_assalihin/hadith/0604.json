@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه، أن رسول الله صلى الله عليه وسلم حج على رحل وكانت زاملته‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 41669
+    "sourceId": 41669,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَجَّ عَلَى رَحْلٍ وَكَانَتْ زَامِلَتَهُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1465,
+      "coverage": 0.632,
+      "matchedWords": 12,
+      "totalWords": 19,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

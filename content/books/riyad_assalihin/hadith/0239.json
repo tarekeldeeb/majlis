@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي سعيد الخدري رضي الله عنه قال‏:‏ قال رسول الله صلى  الله عليه وسلم  ‏:‏ “لقنوا موتاكم لا إله إلا الله‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41304
+    "sourceId": 41304,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ لَقِّنُوا مَوْتَاكُمْ لاَ إِلَهَ إِلاَّ اللَّهُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9289,
+      "coverage": 0.609,
+      "matchedWords": 14,
+      "totalWords": 23,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 20,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

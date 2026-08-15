@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن جابر رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا يسأل بوجه الله إلا الجنة‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
-    "sourceId": 42108
+    "sourceId": 42108,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ لاَ يُسْأَلُ بِوَجْهِ اللَّهِ إِلاَّ الْجَنَّةُ",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 22176,
+      "coverage": 0.636,
+      "matchedWords": 14,
+      "totalWords": 22,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

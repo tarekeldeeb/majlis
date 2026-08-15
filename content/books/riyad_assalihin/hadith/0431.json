@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن عائشة رضي الله عنها قالت‏:‏ كان النبي صلى الله عليه وسلم إذا صلى ركعتي الفجر، اضطجع على شقه الأيمن‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 41496
+    "sourceId": 41496,
+    "diacritized": "عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ النَّبِيُّ صلى الله عليه وسلم إِذَا صَلَّى رَكْعَتَىِ الْفَجْرِ اضْطَجَعَ عَلَى شِقِّهِ الأَيْمَنِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1126,
+      "coverage": 0.909,
+      "matchedWords": 20,
+      "totalWords": 22,
+      "riyadWordStart": 0,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

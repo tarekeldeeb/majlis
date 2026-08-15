@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا ينبغي لصدِّيق أن يكون لعانًا‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41938
+    "sourceId": 41938,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى\n الله عليه وسلم قَالَ ‏\n\"‏ لاَ يَنْبَغِي لِصِدِّيقٍ أَنْ يَكُونَ لَعَّانًا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 13723,
+      "coverage": 0.636,
+      "matchedWords": 14,
+      "totalWords": 22,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

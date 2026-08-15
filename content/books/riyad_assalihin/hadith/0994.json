@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي مسعود البدري رضي الله عنه قال‏:‏ إن رسول الله صلى الله عليه وسلم  ‏\n\"‏نهى عن ثمن الكلب، ومهر البغي وحُلوان الكاهن‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42059
+    "sourceId": 42059,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ ثَمَنِ الْكَلْبِ وَمَهْرِ الْبَغِيِّ وَحُلْوَانِ الْكَاهِنِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2155,
+      "coverage": 0.6,
+      "matchedWords": 15,
+      "totalWords": 25,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

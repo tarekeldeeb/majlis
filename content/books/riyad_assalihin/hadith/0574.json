@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عباس رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لئن بقيت إلى قابل لأصومن التاسع‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41639
+    "sourceId": 41639,
+    "diacritized": "عَبَّاسٍ، - رضى الله عنهما - قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ لَئِنْ بَقِيتُ إِلَى قَابِلٍ لأَصُومَنَّ التَّاسِعَ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9828,
+      "coverage": 0.818,
+      "matchedWords": 18,
+      "totalWords": 22,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

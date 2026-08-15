@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنها عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ركعتا الفجر خير من الدنيا وما فيها‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ وفي رواية لهما لأحب إلي من الدنيا جميعًا‏.‏",
-    "sourceId": 41488
+    "sourceId": 41488,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ رَكْعَتَا الْفَجْرِ خَيْرٌ مِنَ الدُّنْيَا وَمَا فِيهَا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8859,
+      "coverage": 0.56,
+      "matchedWords": 14,
+      "totalWords": 25,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 14,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

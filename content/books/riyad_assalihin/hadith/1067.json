@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبي برزة رضي الله عنه أن رسول الله صلى الله عليه وسلم  كان يكره النوم قبل العشاء والحديث بعدها‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42132
+    "sourceId": 42132,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَكْرَهُ النَّوْمَ قَبْلَ الْعِشَاءِ وَالْحَدِيثَ بَعْدَهَا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 556,
+      "coverage": 0.636,
+      "matchedWords": 14,
+      "totalWords": 22,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

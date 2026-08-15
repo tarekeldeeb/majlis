@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "السابع عشر‏:‏ عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏‏\n\"‏ إذا مرض العبد أو سافر كتب له مثل ما كان يعمل مقيماً صحيحاً‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 42415
+    "sourceId": 42415,
+    "diacritized": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ إِذَا مَرِضَ الْعَبْدُ أَوْ سَافَرَ، كُتِبَ لَهُ مِثْلُ مَا كَانَ يَعْمَلُ مُقِيمًا صَحِيحًا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2874,
+      "coverage": 0.769,
+      "matchedWords": 20,
+      "totalWords": 26,
+      "riyadWordStart": 4,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

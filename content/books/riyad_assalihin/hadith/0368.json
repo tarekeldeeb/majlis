@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبي موسى رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏‏\n\"‏من صلى البردين دخل الجنة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 41433
+    "sourceId": 41433,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ مَنْ صَلَّى الْبَرْدَيْنِ دَخَلَ الْجَنَّةَ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 561,
+      "coverage": 0.619,
+      "matchedWords": 13,
+      "totalWords": 21,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

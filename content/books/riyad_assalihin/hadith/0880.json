@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن مسعود رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏سباب المسلم فسوق، وقتاله كفر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 41945
+    "sourceId": 41945,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ سِبَابُ الْمُسْلِمِ فُسُوقٌ، وَقِتَالُهُ كُفْرٌ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5815,
+      "coverage": 0.619,
+      "matchedWords": 13,
+      "totalWords": 21,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبى موسى الأشعرى رضى الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏حرم لباس الحرير والذهب على ذكور أمتي ،وأحل لإناثهم‏\"‏.‏((رواه الترمذي))",
-    "sourceId": 41193
+    "sourceId": 41193,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ حُرِّمَ لِبَاسُ الْحَرِيرِ وَالذَّهَبِ عَلَى ذُكُورِ أُمَّتِي وَأُحِلَّ لإِنَاثِهِمْ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 27552,
+      "coverage": 0.654,
+      "matchedWords": 17,
+      "totalWords": 26,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

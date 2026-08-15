@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا عدوى ولا طِيَرة، وإن كان الشؤم في شيء ففي الدار والمرأة، والفرس‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42061
+    "sourceId": 42061,
+    "diacritized": "عُمَرَ ـ رضى الله عنهما ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ لاَ عَدْوَى، وَلاَ طِيَرَةَ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5549,
+      "coverage": 0.552,
+      "matchedWords": 16,
+      "totalWords": 29,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

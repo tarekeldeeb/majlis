@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ لا يشربن أحد منكم قائماً، فمن نسى فليستقئ‏\"‏‏‏‏. ((رواه مسلم))‏",
-    "sourceId": 41157
+    "sourceId": 41157,
+    "diacritized": "قَالَ رَسُولُ اللَّهِ صلى الله\n عليه وسلم ‏\n\"‏ لاَ يَشْرَبَنَّ أَحَدٌ مِنْكُمْ قَائِمًا فَمَنْ نَسِيَ فَلْيَسْتَقِئْ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 12419,
+      "coverage": 0.625,
+      "matchedWords": 15,
+      "totalWords": 24,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

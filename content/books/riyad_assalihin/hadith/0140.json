@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن عبد الله بن زيد رضى الله عنه أنه رأى رسول الله صلى الله عليه وسلم مستلقياً في المسجد، واضعاً إحدى رجليه على الأخرى‏. (‏‏(‏متفق عليه‏)‏‏)‏‏‏.",
-    "sourceId": 41205
+    "sourceId": 41205,
+    "diacritized": "أَنَّهُ رَأَى رَسُولَ اللَّهِ صلى الله عليه وسلم مُسْتَلْقِيًا فِي الْمَسْجِدِ، وَاضِعًا إِحْدَى رِجْلَيْهِ عَلَى الأُخْرَى",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 467,
+      "coverage": 0.615,
+      "matchedWords": 16,
+      "totalWords": 26,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

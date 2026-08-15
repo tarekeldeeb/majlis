@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ليس الواصل بالمكافئ ولكن الواصل الذي إذا قَطَعت رحمُه وصلها‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 42604
+    "sourceId": 42604,
+    "diacritized": "النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ لَيْسَ الْوَاصِلُ بِالْمُكَافِئِ، وَلَكِنِ الْوَاصِلُ الَّذِي إِذَا قَطَعَتْ رَحِمُهُ وَصَلَهَا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5763,
+      "coverage": 0.842,
+      "matchedWords": 16,
+      "totalWords": 19,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

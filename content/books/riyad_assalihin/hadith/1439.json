@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي موسى رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏ المؤمن للمؤمن كالبنيان يشد بعضه بعضًا‏\"‏ وشبك بين أصابعه ‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 42504
+    "sourceId": 42504,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه\n وسلم ‏\n\"‏ الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 13700,
+      "coverage": 0.56,
+      "matchedWords": 14,
+      "totalWords": 25,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 42518
+    "sourceId": 42518,
+    "diacritized": "صلى الله عليه وسلم قَالَ ‏\n\"‏ لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 13,
+      "coverage": 0.667,
+      "matchedWords": 14,
+      "totalWords": 21,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

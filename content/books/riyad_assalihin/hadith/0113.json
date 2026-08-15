@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ما أسفل من الكعبين من الإزار ففي النار‏\"‏.‏‏‏((‏رواه البخارى‏)‏‏)‏‏",
-    "sourceId": 41178
+    "sourceId": 41178,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ مَا أَسْفَلَ مِنَ الْكَعْبَيْنِ مِنَ الإِزَارِ فَفِي النَّارِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5561,
+      "coverage": 0.833,
+      "matchedWords": 15,
+      "totalWords": 18,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

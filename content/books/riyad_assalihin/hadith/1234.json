@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ من تاب قبل أن تطلع الشمس من مغربها تاب الله عليه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42299
+    "sourceId": 42299,
+    "diacritized": "قَالَ قَالَ رَسُولُ\n اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَنْ تَابَ قَبْلَ أَنْ تَطْلُعَ الشَّمْسُ مِنْ مَغْرِبِهَا تَابَ اللَّهُ عَلَيْهِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 13971,
+      "coverage": 0.704,
+      "matchedWords": 19,
+      "totalWords": 27,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 24,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

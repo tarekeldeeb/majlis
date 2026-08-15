@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ كان رسول الله صلى  الله عليه وسلم  يتخلف في المسير، فيزجي الضعيف ويردف ويدعو له، ‏(‏‏(‏رواه أبو داود بإسناد حسن‏)‏‏)‏‏.‏",
-    "sourceId": 41357
+    "sourceId": 41357,
+    "diacritized": "قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَتَخَلَّفُ فِي الْمَسِيرِ فَيُزْجِي الضَّعِيفَ وَيُرْدِفُ وَيَدْعُو",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 23144,
+      "coverage": 0.682,
+      "matchedWords": 15,
+      "totalWords": 22,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

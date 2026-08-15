@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ من أحب أن يبسط له في رزقه، وينسأ له في أثره، فليصل رحمه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42601
+    "sourceId": 42601,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ مَنْ أَحَبَّ أَنْ يُبْسَطَ لَهُ فِي رِزْقِهِ، وَيُنْسَأَ لَهُ فِي أَثَرِهِ، فَلْيَصِلْ رَحِمَهُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5758,
+      "coverage": 0.75,
+      "matchedWords": 21,
+      "totalWords": 28,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 25,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

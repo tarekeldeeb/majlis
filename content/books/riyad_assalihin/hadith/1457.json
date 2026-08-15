@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا يستر عبد عبدًا في الدنيا إلا ستره الله يوم القيامة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42522
+    "sourceId": 42522,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ لاَ يَسْتُرُ عَبْدٌ عَبْدًا فِي الدُّنْيَا إِلاَّ\n سَتَرَهُ اللَّهُ يَوْمَ الْقِيَامَةِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 13710,
+      "coverage": 0.692,
+      "matchedWords": 18,
+      "totalWords": 26,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

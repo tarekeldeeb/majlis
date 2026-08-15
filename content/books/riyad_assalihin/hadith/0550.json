@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أنس، رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏تسحروا فإن في السحور بركة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
-    "sourceId": 41615
+    "sourceId": 41615,
+    "diacritized": "عَنْ أَنَسٍ، - رضى الله عنه - قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ تَسَحَّرُوا فَإِنَّ فِي السُّحُورِ بَرَكَةً",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9710,
+      "coverage": 0.9,
+      "matchedWords": 18,
+      "totalWords": 20,
+      "riyadWordStart": 0,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

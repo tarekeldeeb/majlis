@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن ابن عمر رضي الله عنهما قال‏:‏ صليت مع رسول الله صلى الله عليه وسلم ركعتين قبل الظهر، وركعتين بعدها‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
-    "sourceId": 41499
+    "sourceId": 41499,
+    "diacritized": "عُمَرَ ـ رضى الله عنهما ـ قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم رَكْعَتَيْنِ قَبْلَ الظُّهْرِ، وَرَكْعَتَيْنِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1135,
+      "coverage": 0.773,
+      "matchedWords": 17,
+      "totalWords": 22,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

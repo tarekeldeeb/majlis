@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة رضي الله عنها قالت قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ لا هجرة بعد الفتح، ولكن جهاد ونية، وإذا استنفرتم فانفروا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42285
+    "sourceId": 42285,
+    "diacritized": "صلى الله عليه وسلم ‏\n\"‏لاَ هِجْرَةَ بَعْدَ الْفَتْحِ وَلَكِنْ جِهَادٌ وَنِيَّةٌ، وَإِذَا اسْتُنْفِرْتُمْ فَانْفِرُوا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 2671,
+      "coverage": 0.583,
+      "matchedWords": 14,
+      "totalWords": 24,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

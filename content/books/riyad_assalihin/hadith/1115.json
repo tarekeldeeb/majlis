@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن ابن عمر رضي الله عنهما قال‏:‏ ‏\n\"‏نهى رسول الله صلى الله عليه وسلم  أن يسافر بالقرآن إلى أرض العدو‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42180
+    "sourceId": 42180,
+    "diacritized": "قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُسَافَرَ بِالْقُرْآنِ إِلَى أَرْضِ الْعَدُوِّ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 11981,
+      "coverage": 0.636,
+      "matchedWords": 14,
+      "totalWords": 22,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

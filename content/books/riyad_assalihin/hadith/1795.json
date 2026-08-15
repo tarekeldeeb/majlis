@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “أكثروا ذكر هاذم اللذات” ‏(‏‏(‏يعنى الموت‏)‏‏)‏ ‏(‏‏(‏رواه الترمذى وقال‏:‏ حدث حسن‏)‏‏)‏‏.‏",
-    "sourceId": 42860
+    "sourceId": 42860,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ ‏:‏ ‏\n\"‏ أَكْثِرُوا ذِكْرَ هَاذِمِ اللَّذَّاتِ ‏\"‏ ‏.‏ يَعْنِي الْمَوْتَ",
+    "diacritizationSource": {
+      "collection": "ibnmajah",
+      "sourceId": 33829,
+      "coverage": 0.7,
+      "matchedWords": 14,
+      "totalWords": 20,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 14,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة رضى الله عنها قالت‏:‏ كفن رسول الله صلى الله عليه وسلم في ثلاثة أثواب بيض سحولية من كرسف، ليس فيها قميص ولا عمامة‏.((متفق عليه))  \n‏ ‏",
-    "sourceId": 41171
+    "sourceId": 41171,
+    "diacritized": "قَالَتْ كُفِّنَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي ثَلاَثَةِ أَثْوَابٍ بِيضٍ سَحُولِيَّةٍ مِنْ كُرْسُفٍ لَيْسَ فِيهَا قَمِيصٌ وَلاَ عِمَامَةٌ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9343,
+      "coverage": 0.741,
+      "matchedWords": 20,
+      "totalWords": 27,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 24,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

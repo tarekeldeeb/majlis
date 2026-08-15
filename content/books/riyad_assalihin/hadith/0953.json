@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ لعن رسول الله صلى الله عليه وسلم  الرجل يلبس لبسة المرأة، والمرأة تلبس لبسة الرجل‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
-    "sourceId": 42018
+    "sourceId": 42018,
+    "diacritized": "قَالَ لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم الرَّجُلَ يَلْبَسُ لِبْسَةَ الْمَرْأَةِ وَالْمَرْأَةَ تَلْبَسُ لِبْسَةَ الرَّجُلِ",
+    "diacritizationSource": {
+      "collection": "abudawud",
+      "sourceId": 24603,
+      "coverage": 0.593,
+      "matchedWords": 16,
+      "totalWords": 27,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

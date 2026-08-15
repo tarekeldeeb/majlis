@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "الرابع؛‏:‏ عن أنس رضي الله عنه قال‏:‏ إن الله عز وجل تابع الوحي على رسول الله صلى الله عليه وسلم قبل وفاته، حتى توفي أكثر ما كان الوحي‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42397
+    "sourceId": 42397,
+    "diacritized": "أَنَّ اللَّهَ، عَزَّ وَجَلَّ تَابَعَ الْوَحْىَ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم قَبْلَ وَفَاتِهِ حَتَّى تُوُفِّيَ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 14607,
+      "coverage": 0.567,
+      "matchedWords": 17,
+      "totalWords": 30,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

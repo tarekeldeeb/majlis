@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ ‏\n\"‏لا يصومن أحدكم يوم الجمعة إلا يومًا قبله أو بعده‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42147
+    "sourceId": 42147,
+    "diacritized": "صلى الله عليه وسلم يَقُولُ ‏\n\"‏ لاَ يَصُومَنَّ أَحَدُكُمْ يَوْمَ الْجُمُعَةِ، إِلاَّ يَوْمًا قَبْلَهُ أَوْ بَعْدَهُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1914,
+      "coverage": 0.682,
+      "matchedWords": 15,
+      "totalWords": 22,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

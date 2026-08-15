@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان رسول الله صلى الله عليه وسلم إذا دخل العشر أحيا الليل وأيقظ أهله، وشد المئزر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
-    "sourceId": 41609
+    "sourceId": 41609,
+    "diacritized": "عَائِشَةَ، - رضى الله عنها - قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا دَخَلَ الْعَشْرُ أَحْيَا اللَّيْلَ وَأَيْقَظَ أَهْلَهُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9948,
+      "coverage": 0.792,
+      "matchedWords": 19,
+      "totalWords": 24,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

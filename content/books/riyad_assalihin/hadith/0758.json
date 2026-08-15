@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن جابر رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏أفضل الذكر‏:‏ لا إله إلا الله‏\"‏‏.‏ رواه الترمذي وقال حديث حسن‏.‏",
-    "sourceId": 41823
+    "sourceId": 41823,
+    "diacritized": "سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\n\"‏ أَفْضَلُ الذِّكْرِ لاَ إِلَهَ إِلاَّ اللَّهُ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 29247,
+      "coverage": 0.56,
+      "matchedWords": 14,
+      "totalWords": 25,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

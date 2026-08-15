@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن جرير بن عبد الله، رضي الله عنه، قال‏:‏ بايعت النبي، صلى الله عليه وسلم، على إقام الصلاة، وإيتاء الزكاة، والنصح لكل مسلم‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 41599
+    "sourceId": 41599,
+    "diacritized": "بَايَعْتُ النَّبِيَّ صلى الله عليه وسلم عَلَى إِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالنُّصْحِ لِكُلِّ مُسْلِمٍ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 1354,
+      "coverage": 0.56,
+      "matchedWords": 14,
+      "totalWords": 25,
+      "riyadWordStart": 9,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

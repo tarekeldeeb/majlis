@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم أحسن الناس خلقاً ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42902
+    "sourceId": 42902,
+    "diacritized": "قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8672,
+      "coverage": 0.611,
+      "matchedWords": 11,
+      "totalWords": 18,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

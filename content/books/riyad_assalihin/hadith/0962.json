@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن علي قال‏:‏ نهى رسول الله صلى الله عليه وسلم  أن تحلق المرأة رأسها‏.‏ ‏(‏‏(‏رواه النسائي‏)‏‏)‏‏.‏",
-    "sourceId": 42027
+    "sourceId": 42027,
+    "diacritized": "نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا",
+    "diacritizationSource": {
+      "collection": "nasai",
+      "sourceId": 19794,
+      "coverage": 0.688,
+      "matchedWords": 11,
+      "totalWords": 16,
+      "riyadWordStart": 3,
+      "riyadWordEnd": 13,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

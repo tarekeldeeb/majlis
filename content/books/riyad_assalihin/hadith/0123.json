@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن عمرو بن شعيب عن أبيه عن جده رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن الله يحب أن يرى أثر نعمته على عبده‏\"‏.‏((رواه الترمذي))",
-    "sourceId": 41188
+    "sourceId": 41188,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ إِنَّ اللَّهَ يُحِبَّ أَنْ يُرَى أَثَرُ نِعْمَتِهِ عَلَى عَبْدِهِ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 28678,
+      "coverage": 0.567,
+      "matchedWords": 17,
+      "totalWords": 30,
+      "riyadWordStart": 11,
+      "riyadWordEnd": 27,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

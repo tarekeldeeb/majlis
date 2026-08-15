@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عمر رضى الله عنهما قال‏:‏ رأيت رسول الله صلى الله عليه وسلم بفناء الكعبة محتبياً بيديه هكذا‏.‏ ووصف بيديه الاحتباء، وهو القرفصاء‏.‏ ‏‏(‏‏(‏رواه البخاري‏)‏‏)‏.‏",
-    "sourceId": 41207
+    "sourceId": 41207,
+    "diacritized": "ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم بِفِنَاءِ الْكَعْبَةِ مُحْتَبِيًا",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 6037,
+      "coverage": 0.615,
+      "matchedWords": 16,
+      "totalWords": 26,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

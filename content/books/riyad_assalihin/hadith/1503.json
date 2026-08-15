@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أم سلمة رضي الله عنها قالت‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ أيما امرأة ماتت، وزوجها عنها راضٍ دخلت الجنة‏\"‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن‏)‏‏)‏‏.‏",
-    "sourceId": 42568
+    "sourceId": 42568,
+    "diacritized": "قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ أَيُّمَا امْرَأَةٍ مَاتَتْ وَزَوْجُهَا عَنْهَا رَاضٍ دَخَلَتِ الْجَنَّةَ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 26944,
+      "coverage": 0.593,
+      "matchedWords": 16,
+      "totalWords": 27,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "السابع‏:‏ عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ حجبت النار بالشهوات، وحجبت الجنة بالمكاره‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42383
+    "sourceId": 42383,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ حُجِبَتِ النَّارُ بِالشَّهَوَاتِ، وَحُجِبَتِ الْجَنَّةُ بِالْمَكَارِهِ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 6248,
+      "coverage": 0.778,
+      "matchedWords": 14,
+      "totalWords": 18,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

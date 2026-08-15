@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن جابر رضي الله عنه قال‏:‏ نهى رسول الله صلى الله عليه وسلم أن يجصص القبر، وأن يقعد عليه، وأن يبنى عليه‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏",
-    "sourceId": 42153
+    "sourceId": 42153,
+    "diacritized": "قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُجَصَّصَ الْقَبْرُ وَأَنْ يُقْعَدَ عَلَيْهِ وَأَنْ يُبْنَى عَلَيْهِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 9407,
+      "coverage": 0.708,
+      "matchedWords": 17,
+      "totalWords": 24,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

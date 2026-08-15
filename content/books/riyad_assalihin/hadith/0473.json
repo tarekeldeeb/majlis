@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبي سعيد الخدري، رضي الله عنه، أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏غسل الجمعة واجب على كل محتلم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
-    "sourceId": 41538
+    "sourceId": 41538,
+    "diacritized": "أَبِي سَعِيدٍ الْخُدْرِيِّ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ غُسْلُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 858,
+      "coverage": 0.652,
+      "matchedWords": 15,
+      "totalWords": 23,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏سيحان وجيحان والفرات والنيل كل من أنهار الجنة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 42239
+    "sourceId": 42239,
+    "diacritized": "قَالَ قَالَ رَسُولُ\n اللَّهِ صلى الله عليه وسلم ‏\n\"‏ سَيْحَانُ وَجَيْحَانُ وَالْفُرَاتُ وَالنِّيلُ كُلٌّ مِنْ أَنْهَارِ الْجَنَّةِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 14259,
+      "coverage": 0.727,
+      "matchedWords": 16,
+      "totalWords": 22,
+      "riyadWordStart": 4,
+      "riyadWordEnd": 19,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عمر وعائشة رضي الله عنهما قالا‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ ما زال جبريل يوصيني بالجار حتى ظننت أنه سيورثه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
-    "sourceId": 42585
+    "sourceId": 42585,
+    "diacritized": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَا زَالَ جِبْرِيلُ يُوصِينِي بِالْجَارِ حَتَّى ظَنَنْتُ أَنَّهُ سَيُوَرِّثُهُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 5787,
+      "coverage": 0.615,
+      "matchedWords": 16,
+      "totalWords": 26,
+      "riyadWordStart": 8,
+      "riyadWordEnd": 23,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضي الله عنه أنه مر على صبيان فسلم عليهم وقال‏:‏ كان النبي صلى الله عليه وسلم يفعله‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
-    "sourceId": 42885
+    "sourceId": 42885,
+    "diacritized": "رضى الله عنه أَنَّهُ مَرَّ عَلَى صِبْيَانٍ فَسَلَّمَ عَلَيْهِمْ وَقَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَفْعَلُهُ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 6012,
+      "coverage": 0.81,
+      "matchedWords": 17,
+      "totalWords": 21,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 18,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

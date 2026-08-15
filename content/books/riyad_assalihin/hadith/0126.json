@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أنس رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من لبس الحرير في الدنيا لم يلبسه في الآخرة‏\"‏.((متفق عليه))  \n‏",
-    "sourceId": 41191
+    "sourceId": 41191,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَنْ لَبِسَ الْحَرِيرَ فِي الدُّنْيَا لَمْ يَلْبَسْهُ فِي الآخِرَةِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 12563,
+      "coverage": 0.708,
+      "matchedWords": 17,
+      "totalWords": 24,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

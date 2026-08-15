@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن أبى قتادة رضى الله عنه أن النبي صلى الله عليه وسلم نهى أن يتنفس في الإناء‏.‏‏((متفق عليه))",
-    "sourceId": 41144
+    "sourceId": 41144,
+    "diacritized": "أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى أَنْ يَتَنَفَّسَ فِي الإِنَاءِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 7798,
+      "coverage": 0.579,
+      "matchedWords": 11,
+      "totalWords": 19,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنه قال‏:‏ سمعت خليلي صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏تبلغ الحلية من المؤمن حيث يبلغ الوضوء‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41411
+    "sourceId": 41411,
+    "diacritized": "سَمِعْتُ خَلِيلِي صلى الله عليه وسلم يَقُولُ ‏\n\"‏ تَبْلُغُ الْحِلْيَةُ مِنَ الْمُؤْمِنِ حَيْثُ يَبْلُغُ الْوَضُوءُ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 7769,
+      "coverage": 0.778,
+      "matchedWords": 14,
+      "totalWords": 18,
+      "riyadWordStart": 2,
+      "riyadWordEnd": 15,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "الثامن‏:‏ عن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ من حسن إسلام المرء تركه ما لا يعنيه‏\"‏ ‏(‏‏(‏حديث حسن رواه الترمذي وغيره‏)‏‏)‏",
-    "sourceId": 42349
+    "sourceId": 42349,
+    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مِنْ حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكُهُ مَا لاَ يَعْنِيهِ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 28166,
+      "coverage": 0.571,
+      "matchedWords": 16,
+      "totalWords": 28,
+      "riyadWordStart": 7,
+      "riyadWordEnd": 22,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

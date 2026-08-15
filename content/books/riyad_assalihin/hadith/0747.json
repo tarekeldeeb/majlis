@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنها أن رسول الله صلى الله عليه وسلم كان يقول في ركوعه وسجوده‏:‏ ‏\n\"‏سبوح قدوس رب الملائكة والروح‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
-    "sourceId": 41812
+    "sourceId": 41812,
+    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَقُولُ فِي رُكُوعِهِ وَسُجُودِهِ ‏\n\"‏ سُبُّوحٌ قُدُّوسٌ رَبُّ الْمَلاَئِكَةِ وَالرُّوحِ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 8270,
+      "coverage": 0.85,
+      "matchedWords": 17,
+      "totalWords": 20,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 17,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

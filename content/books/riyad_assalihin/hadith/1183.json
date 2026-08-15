@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ قال النبي صلى الله عليه وسلم  ‏:‏ من نذر أن يطيع الله فليطعه ومن نذر أن يعصي الله فلا يعصه‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
-    "sourceId": 42248
+    "sourceId": 42248,
+    "diacritized": "عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\n\"‏ مَنْ نَذَرَ أَنْ يُطِيعَ اللَّهَ فَلْيُطِعْهُ، وَمَنْ نَذَرَ أَنْ",
+    "diacritizationSource": {
+      "collection": "bukhari",
+      "sourceId": 6456,
+      "coverage": 0.741,
+      "matchedWords": 20,
+      "totalWords": 27,
+      "riyadWordStart": 1,
+      "riyadWordEnd": 20,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

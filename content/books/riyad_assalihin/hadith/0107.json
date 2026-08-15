@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعنها قالت‏:‏ خرج رسول الله صلى الله عليه وسلم ذات غداة، وعليه مرط مرحل من شعر أسود‏.‏‏‏((رواه مسلم))‏",
-    "sourceId": 41172
+    "sourceId": 41172,
+    "diacritized": "صلى الله عليه وسلم ذَاتَ غَدَاةٍ وَعَلَيْهِ مِرْطٌ مُرَحَّلٌ مِنْ شَعَرٍ أَسْوَدَ",
+    "diacritizationSource": {
+      "collection": "muslim",
+      "sourceId": 12583,
+      "coverage": 0.632,
+      "matchedWords": 12,
+      "totalWords": 19,
+      "riyadWordStart": 5,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

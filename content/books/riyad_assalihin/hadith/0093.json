@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "عن أبى قتادة رضى الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ ساقي القوم آخرهم شرباً‏\"‏. ((رواه الترمذي))",
-    "sourceId": 41158
+    "sourceId": 41158,
+    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ سَاقِي الْقَوْمِ آخِرُهُمْ شُرْبًا",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 27740,
+      "coverage": 0.579,
+      "matchedWords": 11,
+      "totalWords": 19,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 16,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],

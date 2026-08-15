@@ -8,7 +8,18 @@
   },
   "matn": {
     "arabic": "وعن ابن عمر رضى الله عنهما قال‏:‏كنا نأكل على عهد رسول الله صلى الله عليه وسلم ونحن نمشى ، ونشرب ونحن قيام‏.‏((رواه الترمذي))",
-    "sourceId": 41154
+    "sourceId": 41154,
+    "diacritized": "قَالَ كُنَّا نَأْكُلُ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَنَحْنُ نَمْشِي وَنَشْرَبُ وَنَحْنُ قِيَامٌ",
+    "diacritizationSource": {
+      "collection": "tirmidhi",
+      "sourceId": 27725,
+      "coverage": 0.667,
+      "matchedWords": 16,
+      "totalWords": 24,
+      "riyadWordStart": 6,
+      "riyadWordEnd": 21,
+      "partial": true
+    }
   },
   "commentary": {
     "adab": [],
