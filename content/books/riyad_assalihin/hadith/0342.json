@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:342",
+  "book": "riyad_assalihin",
+  "number": 342,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي الدرداء رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏من حفظ عشر آيات من أول سورة الكهف، عصم من الدجال‏\"‏ وفي رواية‏:‏ ‏\"‏من آخر سورة الكهف‏\"‏ ‏(‏‏(‏رواهما مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41407
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

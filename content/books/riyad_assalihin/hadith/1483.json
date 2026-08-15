@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1483",
+  "book": "riyad_assalihin",
+  "number": 1483,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏ شر الطعام طعام الوليمة، يمنعها من يأتيها، ويدعى إليها من يأباها، ومن لم يجب الدعوة فقد عصى الله ورسوله‏\"‏ ((رواه مسلم‏))‏.‏ \nوفي رواية في ‏\"‏ الصحيحين‏\"‏ عن أبي هريرة من قوله‏:‏ ‏\"‏ بئس الطعام طعام الوليمة يدعى إليها الأغنياء ويترك الفقراء‏\"‏‏‏‏(‏(متفق عليه‏)‏‏)‏.‏",
+    "sourceId": 42548
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

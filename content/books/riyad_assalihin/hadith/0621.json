@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:621",
+  "book": "riyad_assalihin",
+  "number": 621,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إن في الجنة مائة درجة أعدها للمجاهدين في سبيل الله ما بين الدرجتين كما بين السماء والأرض‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41686
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

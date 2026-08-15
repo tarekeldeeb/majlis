@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:67",
+  "book": "riyad_assalihin",
+  "number": 67,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضى الله عنه قال‏:‏ رأيت رسول الله صلى الله عليه وسلم جالساً مقعياً يأكل تمراً.‏ ‏‏((رواه مسلم))‏",
+    "sourceId": 41132
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

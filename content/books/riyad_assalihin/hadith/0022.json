@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:22",
+  "book": "riyad_assalihin",
+  "number": 22,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن العرباض بن سارية رضي الله عنه قال‏:‏ وعظنا رسول الله موعظة وجلت منها القلوب، وذرفت منها العيون وذكر الحديث وقد سبق بكماله في باب الأمر بالمحافظة على السنة، وذكرنا أن الترمذي قال‏:‏ ‏(‏‏(‏إنه حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41087
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

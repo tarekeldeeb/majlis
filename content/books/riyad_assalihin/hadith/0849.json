@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:849",
+  "book": "riyad_assalihin",
+  "number": 849,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "- وعن أبي الدرداء رضي الله عنه، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏من رد عن عِرض أخيه، رد الله عن وجهه النار يوم القيامة‏\"‏‏.‏‏(‏‏(‏رواه الترمذي وقال حديث حسن‏.‏‏)‏‏)‏",
+    "sourceId": 41914
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

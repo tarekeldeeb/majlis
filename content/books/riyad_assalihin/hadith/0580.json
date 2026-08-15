@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:580",
+  "book": "riyad_assalihin",
+  "number": 580,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي الدرداء رضي الله عنه قال‏:‏ أوصاني حبيبي، صلى الله عليه وسلم بثلاث لن أدعهن ما عشت‏:‏ بصيام ثلاثة أيام من كل شهر، وصلاة الضحى، وبأن لا أنام حتى أوتر‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41645
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

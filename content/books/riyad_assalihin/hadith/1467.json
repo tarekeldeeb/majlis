@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1467",
+  "book": "riyad_assalihin",
+  "number": 1467,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ سمع رسول الله صلى الله عليه وسلم صوت خصوم بالباب عالية أصواتهما، وإذا أحدهما يستوضع الآخر ويسترفقه في شيء، وهو يقول‏:‏ والله لا أفعل، فخرج عليهما رسول الله صلى الله عليه وسلم فقال‏:‏ “أين المتألي على الله لا يفعل المعروف‏؟‏ ‏\"‏ فقال‏:‏ أنا يا رسول الله ، فله أي ذلك أحب ، ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42532
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

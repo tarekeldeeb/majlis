@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:700",
+  "book": "riyad_assalihin",
+  "number": 700,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن سعد رضي الله عنه أن النبي صلى الله عليه وسلم قال لعلي رضي الله عنه ‏:‏ ‏\n\"‏فوالله لأن يهدي الله بك رجلا واحدا خير من حمر النعم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41765
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

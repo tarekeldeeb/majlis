@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:673",
+  "book": "riyad_assalihin",
+  "number": 673,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعنه وعن جابر، رضي الله عنهما أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏الحرب خُدعة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41738
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

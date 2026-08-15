@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:289",
+  "book": "riyad_assalihin",
+  "number": 289,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن أنس، رضي الله عنه، قال‏:‏ كنا إذا نزلنا منزلا لا نسبح حتي نحل الرحال‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد علي شرط مسلم‏)‏‏)‏‏.‏\nوقوله‏:‏ ‏ ‏لا نسبح‏ ‏‏:‏ أي لا نصلي  النافلة، ومعناه‏:‏ أنا -مع حرصنا علي الصلاة- لا نقدمها على حط الرحال وإراحة الدواب",
+    "sourceId": 41354
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

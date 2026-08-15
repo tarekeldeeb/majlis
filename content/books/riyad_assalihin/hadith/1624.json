@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1624",
+  "book": "riyad_assalihin",
+  "number": 1624,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي برزة -براء ثم زاى- نضلة بن عبيد الأسلمى، رضي الله عنه، قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لا تزول قدما عبد يوم القيامة حتى يسأل عن عمره فيما أفناه ، وعن علمه فيما فعل فيه، وعن ماله من أين اكتسبه، وفيما أنفقه، وعن جسمه فيم أبلاه‏\"‏ ‏(‏‏(‏رواه الترمذي وقاال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42689
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

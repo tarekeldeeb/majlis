@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:356",
+  "book": "riyad_assalihin",
+  "number": 356,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عبد الرحمن بن أبي صعصعة أن أبا سعيد الخدري رضي الله عنه قال له‏:‏ ‏\n\"‏إني أراك تحب الغنم والبادية فإذا كنت في غنمك- أو باديتك- فأذنت للصلاة، فارفع صوتك بالنداء، فإنه لا يسمع مدى صوت المؤذن جن، ولا إنس، ولا شيء، إلا شهد له يوم القيامة‏\"‏ قال أبو سعيد‏:‏ سمعته من رسول الله صلى الله عليه وسلم ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41421
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

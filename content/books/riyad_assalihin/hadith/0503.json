@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:503",
+  "book": "riyad_assalihin",
+  "number": 503,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عمر بن الخطاب، رضي الله عنه، قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من نام عن حزبه، أو عن شيء منه، فقرأه فيما بين صلاة الفجر وصلاة الظهر، كتب له كأنما قرأه من الليل‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41568
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

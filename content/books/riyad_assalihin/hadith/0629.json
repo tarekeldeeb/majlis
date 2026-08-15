@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:629",
+  "book": "riyad_assalihin",
+  "number": 629,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن فتى من أسلم قال‏:‏ يا رسول الله إني أريد الغزو وليس معي ما أتجهز به، قال‏:‏ ‏\"‏ائت فلانًا، قد كان تجهز فمرض فأتاه فقال‏:‏ إن رسول الله صلى الله عليه وسلم يقرئك السلام ويقول‏:‏ أعطني الذي تجهزت به قال‏:‏ يا فلانة أعطيه، الذي كنت تجهزت به ولاتحبسي منه شيئًا فوالله لا تحبسي منه شيئًا فيبارك لك  فيه ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41694
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

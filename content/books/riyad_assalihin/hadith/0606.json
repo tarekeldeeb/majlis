@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:606",
+  "book": "riyad_assalihin",
+  "number": 606,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه قال‏:‏ سئل رسول الله صلى الله عليه وسلم أي العمل أفضل‏؟‏ قال‏:‏ ‏\"‏إيمان بالله ورسوله‏\"‏ قيل‏:‏ ثم ماذا‏؟‏ قال‏:‏ ‏\"‏الجهاد في سبيل الله‏\"‏ قيل‏:‏ ثم ماذا‏؟‏ قال‏:‏ ‏\"‏حج مبرور‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41671
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

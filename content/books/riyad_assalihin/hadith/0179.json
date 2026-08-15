@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:179",
+  "book": "riyad_assalihin",
+  "number": 179,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي أمامة صُدي بن عجلان الباهلي رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “إن أولى الناس بالله من بدأهم بالسلام‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد جيد‏)‏‏)‏‏.‏ \nورواه الترمذي عن أبي أمامة رضي الله عنه‏:‏ قيل‏:‏ يا رسول الله، الرجلان يلتقيان، أيهما يبدأ بالسلام‏؟‏ قال‏:‏ ‏\"‏أولاهما بالله تعالى‏\"‏ قال الترمذي ‏:‏ حديث حسن‏.‏",
+    "sourceId": 41244
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

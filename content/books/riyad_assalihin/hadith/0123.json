@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:123",
+  "book": "riyad_assalihin",
+  "number": 123,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "عن عمرو بن شعيب عن أبيه عن جده رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن الله يحب أن يرى أثر نعمته على عبده‏\"‏.‏((رواه الترمذي))",
+    "sourceId": 41188
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

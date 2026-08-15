@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1195",
+  "book": "riyad_assalihin",
+  "number": 1195,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من قال‏:‏ أستغفر الله الذي لا إله إلا هو الحي القيوم وأتوب إليه ، غفرت ذنوبه ، وإن كان قد فر من الزحف‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي والحاكم، وقال‏:‏ حديث صحيح على شرط البخاري ومسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42260
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

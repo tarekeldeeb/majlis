@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1815",
+  "book": "riyad_assalihin",
+  "number": 1815,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏يوشك أن يكون خير مال المسلم غنم يتتبع بها شعف الجبال، ومواقع القطر، يفر بدينه من الفتن‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏ وشعف الجبال ‏:‏أعلاها",
+    "sourceId": 42880
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

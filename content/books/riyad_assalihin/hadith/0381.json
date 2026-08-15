@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:381",
+  "book": "riyad_assalihin",
+  "number": 381,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏إذا رأيتم الرجل يعتاد المساجد فاشهدوا له بالإيمان، قال الله عز وجل ‏{‏إنما يعمر مساجد الله من آمن بالله واليوم الآخر‏}‏ ‏(‏‏(‏الآية‏.‏ رواه الترمذي وقال حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41446
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

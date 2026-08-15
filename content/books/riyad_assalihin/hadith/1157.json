@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1157",
+  "book": "riyad_assalihin",
+  "number": 1157,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم  قال‏:‏ ‏\"‏ بين النفختين أربعون‏\"‏ قالوا‏:‏ يا أبا هريرة أربعون يوماً‏؟‏ قال‏:‏ أبيت، قالوا‏:‏ أربعون سنة‏؟‏ قال‏:‏ أبيت، قالوا‏:‏ أربعون شهراً‏؟‏ قال‏:‏ أبيت‏\"‏ ويبلى كل شئ من الإنسان إلا عجب ذنبه، فيه يركب الخلق، ثم ينزل الله من السماء ماء، فينبتون كما ينبت البقل‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42222
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

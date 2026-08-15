@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1039",
+  "book": "riyad_assalihin",
+  "number": 1039,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏لأن يلج أحدكم في يمينه في أهله آثم له عند الله تعالى من أن يعطي كفارته التي فرض الله عليه‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ قوله‏:‏ ‏\"‏يلَجّ‏\"‏ بفتح اللام، وتشديد الجيم‏:‏ أي يتمادى فيها، ولا يكفر، قوله‏:‏ ‏\"‏آثم‏\"‏ هو بالثاء المثلثة، أي‏:‏ أكثر إثمًا‏.‏",
+    "sourceId": 42104
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

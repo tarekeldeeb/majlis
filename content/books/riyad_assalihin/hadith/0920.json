@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:920",
+  "book": "riyad_assalihin",
+  "number": 920,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا كنتم ثلاثة، فلا يتناجى اثنان دون الآخر حتى تختلطوا بالناس، من أجل أن ذلك يحزنه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41985
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

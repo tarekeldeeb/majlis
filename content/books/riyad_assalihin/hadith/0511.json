@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:511",
+  "book": "riyad_assalihin",
+  "number": 511,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن رجالا من أصحاب النبي صلى الله عليه وسلم، أروا ليلة القدر في المنام في السبع الأواخر، فقال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏أرى رؤياكم قد تواطأت في السبع الأواخر، فمن كان متحريها، فليتحرها في السبع الأواخر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41576
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

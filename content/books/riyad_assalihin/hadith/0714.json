@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:714",
+  "book": "riyad_assalihin",
+  "number": 714,
+  "chapter": {
+    "id": 13,
+    "title": "كتاب حمد الله تعالى وشكره"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن النبي صلى الله عليه وسلم أتي ليلة أسري به بقدحين من خمر ولبن، فنظر إليهما فأخذ اللبن، فقال جبريل صلى الله عليه وسلم‏:‏ ‏\"‏الحمد لله الذي هداك للفطرة لو أخذت الخمر غوت أمتك” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41779
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

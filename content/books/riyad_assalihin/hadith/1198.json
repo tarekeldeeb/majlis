@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1198",
+  "book": "riyad_assalihin",
+  "number": 1198,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان رسول الله صلى الله عليه وسلم  يكثر أن يقول قبل موته ‏\n\"‏سبحان الله وبحمده، أستغفر الله، وأتوب إليه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42263
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

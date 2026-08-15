@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:624",
+  "book": "riyad_assalihin",
+  "number": 624,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي عبس عبد الرحمن بن جبير، رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ما اغبرت قدما عبد في سبيل الله فتمسه النار‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41689
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:152",
+  "book": "riyad_assalihin",
+  "number": 152,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏من جلس في مجلس، فكثر فيه لغطه فقال قبل أن يقوم من مجلسه ذلك‏:‏ سبحانك اللهم وبحمدك، أشهد أن لا إله إلا أنت، أستغفرك وأتوب إليك، إلا غفر له ما كان في مجلسه ذلك‏\"‏ ((‏‏رَوَاهُ التِّرمِذِيُّ وَقَالَ حَدِيثٌ حَسَنٌ صحيح)).‏",
+    "sourceId": 41217
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

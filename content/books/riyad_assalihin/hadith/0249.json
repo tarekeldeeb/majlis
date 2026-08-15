@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:249",
+  "book": "riyad_assalihin",
+  "number": 249,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "عن أبي رافع أسلم مولي رسول الله صلى  الله عليه وسلم  أن رسول الله صلى  الله عليه وسلم  قال‏:‏ ‏\n\"‏ من غسل ميتاً فكتم عليه ، غفر الله له أربعين مرة‏\"‏ ‏(‏‏(‏رواه الحاكم وقال صحيح علي شرط مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41314
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:612",
+  "book": "riyad_assalihin",
+  "number": 612,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن سلمان رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏رباط يوم وليلة خير من صيام شهر وقيامه، وإن مات فيه أجري عليه عمله الذي كان يعمل، وأجري عليه رزقه، وأمن الفتان‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41677
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

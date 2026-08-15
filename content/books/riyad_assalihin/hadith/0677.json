@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:677",
+  "book": "riyad_assalihin",
+  "number": 677,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي الأعور سعيد بن زيد بن عمرو بن نفيل، أحد العشرة المشهود لهم بالجنة، رضي الله عنهم، قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏من قتل دون ماله فهو شهيد، ومن قتل دون دمه فهو شهيد، ومن قتل دون دينه فهو شهيد، ومن قتل دون عرضه فهو شهيد‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41742
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

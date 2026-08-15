@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:68",
+  "book": "riyad_assalihin",
+  "number": 68,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن ابن عباس رضى الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إذا أكل أحدكم طعاماً، فلا يمسح أصابعه حتى يلعقها أو يلعقها‏\"‏‏.‏ ‏((متفق عليه))",
+    "sourceId": 41133
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

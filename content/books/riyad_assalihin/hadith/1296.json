@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1296",
+  "book": "riyad_assalihin",
+  "number": 1296,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السادس‏:‏ عن عمر رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول ‏:‏ ‏\n\"‏لو أنكم تتوكلون على الله حق توكله لرزقكم كما يرزق الطير ، تغدو خماصاً وتروح بطاناً‏\"‏ ‏(‏‏(‏رواه الترمذي ، وقال حديث حسن ‏)‏‏)‏‏.‏",
+    "sourceId": 42361
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

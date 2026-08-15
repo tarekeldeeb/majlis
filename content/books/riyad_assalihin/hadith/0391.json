@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:391",
+  "book": "riyad_assalihin",
+  "number": 391,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي الدرداء رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏ما من ثلاثة في قرية ولا بدو لا تقام فيهم الصلاة إلا قد استحوذ عليهم الشيطان‏.‏ فعليكم بالجماعة، فإنما يأكل الذئب من الغنم القاصية‏\"‏ ‏(‏‏(‏رواه  أبو داود بإسناد حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41456
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

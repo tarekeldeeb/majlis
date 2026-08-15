@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1160",
+  "book": "riyad_assalihin",
+  "number": 1160,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعنه رضي الله عنه ‏:‏ ‏{‏كنتم خير أمة أخرجت للناس‏}‏ قال‏:‏ خير الناس للناس يأتون بهم في السلاسل في أعناقهم حتى يدخلوا في الإسلام‏.‏ \nأخرجه: البخاري.",
+    "sourceId": 42225
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

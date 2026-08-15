@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1466",
+  "book": "riyad_assalihin",
+  "number": 1466,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أم كلثوم بنت عقبة بن أبي معيط رضي الله عنها قالت سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏ليس الكذاب الذي يصلح بين الناس فينمي خيرًا، أو يقول خيرًا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \n\nو في رواية مسلم زيادة، قالت: \"و لم اسمعه يرخصه في شيء مما يقوله الناس الا في ثلاث، تعني: الحرب، و الاصلاح بين الناس، و حديث الرجل امراته، و حديث المرأة زوجها\".",
+    "sourceId": 42531
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

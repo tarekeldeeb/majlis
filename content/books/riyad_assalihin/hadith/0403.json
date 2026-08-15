@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:403",
+  "book": "riyad_assalihin",
+  "number": 403,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن جابر بن سمرة، رضي الله عنهما، قال‏:‏ خرج علينا رسول الله صلى الله عليه وسلم فقال‏:‏ ‏\"‏ألا تصفون كما تصف الملائكة عند ربها‏؟‏‏\"‏ فقلنا‏:‏ يا رسول الله وكيف تصف الملائكة عند ربها‏؟‏ قال‏:‏ ‏\"‏يتمون الصفوف الأُول، ويتراصون في الصف‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41468
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

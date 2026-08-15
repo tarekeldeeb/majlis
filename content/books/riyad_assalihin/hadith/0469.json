@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:469",
+  "book": "riyad_assalihin",
+  "number": 469,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله، صلى الله عليه وسلم ‏:‏ ‏\n\"‏من توضأ فأحسن الوضوء ثم أتي الجمعة، فاستمع وأنصت، غفر له ما بينه وبين الجمعة وزيادة ثلاثة أيام، ومن مس الحصى،  فقد لغا‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41534
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

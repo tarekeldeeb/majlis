@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:407",
+  "book": "riyad_assalihin",
+  "number": 407,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي مسعود رضي الله عنه قال‏:‏ كان رسول الله  صلى الله عليه وسلم يمسح مناكبنا في الصلاة، ويقول‏:‏ ‏\n\"‏استووا ولا تختلفوا فتختلف قلوبكم، ليلني منكم أولو الأحلام والنهى، ثم الذين يلونهم ثم الذين يلونهم‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41472
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

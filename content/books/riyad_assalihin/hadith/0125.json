@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:125",
+  "book": "riyad_assalihin",
+  "number": 125,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏إنما يلبس الحرير من لا خلاق له‏\"‏.((متفق عليه))  \n ‏  \nوفى رواية للبخاري‏:‏ ‏\"‏من لا خلاق له في الآخرة‏\"‏‏",
+    "sourceId": 41190
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

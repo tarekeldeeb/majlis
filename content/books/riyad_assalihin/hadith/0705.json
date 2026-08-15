@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:705",
+  "book": "riyad_assalihin",
+  "number": 705,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏الدنيا ملعونة ملعون ما فيها إلا ذكر الله تعالى، وما والاه، وعالمًا أو متعلمًا‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏.‏ ‏)‏‏)‏‏.‏ (2)",
+    "sourceId": 41770
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

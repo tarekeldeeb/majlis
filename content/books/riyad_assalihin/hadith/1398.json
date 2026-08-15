@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1398",
+  "book": "riyad_assalihin",
+  "number": 1398,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "فالأول‏:‏ عن أبي رقية تميم بن أوس الداري رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ الدين النصيحة‏\"‏ قلنا‏:‏ لمن‏؟‏ قال‏:‏ لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42463
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:805",
+  "book": "riyad_assalihin",
+  "number": 805,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن النبي صلى الله عليه وسلم، كان يقول‏:‏ ‏\n\"‏اللهم إني أعوذ بك من البرص والجنون، والجذام، وسيئ الأسقام‏\"‏‏.‏ رواه أبو داود بإسناد صحيح‏.‏",
+    "sourceId": 41870
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

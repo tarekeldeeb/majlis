@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:74",
+  "book": "riyad_assalihin",
+  "number": 74,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن سعيد بن الحارث أنه سأل جابراً رضى الله عنه عن الوضوء مما مست النار، فقال‏:‏ لا ، قد كنا زمن النبي صلى الله عليه وسلم لا نجد مثل ذلك الطعام إلا قليلاً، فإذا نحن وجدناه، لم يكن لنا مناديل إلا أكفنا وسواعدنا وأقدامنا، ثم نصلى ولا نتوضأ‏.‏ ‏‏((‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41139
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

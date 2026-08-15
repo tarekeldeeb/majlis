@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:251",
+  "book": "riyad_assalihin",
+  "number": 251,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى  الله عليه وسلم  قال‏:‏ ‏\"‏من اتبع جنازة مسلم إيماناً واحتساباً، وكان معه حتي يصلى  عليها ويفرغ من دفنها، فإنه يرجع من الأجر بقيراطين كل قيراط مثل أحدٍ، ومن صلى  عليها، ثم رجع قبل أن تدفن ، فإنه يرجع بقيراط” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41316
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

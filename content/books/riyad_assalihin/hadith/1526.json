@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1526",
+  "book": "riyad_assalihin",
+  "number": 1526,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "و عن أبي شريح الخزاعي رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ من كان يؤمن بالله واليوم الآخر، فليكرم ضيفه، ومن كان يؤمن بالله واليوم الآخر، فليقل خيرًا أو ليسكت‏\"‏ ‏(‏‏(‏رواه مسلم بهذا اللفظ، وروى البخاري بعضه‏)‏‏)‏‏.‏",
+    "sourceId": 42591
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

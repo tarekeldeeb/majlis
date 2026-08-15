@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:373",
+  "book": "riyad_assalihin",
+  "number": 373,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن بريدة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏‏\n\"‏من ترك صلاة العصر فقد حبط عمله‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41438
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

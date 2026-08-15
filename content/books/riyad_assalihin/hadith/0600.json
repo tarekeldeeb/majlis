@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:600",
+  "book": "riyad_assalihin",
+  "number": 600,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعنه أن امرأة قالت‏:‏ يا رسول الله إن فريضة الله على عباده في الحج، أدركت أبي شيخًا كبيرًا، لا يثبت على الراحلة، أفأحج عنه‏؟‏ قال‏:‏ ‏\n\"‏نعم‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41665
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

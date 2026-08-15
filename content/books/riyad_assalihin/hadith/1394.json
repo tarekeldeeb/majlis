@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1394",
+  "book": "riyad_assalihin",
+  "number": 1394,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أبي عبد الرحمن زيد بن خالد الجهني رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من جهز غازياً في سبيل الله فقد غزا ومن خلف غازيا في أهله بخير فقد غزا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42459
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

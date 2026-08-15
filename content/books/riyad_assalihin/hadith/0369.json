@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:369",
+  "book": "riyad_assalihin",
+  "number": 369,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي زهير عمارة بن رؤيبة رضي الله عنه قال، سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏لن يلج النار أحد صلى قبل طلوع الشمس وقبل غروبها‏\"‏ (11) ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41434
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

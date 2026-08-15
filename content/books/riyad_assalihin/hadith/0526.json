@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:526",
+  "book": "riyad_assalihin",
+  "number": 526,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أحفوا الشوارب وأعفوا اللحى‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41591
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

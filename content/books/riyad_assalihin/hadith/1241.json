@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1241",
+  "book": "riyad_assalihin",
+  "number": 1241,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏يضحك الله سبحانه وتعالى إلى رجلين يقتل أحدهما الآخر يدخلان الجنة، يقاتل هذا في سبيل الله فيقتل، ثم يتوب الله على القاتل فيسلم فيستشهد‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42306
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

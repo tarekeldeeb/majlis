@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1110",
+  "book": "riyad_assalihin",
+  "number": 1110,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي بكر رضي الله عنه أن رجلا ذُكر عند النبي صلى الله عليه وسلم ، فأثنى عليه رجل خيرًا، فقال النبي صلى الله عليه وسلم ‏:‏ ‏\"‏ويحك‏!‏ قطعت عنق صاحبك‏\"‏ يقوله مرارًا ‏\"‏وإن كان أحدكم مادحًا لا محالة، فليقل‏:‏ أحسب كذا وكذا إن كان يرى أنه كذلك وحسيبه الله، ولا يزكي على الله أحدًا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42175
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

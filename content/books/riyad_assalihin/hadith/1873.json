@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1873",
+  "book": "riyad_assalihin",
+  "number": 1873,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائذ بن عمرو رضي الله عنه أنه دخل على عبيد الله بن زياد، فقال له‏:‏ أى بنى، إنى سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ “إن شر الرعاء الحطمة” فإياك  أن تكون منهم‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42938
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

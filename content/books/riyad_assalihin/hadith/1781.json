@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1781",
+  "book": "riyad_assalihin",
+  "number": 1781,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم  ‏\n\"‏ طعام الاثنين كافي الثلاثة، وطعام الثلاثة كافي الأربعة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \n\nوفى رواية لمسلم عن جابر رضي الله عنه ، عن النبي صلى الله عليه وسلم قال‏:‏ طعام الواحد يكفي الاثنين وطعام الاثنين يكفي الأربعة، وطعام الأربعة يكفي الثمانية‏.‏",
+    "sourceId": 42846
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

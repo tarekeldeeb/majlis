@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:434",
+  "book": "riyad_assalihin",
+  "number": 434,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنهما قال‏:‏ صليت مع رسول الله صلى الله عليه وسلم ركعتين قبل الظهر، وركعتين بعدها‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41499
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

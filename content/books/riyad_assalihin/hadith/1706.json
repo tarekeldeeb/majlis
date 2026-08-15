@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1706",
+  "book": "riyad_assalihin",
+  "number": 1706,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة، رضي الله عنه، عن النبي صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏أصدق كلمة قالها شاعر كلمة لبيد‏:‏ ألا كل شئ ما خلا الله باطل‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42771
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

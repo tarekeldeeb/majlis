@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:93",
+  "book": "riyad_assalihin",
+  "number": 93,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن أبى قتادة رضى الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ ساقي القوم آخرهم شرباً‏\"‏. ((رواه الترمذي))",
+    "sourceId": 41158
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

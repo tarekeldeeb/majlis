@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:197",
+  "book": "riyad_assalihin",
+  "number": 197,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أم هانيء رضي الله عنها قالت‏:‏ أتيت النبي صلى الله عليه وسلم  وهو يغتسل وفاطمة تستره فقال ‏\n\"‏ من هذه‏؟‏‏\"‏ فقلت‏:‏ أنا أم هانيء‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41262
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

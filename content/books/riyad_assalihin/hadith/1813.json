@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1813",
+  "book": "riyad_assalihin",
+  "number": 1813,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سعد بن أبي وقاص رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم‏:‏ يقول‏:‏ “إن الله يحب العبد التقي الغني الخفي” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \nوالمراد‏:‏ بـ “الغني” غني النفس، كما سبق فى الحديث الصحيح‏.‏",
+    "sourceId": 42878
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1761",
+  "book": "riyad_assalihin",
+  "number": 1761,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “أيكم مال وارثه أحب إليه من ماله‏؟‏” قالوا‏:‏ يا رسول الله،  ما منا أحد إلا ماله أحب إليه‏.‏ قال‏:‏ ‏\n\"‏فإن ماله ما قدم ومال وارثه ما أخر‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42826
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

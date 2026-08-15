@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1505",
+  "book": "riyad_assalihin",
+  "number": 1505,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أسامة بن زيد رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ ما تركت بعدي فتنة هي أضر على الرجال من النساء‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42570
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

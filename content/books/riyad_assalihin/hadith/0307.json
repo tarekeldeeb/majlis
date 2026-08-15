@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:307",
+  "book": "riyad_assalihin",
+  "number": 307,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم  لا يطرق أهله ليلاً، وكان يأتيهم غدوة أو عشية‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏\n ‏الطروق‏ ‏ ‏:‏المجيء في الليل‏.‏",
+    "sourceId": 41372
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

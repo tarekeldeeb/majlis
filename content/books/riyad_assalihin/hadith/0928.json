@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:928",
+  "book": "riyad_assalihin",
+  "number": 928,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما قال‏:‏ رأى رسول الله صلى الله عليه وسلم حمارًا موسوم الوجه، فأنكر ذلك‏؟‏ فقال‏:‏ والله لا أسمه إلا أقصى شيء من الوجه، وأمر بحماره، فكوي في جاعرتيه، فهو أول من كوى الجاعرتين‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏((الجاعرتان)): ناحية الوركين حول الدبر.",
+    "sourceId": 41993
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

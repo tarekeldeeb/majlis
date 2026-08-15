@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:149",
+  "book": "riyad_assalihin",
+  "number": 149,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن عمرو بن شعيب عن أبيه عن جده رضى الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏لا يحل لرجل أن يفرق بين اثنين إلا بإذنهما‏\"‏ رواه أبو داود والترمذي وقال \"حديث حسن\"‏‏.‏ \n‏‏وفى رواية لأبى داود‏:‏ ‏\"‏لا يجلس بين رجلين إلا بإذنهما‏\"‏‏‏‏.‏",
+    "sourceId": 41214
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

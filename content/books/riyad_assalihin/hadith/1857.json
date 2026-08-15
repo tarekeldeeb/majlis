@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1857",
+  "book": "riyad_assalihin",
+  "number": 1857,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن عائشة رضي الله عنها قالت‏:‏ ما خير رسول الله صلى الله عليه وسلم بين أمرين قط إلا أخذ أيسرهما، ما لم يكن إثماً، فإن كان إثماً، كان أبعد الناس منه، وما انتقم رسول الله صلى الله عليه وسلم لنفسه في شئ قط، إلا أن تنتهك حرمة الله، فينتقم لله تعالى‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42922
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

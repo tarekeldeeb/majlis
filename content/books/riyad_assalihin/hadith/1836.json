@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1836",
+  "book": "riyad_assalihin",
+  "number": 1836,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سلمه بن الأكوع رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “لا يزال الرجل يذهب بنفسه حتى يكتب في الجبارين، فيصيبه ما أصابهم” ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏.‏\n\n ‏(‏‏(‏“يذهب بنفسه” أى‏:‏ يرتفع ويتكبر)‏‏)‏‏.‏",
+    "sourceId": 42901
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1079",
+  "book": "riyad_assalihin",
+  "number": 1079,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي الجهيم عبد الله بن الحارث بن الصمة الأنصاري رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لو يعلم المار بين المصلي ماذا عليه لكان أن يقف أربعين خيرًا له من أن يمر بين يديه‏\"‏ ‏(‏‏(‏قال الراوي‏:‏ لا أدري قال أربعين يومًا، أو أربعين شهرًا، أو أربعين سنة‏)‏‏)‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42144
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

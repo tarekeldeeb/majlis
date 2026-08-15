@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:831",
+  "book": "riyad_assalihin",
+  "number": 831,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ ما سمعت عمر رضي الله عنه يقول لشيء قط‏:‏ إني لأظنه كذا إلا كان كما يظن‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏",
+    "sourceId": 41896
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

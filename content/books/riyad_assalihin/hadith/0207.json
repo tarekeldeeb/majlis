@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:207",
+  "book": "riyad_assalihin",
+  "number": 207,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ لما جاء أهل اليمن قال رسول الله صلى  الله عليه وسلم ‏:‏ “قد جاءكم أهل اليمن، وهم أول من جاء بالمصافحة‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41272
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

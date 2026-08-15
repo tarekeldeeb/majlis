@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1453",
+  "book": "riyad_assalihin",
+  "number": 1453,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42518
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

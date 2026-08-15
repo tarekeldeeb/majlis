@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1250",
+  "book": "riyad_assalihin",
+  "number": 1250,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها أنها سألت رسول الله صلى الله عليه وسلم عن الطاعون، فأخبرها أنه كان عذاباً يبعثه الله تعالى على من يشاء، فجعله الله تعالى رحمة للمؤمنين، فليس من عبد يقع في الطاعون فيمكث في  بلده صابراً محتسباً يعلم أنه لا يصيبه إلا ما كتب الله له إلا كان له مثل أجر الشهيد‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42315
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

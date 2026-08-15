@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1301",
+  "book": "riyad_assalihin",
+  "number": 1301,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ كان أخوان على عهد النبي صلى الله عليه وسلم، وكان أحدهما يأتي النبي صلى الله عليه وسلم ، والآخر يحترف، فشكا المحترف آخاه للنبي صلى الله عليه وسلم فقال ‏:‏ ‏\n\"‏لعلك ترزق به‏\"‏ ‏(‏‏(‏رواه الترمذي بإسناد صحيح على شرط مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42366
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

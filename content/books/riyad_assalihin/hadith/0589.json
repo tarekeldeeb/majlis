@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:589",
+  "book": "riyad_assalihin",
+  "number": 589,
+  "chapter": {
+    "id": 9,
+    "title": "كتاب الاعتكاف"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنهما، قال‏:‏ كان رسول الله صلى الله عليه وسلم يعتكف العشر الأواخر من رمضان‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41654
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

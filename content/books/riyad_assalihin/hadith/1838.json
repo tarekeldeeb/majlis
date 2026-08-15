@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1838",
+  "book": "riyad_assalihin",
+  "number": 1838,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ ما مسست ديباجاً ولاحريراً ألين من كف رسول الله صلى الله عليه وسلم، ولا شممت رائحة قط أطيب من رائحة رسول الله صلى الله عليه وسلم ولقد خدمت رسول الله صلى الله عليه وسلم عشر سنين، فما قال لي قط ‏:‏أف، ولا قال لشئ فعلته‏:‏ لم فعلته‏؟‏ ولا لشئ لم أفعله‏:‏ ألا فعلت كذا‏؟‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42903
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

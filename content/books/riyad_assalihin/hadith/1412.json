@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1412",
+  "book": "riyad_assalihin",
+  "number": 1412,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثاني عشر‏:‏ عن أبي عبد الله طارق بن شهاب البجلي الأحمسي رضي الله عنه أن رجلاً سأل النبي صلى الله عليه وسلم، وقد وضع رجله في الغرز‏:‏ أي الجهاد أفضل‏؟‏ قال‏:‏ “كلمة حق عند سلطان جائر‏\"‏ ‏(‏‏(‏رواه النسائي بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42477
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

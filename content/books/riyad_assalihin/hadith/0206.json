@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:206",
+  "book": "riyad_assalihin",
+  "number": 206,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن أبي الخطاب قتادة قال‏:‏ قلت لأنس‏:‏ أكانت المصافحة في أصحاب رسول الله صلى  الله عليه وسلم ‏؟‏ قال‏:‏ نعم‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41271
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

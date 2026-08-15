@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1853",
+  "book": "riyad_assalihin",
+  "number": 1853,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه عن النبى صلى الله عليه وسلم قال‏:‏ “يسروا ولا تعسروا وبشروا ولا تنفروا ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42918
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

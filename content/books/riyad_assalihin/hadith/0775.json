@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:775",
+  "book": "riyad_assalihin",
+  "number": 775,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعنه أن أبا بكر الصديق رضي الله عنه قال‏:‏ يا رسول الله مرني بكلمات أقولهن إذا أصبحت وإذا أمسيت، قال‏:‏ قل‏:‏ ‏\"‏اللهم فاطر السماوات والأرض عالم الغيب والشهادة، رب كل شيء ومليكه أشهد أن لا إله إلا أنت، أعوذ بك من شر نفسي وشر الشيطان وشركه‏\"‏ قال‏:‏ ‏\"‏قلها إذا أصبحت، وإذا أمسيت، وإذا أخذت مضجعك‏\"‏‏.‏ رواه أبو داود والترمذي وقال حديث حسن صحيح‏.‏",
+    "sourceId": 41840
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

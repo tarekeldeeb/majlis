@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:755",
+  "book": "riyad_assalihin",
+  "number": 755,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري رضي الله عنه عن النبي صلى الله عليه وسلم، قال‏:‏ ‏\"‏مثل الذي يذكر ربه والذي لا يذكره، مثل الحي والميت‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏ \nورواه مسلم فقال‏:‏ ‏\"‏مثل البيت الذي يذكر الله فيه، والبيت الذي لا يذكر الله فيه، مثل الحي والميت‏\"‏‏.‏",
+    "sourceId": 41820
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

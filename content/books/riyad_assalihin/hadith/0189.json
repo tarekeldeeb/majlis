@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:189",
+  "book": "riyad_assalihin",
+  "number": 189,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أسامة رضي الله عنه أن النبي صلى الله عليه وسلم مر على مجلس فيه أخلاط من المسلمين والمشركين -عبدة الأوثان واليهود- فسلم عليهم النبي صلى الله عليه وسلم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41254
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

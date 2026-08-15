@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:591",
+  "book": "riyad_assalihin",
+  "number": 591,
+  "chapter": {
+    "id": 9,
+    "title": "كتاب الاعتكاف"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ كان النبي صلى الله عليه وسلم يعتكف في كل رمضان عشرة أيام، فلما كان العام الذي قبض فيه اعتكف عشرين يومًا ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41656
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

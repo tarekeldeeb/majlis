@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1821",
+  "book": "riyad_assalihin",
+  "number": 1821,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عنه قال‏:‏ إن كانت الأمة من إماء المدينة لتأخذ بيد النبي صلى الله عليه وسلم، فتنطلق به حيث شاءت‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42886
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

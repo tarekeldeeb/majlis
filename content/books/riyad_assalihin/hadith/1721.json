@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1721",
+  "book": "riyad_assalihin",
+  "number": 1721,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ رهن النبي صلى الله عليه وسلم درعه بشعير، ومشيت إلى النبي صلى الله عليه وسلم بخبز شعير، وإهالة سنخة، ولقد سمعته يقول‏:‏ ‏\n\"‏ ما أصبح لآل محمد صاع ولا أمسى‏\"‏ وإنهم لتسعة أبيات‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏\n\n (‏‏(‏‏ ‏الإهالة‏ ‏ بكسر الهمزة‏:‏ الشحم الذائب‏.‏ و‏ ‏ السخنة‏ ‏ بالنون والخاء المعجمة؛ وهي‏:‏ المتغيرة‏)‏‏)‏‏.‏",
+    "sourceId": 42786
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

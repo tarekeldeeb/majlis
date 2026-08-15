@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:583",
+  "book": "riyad_assalihin",
+  "number": 583,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه، قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إذا صمت من الشهر ثلاثًا، فصم ثلاث عشرة، وأربع عشرة وخمس عشرة‏\"‏ رواه الترمذي وقال‏:‏ حديث حسن‏.‏",
+    "sourceId": 41648
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

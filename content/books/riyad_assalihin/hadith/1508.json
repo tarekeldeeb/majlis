@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1508",
+  "book": "riyad_assalihin",
+  "number": 1508,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أم سلمة رضي الله عنها قالت‏:‏ قلت يارسول الله، هل لي أجر في بني أبي سلمة أن أنفق عليهم، ولست بتاركتهم هكذا وهكذا إنما هم بني‏؟‏ فقال‏:‏ ‏\n\"‏ نعم لك أجر ما أنفقت عليهم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42573
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

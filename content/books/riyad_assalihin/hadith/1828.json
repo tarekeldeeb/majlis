@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1828",
+  "book": "riyad_assalihin",
+  "number": 1828,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن مسعود رضي الله عنه عن النبى صلى الله عليه وسلم قال‏:‏ “لا يدخل الجنة من كان في قلبه مثقال ذرة  من كبر” فقال رجل” إن الرجل يحب أن يكون ثوبه حسناً ونعله حسناً‏؟‏ قال‏:‏ “إن الله جميل يحب الجمال الكبر بطر الحق وغمط الناس” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42893
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

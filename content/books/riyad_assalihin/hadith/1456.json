@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1456",
+  "book": "riyad_assalihin",
+  "number": 1456,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي عمارة البراء بن عازب رضي الله عنهما قال‏:‏ أمرنا رسول الله r بسبع، ونهانا عن سبع‏:‏ أمرنا بعيادة المريض، واتباع الجنازة، وتشميت العاطس، وإبرار المقسم، ونصر المظلوم، وإجابة الداعي، وإفشاء السلام‏.‏ ونهانا عن خواتيم أو تختم بالذهب ، وعن شرب بالفضة، وعن المياثر الحمر، وعن القسي، وعن لبس الحرير والإستبرق والديباج‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42521
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

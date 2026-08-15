@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:161",
+  "book": "riyad_assalihin",
+  "number": 161,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى سعيد الخدرى رضى الله عنه انه سمع النبي صلى الله عليه وسلم، يقول‏:‏ ‏\n\"‏إذا رأى أحدكم رؤيا يحبها، فإنما هي من الله تعالى، فليحمد الله عليها، وليحدث بها -وفى رواية، فلا يحدث بها إلا من يحب- وإذا رأى غير ذلك مما يكره، فإنما هي من الشيطان، فليستعذ من شرها، ولا يذكرها لأحد، فإنها لا تضره‏\"‏ (( مُتَّفَقٌ عَلَيهِ)).",
+    "sourceId": 41226
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

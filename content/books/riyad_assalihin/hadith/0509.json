@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:509",
+  "book": "riyad_assalihin",
+  "number": 509,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه، رضي الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم، يرغب في قيام رمضان من غير أن يأمرهم فيه بعزيمة، فيقول‏:‏ ‏\n\"‏من قام رمضان إيمانًا واحتسابًا غفر له ما تقدم من ذنبه‏\"‏ ‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41574
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

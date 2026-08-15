@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1695",
+  "book": "riyad_assalihin",
+  "number": 1695,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عَبْدِ اللَّه بنِ مسعودٍ ، رضي اللَّه عنه ، قال ‏:‏ قال رسول الله صلى الله عليه وسلم‏\n\"‏ لا تتخذوا الضيعة فترغبوا في الدنيا‏\"‏‏.‏ \n‏(‏‏(‏رواه الترمذي وقال ‏:‏ حديثٌ حسنٌ ‏)‏‏)‏‏.‏",
+    "sourceId": 42760
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

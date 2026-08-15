@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:744",
+  "book": "riyad_assalihin",
+  "number": 744,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا تشهد أحدكم فليستعذ بالله من أربع، يقول‏:‏ اللهم إني أعوذ بك من عذاب جهنم، ومن عذاب القبر ومن فتنة المحيا والممات، ومن شر فتنة المسيح الدجال‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41809
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:134",
+  "book": "riyad_assalihin",
+  "number": 134,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "عن البراء بن عازب رضى الله عنهما قال‏:‏ كان رسول الله صلى الله عليه وسلم ِإذا أوى إلى فراشه نام على شقه الأيمن، ثم قال‏:‏ ‏\n\"‏ اللهم أسلمت نفسي إليك، ووجهت وجهي إليك، وفوضت أمري إليك، وألجأت ظهري إليك، رغبة ورهبة إليك، لا ملجأ ولا منجى منك إلا إليك‏.‏ آمنت بكتابك الذي أنزلت ‏.‏ ونبيك الذي أرسلت‏\"‏‏.‏ \n‏((رواه البخاري بهذا اللفظ في كتاب الأدب من صحيحه‏)‏‏)‏",
+    "sourceId": 41199
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

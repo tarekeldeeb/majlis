@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:265",
+  "book": "riyad_assalihin",
+  "number": 265,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن حصين بن وحوح رضي الله عنه أن طلحة بن البراء رضي الله عنه مرض، فأتاه النبي صلى الله عليه وسلم الله عليه وسلمى الله عليه وسلم  الله عليه وسلم  يعوده فقال‏:‏ إني لا أري طلحة إلا قد حدث فيه الموت فآذوني به وعجلوا به، فإنه لا ينبغي لجيفة مسلم أن تحبس بين ظهراني أهله‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41330
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

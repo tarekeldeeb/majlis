@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1725",
+  "book": "riyad_assalihin",
+  "number": 1725,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عمران بن الحصين رضي الله عنهما، عن النبي صلى الله عليه وسلم أنه قال‏:‏ ‏\"‏ خيركم قرني، ثم الذين يلونهم، ثم الذين يلونهم‏\"‏ قال عمران‏:‏ فما أدري قال‏:‏ النبي  صلى الله عليه وسلم مرتين أو ثلاثاً ‏\"‏ ثم يكون بعدهم قوم يشهدون ولا يستشهدون، ويخونون ولا يؤتمنون، وينذرون ولا يوفون، ويظهر فيهم السمن‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42790
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

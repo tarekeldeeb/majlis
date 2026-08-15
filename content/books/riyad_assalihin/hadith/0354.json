@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:354",
+  "book": "riyad_assalihin",
+  "number": 354,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "- عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لو يعلم الناس ما في النداء والصف الأول ثم لم يجدوا إلا أن يستهموا عليه لاستهموا عليه، ولو يعلمون ما في التهجير لاستبقوا إليه، ولو يعلمون ما في العتمة والصبح لأتوهما ولو حبوا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏\n‏والاستهام‏:‏ الاقتراع‏.‏ والتهجير‏:‏ التبكير إلى الصلاة",
+    "sourceId": 41419
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1031",
+  "book": "riyad_assalihin",
+  "number": 1031,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من حلف فقال‏:‏ إني بريء من الإسلام، فإن كان كاذبًا، فهو كما قال، وإن كان صادقًا، فلن يرجع إلى الإسلام سالمًا‏\"‏‏.‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏",
+    "sourceId": 42096
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

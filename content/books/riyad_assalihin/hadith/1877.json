@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1877",
+  "book": "riyad_assalihin",
+  "number": 1877,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عوف بن مالك رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ “خياركم أئمتكم الذين تحبونهم ويحبونكم، وتصلون عليهم ويصلون عليكم، وشرار أئمتكم الذين تبغضونهم ويبغضونكم، وتلعنونهم ويلعنونهم‏!‏” قال‏:‏ قلنا يا رسول الله، أفلا ننابذه‏؟‏ قال‏:‏ لا، ما أقاموا فيكم الصلاة، لا ما أقاموا فيكم الصلاة” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42942
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

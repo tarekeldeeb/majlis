@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1606",
+  "book": "riyad_assalihin",
+  "number": 1606,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن جندب بن عبد الله رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ من صلى صلاة الصبح، فهو في ذمة الله، فلا يطلبنكم الله من ذمته بشئ، فإنه من يطلبه من ذمته بشئ، يدركه، ثم يكبه على وجهه في نار جهنم ‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42671
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

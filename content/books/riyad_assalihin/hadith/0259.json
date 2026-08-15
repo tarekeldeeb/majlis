@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:259",
+  "book": "riyad_assalihin",
+  "number": 259,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم الله عليه وسلمى الله عليه وسلم  الله عليه وسلم  في الصلاة علي الجنازة‏:‏ “اللهم أنت ربها، وأنت خلقتها، وأنت هديتها للإسلام، وأنت قبضت روحها، وأنت أعلم بسرها وعلانيتها، جئناك شفعاء له، فاغفر له” ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41324
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

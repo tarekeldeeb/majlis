@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:252",
+  "book": "riyad_assalihin",
+  "number": 252,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن أم عطية رضي الله عنها قالت‏:‏ نهينا عن اتباع الجنائز، ولم يعزم علينا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \n‏\"‏ومعناه ‏\"‏ ولم يشدد في النهي كما يشدد في المحرمات‏.‏",
+    "sourceId": 41317
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:117",
+  "book": "riyad_assalihin",
+  "number": 117,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ بينما رجل يصلى مسبل إزاره، قال له رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏اذهب فتوضأ‏\"‏ فذهب فتوضأ، ثم جاء فقال ‏:‏‏\"‏ اذهب فتوضأ‏\"‏ فقال رجل يا رسول الله ما لك أمرته أن يتوضأ ثم سكت عنه‏؟‏ قال‏:‏ ‏\"‏إنه كان يصلى وهو مسبل إزاره، وإن الله لا يقبل صلاة رجل مسبل‏\"‏‏.‏((رواه أبو داود))",
+    "sourceId": 41182
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

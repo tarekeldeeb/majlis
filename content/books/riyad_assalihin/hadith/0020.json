@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:20",
+  "book": "riyad_assalihin",
+  "number": 20,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أبى اليقظان عمار بن ياسر رضي الله عنهما قال‏:‏  سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏إن طول صلاة الرجل، وقصر خطبته، مئنة من فقهه، فأطيلوا الصلاة، وأقصروا الخطبة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41085
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

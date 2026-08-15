@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1143",
+  "book": "riyad_assalihin",
+  "number": 1143,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعنه رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم  ‏:‏ ‏\"‏ لا تقوم الساعة حتى يحسر الفرات عن جبل من ذهب يقتتل عليه، فيقتل من كل مائة تسعة وتسعون، فيقول كل رجل منه‏:‏ لعلي أن أكون أنا أنجو‏\"‏‏.‏ وفي رواية‏:‏ ‏\"‏يوشك أن يحسر الفرات عن كنز من ذهب، فمن حضره فلا يأخذ منه شيئاً‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42208
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

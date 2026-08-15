@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:39",
+  "book": "riyad_assalihin",
+  "number": 39,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن جابر رضي الله عنه ‏:‏ كان النبي صلى الله عليه وسلم الله عليه وسلم إذا كان يوم عيد خالف الطريق‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41104
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

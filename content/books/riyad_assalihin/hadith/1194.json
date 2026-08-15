@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1194",
+  "book": "riyad_assalihin",
+  "number": 1194,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “من لزم الاستغفار ، جعل الله له من كل ضيق مخرجاً ومن كل هم فرجاً، ورزقه من حيث لا يحتسب‏\"‏ رواه أبو داود‏‏.‏",
+    "sourceId": 42259
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

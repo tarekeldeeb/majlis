@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:353",
+  "book": "riyad_assalihin",
+  "number": 353,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عمر بن الخطاب رضي الله عنه عن النبي صلى الله عليه وسلم  قال‏:‏‏\"‏ما منكم من أحد يتوضا فيبلغ-أو فيسبغ الوضوء- ثم قال‏:‏ أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمدًا عبده ورسوله، إلا فتحت له أبواب الجنة الثمانية يدخل من أيها شاء‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \nوزاد الترمذي‏:‏ ‏\"‏اللهم اجعلني من التوابين واجعلني من المتطهرين‏\"",
+    "sourceId": 41418
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

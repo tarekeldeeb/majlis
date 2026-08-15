@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:491",
+  "book": "riyad_assalihin",
+  "number": 491,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه، قال‏:‏ كان رسول الله صلى الله عليه وسلم ، يفطر من الشهر حتى نظن أن  لا يصوم منه، ويصوم حتى نظن أن لا يفطر منه شيئًا، وكان لا تشاء أن تراه من الليل مصليا إلا رأيته، ولا نائمًا إلا رأيته‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41556
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

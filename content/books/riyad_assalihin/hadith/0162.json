@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:162",
+  "book": "riyad_assalihin",
+  "number": 162,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى قتادة رضى الله عنه قال‏:‏ قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏الرؤيا الصالحة -وفى رواية‏:‏ الرؤيا الحسنة- من الله، والحلم من الشيطان، فمن رأى شيئاً يكره فلينفث عن شماله ثلاثاً، وليتعوذ من الشيطان فإنها لا تضره‏\"‏ (( مُتَّفَقٌ عَلَيهِ)).\n‏النفث‏ ‏ نفخ لطيف لا ريق معه‏.‏",
+    "sourceId": 41227
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:728",
+  "book": "riyad_assalihin",
+  "number": 728,
+  "chapter": {
+    "id": 14,
+    "title": "كتاب الصلاة على رسول الله صلى الله عليه وسلم"
+  },
+  "matn": {
+    "arabic": "وعن أبي حميد الساعدي رضي الله عنه قال‏:‏ قالوا‏:‏ يا رسول الله كيف نصلي عليك‏؟‏ قال‏:‏ ‏\n\"‏قولوا‏:‏ اللهم صلِ على محمد، وعلى أزواجه وذريته، كما صليت على آل إبراهيم، وبارك على محمد، وعلى أزواجه وذريته، كما باركت على إبراهيم، إنك حميد مجيد‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41793
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

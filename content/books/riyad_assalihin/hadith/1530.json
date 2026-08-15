@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1530",
+  "book": "riyad_assalihin",
+  "number": 1530,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عَنْ أَبِي هُرَيْرَةَ رضي الله عنه، قَالَ: قَالَ رَسُولُ الله صلى الله عليه وسلم ‏\n\"‏لاَ يَجْزِي وَلَدٌ وَالِدًا إِلاَّ أَنْ يَجِدَهُ مَمْلُوكًا فَيَشْتَرِيَهُ فَيُعْتِقَهُ‏\" ‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42595
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

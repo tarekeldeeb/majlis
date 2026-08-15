@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:258",
+  "book": "riyad_assalihin",
+  "number": 258,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ سمعت رسول الله صلى  الله عليه وسلم  يقول‏:‏ “إذا صليتم علي الميت، فأخلصوا له الدعاء‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41323
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

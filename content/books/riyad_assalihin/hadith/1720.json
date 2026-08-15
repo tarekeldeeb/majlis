@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1720",
+  "book": "riyad_assalihin",
+  "number": 1720,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة، رضي الله عنها قالت‏:‏ توفي رسول الله صلى الله عليه وسلم ودرعه مرهونة عند يهودي في ثلاثين صاعاً من شعير‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42785
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

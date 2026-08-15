@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:223",
+  "book": "riyad_assalihin",
+  "number": 223,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعنها أن النبي صلى الله عليه وسلم الله عليه وسلم  الله عليه وسلم  كان يعود بعض أهله يمسح بيده اليمني ويقول‏:‏ ‏\"‏اللهم رب الناس، أذهب البأس، واشف، أنت الشافي لا شفاء إلا شفاؤك، شفاءً لا يغادر سقماً” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41288
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

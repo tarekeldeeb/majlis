@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1851",
+  "book": "riyad_assalihin",
+  "number": 1851,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنها أن النبى صلى الله عليه وسلم قال‏:‏ “إن الرفق لا يكون في شئ إلا زانه، ولا ينزع من شئ إلا شانه” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42916
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

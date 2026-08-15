@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:548",
+  "book": "riyad_assalihin",
+  "number": 548,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي اليقظان عمار بن ياسر، رضي الله عنهما قال‏:‏ ‏\n\"‏من صام اليوم الذي يشك فيه فقد عصي أبا القاسم، صلى الله عليه وسلم‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41613
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

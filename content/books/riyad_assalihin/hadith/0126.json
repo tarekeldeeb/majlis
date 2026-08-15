@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:126",
+  "book": "riyad_assalihin",
+  "number": 126,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من لبس الحرير في الدنيا لم يلبسه في الآخرة‏\"‏.((متفق عليه))  \n‏",
+    "sourceId": 41191
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

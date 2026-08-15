@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:939",
+  "book": "riyad_assalihin",
+  "number": 939,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن ناسًا قالوا له‏:‏ إنا ندخل على سلاطيننا فنقول لهم بخلاف ما نتكلم إذا خرجنا من عندهم‏؟‏ قال ابن عمر رضي الله عنهما‏:‏ كنا نعد هذا نفاقًا على عهد رسول الله صلى الله عليه وسلم ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42004
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:292",
+  "book": "riyad_assalihin",
+  "number": 292,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ كان رسول الله صلى  الله عليه وسلم  يتخلف في المسير، فيزجي الضعيف ويردف ويدعو له، ‏(‏‏(‏رواه أبو داود بإسناد حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41357
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

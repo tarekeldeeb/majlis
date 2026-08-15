@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1798",
+  "book": "riyad_assalihin",
+  "number": 1798,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان رسول الله صلى الله عليه وسلم كلما كان ليلتها من رسول الله صلى الله عليه وسلم يخرج من آخر الليل إلى البقيع، فيقول‏:‏ السلام عليكم دار قوم مؤمنين، وأتاكم ما توعدون، غداً مؤجلون وإنا إن شاء الله بكم لاحقون، اللهم اغفر لأهل بقيع الغرقد” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42863
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

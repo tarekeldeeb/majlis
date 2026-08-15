@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1848",
+  "book": "riyad_assalihin",
+  "number": 1848,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم لأشج عبد القيس‏:‏ “إن فيك خصلتين يحبهما الله‏:‏ الحلم والأناة”‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42913
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:427",
+  "book": "riyad_assalihin",
+  "number": 427,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ كان رسول الله صلى الله عليه وسلم يصلي من الليل مثنى مثنى، ويوتر بركعة من آخر الليل، ويصلي الركعتين قبل صلاة الغداة، وكأن الأذان بأذنيه‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41492
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

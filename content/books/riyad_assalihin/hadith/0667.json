@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:667",
+  "book": "riyad_assalihin",
+  "number": 667,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏قفلة كغزوة‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد جيد‏)‏‏)‏‏.‏",
+    "sourceId": 41732
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

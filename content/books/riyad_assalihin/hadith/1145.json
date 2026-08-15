@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1145",
+  "book": "riyad_assalihin",
+  "number": 1145,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن أبي  سعيد الخدري رضي الله عنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏يكون خليفة ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ خلفائكم في آخر الزمان يحثو المال ولا يعده‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42210
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

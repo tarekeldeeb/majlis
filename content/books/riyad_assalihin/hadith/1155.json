@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1155",
+  "book": "riyad_assalihin",
+  "number": 1155,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن أبي  هريرة رضي الله عنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏لا يلدغ المؤمن من جحر مرتين‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42220
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

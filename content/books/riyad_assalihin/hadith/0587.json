@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:587",
+  "book": "riyad_assalihin",
+  "number": 587,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أم عمارة الأنصارية، رضي الله عنها أن النبي صلى الله عليه وسلم دخل عليها فقدمت إليه طعامًا فقال ‏\"‏ كلي‏\"‏ فقالت‏:‏ إني صائمة، فقال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏إن الصائم تصلي عليه الملائكة إذا أكل عنده حتى يفرغوا‏\"‏ وربما قال‏:‏ ‏\"‏حتى يشبعوا‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41652
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

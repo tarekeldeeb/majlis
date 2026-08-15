@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:608",
+  "book": "riyad_assalihin",
+  "number": 608,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه قال‏:‏ قلت يا رسول الله أي العمل أفضل‏؟‏ قال‏:‏ ‏\n\"‏الإيمان بالله والجهاد في سبيله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41673
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

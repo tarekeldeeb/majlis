@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1316",
+  "book": "riyad_assalihin",
+  "number": 1316,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الخامس‏:‏ عن عائشة رضي الله عنها أنها قالت‏:‏ ‏\n\"‏ كان رسول الله صلى الله عليه وسلم إذا دخل العشر أحيا الليل، وأيقظ أهله، وجد وشد المئزر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42381
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

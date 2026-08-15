@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1661",
+  "book": "riyad_assalihin",
+  "number": 1661,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري، رضي الله عنه ، أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا وضعت الجنازة واحتملها الناس أو الرجال على أعناقهم، فإن كانت صالحة قالت‏:‏ فدموني قدموني، وإن كانت غير صالحة، قالت يا ويلها‏!‏ أين تذهبون بها‏؟‏ يسمع صوته كل شئ إلا الإنسان، ولو سمعه صعق‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42726
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:464",
+  "book": "riyad_assalihin",
+  "number": 464,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن زيد بن أرقم رضي الله عنه أنه رأى قومًا يصلون من الضحى، فقال‏:‏ أما لقد علموا أن الصلاة في غير هذه الساعة أفضل، إن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏صلاة الأوابين حين ترمض الفصال‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41529
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

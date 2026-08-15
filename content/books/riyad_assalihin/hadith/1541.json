@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1541",
+  "book": "riyad_assalihin",
+  "number": 1541,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أم المؤمنين ميمونة بنت الحارث رضي الله عنها أنها أعتقت وليدة ولم تستأذن النبي صلى الله عليه وسلم، فلما كان يومها الذي يدور عليها فيه، قالت‏:‏ أشعرت يا رسول الله أني أعتقت وليدتي‏؟‏ قال‏:‏ ‏\"‏أو فعلت‏؟‏‏\"‏ قالت‏:‏ نعم‏.‏ \nقال‏:‏ ‏\"‏أما إنك لو أعطيتها أخوالك كان أعظم لأجرك‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42606
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

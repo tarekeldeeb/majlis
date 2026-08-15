@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:481",
+  "book": "riyad_assalihin",
+  "number": 481,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها، قالت‏:‏ كان النبي صلى الله عليه وسلم ، يقوم من الليل حتى تتفطر قدماه، فقلت له‏:‏ لم تصنع هذا يا رسول الله، وقد غفر لك ما تقدم من ذنبك وما تأخر‏؟‏ قال‏:‏ ‏\n\"‏أفلا أكون عبدًا شكورًا‏\"‏‏.‏ ‏(‏‏(‏متفق عليه وعن المغيرة بن شعبة نحوه، متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41546
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1292",
+  "book": "riyad_assalihin",
+  "number": 1292,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثاني‏:‏ عن ابن عباس رضي الله عنهما أيضاً أن رسول الله صلى الله عليه وسلم كان يقول‏:‏ ‏\n\"‏اللهم لك أسلمت وبك آمنت، وعليك توكلت، وإليك أنبت ، وبك خاصمت‏.‏ اللهم أعوذ بعزتك، لا إله إلا أنت أن تضلني، أنت الحي الذي لا تموت، والجن والإنس يموتون‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ ‏(‏‏(‏وهذا لفظ مسلم، واختصره البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42357
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

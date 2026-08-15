@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1092",
+  "book": "riyad_assalihin",
+  "number": 1092,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ “اتقوا اللاعنين” قالوا‏:‏ وما اللاعنان‏؟‏ قال‏:‏ ‏\n\"‏الذي يتخلى في طريق الناس أو في ظلهم‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42157
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

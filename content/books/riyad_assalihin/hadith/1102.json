@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1102",
+  "book": "riyad_assalihin",
+  "number": 1102,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إن الله تعالى يرضى لكم ثلاثا، ويكره لكم ثلاثًا‏:‏ فيرضى لكم أن تعبدوه، ولا تشركوا به شيئًا، وأن تعتصموا بحبل الله جميعًا ولا تفرقوا، ويكره لكم‏:‏ قيل وقال، وكثرة السؤال، وإضاعة المال‏\"‏ ‏(‏‏(‏رواه مسلم، وتقدم شرحه‏)‏‏)‏‏.‏",
+    "sourceId": 42167
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1266",
+  "book": "riyad_assalihin",
+  "number": 1266,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ ما يزال البلاء بالمؤمن والمؤمنة في  نفسه وولده ة وماله حتى يلقى الله تعالى وما عليه خطيئة‏\"‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن صحيح‏)‏‏)‏ ‏.‏",
+    "sourceId": 42331
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

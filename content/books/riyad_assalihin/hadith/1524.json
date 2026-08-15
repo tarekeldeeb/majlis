@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1524",
+  "book": "riyad_assalihin",
+  "number": 1524,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ لا يمنع جار جارة أن يغرز خشبة في جداره‏\"‏ ثم يقول أبو هريرة‏:‏ ما لي أراكم عنها معرضين‏!‏ والله لأرمين بها بين أكتافكم‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42589
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

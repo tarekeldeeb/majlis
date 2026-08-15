@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1226",
+  "book": "riyad_assalihin",
+  "number": 1226,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي بكرة نفيع بن الحارث الثقفى رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏إذ التقى المسلمان بسيفيهما فالقاتل والمقتول في  النار‏\"‏ قلت يارسول الله، هذا القاتل فما بال المقتول‏؟‏ قال‏:‏ ‏\"‏إنه كان حريصاً على قتل صاحبه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42291
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

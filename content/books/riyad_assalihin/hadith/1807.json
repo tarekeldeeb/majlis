@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1807",
+  "book": "riyad_assalihin",
+  "number": 1807,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن وابصة بن معبد رضي الله عنه قال‏:‏ أتيت رسول الله صلى الله عليه وسلم فقال‏:‏ “جئت تسأل عن البر‏؟‏” قلت نعم، فقال‏:‏ ‏\"‏استفت قلبك البر ما اطمأنت إليه النفس، واطمأن إليه القلب، والإثم ما حاك فى النفس وتردد فىالصدر، وإن أفتاك الناس وأفتوك” ‏(‏‏(‏حديث حسن، رواه أحمد والدارمي فى مسنديهما‏)‏‏)‏‏.‏",
+    "sourceId": 42872
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

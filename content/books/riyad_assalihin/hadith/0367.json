@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:367",
+  "book": "riyad_assalihin",
+  "number": 367,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عثمان بن عفان رضي الله عنه قال‏:‏ سمعت النبي صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏ما من امرئ مسلم تحضره صلاة مكتوبة فيحسن وضوءها وخشوعها وركوعها إلا كانت كفارة لما قبلها من الذنوب مالم تؤتَ كبيرة وذلك الدهر كله‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41432
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

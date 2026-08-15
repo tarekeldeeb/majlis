@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:906",
+  "book": "riyad_assalihin",
+  "number": 906,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود، وابن عمر، وأنس رضي الله عنهم قالوا‏:‏ قال النبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏ لكل غادر لواء يوم القيامة، يقال‏:‏ هذه غدرة فلان‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41971
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

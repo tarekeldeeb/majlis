@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:641",
+  "book": "riyad_assalihin",
+  "number": 641,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن جابر بن عبد الله رضي الله عنهما قال‏:‏ جيء بأبي إلى النبي صلى الله عليه وسلم قد مثل به فوضع بين يديه، فذهبت أكشف عن وجهه فنهاني قوم فقال النبي صلى الله عليه وسلم‏:‏ ‏\"‏ما زالت الملائكة تظله بأجنحتها” ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41706
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

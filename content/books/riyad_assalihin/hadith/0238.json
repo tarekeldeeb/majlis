@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:238",
+  "book": "riyad_assalihin",
+  "number": 238,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "عن معاذ رضي الله عنه قال‏:‏ قال رسول الله صلى  الله عليه وسلم  ‏:‏ ‏\n\"‏من كان آخر كلامه لا إله إلا الله دخل الجنة‏\"‏ ‏(‏‏(‏رواه أبو داود والحاكم وقال‏:‏ صحيح الإسناد‏)‏‏)‏‏.‏",
+    "sourceId": 41303
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1631",
+  "book": "riyad_assalihin",
+  "number": 1631,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن جابر قَالَ : جاء أعرابي إِلَى النَّبيّ فَقَالَ : يَا رَسُول الله ، مَا الموجِبَتَانِ ؟ قَالَ : « مَنْ مَاتَ لا يُشْرِكُ بالله شَيئاً دَخَلَ الجَنَّةَ ، وَمَنْ مَاتَ يُشْرِكُ بِهِ شَيْئاً دَخَلَ النَّار » . رواه مسلم .",
+    "sourceId": 42696
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

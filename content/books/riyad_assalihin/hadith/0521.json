@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:521",
+  "book": "riyad_assalihin",
+  "number": 521,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن شريح بن هانئ قال‏:‏ قلت لعائشة، رضي الله عنها‏:‏ بأي شيء كان يبدأ النبي صلى الله عليه وسلم إذا دخل بيته‏.‏ قالت‏:‏ بالسواك‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41586
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

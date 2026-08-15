@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1216",
+  "book": "riyad_assalihin",
+  "number": 1216,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن جرير بن عبد الله رضي الله عنه قال‏:‏ كنا عند رسول الله صلى الله عليه وسلم  فنظر إلى القمر ليلة البدر، وقال‏:‏ ‏\n\"‏إنكم سترون ربكم عياناً كما ترون هذا القمر، لا تضامون في رؤيته‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ ‏.‏",
+    "sourceId": 42281
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

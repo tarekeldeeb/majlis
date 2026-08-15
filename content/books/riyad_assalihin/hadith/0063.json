@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:63",
+  "book": "riyad_assalihin",
+  "number": 63,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن وحشى بن حرب رضى الله عنه أن أصحاب رسول الله صلى الله عليه وسلم قالوا‏:‏ يا رسول الله ، إنا نأكل ولا نشبع قال‏:‏ ‏\"‏فلعلكم تفترقون‏\"‏ قالوا‏:‏ نعم‏.‏ قال‏:‏ فاجتمعوا على طعامكم، واذكروا اسم الله ، يبارك لكم فيه‏\"‏ ((رواه أبو داود)) ‏‏‏",
+    "sourceId": 41128
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

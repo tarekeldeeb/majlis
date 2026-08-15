@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:224",
+  "book": "riyad_assalihin",
+  "number": 224,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن أنس، رضي الله عنه أنه قال لثابت رحمه الله‏:‏ ألا أرقيك برقية رسول الله صلى  الله عليه وسلم ‏؟‏ قال‏:‏ بلى، قال‏:‏ اللهم رب الناس، مذهب البأس، اشف أنت الشافي، لا شافي إلا أنت، شفاءً لا يغادر سقماً” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41289
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

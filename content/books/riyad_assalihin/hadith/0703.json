@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:703",
+  "book": "riyad_assalihin",
+  "number": 703,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعنه أيضًا رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏من دعا إلى هدى كان له من الأجر مثل أجور من تبعه لا ينقص ذلك من أجورهم شيئًا ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41768
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

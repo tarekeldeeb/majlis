@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:163",
+  "book": "riyad_assalihin",
+  "number": 163,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضى الله عنه عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا رأى أحدكم الرؤيا يكرهها، فليبصق عن يساره ثلاثاً، وليستعذ بالله من الشيطان ثلاثاً، وليتحول عن جنبه الذي كان عليه‏\"‏ ((رَوَاهُ مُسلِمٌ)).",
+    "sourceId": 41228
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

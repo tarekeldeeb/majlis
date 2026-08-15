@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1212",
+  "book": "riyad_assalihin",
+  "number": 1212,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعنه رضي الله عنه قال‏:‏ شهدت من النبي صلى الله عليه وسلم  مجلساً وصف فيه الجنة حتى انتهى، ثم قال في آخر حديثه‏:‏ ‏\n\"‏فيها مالا عين رأت، ولا أذن سمعت، ولا خطر على قلب بشر‏\"‏ ثم قرأ ‏{‏تتجافى جنوبهم عن المضاجع‏}‏ إلى قوله تعالى‏:‏ ‏{‏فلا تعلم نفس ما أخفي لهم من قرة أعين‏}‏‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42277
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

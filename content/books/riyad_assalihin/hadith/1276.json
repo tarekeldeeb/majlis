@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1276",
+  "book": "riyad_assalihin",
+  "number": 1276,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السادس‏:‏ عن أبي خالد حكيم بن حزام‏.‏ رضي الله عنه ، قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ البيعان بالخيار مالم يتفرقا، فإن صدقاً وبينا بورك لهما في  بيعهما، وإن كتما وكذبا محقت بركة بيعهما‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42341
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:148",
+  "book": "riyad_assalihin",
+  "number": 148,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى عبد الله سلمان الفارسي رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لا يغتسل رجل يوم الجمعة، ويتطهر ما استطاع من طهر، ويدهن من دهنه، أو يمس من طيب بيته، ثم يخرج فلا يفرق بين اثنين، ثم يصلى ما كتب له، ثم ينصت إذا تكلم الإمام، إلا غفر له ما بينه وبين الجمعة الأخرى‏\"‏ ((رواه البخاري)).‏",
+    "sourceId": 41213
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

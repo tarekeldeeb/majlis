@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1321",
+  "book": "riyad_assalihin",
+  "number": 1321,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "العاشر عن أنس رضي الله عنه عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ يتبع الميت ثلاثة‏:‏ أهله وماله وعمله؛ فيرجع اثنان ويبقى واحد‏:‏ يرجع أهله وماله، ويبقى عمله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42386
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

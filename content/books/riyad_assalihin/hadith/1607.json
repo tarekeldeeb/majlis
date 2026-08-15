@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1607",
+  "book": "riyad_assalihin",
+  "number": 1607,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أمرت أن أقاتل الناس حتى يشهدوا أن لا إله إلا الله ، وأن محمداً رسول الله ، ويقيموا الصلاة، ويؤتوا الزكاة ، فإذا فعلوا ذلك عصموا مني دماءهم وأموالهم إلا بحق الإسلام، وحسابهم على الله تعالى‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42672
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

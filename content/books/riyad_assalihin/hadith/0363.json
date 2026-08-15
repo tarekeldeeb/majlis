@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:363",
+  "book": "riyad_assalihin",
+  "number": 363,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏أرأيتم لو أن نهرًا بباب أحدكم يغتسل منه كل يوم خمس مرات، هل يبقى من درنه شيء‏؟‏‏\"‏ قالوا‏:‏ لا يبقى من درنه شيء، قال‏:‏ ‏\"‏فذلك مثل الصلوات الخمس، يمحو الله بهن الخطايا‏\"‏‏.‏‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41428
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1182",
+  "book": "riyad_assalihin",
+  "number": 1182,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن أبي  زيد عمرو بن أخطب الأنصاري رضي الله عنه قال‏:‏ صلى بنا رسول الله صلى الله عليه وسلم  الفجر، وصعد المنبر، فخطبنا حتى حضرت الظهر، فنزل فصلى، ثم صعد المنبر حتى حضرت العصر، ثم نزل فصلى، ثم صعد المنبر حتى غربت الشمس، فأخبرنا ما كان هو كائن، فأعلمنا أحفظنا‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42247
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

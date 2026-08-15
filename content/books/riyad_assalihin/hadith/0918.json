@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:918",
+  "book": "riyad_assalihin",
+  "number": 918,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا يحل لمؤمن أن يهجر مؤمنًا فوق ثلاث، فإن مرت به ثلاث، فليلقه، وليسلم عليه، فإن رد عليه السلام، فقد اشتركا في الأجر، وإن لم يرد عليه، فقد باء بالإثم، وخرج المسلم من الهجرة‏\"‏‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد حسن قال أبو داود‏:‏ إذا كانت الهجرة لله تعالى، فليس من هذا في شيء‏)‏‏)‏‏.‏",
+    "sourceId": 41983
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

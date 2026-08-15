@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:311",
+  "book": "riyad_assalihin",
+  "number": 311,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما أنه سمع النبي صلى الله عليه وسلم يقول‏:‏ ‏\"‏لا يخلون رجل بامرأة إلا ومعها ذو محرم، ولا تسافر المرأة إلا مع ذي محرم‏\"‏ فقال له رجل‏:‏ يا رسول الله إن امرأتي خرجت حاجّة، وإني اكتتبت في غزوة كذا وكذا‏؟‏ قال‏:‏ ‏\"‏انطلق فحج مع امرأتك‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41376
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

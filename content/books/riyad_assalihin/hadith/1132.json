@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1132",
+  "book": "riyad_assalihin",
+  "number": 1132,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "-وعن أنس رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ليس من بلد إلى سيطؤه الدجال، إلا مكة والمدينة، وليس نقب من أنقابها إلا عليه الملائكة صافين تحرسهما، فينزل بالسبخة، فترجف المدينة ثلاث رجفات، يخرج الله منها كل كافر ومنافق‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42197
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

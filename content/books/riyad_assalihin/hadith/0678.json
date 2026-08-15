@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:678",
+  "book": "riyad_assalihin",
+  "number": 678,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ جاء رجل إلى رسول الله صلى الله عليه وسلم فقال‏:‏ يا رسول الله أرأيت إن جاء رجل يريد أخذ مالي‏؟‏ قال‏:‏ ‏\"‏فلا تعطه مالك‏\"‏ قال‏:‏ أرأيت إن قاتلني‏؟‏ قال‏:‏ ‏\"‏قاتله‏\"‏ قال‏:‏ أرأيت إن قتلني قال‏:‏ ‏\"‏فأنت شهيد‏\"‏ قال‏:‏ أرأيت إن قتلته‏؟‏ قال‏:‏ ‏\"‏هو في النار‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41743
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

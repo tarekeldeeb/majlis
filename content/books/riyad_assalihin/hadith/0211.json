@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:211",
+  "book": "riyad_assalihin",
+  "number": 211,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر، رضي الله عنهما، قصة قال فيها‏:‏ فدنونا من النبي صلى الله عليه وسلم  فقبلنا يده‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41276
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

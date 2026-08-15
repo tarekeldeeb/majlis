@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1369",
+  "book": "riyad_assalihin",
+  "number": 1369,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "- وعن ابن عباس رضي الله عنهما قال‏:‏ بينما النبي صلى الله عليه وسلم يخطب إذا هو برجل قائم، فسأل عنه فقالوا‏:‏ أبو إسرائيل نذر أن يقوم في الشمس ولا يقعد، ولا يستظل ولا يتكلم، ويصوم، فقال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏مروه فليتكلم وليستظل وليقعد وليتم صومه‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42434
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

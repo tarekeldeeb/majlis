@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:803",
+  "book": "riyad_assalihin",
+  "number": 803,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن زياد بن علاقة عن عمه، وهو قطبة بن مالك، رضي الله عنه، قال‏:‏ كان النبي صلى الله عليه وسلم، يقول‏:‏ ‏\n\"‏اللهم إني أعوذ بك من منكرات الأخلاق، والأعمال، والأهواء‏\"‏‏.‏ رواه الترمذي وقال حديث حسن‏.‏",
+    "sourceId": 41868
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

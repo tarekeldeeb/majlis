@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:362",
+  "book": "riyad_assalihin",
+  "number": 362,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أنس قال : قَالَ رسول الله : « الدُّعَاءُ لا يُرَدُّ بَيْنَ الأَذَانِ وَالإقَامَةِ » . رواه أَبُو داود والترمذي ، وقال : ( حَدِيثٌ حَسَنٌ )",
+    "sourceId": 41427
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

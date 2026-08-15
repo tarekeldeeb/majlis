@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:361",
+  "book": "riyad_assalihin",
+  "number": 361,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن سعد بن أبي وقاص رضي الله عنه عن النبي صلى الله عليه وسلم أنه قال‏:‏‏\n\"‏من قال حين يسمع المؤذن‏:‏ أشهد أن لا إله إلا الله وحده لا شريك له، وأن محمدًا عبده ورسوله، رضيت بالله ربًا وبالإسلام دينًا، غفر له ذنبه‏\"‏‏(‏‏(‏رواه الترمذي وقال حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41426
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

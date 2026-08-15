@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1306",
+  "book": "riyad_assalihin",
+  "number": 1306,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثالث‏:‏ عن جابر رضي الله عنه قال‏:‏ قال رجل للنبي صلى الله عليه وسلم يوم أحد‏: : رَأيتَ إنْ قُتِلتُ فَأَيْنَ أَنَا ؟ قَالَ : « في الجنَّةِ » فَأَلْقَى تَمَرَاتٍ كُنَّ في يَدِهِ ، ثُمَّ قَاتَلَ حَتَّى قُتِلَ . مُتَّفَقٌ عَلَيهِ .",
+    "sourceId": 42371
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1871",
+  "book": "riyad_assalihin",
+  "number": 1871,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول في بيتى هذا‏:‏ “اللهم من ولى من أمر أمتى شيئاً فشق عليهم، فاشقق عليه ومن ولى  من أمر أمتى شيئاً، فرفق بهم، فارفق به” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42936
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

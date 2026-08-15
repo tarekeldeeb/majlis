@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1309",
+  "book": "riyad_assalihin",
+  "number": 1309,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السادس‏:‏ عن الزبير بن عدي قال‏:‏ أتينا أنس بن مالك رضي الله عنه فشكونا إليه ما نلقى من الحجاج‏.‏ فقال‏:‏ ‏\n\"‏اصبروا فإنه لا يأتي زمان إلا والذي بعده شر منه حتى تلقوا ربكم‏\"‏ سمعته من نبيكم صلى الله عليه وسلم‏.‏‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42374
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

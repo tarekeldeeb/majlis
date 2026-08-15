@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:61",
+  "book": "riyad_assalihin",
+  "number": 61,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن سلمةَ بن الأَكْوَع أنَّ رَجُلاً أَكَلَ عِنْدَ رَسُولِ الله بِشِمَالِهِ ، فَقَالَ : « كُلْ بِيَمِينِكَ » قَالَ : لا أسْتَطِيعُ . قَالَ : « لا اسْتَطَعْتَ » ! مَا مَنَعَهُ إِلا الكِبْرُ ! فَمَا رَفَعَهَا إِلَى فِيهِ . ((رواه مسلم))",
+    "sourceId": 41126
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

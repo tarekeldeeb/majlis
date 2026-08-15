@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1746",
+  "book": "riyad_assalihin",
+  "number": 1746,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن النبي صلى الله عليه وسلم قال‏:‏ “لا تزال المسألة بأحدكم حتى يلقى الله تعالى وليس في وجهه مزعة لحم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \n\n‏\"‏المزعة‏\"‏ بضم الميم وإسكان الزاى وبالعين المهملة‏:‏ القطعة‏.‏",
+    "sourceId": 42811
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

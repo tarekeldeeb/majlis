@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1747",
+  "book": "riyad_assalihin",
+  "number": 1747,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال وهو على المنبر، وذكر الصدقة والتعفف عن المسألة‏:‏ ‏\n\"‏اليد العليا خير من اليد السفلى‏.‏ واليد العليا هي المنفقة، والسفلى هي السائلة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42812
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

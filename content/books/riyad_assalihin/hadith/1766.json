@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1766",
+  "book": "riyad_assalihin",
+  "number": 1766,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن عبد الله بن عمرو بن العاص رضي الله عنهما أن رجلاً سأل رسول الله صلى الله عليه وسلم ‏:‏ أى الإسلام خير‏؟‏ قال‏:‏ ‏\n\"‏تطعم الطعام، وتقرأ السلام على من عرفت ومن لم تعرف‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42831
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

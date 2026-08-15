@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:753",
+  "book": "riyad_assalihin",
+  "number": 753,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ “يصبح على كل سلامى من أحدكم صدقة‏:‏ فكل تسبيحة صدقة، وكل تحميدة صدقة، وكل تهليلة صدقة، وكل تكبيرة صدقة، وأمر بالمعروف صدقة، ونهي عن المنكر صدقة، ويجزي من ذلك ركعتان يركعهما من الضحى‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41818
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:691",
+  "book": "riyad_assalihin",
+  "number": 691,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏كان رجل يداين الناس، وكان يقول لفتاه‏:‏ إذا أتيت معسرا فتجاوز عنه، لعل الله أن يتجاوز عنا فلقي الله فتجاوز عنه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41756
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

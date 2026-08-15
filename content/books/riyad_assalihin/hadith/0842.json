@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:842",
+  "book": "riyad_assalihin",
+  "number": 842,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ “إذا أصبح ابن آدم، فإن الأعضاء كلها تكفر اللسان، تقول‏:‏ اتقِ الله فينا، فإنما نحن بك‏:‏ فإن استقمت استقمنا وإن اعوججت اعوججنا”‏.‏ ‏(‏‏(‏رواه الترمذي‏)‏‏)‏‏.‏ ‏\n'‏معني “تكفر اللسان” أي تذل وتخضع ل‏ه.‏",
+    "sourceId": 41907
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

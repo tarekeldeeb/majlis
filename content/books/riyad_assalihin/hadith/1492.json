@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1492",
+  "book": "riyad_assalihin",
+  "number": 1492,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال ‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏لا يفرك مؤمن مؤمنة إن كره منها خُلقا رضي منها آخر‏\"‏ أو قال ‏:‏ ‏\"‏غيره‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42557
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

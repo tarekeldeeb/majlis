@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:159",
+  "book": "riyad_assalihin",
+  "number": 159,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏إذا اقترب الزمان لم تكد رؤيا المؤمن تكذب، ورؤيا المؤمن جزء من ستة وأربعين جزءاً من النبوة‏\"‏ ((مُتَّفَقٌ عَلَيهِ))‏.‏ ‏\n‏وفى رواية‏:‏ ‏\"‏أصدقكم رؤيا أصدقكم حديثاً‏\"‏‏.‏",
+    "sourceId": 41224
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

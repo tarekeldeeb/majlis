@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:620",
+  "book": "riyad_assalihin",
+  "number": 620,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏من خير معاش الناس لهم رجل ممسك بعنان فرسه في سبيل الله، يطير على متنه كلما سمع هيعة، أو فزعة طار على متنه، يبتغي القتل أو الموت مظانه، أو رجل في غنيمة أو شعفة من هذه الشعف أو بطن واد من هذه الأودية يقيم الصلاة ويؤتي الزكاة، ويعبد ربه حتى يأتيه اليقين ليس من الناس إلا في خير‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41685
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

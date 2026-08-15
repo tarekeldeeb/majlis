@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1580",
+  "book": "riyad_assalihin",
+  "number": 1580,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إنما مثل الجليس الصالح وجليس السوء، كحامل المسك، ونافخ الكير، فحامل المسك، إما أن يحذيك، وإما أن تبتاع منه، وإما أن تجد منه ريحًا طيبة، ونافخ الكير، إما أن يحرق ثيابك ، وإما أن تجد منه ريحًا منتنة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42645
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

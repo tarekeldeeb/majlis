@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:951",
+  "book": "riyad_assalihin",
+  "number": 951,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن بريدة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏حرمة نساء المجاهدين على القاعدين كحرمة أمهاتهم، ما من رجل من القاعدين يخلف رجلا من المجاهدين في أهله، فيخونه فيهم إلا وقف له يوم القيامة، فيأخذ من حسناته ما شاء حتى يرضى‏\"‏ ثم التفت إلينا رسول الله صلى الله عليه وسلم  وقال‏:‏ ‏\"‏ما ظنكم‏؟‏‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42016
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

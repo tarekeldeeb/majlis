@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:595",
+  "book": "riyad_assalihin",
+  "number": 595,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعنه قال سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏من حج، فلم يرفث ولم يفسق، رجع كيوم ولدته أمه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41660
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

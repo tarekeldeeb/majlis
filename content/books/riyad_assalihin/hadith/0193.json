@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:193",
+  "book": "riyad_assalihin",
+  "number": 193,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن ربعي بن حراش قال‏:‏ حدثنا رجل من بني عامر استأذن علي النبي صلى الله عليه وسلم  وهو في بيت، فقال‏:‏ أألج‏؟‏ فقال رسول الله صلى  الله عليه وسلم  لخادمه‏:‏ ‏\"‏أخرج إلي هذا وعلمه الاستئذان، فقل له‏:‏ قل‏:‏ السلام عليكم، أأدخل‏؟‏” فسمعه الرجل فقال‏:‏ السلام عليكم، أأدخل‏؟‏ فأذن له النبي صلى الله عليه وسلم ، فدخل‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41258
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

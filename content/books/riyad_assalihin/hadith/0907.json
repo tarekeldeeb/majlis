@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:907",
+  "book": "riyad_assalihin",
+  "number": 907,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري رضي الله عنه أن النبي صلى الله عليه وسلم قال ‏:‏ ‏\n\"‏ لكل غادر لواء عند استه يوم القيامة يرفع له بقدر غدره، ألا لا غادر أعظم غدرًا من أمير عامة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41972
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

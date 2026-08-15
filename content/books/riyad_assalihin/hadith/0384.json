@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:384",
+  "book": "riyad_assalihin",
+  "number": 384,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن رسول الله صلى الله عليه وسلم أخر ليلة صلاة العشاء إلى شطر الليل ثم أقبل علينا بوجهه بعدما صلى فقال‏:‏ ‏\n\"‏صلى الناس ورقدوا ولم تزالوا في صلاة منذ انتظرتموها‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏",
+    "sourceId": 41449
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

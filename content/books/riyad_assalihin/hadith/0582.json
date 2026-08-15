@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:582",
+  "book": "riyad_assalihin",
+  "number": 582,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن معاذة العدوية أنها سألت عائشة رضي الله عنها‏:‏ أكان رسول الله صلى الله عليه وسلم يصوم من كل شهر ثلاثة أيام، فقالت‏:‏ نعم‏.‏ فقلت‏:‏ من أي الشهر كان يصوم‏؟‏ قالت‏:‏ لم يكن يبالي من أي الشهر يصوم‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41647
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

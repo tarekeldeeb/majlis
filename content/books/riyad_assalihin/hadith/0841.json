@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:841",
+  "book": "riyad_assalihin",
+  "number": 841,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عقبة بن عامر رضي الله عنه قال‏:‏ قلت يا رسول الله ما النجاة‏؟‏ قال‏:‏ ‏\n\"‏أمسك عليك لسانك، وليسعك بيتك، وابكِ على خطيئتك‏\"‏ ‏(‏‏(‏رواه الترمذي، وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41906
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:69",
+  "book": "riyad_assalihin",
+  "number": 69,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن كعب بن مالك رضى الله عنه قال‏:‏ رأيت رسول الله صلى الله عليه وسلم يأكل بثلاث أصابع ، فإذا فرغ لعقها‏.‏‏‏((رواه مسلم))‏\n ‏",
+    "sourceId": 41134
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:195",
+  "book": "riyad_assalihin",
+  "number": 195,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن أنس رضي الله عنه في حديثه المشهور في الإسراء قال‏:‏ قال رسول الله صلى  الله عليه وسلم ‏:‏ ‏\n\"‏ثم صعد بي جبريل إلي السماء الدنيا فاستفتح، فقيل‏:‏ من هذا‏؟‏ قال‏:‏ جبريل، قيل‏:‏ومن معك‏؟‏ قال‏:‏ محمد‏.‏ ثم صعد إلي السماء الثانية والثالثة والرابعة وسائرهن، ويقال في باب كل سماء‏:‏ من هذا‏؟‏ فيقول‏:‏ جبريل‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41260
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

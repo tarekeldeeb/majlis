@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1329",
+  "book": "riyad_assalihin",
+  "number": 1329,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وأما الأحاديث فالأول‏:‏ عن أبي هريرة رضي الله عنه، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ أعذر الله إلى امرئ أخر أجله حتى بلغ ستين سنة‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42394
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

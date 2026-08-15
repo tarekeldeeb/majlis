@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:48",
+  "book": "riyad_assalihin",
+  "number": 48,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن عمر بن أبى سلمة رضى الله عنهما قال‏:‏ قال لي رسول الله صلى الله عليه وسلم‏:‏‏\n\"‏سم الله وكل بيمينك، وكل مما يليك‏\"‏.‏ ((متفق عليه))",
+    "sourceId": 41113
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

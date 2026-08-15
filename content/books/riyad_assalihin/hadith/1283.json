@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1283",
+  "book": "riyad_assalihin",
+  "number": 1283,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السابع‏:‏ عن أبي يعلى شداد بن أوس رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ الكيس من دان نفسه، وعمل لما بعد الموت ، والعاجز من أتبع نفسه هواها، وتمنى على الله‏\"‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42348
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

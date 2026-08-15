@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:441",
+  "book": "riyad_assalihin",
+  "number": 441,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر، رضي الله عنهما، عن النبي صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏رحم الله امرءًا صلى قبل العصر أربعًا‏\"‏‏.‏ ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41506
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

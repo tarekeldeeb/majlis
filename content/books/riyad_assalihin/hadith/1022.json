@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1022",
+  "book": "riyad_assalihin",
+  "number": 1022,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\"‏من أكل من هذه الشجرة -يعني الثوم- فلا يقربن مسجدنا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ وفي رواية لمسلم‏:‏ ‏\"‏مساجدنا‏\"‏‏.‏",
+    "sourceId": 42087
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

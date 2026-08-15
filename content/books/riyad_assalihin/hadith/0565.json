@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:565",
+  "book": "riyad_assalihin",
+  "number": 565,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان رسول الله صلى الله عليه وسلم يدركه الفجر وهو جنب من أهله ثم يغتسل ويصوم ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41630
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

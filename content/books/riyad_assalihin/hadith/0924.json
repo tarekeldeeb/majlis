@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:924",
+  "book": "riyad_assalihin",
+  "number": 924,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي علي سويد بن مقرن رضي الله عنه قال‏:‏ لقد رأيتني سابع سبعة من بني مقرن ما لنا خادم إلا واحدة لطمها أصغرنا فأمرنا رسول الله صلى الله عليه وسلم أن نعتقها‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ ورواية‏:‏ ‏\n\"‏سابع إخوة لي‏\"‏‏.‏",
+    "sourceId": 41989
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

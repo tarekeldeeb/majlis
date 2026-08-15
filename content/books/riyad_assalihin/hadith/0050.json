@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:50",
+  "book": "riyad_assalihin",
+  "number": 50,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن جابر، رضى الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏إذا دخل الرجل بيته، فذكر الله تعالى عند دخوله وعند طعامه، قال الشيطان لأصحابه‏:‏ لا مبيت لكم ولا عشاء، وإذا دخل ، فلم يذكر الله تعالى عند دخوله، قال الشيطان‏:‏ أدركتم المبيت؛ وإذا لم يذكر الله تعالى عند طعامه قال‏:‏ أدركتم المبيت والعشاء‏\"‏ ‏. ((رواه مسلم))",
+    "sourceId": 41115
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

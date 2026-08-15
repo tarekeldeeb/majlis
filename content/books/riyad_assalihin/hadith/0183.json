@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:183",
+  "book": "riyad_assalihin",
+  "number": 183,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن أنس رضي الله عنه أنه مر على صبيان، فسلم عليهم، وقال‏:‏ كان رسول الله صلى الله عليه وسلم يفعله” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41248
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:717",
+  "book": "riyad_assalihin",
+  "number": 717,
+  "chapter": {
+    "id": 13,
+    "title": "كتاب حمد الله تعالى وشكره"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن الله ليرضى عن العبد يأكل الأكلة فيحمده عليها، ويشرب الشربة، فيحمده عليها‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41782
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

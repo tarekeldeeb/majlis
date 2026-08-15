@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:478",
+  "book": "riyad_assalihin",
+  "number": 478,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي بردة بن أبي موسى الأشعري، رضي الله عنه، قال‏:‏ قال عبد الله بن عمر رضي الله عنهما‏:‏ أسمعت أباك يحدث عن رسول الله صلى الله عليه وسلم ، في شأن ساعة الجمعة‏؟‏ قال‏:‏ قلت‏:‏ نعم، سمعته يقول‏:‏ سمعت رسول الله صلى الله عليه وسلم ، يقول‏:‏ ‏\n\"‏هي ما بين أن يجلس الإمام إلى أن تقضى الصلاة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41543
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

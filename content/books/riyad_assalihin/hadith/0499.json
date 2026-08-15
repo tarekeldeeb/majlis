@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:499",
+  "book": "riyad_assalihin",
+  "number": 499,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضي اللله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم ، يقول‏:‏ ‏\n\"‏إن في الليل لساعة، لا يوافقها رجل مسلم يسأل الله تعالى خيرًا من أمر الدنيا والآخرة، إلا أعطاه إياه، وذلك كل ليلة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41564
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:872",
+  "book": "riyad_assalihin",
+  "number": 872,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي زيد ثابت بن الضحاك الأنصاري رضي الله عنه، وهو من أهل بيعة الرضوان قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من حلف على يمين بملة غير الإسلام كاذبًا متعمدًا، فهو كما قال، ومن قتل نفسه بشيء، عُذب به يوم القيامة، وليس على رجل نذر فيما لا يملكه، ولعن المؤمن كقتله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41937
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

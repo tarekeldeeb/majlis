@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:105",
+  "book": "riyad_assalihin",
+  "number": 105,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن أبى سعيد عمرو بن حريث رضى الله عنه قال‏:‏ كأني انظر إلى رسول الله صلى الله عليه وسلم وعليه عمامة سوداء، قد أرخى طرفيها بين كتفيه‏.‏‏‏((رواه مسلم))‏\n‏ وفى رواية له ‏:‏ أن رسول الله صلى الله عليه وسلم خطب الناس، وعليه عمامة سوداء‏.",
+    "sourceId": 41170
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:17",
+  "book": "riyad_assalihin",
+  "number": 17,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان كلام رسول الله صلى الله عليه وسلم كلاماً فصلاً يفهمه كل من يسمعه‏.‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41082
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1429",
+  "book": "riyad_assalihin",
+  "number": 1429,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه رضي الله عنه قال‏:‏ كان على ثقل النبي صلى الله عليه وسلم رجل يقال له كركرة، فمات، فقال رسول الله صلى الله عليه وسلم ‏:‏‏\n\"‏هو في النار‏\"‏ فذهبوا ينظرون إليه فوجدوا عباءة قد غلها” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42494
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:601",
+  "book": "riyad_assalihin",
+  "number": 601,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعن لقيط بن عامر رضي الله عنه أنه أتى النبي صلى الله عليه وسلم فقال‏:‏ إن أبي شيخ كبير لا يستطيع الحج ولا العمرة، ولا الظعن قال‏:‏ ‏\n\"‏حج عن أبيك واعتمر‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن صحيح‏.‏ ‏)‏‏)‏‏.‏",
+    "sourceId": 41666
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

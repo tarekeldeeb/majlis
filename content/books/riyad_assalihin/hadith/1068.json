@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1068",
+  "book": "riyad_assalihin",
+  "number": 1068,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن رسول الله صلى الله عليه وسلم  صلى العشاء في آخر حياته، فلما سلم، قال‏:‏ ‏\n\"‏أرأيتكم ليلتكم هذه‏؟‏ فإن على رأس مائة سنة لا يبقي ممن هو على ظهر الأرض اليوم أحد‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42133
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

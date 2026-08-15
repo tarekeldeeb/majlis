@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:25",
+  "book": "riyad_assalihin",
+  "number": 25,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما أنه دفع مع النبي صلى الله عليه وسلم  يوم عرفة فسمع النبي صلى الله عليه وسلم وراءه زجراً شديداً وضرباً وصوتاً للإبل، فأشار بسوطه إليهم وقال‏:‏ “أيها الناس عليكم بالسكينة فإن البر ليس بالإيضاع‏\"‏ ‏(‏‏(‏رواه البخاري، وروى مسلم بعضه‏)‏‏)‏‏.‏",
+    "sourceId": 41090
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:845",
+  "book": "riyad_assalihin",
+  "number": 845,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي بكر رضي الله عنه أن رسول الله صلى الله عليه وسلم قال في خطبته يوم النحر بمنًى في حجة الوداع‏:‏ ‏\"‏إن دماءكم، وأموالكم، وأعراضكم حرام عليكم كحرمة يومكم هذا، في شهركم هذا، في بلدكم هذا، ألا هل بلغت” ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41910
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

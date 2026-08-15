@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:926",
+  "book": "riyad_assalihin",
+  "number": 926,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏من ضرب غلامًا له حدًا لم يأتهِ، أو لطمه، فإن كفارته أن يعتقه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41991
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

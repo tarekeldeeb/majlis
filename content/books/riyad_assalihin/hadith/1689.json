@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1689",
+  "book": "riyad_assalihin",
+  "number": 1689,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن النعمان بن بشير، رضي الله عنهما، قال‏:‏ ذكر عمر ابن الخطاب، رضي الله عنه، ما أصاب الناس من الدنيا، فقال‏:‏ لقد رأيت رسول الله، صلى الله عليه وسلم، يظل اليوم يتلوى ما يجد من الدقل ما يملأ به بطنه‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \n‏الدقل‏ ‏ بفتح الدال المهملة والقاف‏:‏ ردئ التمر‏.‏",
+    "sourceId": 42754
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

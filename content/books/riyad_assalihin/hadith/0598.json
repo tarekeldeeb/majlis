@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:598",
+  "book": "riyad_assalihin",
+  "number": 598,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعنها أن رسول الله صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏ما من يوم أكثر من أن يعتق الله فيه عبدًا من النار من يوم عرفة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41663
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

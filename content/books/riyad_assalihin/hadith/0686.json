@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:686",
+  "book": "riyad_assalihin",
+  "number": 686,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ثلاثة لهم أجران‏:‏ رجل من أهل الكتاب آمن بنبيه، وآمن بمحمد، والعبد المملوك إذا أدى حق الله، وحق مواليه، ورجل كانت له أمة فأدبها فأحسن تأديبها وعلمها فأحسن تعليمها، ثم أعتقها فتزوجها فله أجران‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41751
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1302",
+  "book": "riyad_assalihin",
+  "number": 1302,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي عمرو، وقيل‏:‏ أبي عمرة سفيان بن عبد الله رضي الله عنه قال‏:‏ قلت‏:‏ يا رسول الله قل لي في الإسلام قولاً لا أسأل عنه أحداً غيرك‏.‏ قال‏:‏ ‏\n\"‏قل آمنت بالله‏:‏ ثم استقم‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42367
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

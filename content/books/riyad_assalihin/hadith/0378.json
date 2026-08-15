@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:378",
+  "book": "riyad_assalihin",
+  "number": 378,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن أعظم الناس أجرًا في الصلاة أبعدهم إليها ممشى، فأبعدهم، والذي ينتظر الصلاة حتى يصليها مع الإمام أعظم أجرًا من الذي يصليها ثم ينام‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41443
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

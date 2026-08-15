@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1732",
+  "book": "riyad_assalihin",
+  "number": 1732,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي كريمة المقدام بن معديكرب رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول “ما ملأ آدمي وعاء شراً من بطن، بحسب ابن آدم أكلات يقمن صلبه، فإن كان لا محالة؛ فتلث لطعامه وثلث لشرابه، وثلث لنفسه‏\"‏‏.‏ \n‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏\n\n‏\"‏أكلات‏\"‏ أي‏:‏ لقم‏.‏",
+    "sourceId": 42797
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

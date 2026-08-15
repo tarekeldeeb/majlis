@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:366",
+  "book": "riyad_assalihin",
+  "number": 366,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏‏\n\"‏الصلوات الخمس، والجمعة إلى الجمعة، كفارة لما بينهن، ما لم تغشَ الكبائر‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41431
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

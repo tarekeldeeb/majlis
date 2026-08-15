@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:15",
+  "book": "riyad_assalihin",
+  "number": 15,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه قال‏:‏ قال لي رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا تحقرن من المعروف شيئاً، ولو أن تلقى أخاك بوجه طلق‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41080
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

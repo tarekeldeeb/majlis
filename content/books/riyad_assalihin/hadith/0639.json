@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:639",
+  "book": "riyad_assalihin",
+  "number": 639,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن سمرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “رأيت الليلة رجلين أتياني فصعدا بي الشجرة وأدخلاني دارًا هي أحسن وأفضل، لم أر قط أحسن منها، قال أما هذه الدار فدار الشهداء‏\"‏ (5)",
+    "sourceId": 41704
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

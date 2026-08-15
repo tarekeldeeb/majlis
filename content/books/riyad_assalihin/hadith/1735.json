@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1735",
+  "book": "riyad_assalihin",
+  "number": 1735,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أسماء بنت يزيد رضي الله عنها قالت‏:‏ كان كم قميص رسول الله صلى الله عليه وسلم إلى الرصغ، ‏(‏‏(‏رواه أبو داود، والترمذي، وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏ \n\n‏\"‏الرصغ‏:‏ بالصاد والرسغ بالسين أيضاً‏:‏ هو المفصل بين الكف والساعد‏.‏",
+    "sourceId": 42800
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

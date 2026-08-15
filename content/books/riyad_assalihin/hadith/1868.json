@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1868",
+  "book": "riyad_assalihin",
+  "number": 1868,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن النبى صلى الله عليه وسلم رأى نخامة في القبلة، فشق ذلك عليه حتى رؤى في وجهه، فقام فحكه بيده فقال‏:‏ “إن أحدكم إذا قام في صلاته فإنه يناجى ربه، وإن ربه بينه وبين القبلة، فلا يبزقن أحدكم في القبلة، ولكن عن يساره، أو تحت قدمه” ثم أخذ طرف ردائه فبصق فيه، ثم رد بعضه على بعض فقال‏:‏ “أو يفعل هكذا” ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42933
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

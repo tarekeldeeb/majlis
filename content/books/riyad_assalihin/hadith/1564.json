@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1564",
+  "book": "riyad_assalihin",
+  "number": 1564,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، عن أبي بكر رضي الله عنه موقوفًا عليه أنه قال ‏:‏ ارقبوا محمدًا صلى الله عليه وسلم في أهل بيته، ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42629
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

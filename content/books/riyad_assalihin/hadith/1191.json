@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1191",
+  "book": "riyad_assalihin",
+  "number": 1191,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن أبي  هريرة رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول “والله إني لأستغفر الله وأتوب إليه في اليوم أكثر من سبعين مرة‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42256
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

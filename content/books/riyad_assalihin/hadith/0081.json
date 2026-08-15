@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:81",
+  "book": "riyad_assalihin",
+  "number": 81,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن سعد رضى الله عنه أن رسول الله صلى الله عليه وسلم أتى بشراب، فشرب منه وعن يمينه غلام، وعن يساره أشياخ، فقال للغلام‏:‏ ‏\n\"‏أتأذن لي أن أعطى هؤلاء‏.‏‏؟‏‏\"‏ فقال الغلام‏:‏ لا والله ، لا أوثر بنصيبي منك أحدا، فتله رسول الله صلى الله عليه وسلم في يده‏.‏((متفق عليه))  \n‏",
+    "sourceId": 41146
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:455",
+  "book": "riyad_assalihin",
+  "number": 455,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، عن النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ اجعلوا آخر صلاتكم بالليل وترًا‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41520
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

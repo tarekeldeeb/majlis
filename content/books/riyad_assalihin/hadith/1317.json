@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1317",
+  "book": "riyad_assalihin",
+  "number": 1317,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السادس‏:‏ عن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ المؤمن القوي خير وأحب إلى الله من المؤمن الضعيف وفي كل خير‏.‏ احرص على ما ينفعك، واستعن بالله ولا تعجز‏.‏ وإن أصابك شيء فلا تقل‏:‏ لو أني فعلت كان كذا وكذا، ولكن قل‏:‏ قدر الله، وما شاء فعل؛ فإن لو تفتح عمل الشيطان‏\"‏ ‏(‏‏(‏ رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42382
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

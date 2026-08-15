@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:607",
+  "book": "riyad_assalihin",
+  "number": 607,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود، رضي الله عنه قال‏:‏ قلت يا رسول الله أي العمل أحب إلى الله تعالى‏؟‏ قال‏:‏ ‏\"‏الصلاة على وقتها‏\"‏ قلت‏:‏ ثم أي‏؟‏ قال‏:‏ ‏\"‏بر الوالدين‏\"‏ قلت ثم أي‏:‏ قال‏:‏ ‏\"‏الجهاد في سبيل الله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41672
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:130",
+  "book": "riyad_assalihin",
+  "number": 130,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "عن أنس رضى الله عنه قال‏:‏ رخص رسول الله ، صلى الله عليه وسلم، للزبير وعبد الرحمن بن عوف رضى الله عنهما في لبس الحرير لحكة بهما‏.‏((متفق عليه))",
+    "sourceId": 41195
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

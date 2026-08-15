@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1829",
+  "book": "riyad_assalihin",
+  "number": 1829,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سلمه بن الأكوع رضي الله عنه أن رجلاً أكل عند رسول الله صلى الله عليه وسلم بشماله، فقال‏:‏ “كل بيمينك” قال‏:‏ لا أستطيع‏!‏ قال‏:‏ “لا اتسطعت” ما منعه إلا الكبر‏.‏ قال‏:‏ فما رفعه إلى فيه”‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42894
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

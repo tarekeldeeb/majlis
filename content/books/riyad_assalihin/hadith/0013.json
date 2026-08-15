@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:13",
+  "book": "riyad_assalihin",
+  "number": 13,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن عدي بن حاتم رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏اتقوا النار ولو بشق تمرة فمن لم يجد فبكلمة طيبة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41078
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

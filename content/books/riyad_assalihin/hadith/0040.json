@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:40",
+  "book": "riyad_assalihin",
+  "number": 40,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن رسول الله صلى الله عليه وسلم  كان يخرج من طريق الشجرة، ويدخل من طريق المعرس، وإذا دخل مكة دخل من الثنية العليا ويخرج من الثنية السفلى‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41105
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1860",
+  "book": "riyad_assalihin",
+  "number": 1860,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنها قالت‏:‏ ما ضرب رسول الله صلى الله عليه وسلم شيئاً قط بيده، ولا امرأة ولا خادماً، إلا أن يجاهد في سبيل الله، وما نيل منه شئ قط فينتقم من صاحبه، إلا أن ينتهك شئ من محارم الله تعالى، فينتقم لله تعالى‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42925
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

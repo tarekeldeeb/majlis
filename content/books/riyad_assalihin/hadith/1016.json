@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1016",
+  "book": "riyad_assalihin",
+  "number": 1016,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏إن هذه المساجد لا تصلح لشيء من البول ولا القذر، إنما هي لذكر الله تعالى، وقراءة القرآن‏\"‏ أو كما قال رسول الله صلى الله عليه وسلم ‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42081
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

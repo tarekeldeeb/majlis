@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1861",
+  "book": "riyad_assalihin",
+  "number": 1861,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ كنت أمشى مع رسول الله صلى الله عليه وسلم، وعليه برد نجرانى غليظ الحاشية، فأدركه أعرابى، فجبذه بردائه جبذة شديدة، فنظرت إلى صفحة عاتق النبى صلى الله عليه وسلم، وقد أثرت بها حاشية البرد من شدة فضحك، ثم قال‏:‏ يا محمد مر لى من مال الله الذى عندك، فالتفت إليه فضحك ثم أمر له بعطاء‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42926
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

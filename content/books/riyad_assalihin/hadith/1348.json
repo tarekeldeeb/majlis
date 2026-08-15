@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1348",
+  "book": "riyad_assalihin",
+  "number": 1348,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الخامس عشر‏:‏ عنه قال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏ ألا أدلكم على ما يمحو الله به الخطايا، ويرفع به الدرجات‏؟‏‏\"‏ قالوا‏:‏ بلى يا رسول الله، قال‏:‏ ‏\"‏ إسباغ الوضوء على المكاره، وكثرة الخطا إلى المساجد، وانتظار الصلاة بعد الصلاة، فذلكم الرباط‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42413
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

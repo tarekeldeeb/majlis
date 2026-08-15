@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1494",
+  "book": "riyad_assalihin",
+  "number": 1494,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن معاوية بن حيدة رضي الله عنه قال ‏:‏ قلت يا رسول الله صلى الله عليه وسلم ما حق زوجة أحدنا عليه‏؟‏ قال‏:‏ ‏\"‏أن تطعمها إذا طعمت ، وتكسوها إذا اكتسيت ولا تضرب الوجه، ولا تقبح، ولا تهجر إلا في البيت ‏\"‏ حديث حسن رواه أبو داود وقال‏:‏ معنى ‏\"‏لاتقبح‏\"‏ أي ‏:‏ لا تقل قبحك الله‏.‏",
+    "sourceId": 42559
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

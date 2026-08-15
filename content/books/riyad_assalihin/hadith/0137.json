@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:137",
+  "book": "riyad_assalihin",
+  "number": 137,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن حذيفة رضى الله عنه قال‏:‏كان النبي صلى الله عليه وسلم إذا أخذ مضجعه من الليل وضع يده تحت خده، ثم يقول‏:‏ ‏\"‏اللهم باسمك أموت وأحيا‏\"‏ وإذا استيقظ قال‏:‏ ‏\"‏الحمد لله الذي أحيانا بعد ما أماتنا وإليه النشور‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏.‏",
+    "sourceId": 41202
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:562",
+  "book": "riyad_assalihin",
+  "number": 562,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ من لم يدع قول الزور والعمل به فليس لله حاجة في أن يدع طعامه وشرابه‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41627
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:669",
+  "book": "riyad_assalihin",
+  "number": 669,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي أمامة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ من لم يغزُ أو يجهز غازيًا، أو يخلف غازيًا في أهله بخير أصابه الله بقارعة قبل يوم القيامة‏:‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41734
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

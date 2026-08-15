@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:527",
+  "book": "riyad_assalihin",
+  "number": 527,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏بني الإسلام على خمس‏:‏ شهادة أن لا إله إلا الله وأن محمدًا عبده ورسوله، إقام الصلاة، وإيتاء الزكاة، وحج البيت، وصوم رمضان‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41592
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

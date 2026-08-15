@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:388",
+  "book": "riyad_assalihin",
+  "number": 388,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله- وقيل‏:‏ عمرو بن قيس المعروف بابن أم مكتوم المؤذن رضي الله عنه أنه قال‏:‏ يا رسول الله إن المدينة كثيرة الهوام والسباع‏.‏ فقال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏تسمع حي على الصلاة، حي على الفلاح، فحيهلا‏\"‏ ‏(‏‏(‏رواه  أبو داود بإسناد حسن‏.‏ (12)",
+    "sourceId": 41453
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

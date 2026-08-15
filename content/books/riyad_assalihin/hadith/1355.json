@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1355",
+  "book": "riyad_assalihin",
+  "number": 1355,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثاني والعشرون‏:‏ عن أبي محمد عبد الله بن عمرو بن العاص رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏أربعون خصلة أعلاها منيحة العنز، ما من عامل يعمل بخصلة منها رجاء ثوابها وتصديق موعودها إلا أدخله الله بها الجنة‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42420
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

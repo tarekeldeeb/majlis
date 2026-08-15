@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:707",
+  "book": "riyad_assalihin",
+  "number": 707,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري رضي الله عنه عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لن يشبع مؤمن من خير حتى يكون منتهاه الجنة‏\"‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41772
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:352",
+  "book": "riyad_assalihin",
+  "number": 352,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي مالك الأشعري رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏الطهور شطر الإيمان‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ وقد سبق بطوله في باب الصبر‏.‏\nوفي الباب حديث عمرو بن عبسة رضي الله عنه السابق في آخر باب الرجاء، وهو حديث عظيم، مشتمل على جمل من الخيرات‏.‏",
+    "sourceId": 41417
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

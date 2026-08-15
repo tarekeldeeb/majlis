@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:35",
+  "book": "riyad_assalihin",
+  "number": 35,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن سالم بن عبد الله بن عمر أن عبد الله بن عمر رضي الله عنهما كان يقول للرجل إذا أراد سفراً‏:‏ ادن مني حتى أودعك كما كان رسول الله صلى الله عليه وسلم  يودعنا، فيقول‏:‏ أستودع الله دينك، وأمانتك، وخواتيم عملك‏.‏ ‏(‏‏(‏رواه الترمذي، وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41100
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

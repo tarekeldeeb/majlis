@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:418",
+  "book": "riyad_assalihin",
+  "number": 418,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن أم المؤمنين أم حبيبة رملة بنت أبي سفيان، رضي الله عنهما، قالت سمعت رسول الله صلى الله عليه وسلم، يقول‏:‏ ما من عبد مسلم يصلي لله تعالى كل يوم ثنتي عشرة ركعة تطوعًا غير الفريضة، إلا بنى الله له بيتًا في الجنة أو‏:‏ إلا بني له بيت في الجنة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41483
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

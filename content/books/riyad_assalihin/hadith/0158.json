@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:158",
+  "book": "riyad_assalihin",
+  "number": 158,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏لم يبق من النبوة إلا المبشرات‏\"‏ قالوا‏:‏ وما المبشرات‏؟‏ قال‏:‏ ‏\"‏الرؤيا الصالحة‏\"‏ (( رَوَاهُ البُخَارِيُّ))‏.‏",
+    "sourceId": 41223
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

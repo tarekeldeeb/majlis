@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1784",
+  "book": "riyad_assalihin",
+  "number": 1784,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى رضي الله عنه قال رسول الله صلى الله عليه وسلم ‏:‏ إن الأشعريين إذا أرملوا فى الغزو، أو قل طعام عيالهم بالمدينة جمعوا ما كان عندهم فى ثوب واحد،  اقتسموه بينهم فى إناء واحد بالسوية فهم منى وأنا منهم” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \n\n“أرملوا” فرغ زادهم أو قارب الفراغ‏.‏",
+    "sourceId": 42849
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

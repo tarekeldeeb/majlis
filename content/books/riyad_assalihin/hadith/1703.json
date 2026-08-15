@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1703",
+  "book": "riyad_assalihin",
+  "number": 1703,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة، رضي الله عنه، قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ يدخل الفقراء الجنة قبل الأغنياء بخمسمائة عام‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ جديث صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42768
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

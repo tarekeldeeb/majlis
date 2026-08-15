@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:631",
+  "book": "riyad_assalihin",
+  "number": 631,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن البراء رضي الله عنه قال أتى النبي صلى الله عليه وسلم رجل مقنع بالحديد، فقال يا رسول الله أقاتل أو أسلم‏؟‏ قال‏:‏ ‏\"‏أسلم، ثم قاتل‏\"‏ فأسلم، ثم قاتل فقتل، فقال رسول الله صلى الله عليه وسلم ‏:‏ عمل قليلا وأُجر كثيرًا‏\"‏ ‏(‏‏(‏متفق عليه وهذا لفظ البخاري‏)‏‏)‏ ‏.‏",
+    "sourceId": 41696
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

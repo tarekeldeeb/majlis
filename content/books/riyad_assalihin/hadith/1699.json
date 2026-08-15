@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1699",
+  "book": "riyad_assalihin",
+  "number": 1699,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن الشخير ‏\"‏ بسكر الشين والخاء المشددة المعجمتين‏\"‏ رضي الله عنه، أنه قال‏:‏ أتيت النبي ، صلى الله عليه وسلم، وهو يقرأ‏:‏ ‏{‏ ألهاكم التكاثر‏}‏ قال‏:‏ ‏\"‏ يقول ابن آدم‏:‏ مالي، وهل لك يا ابن آدم من مالك إلا ما أكلت فأفنيت، أو لبست فأبليت، أو تصدقت فأمضيت‏؟‏ ‏!‏‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42764
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

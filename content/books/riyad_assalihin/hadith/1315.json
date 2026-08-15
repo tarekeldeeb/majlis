@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1315",
+  "book": "riyad_assalihin",
+  "number": 1315,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الرابع‏:‏ عن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم كان يقوم من الليل حتى تنفطر قدماه، فقلت له‏:‏ لم تصنع هذا يا رسول الله، وقد غفر الله لك ما تقدم من ذنبك وما تأخر‏؟‏‏!‏ قال‏:‏ ‏\n\"‏ أفلا أحب أن أكون عبداً شكوراً‏؟‏‏\"‏ ‏(‏‏(‏متفق عليه‏.‏ هذا لفظ البخاري، ونحوه في الصحيحين من رواية المغيرة بن شعبة‏)‏‏)‏‏.‏",
+    "sourceId": 42380
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

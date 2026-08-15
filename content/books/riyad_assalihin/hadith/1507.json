@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1507",
+  "book": "riyad_assalihin",
+  "number": 1507,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي عبد الله - ويقال له‏:‏ أبو عبد الرحمن - ثوبان بن بجدد مولى رسول الله صلى الله عليه وسلم قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ أفضل دينار ينفقه الرجل دينار ينفقه على عياله، ودينار ينفقه على دابته في سبيل الله، ودينار ينفقه على أصحابه في سبيل الله‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42572
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

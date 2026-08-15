@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1557",
+  "book": "riyad_assalihin",
+  "number": 1557,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي عيسى المغيرة بن شعبة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إن الله تعالى حرم عليكم عقوق الأمهات، ومنعًا وهات، ووأد البنات، وكره لكم قيل وقال، وكثرة السؤال ، وإضاعة المال‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42622
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

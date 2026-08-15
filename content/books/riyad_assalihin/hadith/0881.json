@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:881",
+  "book": "riyad_assalihin",
+  "number": 881,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه أنه سمع رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏لا يرمي رجل رجلا بالفسق أو الكفر، إلا ارتدت عليه، إن لم يكن صاحبه كذلك‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41946
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

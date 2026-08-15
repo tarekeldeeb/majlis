@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:100",
+  "book": "riyad_assalihin",
+  "number": 100,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن سمرة رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏‏\n\"‏إلبسوا البياض؛ فإنها أطهر وأطيب، وكفنوا فيها موتاكم‏\"‏.‏ ((رواه النسائي والحاكم))",
+    "sourceId": 41165
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

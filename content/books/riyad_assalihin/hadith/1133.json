@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1133",
+  "book": "riyad_assalihin",
+  "number": 1133,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعنه رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏يتبع الدجال من يهود أصبهان سبعون ألفا عليهم الطيالسة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42198
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1447",
+  "book": "riyad_assalihin",
+  "number": 1447,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنها رضي الله عنها قالت‏:‏ نهاهم النبي صلى الله عليه وسلم عن الوصال رحمة لهم، فقالوا‏:‏ إنك تواصل‏؟‏ قال‏:‏ ‏\n\"‏إني لست كهيئتكم، إني أبيت يطعمني ربي ويسقيني ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏.‏\n\n‏‏معناه يجعل في قوة من أكل وشرب.",
+    "sourceId": 42512
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

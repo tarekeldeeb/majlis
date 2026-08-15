@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1249",
+  "book": "riyad_assalihin",
+  "number": 1249,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال ‏:‏ ‏\n\"‏ يقول الله تعالى ‏:‏ ما لعبدي المؤمن عندي جزاء إذا قبضت صفيه من أهل الدنيا ثم احتسبه إلا الجنة‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42314
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

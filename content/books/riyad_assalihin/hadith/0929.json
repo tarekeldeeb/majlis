@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:929",
+  "book": "riyad_assalihin",
+  "number": 929,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعنه أن النبي صلى الله عليه وسلم ‏:‏ مر عليه حمار قد وُسم في وجهه، فقال‏:‏ ‏\n\"‏لعن الله الذي وسمه‏\"‏ ‏(‏‏(‏رواه مسلم‏.‏ وفي رواية لمسلم أيضًا‏:‏ نهى رسول الله صلى الله عليه وسلم عن الضرب في الوجه، وعن الوسم في الوجه‏)‏‏)‏‏.‏",
+    "sourceId": 41994
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

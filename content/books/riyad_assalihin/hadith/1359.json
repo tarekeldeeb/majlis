@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1359",
+  "book": "riyad_assalihin",
+  "number": 1359,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "- وعن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم دخل عليها وعندها امرأة قال‏:‏ من هذه‏؟‏ قالت‏:‏ هذه فلانة تذكر من صلاتها قال‏:‏ ‏\n\"‏ مه عليكم بما تطيقون، فوالله لا يمل الله حتى تملوا‏\"‏ وكان أحب الدين إليه ما داوم صاحبه عليه‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42424
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

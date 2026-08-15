@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1646",
+  "book": "riyad_assalihin",
+  "number": 1646,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن جابر، رضي الله عنه قال‏:‏ قال رسول الله ، صلى الله عليه وسلم‏:‏ ‏\n\"‏مثل الصلوات الخمس كمثل نهر جار غمر على باب أحدكم يغتسل منه كل يوم خمس مرات‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏\n\n('‏‏الغمر: الكثير‏.‏')",
+    "sourceId": 42711
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

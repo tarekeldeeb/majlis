@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1696",
+  "book": "riyad_assalihin",
+  "number": 1696,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص، رضي الله عنهما، قال‏:‏ مر علينا رسول الله، صلى الله عليه وسلم ، ونحن نعالج خصاً لنا فقال‏:‏ ‏\"‏ ما هذا‏؟‏‏\"‏ فقلنا‏:‏ قد وهي، فنحن نصلحه، فقال‏:‏ ‏\"‏ ما أرى الأمر إلا أعجل من ذلك‏\"‏‏.‏\n\n رواه أبو داود، والترمذي بإسناد البخاري ومسلم، وقال الترمذي‏:‏ ‏(‏‏(‏حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42761
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

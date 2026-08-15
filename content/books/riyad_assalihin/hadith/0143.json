@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:143",
+  "book": "riyad_assalihin",
+  "number": 143,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن قيلة بنت مخرمة رضى الله عنها قالت‏:‏ رأيت النبي صلى الله عليه وسلم وهو قاعد القرفصاء، فلما رأيت رسول الله صلى الله عليه وسلم المتخشع في الجلسة أرعدت من الفرق‏.‏ ((رواه أبو داود والترمذي))‏.‏",
+    "sourceId": 41208
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

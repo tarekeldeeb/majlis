@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1137",
+  "book": "riyad_assalihin",
+  "number": 1137,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن المغيرة بن شعبة رضي الله عنه قال‏:‏ ما سأل أحد رسول الله صلى الله عليه وسلم  عن الدجال أكثر مما سألته؛ وإنه قال لي‏:‏ ‏\"‏مايضرك‏؟‏ ‏\"‏قلت‏:‏ إنهم يقولون‏:‏ إن معه جبل خبز ونهر ماء‏!‏ قال‏:‏ ‏\"‏هو أهون على الله من ذلك‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42202
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

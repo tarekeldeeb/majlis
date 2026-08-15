@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:762",
+  "book": "riyad_assalihin",
+  "number": 762,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن أبي الدرداء، رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏ألا أنبئكم بخير أعمالكم، وأزكاها عند مليككم، وأرفعها في درجاتكم، وخير لكم من إنفاق الذهب والفضة وخير لكم من أن تلقوا عدوكم فتضربوا أعناقهم، ويضربوا أعناقكم‏؟‏‏\"‏ قالوا‏:‏ بلى، قال‏:‏ ‏\"‏ذكر الله تعالى‏\"‏‏.‏ رواه الترمذي وقال الحاكم أبو عبد الله إسناده صحيح‏.‏",
+    "sourceId": 41827
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

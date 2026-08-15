@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:428",
+  "book": "riyad_assalihin",
+  "number": 428,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما أن رسول الله صلى الله عليه وسلم، كان يقرأ في ركعتي الفجر في الأولى منهما‏:‏ ‏{‏قولوا آمنا بالله وما أنزل إلينا‏}‏ الآية التي في البقرة، وفي الآخرة منهما‏:‏ ‏{‏آمنا بالله واشهد بأنا مسلمون‏}.‏ \nوفي رواية‏:‏ في الآخرة التي في آل عمران‏:‏ ‏{‏تعالوا إلى كلمة سواء بيننا وبينكم‏}‏‏.‏ ‏(‏‏(‏رواهما مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41493
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

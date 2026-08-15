@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:834",
+  "book": "riyad_assalihin",
+  "number": 834,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن سعد قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من يضمن لي ما بين لحييه، وما بين رجليه أضمن له الجنة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41899
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

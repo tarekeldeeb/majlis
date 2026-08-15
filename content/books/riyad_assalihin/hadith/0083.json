@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:83",
+  "book": "riyad_assalihin",
+  "number": 83,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ نهى رسول الله صلى الله عليه وسلم أن يشرب من في السقاء أو القربة.‏((متفق عليه))",
+    "sourceId": 41148
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

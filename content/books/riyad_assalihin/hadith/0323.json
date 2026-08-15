@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:323",
+  "book": "riyad_assalihin",
+  "number": 323,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن أبي موسى رضي الله عنه عن النبي صلى الله عليه وسلم قال ‏\n\"‏تعاهدوا هذا القرآن فوالذي نفس محمد بيده لهو أشد تفلتًا من الإبل في عقلها‏\"‏‏.‏ ‏(‏‏(‏متفق عله‏)‏‏)‏‏.‏",
+    "sourceId": 41388
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

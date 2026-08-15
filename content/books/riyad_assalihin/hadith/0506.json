@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:506",
+  "book": "riyad_assalihin",
+  "number": 506,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها، أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ إذا نعس أحدكم في الصلاة، فليرقد حتى يذهب عنه النوم، فإن أحدكم إذا صلى وهو ناعس، لعله يذهب يستغفر فيسب نفسه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41571
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

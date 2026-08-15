@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:445",
+  "book": "riyad_assalihin",
+  "number": 445,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ كنا نصلي على عهد رسول الله صلى الله عليه وسلم ركعتين بعد غروب الشمس قبل المغرب، فقيل‏:‏ أكان رسول الله صلى الله عليه وسلم صلاها‏؟‏ قال‏:‏ كان يرانا نصليهما فلم يأمرنا ولم ينهنا‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41510
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

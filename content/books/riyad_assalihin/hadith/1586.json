@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1586",
+  "book": "riyad_assalihin",
+  "number": 1586,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن أعرابيًا قال لرسول الله صلى الله عليه وسلم ‏:‏ متى الساعة‏؟‏ قال رسول الله صلى الله عليه وسلم‏:‏ ما أعددت لها‏؟‏‏\"‏ قال‏:‏ حب الله ورسوله قال‏:‏ ‏\"‏أنت مع من أحببت‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ وهذا لفظ مسلم‏.‏ \nوفي رواية لهما‏:‏ ما أعددت لها من كثير صوم، ولا صلاة، ولا صدقة ولكني أحب الله ورسوله‏.‏",
+    "sourceId": 42651
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:861",
+  "book": "riyad_assalihin",
+  "number": 861,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “تجدون الناس معادن‏:‏ خيارهم في الجاهلية خيارهم في الإسلام إذا فقهوا، وتجدون خيار الناس في هذا الشأن أشدهم له كراهية، وتجدون شر الناس ذا الوجهين، الذي يأتي هؤلاء بوجه، وهؤلاء بوجه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41926
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

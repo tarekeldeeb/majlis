@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1635",
+  "book": "riyad_assalihin",
+  "number": 1635,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عمر بن الخطاب، رضي الله عنه ، قال‏:‏ قدم رسول الله ، صلى الله عليه وسلم، بسبي، فإذا امرأة من السبي تسعى، إذ وجدت صبياً في السبي أخذته، فألزقته ببطنها، فأرضعته، فقال رسول الله، صلى الله عليه وسلم‏:‏ “أترون هذه المرأة طارحة ولدها في النار‏؟‏” قلنا لا والله ‏.‏ قال‏:‏ ‏\n\"‏لله أرحم بعباده من هذه الأم بولدها‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42700
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

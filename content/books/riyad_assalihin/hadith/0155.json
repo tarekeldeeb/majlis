@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:155",
+  "book": "riyad_assalihin",
+  "number": 155,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رَضِيَ اللَّهُ عَنهُ قال، قال رَسُول اللَّهِ ﷺ: \n\"ما من قوم يقومون من مجلس ولا يذكرون اللَّه تعالى فيه إلا قاموا عن مثل جيفة حمار وكان لهم حسرة\" ((رَوَاهُ أبُو دَاوُدَ بإسناد صحيح)).",
+    "sourceId": 41220
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

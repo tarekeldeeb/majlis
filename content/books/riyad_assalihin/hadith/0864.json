@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:864",
+  "book": "riyad_assalihin",
+  "number": 864,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص رضي الله عنهما، أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أربع من كن فيه كان منافقًا خالصًا، ومن كانت فيه خصلة منهن كانت فيه خصلة من نفاق حتى يدعها‏:‏ إذا أؤتمن خان، وإذا حدث كذب، وإذا عاهد غدر، وإذا خاصم فجر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \nوقد سبق بيانه مع حديث أبي هريرة بنحوه في باب الوفاء بالعهد‏.‏",
+    "sourceId": 41929
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

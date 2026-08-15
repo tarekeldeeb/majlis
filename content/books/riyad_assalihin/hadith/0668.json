@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:668",
+  "book": "riyad_assalihin",
+  "number": 668,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن السائب بن يزيد، رضي الله عنه قال‏:‏ لما قدم النبي صلى الله عليه وسلم من غزوة تبوك تلقاه الناس، فلقيته مع الصبيان على ثنية الوداع‏.‏\n‏‏(‏رواه أبو داود بإسناد صحيح بهذا اللفظ‏)‏‏‏ ورواه البخاري قال‏:‏ ذهبنا نتلقى رسول الله صلى الله عليه وسلم مع الصبيان إلى ثنية الوداع‏",
+    "sourceId": 41733
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

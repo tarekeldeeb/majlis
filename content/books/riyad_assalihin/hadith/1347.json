@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1347",
+  "book": "riyad_assalihin",
+  "number": 1347,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الرابع عشر‏:‏ عنه عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ الصلوات الخمس، والجمعة إلى الجمعة، ورمضان إلى رمضان مكفرات لما بينهن إذا اجتنبت الكبائر‏\"‏  ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42412
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

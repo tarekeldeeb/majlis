@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:395",
+  "book": "riyad_assalihin",
+  "number": 395,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود رضي الله عنه قال‏:‏ سألت رسول الله صلى الله عليه وسلم ‏:‏ أي الأعمال أفضل‏؟‏ قال‏:‏ ‏\"‏الصلاة على أوقتها‏\"‏ قلت‏:‏ ثم أي‏؟‏ قال‏:‏ ‏\"‏بر الوالدين‏\"‏ قلت ثم أي‏؟‏ قال‏:‏ ‏\"‏ الجهاد في سبيل الله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41460
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

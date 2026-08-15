@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:529",
+  "book": "riyad_assalihin",
+  "number": 529,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنه، أن النبي صلى الله عليه وسلم بعث معاذًا رضي الله عنه إلى اليمن فقال‏:‏ ‏\n\"‏ادعهم إلى شهادة أن لا إله إلا الله وأني رسول الله، فإن هم أطاعوا لذلك فأعلمهم أن الله تعالى افترض عليهم خمس صلوات في كل يوم وليلة، فإن هم أطاعوا لذلك فأعلمهم أن الله افترض عليهم صدقة تؤخذ من أغنيائهم، وترد على فقرائهم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41594
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:338",
+  "book": "riyad_assalihin",
+  "number": 338,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي مسعود البدري رضي الله عنه عن النبي صلى الله عليه وسلم قال ‏:‏‏\n\"‏ من قرأ بالآيتين من آخر سورة البقرة في ليلة كفتاه ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41403
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

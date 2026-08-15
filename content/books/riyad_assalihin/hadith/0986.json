@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:986",
+  "book": "riyad_assalihin",
+  "number": 986,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أسيد بن أبي أسيد التابعي عن امرأة من المبايعات قالت‏:‏ كان فيما أخذ علينا رسول الله صلى الله عليه وسلم، في المعروف الذي أخذ علينا أن لا نعصيه فيه‏:‏ أن لا نخمش وجهًا، ولا ندعو ويلا، ولا نشق جيبًا، وأن لا ننشر شعرًا‏\"‏‏. ((رواه أبو داود بإسناد حسن  ))‏",
+    "sourceId": 42051
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

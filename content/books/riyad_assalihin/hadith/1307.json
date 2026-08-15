@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1307",
+  "book": "riyad_assalihin",
+  "number": 1307,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة ، قَالَ : جاءَ رَجُلٌ إِلَى النَّبيِّ فَقَالَ : يَا رسولَ الله ، أيُّ الصَّدَقَةِ أعْظَمُ أجْرَاً ؟ قَالَ : « أنْ تَصَدَّقَ وَأنتَ صَحيحٌ شَحيحٌ ، تَخشَى الفَقرَ وتَأمُلُ الغِنَى ، وَلا تُمهِلْ حَتَّى إِذَا بَلَغتِ الحُلقُومَ قُلْتَ لِفُلان كذا ولِفُلانٍ كَذا ، وقَدْ كَانَ لِفُلانٍ » . مُتَّفَقٌ عَلَيهِ .",
+    "sourceId": 42372
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

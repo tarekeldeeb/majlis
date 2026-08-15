@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:579",
+  "book": "riyad_assalihin",
+  "number": 579,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ أوصاني خليلي صلى الله عليه وسلم بثلاث‏:‏ صيام ثلاثة أيام من كل شهر، وركعتي الضحى وأن أوتر قبل أن أنام‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41644
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

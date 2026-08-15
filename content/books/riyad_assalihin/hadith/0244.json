@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:244",
+  "book": "riyad_assalihin",
+  "number": 244,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى  الله عليه وسلم  قال‏:‏ يقول الله تعالى‏:‏ ما لعبدي المؤمن عندي جزاء إذا قبضت صفيه من أهل الدنيا، ثم احتسبه إلا الجنه‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41309
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

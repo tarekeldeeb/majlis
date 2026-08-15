@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1553",
+  "book": "riyad_assalihin",
+  "number": 1553,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "و عن أبي بكرة نفيع بن الحارث رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏ألا أنبئكم بأكبر الكبائر‏؟‏‏\"‏ ثلاثًا قلنا‏:‏ بلى يا رسول الله‏:‏ قال‏:‏ ‏\"‏الإشراك بالله، وعقوق الوالدين\" وكان متكئاً فجلس، فقال: \"ألا و قول الزور و شهادة الزور\" فما زال يكررها حتى قلنا: ليته سكتز‏ ‏(‏‏(‏متفق عليه‏)‏‏)",
+    "sourceId": 42618
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

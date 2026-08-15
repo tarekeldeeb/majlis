@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:460",
+  "book": "riyad_assalihin",
+  "number": 460,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه قال‏:‏ أوصاني خليلي صلى الله عليه وسلم بصيام ثلاثة أيام من كل شهر، وركعتي الضحى، وأن أوتر قبل أن أرقد‏\"‏ ‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏  \nوالإيتار قبل النوم إنما يستحب لمن لا يثق باستيقاظ آخر الليل، فإن وثق فآخر الليل أفضل‏.‏",
+    "sourceId": 41525
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:212",
+  "book": "riyad_assalihin",
+  "number": 212,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ قدم زيد بن حارثة المدينة ورسول الله صلى  الله عليه وسلم  في بيتي، فأتاه فقرع الباب، فقام إليه النبي صلى الله عليه وسلم  يجر ثوبه، فاعتنقه وقبله‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41277
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

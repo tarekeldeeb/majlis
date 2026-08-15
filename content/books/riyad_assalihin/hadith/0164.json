@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:164",
+  "book": "riyad_assalihin",
+  "number": 164,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى الأسقع واثلة بن الأسقع رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن من أعظم الفرى أن يدعى الرجل إلى غير أبيه، أو يرى عينيه ما لم تر، أو يقول على رسول الله صلى الله عليه وسلم ما لم يقل‏\"‏ ‏((رَوَاهُ البُخَارِيُّ)).",
+    "sourceId": 41229
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

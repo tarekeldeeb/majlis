@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:237",
+  "book": "riyad_assalihin",
+  "number": 237,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن القاسم بن محمد قال‏:‏ قالت عائشة رضي الله عنها‏:‏ وا رأساه فقال النبي صلى الله عليه وسلم الله عليه وسلمى الله عليه وسلم  الله عليه وسلم ‏:‏ ‏\"‏بل أنا وا رأساه‏\"‏ وذكر الحديث‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41302
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:560",
+  "book": "riyad_assalihin",
+  "number": 560,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال كان رسول الله صلى الله عليه وسلم يفطر قبل أن يصلي على رطبات، فإن لم تكن رطبات فتميرات فإن لم تكن تميرات حسا حسوات من ماء‏.‏ ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41625
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

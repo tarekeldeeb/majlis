@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:766",
+  "book": "riyad_assalihin",
+  "number": 766,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لو أن أحدكم إذا أتى أهله قال‏:‏ بسم الله، اللهم جنبنا الشيطان وجنب الشيطان ما رزقتنا، فقضى بينهما ولد لم يضره ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41831
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

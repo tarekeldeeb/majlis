@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:330",
+  "book": "riyad_assalihin",
+  "number": 330,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن أبي سعيد رافع بن المعلى رضي الله عنه قال ‏:‏ قال لي رسول الله صلى الله عليه وسلم ‏:‏‏\"‏ألا أعلمك أعظم سورة في القرآن قبل أن تخرج من المسجد‏؟‏ فأخذ بيدي ، فلما أردنا أن نخرج قلت ‏:‏ يا رسول الله إنك قلت لأعلمنك أعظم سورة في القرآن ‏؟‏ قال‏:‏ ‏\"‏الحمد لله رب العالمين هي السبع المثاني، والقرآن العظيم الذي أوتيته ‏\"‏‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41395
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

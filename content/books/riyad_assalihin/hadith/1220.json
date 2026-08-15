@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1220",
+  "book": "riyad_assalihin",
+  "number": 1220,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ لا هجرة بعد الفتح، ولكن جهاد ونية، وإذا استنفرتم فانفروا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42285
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

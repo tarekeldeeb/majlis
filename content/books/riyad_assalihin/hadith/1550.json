@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1550",
+  "book": "riyad_assalihin",
+  "number": 1550,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ كانت تحتي امرأة، وكنت أحبها، وكان عمر يكرهها، فقال لي‏:‏ طلقها، فأبيت، فأتى عمر رضي الله عنه النبي صلى الله عليه وسلم، فذكر ذلك له، فقال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏طلقها‏\"‏‏.‏ \n‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42615
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

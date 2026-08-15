@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:692",
+  "book": "riyad_assalihin",
+  "number": 692,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي مسعود البدري رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏حوسب رجل ممن كان قبلكم فلم يوجد له من الخير شيء إلا أنه كان يخالط الناس، وكان موسرًا وكان يأمر غلمانه أن يتجاوزوا عن المعسر قال الله عز وجل‏:‏ ‏\"‏نحن أحق بذلك منه، تجاوزوا عنه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41757
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

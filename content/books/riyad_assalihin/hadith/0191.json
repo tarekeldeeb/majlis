@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:191",
+  "book": "riyad_assalihin",
+  "number": 191,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسي الأشعري رضي الله عنه قال‏:‏ قال رسول الله صلى  الله عليه وسلم ‏:‏ “ الاستئذان ثلاث، فإن أذن لك وإلا فارجع‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41256
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

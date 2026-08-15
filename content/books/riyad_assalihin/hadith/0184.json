@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:184",
+  "book": "riyad_assalihin",
+  "number": 184,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن سهل بن سعد رضي الله عنه قال‏:‏ كانت فينا امرأة -وفي رواية‏:‏ كانت لنا عجوز- تأخذ من أصول السلق فتطرحه في القدر، وتكركر حبات من شعير، فإذا صلينا الجمعة، وانصرفنا، نُسلم عليها، فتقدمه إلينا‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41249
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

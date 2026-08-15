@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1058",
+  "book": "riyad_assalihin",
+  "number": 1058,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص رضي الله عنهما أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏إن الله يبغض البليغ من الرجال الذي يتخلل بلسانه كما تتخلل البقرة‏\"‏‏.‏‏(‏‏(‏رواه أبو داود والترمذي وقال حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42123
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

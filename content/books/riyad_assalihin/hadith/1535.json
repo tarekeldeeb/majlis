@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1535",
+  "book": "riyad_assalihin",
+  "number": 1535,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه أن رجلاً قَالَ : يَا رَسُول الله ! إنّ لِي قَرابةً أصِلُهُمْ وَيَقْطَعُوني ، وَأُحْسِنُ إلَيْهِمْ وَيُسِيئُونَ إلَيَّ ، وَأحْلَمُ عَنْهُمْ وَيَجْهَلُونَ عَلَيَّ ، فَقَالَ : \n\" لَئِنْ كُنْتَ كَمَا قُلْتَ ، فَكأنَّمَا تُسِفُّهُمْ الْمَلَّ ، وَلا يَزَالُ مَعَكَ مِنَ اللهِ ظَهِيرٌ عَلَيْهِمْ مَا دُمْتَ عَلَى ذلِكَ \". ((رواه مسلم)).",
+    "sourceId": 42600
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:723",
+  "book": "riyad_assalihin",
+  "number": 723,
+  "chapter": {
+    "id": 14,
+    "title": "كتاب الصلاة على رسول الله صلى الله عليه وسلم"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ما من أحد يسلم علي إلا رد الله علي روحي حتى أرد عليه السلام‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41788
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1463",
+  "book": "riyad_assalihin",
+  "number": 1463,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري رضي الله عنه قال‏:‏ كان النبي صلى الله عليه وسلم إذا أتاه طالب حاجة أقبل على جلسائه فقال‏:‏ ‏:‏اشفعوا تؤجروا ويقضي الله على لسان نبيه ما أحب‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ (16)",
+    "sourceId": 42528
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

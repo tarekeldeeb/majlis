@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:549",
+  "book": "riyad_assalihin",
+  "number": 549,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن طلحة بن عبيد الله رضي الله عنه أن النبي صلى الله عليه وسلم كان إذا رأى الهلال قال‏:‏ ‏\n\"‏اللهم أهله علينا بالأمن والإيمان والسلامة والإسلام، ربي وربك الله، هلال رشد وخير‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41614
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

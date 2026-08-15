@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1719",
+  "book": "riyad_assalihin",
+  "number": 1719,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن محمد بن سيرين عن أبي هريرة، رضي الله عنه، قال‏:‏ لقد رأيتني وإني لأجر فيما بين منبر رسول الله، صلى الله عليه وسلم، إلى حجرة عائشة رضي الله عنها مغشياً علي، فيجيء الجائي، فيضع رجلة على عنقي، ويرى أني مجنون وما بي من جنون، ما بي إلا الجوع‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42784
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

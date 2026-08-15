@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:656",
+  "book": "riyad_assalihin",
+  "number": 656,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعنه، رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏إن الله يدخل بالسهم الواحد ثلاثة نفر الجنة‏:‏ صانعه يحتسب في صنعته الخير، والرامي به ومنبله‏.‏ وارموا واركبوا، وأن ترموا أحب إلي من أن تركبوا‏.‏ ومن ترك الرمي بعد ما علمه رغبة عنه فإنها نعمة تركها‏\"‏ أو قال‏:‏ ‏\"‏كفرها‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41721
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:145",
+  "book": "riyad_assalihin",
+  "number": 145,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضى الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لا يقمن أحدكم من مجلسه ثم يجلس فيه، ولكن توسعوا وتفسحوا‏\"‏ وكان ابن عمر إذا قام له رجل من مجلسه لم يجلس فيه‏.‏ (‏‏(‏متفق عليه‏)‏‏)‏.",
+    "sourceId": 41210
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

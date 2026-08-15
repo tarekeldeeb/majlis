@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:2",
+  "book": "riyad_assalihin",
+  "number": 2,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن عمران بن حصين، رضي الله عنهما، قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “ الحياء لا يأتى إلا بخير” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \nوفي رواية لمسلم” ‏\n\"‏الحياءه خير كله”أوقال‏:‏ “الحياء كله خير‏\"‏‏.‏",
+    "sourceId": 41067
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

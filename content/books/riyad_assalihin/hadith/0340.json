@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:340",
+  "book": "riyad_assalihin",
+  "number": 340,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي بن كعب رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏‏\"‏ يا أبا المنذر أتدري أي آية من كتاب الله معك أعظم ‏؟‏ قلت‏:‏ الله لا إله إلا هو الحي القيوم، فضرب في صدري وقال ‏:‏‏\"‏ ليهنك العلم أبا المنذر‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم ‏)‏‏)‏‏.‏",
+    "sourceId": 41405
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

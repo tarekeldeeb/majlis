@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:887",
+  "book": "riyad_assalihin",
+  "number": 887,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من أحب أن يزحزح عن النار، ويدخل الجنة، فلتأته منيته وهو يؤمن بالله واليوم الآخر، وليأتِ إلى الناس الذي يحب أن يؤتى  إليه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ وهو بعض حديث طويل سبق في باب طاعة ولاة الأمور‏.‏",
+    "sourceId": 41952
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

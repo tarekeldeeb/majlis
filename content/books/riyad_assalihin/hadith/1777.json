@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1777",
+  "book": "riyad_assalihin",
+  "number": 1777,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من تصدق بعدل تمرة من كسب طيب، ولا يقبل إلا الطيب، فإن الله يقبلها بيمينه، ثم يربيها لصاحبها كما يربى أحدكم فلوه حتى تكون مثل الجبل ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏  \n\n“الفلو” بفتح الفاء وضم اللام وتشديد الواو، ويقال أيضاً‏:‏ بكسر الفاء وإسكان اللام وتخفيف الواو‏:‏ وهو المهر ‏.‏",
+    "sourceId": 42842
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

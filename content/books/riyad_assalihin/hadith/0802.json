@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:802",
+  "book": "riyad_assalihin",
+  "number": 802,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم، كان يدعو بهؤلاء الكلمات‏:‏ ‏\n\"‏اللهم إني أعوذ بك من فتنة النار، وعذاب النار، ومن شر الغنى والفقر‏\"‏‏.‏ رواه أبو داود والترمذي وقال حديث حسن صحيح وهذا لفظ أبي داود‏.‏",
+    "sourceId": 41867
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

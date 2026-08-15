@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:737",
+  "book": "riyad_assalihin",
+  "number": 737,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن المغيرة بن شعبة رضي الله عنه أن رسول الله صلى الله عليه وسلم، كان إذا فرغ من الصلاة وسلم قال ‏:‏ ‏\n\"‏لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير‏.‏ اللهم لا مانع لما أعطيت، ولا معطي لما منعت، ولا ينفع ذا الجد منك الجد‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41802
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

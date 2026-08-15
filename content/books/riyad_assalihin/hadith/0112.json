@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:112",
+  "book": "riyad_assalihin",
+  "number": 112,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا ينظر الله يوم القيامة إلى من جر إزاره بطراً‏\"‏.‏((متفق عليه))",
+    "sourceId": 41177
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

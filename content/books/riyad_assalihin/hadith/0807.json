@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:807",
+  "book": "riyad_assalihin",
+  "number": 807,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن علي، رضي الله عنه، أن مكاتبًا جاءه، فقال‏:‏ إني عجزت عن كتابتي‏.‏ فأعني‏.‏ قال‏:‏ ألا أعلمك كلمات علمنيهن رسول الله صلى الله عليه وسلم، لو كان عليك مثل جبل دينا أداه الله عنك‏؟‏ قل‏:‏ ‏\n\"‏اللهم اكفني بحلالك عن حرامك، وأغنني بفضلك عمن سواك‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41872
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

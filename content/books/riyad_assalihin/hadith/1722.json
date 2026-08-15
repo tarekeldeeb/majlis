@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1722",
+  "book": "riyad_assalihin",
+  "number": 1722,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة، رضي الله عنه، قال‏:‏ لقد رأيت سبعين من أهل الصفة، ما منهم رجل عليه رداء، إما إزار وإما كساء، قد ربطوا في أعناقهم منها ما يبلغ نصف الساقين، ومنها ما يبلغ الكعبين، فيجمعه بيده كراهية أن ترى عورته‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42787
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

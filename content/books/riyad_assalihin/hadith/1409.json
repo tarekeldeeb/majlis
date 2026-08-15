@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1409",
+  "book": "riyad_assalihin",
+  "number": 1409,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "التاسع‏:‏ عن أبي سعيد الحسن البصري أن عائذ بن عمرو رضي الله عنه دخل على عبيد الله بن زياد فقال‏:‏ أي بني، إني سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\"‏إن شر الرعاء الحطمة” فإياك أن تكون منهم‏.‏ فقال له ‏:‏ اجلس فإنما أنت من نخالة أصحاب محمد صلى الله عليه وسلم ، فقال‏:‏ وهل كانت لهم نخالة، إنما كانت النخالة بعدهم وفي غيرهم ‏!‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42474
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

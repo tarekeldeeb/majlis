@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1872",
+  "book": "riyad_assalihin",
+  "number": 1872,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏كانت بنو إسرائيل تسوسهم الأنبياء، كلما هلك نبى خلفه نبى، وإنه لا نبى بعدى وسيكون بعدى خلفاء فيكثرون” قالوا‏:‏ يا رسول الله فما تأمرنا‏؟‏ قال‏:‏ ‏\"‏أوفوا ببيعة الأول فالأول، ثم أعطوهم حقهم، واسألوا الله الذى لكم ، فإن الله سائلهم عما استرعاهم” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42937
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

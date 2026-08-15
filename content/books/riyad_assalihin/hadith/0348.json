@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:348",
+  "book": "riyad_assalihin",
+  "number": 348,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ رأيت رسول الله  صلى الله عليه وسلم يتوضأ مثل وضوئي هذا ثم قال‏:‏ ‏\n\"‏من توضأ هكذا، غفر له ما تقدم من ذنبه، وكانت صلاته ومشيه إلى المسجد نافلة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41413
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

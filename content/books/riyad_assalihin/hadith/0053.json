@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:53",
+  "book": "riyad_assalihin",
+  "number": 53,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضى الله عنها قالت‏:‏ كان رسول الله صلى الله عليه وسلم يأكل طعاماً في ستة من أصحابه، فجاء أعرابى، فأكله بلقمتين‏.‏ فقال رسول الله صلى الله عليه وسلم ‏\n\"‏أما إنه لو سمى لكفاكم‏\"‏‏.‏((رواه الترمذي))",
+    "sourceId": 41118
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

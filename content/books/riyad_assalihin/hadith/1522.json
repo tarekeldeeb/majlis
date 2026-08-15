@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1522",
+  "book": "riyad_assalihin",
+  "number": 1522,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏ والله لا يؤمن، والله لايؤمن، والله لا يؤمن‏!‏‏\"‏ قيل‏:‏ من يا رسول الله‏؟‏ قال‏:‏ ‏\"‏ الذي لا يأمن جاره بوائقه ‏!‏ ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \nوفي رواية لمسلم‏:‏ ‏\"‏ لايدخل الجنة من لا يأمن جاره بوائقه‏\"‏‏.‏",
+    "sourceId": 42587
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

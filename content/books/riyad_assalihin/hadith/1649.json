@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1649",
+  "book": "riyad_assalihin",
+  "number": 1649,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري، رضي الله عنه، قال‏:‏ قال رسول الله، صلى الله عليه وسلم‏:‏ إذا كان يوم القيامة دفع الله إلى كل مسلم يهودياً أونصرانياً فيقول‏:‏ هذا فكاكك من النار‏\"‏‏.‏ \nوفي رواية عنه عن النبي، صلى الله عليه وسلم قال‏:‏ ‏\"‏يجئ يوم القيامة ناس من المسلمين بذنوب أمثال الجبال يغفرها الله لهم ‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42714
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

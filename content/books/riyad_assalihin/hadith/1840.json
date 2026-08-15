@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1840",
+  "book": "riyad_assalihin",
+  "number": 1840,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن النواس بن سمعان رضي الله عنه قال‏:‏ سألت رسول الله صلى الله عليه وسلم عن البر والإثم فقال‏:‏ “البر حسن الخلق، والإثم‏:‏ ما حاك في نفسك وكرهت أن يطلع عليه الناس” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42905
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

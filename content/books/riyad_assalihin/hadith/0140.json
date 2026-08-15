@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:140",
+  "book": "riyad_assalihin",
+  "number": 140,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "عن عبد الله بن زيد رضى الله عنه أنه رأى رسول الله صلى الله عليه وسلم مستلقياً في المسجد، واضعاً إحدى رجليه على الأخرى‏. (‏‏(‏متفق عليه‏)‏‏)‏‏‏.",
+    "sourceId": 41205
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

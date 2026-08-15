@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1579",
+  "book": "riyad_assalihin",
+  "number": 1579,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من عاد مريضًا أو زار أخًا له في الله، ناداه منادٍ، بأن طبت، وطاب ممشاك، وتبوأت من الجنة منزلاً‏\"‏ ‏(‏‏(‏رواه الترمذي وقال ‏:‏ حديث حسن ، وفي بعض النسخ غريب‏)‏‏)‏‏.‏",
+    "sourceId": 42644
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

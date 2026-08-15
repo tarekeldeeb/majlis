@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:471",
+  "book": "riyad_assalihin",
+  "number": 471,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه وعن ابن عمر، رضي الله عنهم، أنهما سمعا رسول الله صلى الله عليه وسلم ، يقول على أعواد منبره‏:‏ ‏\n\"‏لينتهين أقوام عن وَدعهم الجمعات، أو ليختمن الله على قلوبهم، ثم ليكونن من الغافلين‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41536
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

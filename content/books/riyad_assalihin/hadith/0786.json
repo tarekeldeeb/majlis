@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:786",
+  "book": "riyad_assalihin",
+  "number": 786,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن النعمان بن بشير رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏الدعاء هو العبادة‏\"‏‏.‏",
+    "sourceId": 41851
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

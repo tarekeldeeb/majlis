@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:663",
+  "book": "riyad_assalihin",
+  "number": 663,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضي الله عنه قال‏:‏ كنا مع النبي صلى الله عليه وسلم في غزاة فقال‏:‏ ‏\n\"‏إن بالمدينة لرجالا ما سرتم مسيرًا، ولا قطعتم واديًا إلا كانوا معكم حبسهم المرض‏\"‏",
+    "sourceId": 41728
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

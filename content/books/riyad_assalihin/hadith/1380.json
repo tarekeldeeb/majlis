@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1380",
+  "book": "riyad_assalihin",
+  "number": 1380,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثامن‏:‏ عن جابر رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏مثلي ومثلكم كمثل رجل أوقد ناراً فجعل الجنادب والفراش يقعن فيها وهو يذبهن عنها وأنا آخذ بحجزكم عن النار، وأنتم تفلتون من يدي‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42445
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:502",
+  "book": "riyad_assalihin",
+  "number": 502,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنها رضي الله عنها، قالت‏:‏ كان رسول الله صلى الله عليه وسلم ، إذا فاتته الصلاة من الليل من وجع أو غيره، صلى من النهار ثنتي عشر ركعة‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41567
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

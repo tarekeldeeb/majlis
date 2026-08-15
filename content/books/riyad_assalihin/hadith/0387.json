@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:387",
+  "book": "riyad_assalihin",
+  "number": 387,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ أتى النبي صلى الله عليه وسلم رجل أعمي، فقال‏:‏ يا رسول الله، ليس لي قائد يقودني إلى المسجد، فسأل رسول الله صلى الله عليه وسلم أن يرخص له فيصلي في بيته، فرخص له، فلما ولى دعاه فقال له‏:‏ ‏\"‏هل تسمع النداء بالصلاة‏؟‏ ‏\"‏ قال نعم، قال‏:‏ ‏\"‏فأجب‏\"‏ ‏(‏‏(‏رواه  مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41452
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

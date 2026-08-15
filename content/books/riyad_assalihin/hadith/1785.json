@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1785",
+  "book": "riyad_assalihin",
+  "number": 1785,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن سعد رضي الله عنه أن رسول الله صلى الله عليه وسلم  أتي بشراب، فشرب منه وعن يمينه غلام، وعن يساره الأشياخ، فقال للغلام‏:‏” أتأذن لى أن أعطي هؤلاء‏؟‏” فقال الغلام لا والله يا رسول الله، لا أؤثر منك أحداً، فتله رسول الله صلى الله عليه وسلم فى يده ‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \n\n“تله” بالتاء المثناه، فوق ، أى وضعه، وهذا الغلام هو ابن عباس رضي الله عنهما‏.‏",
+    "sourceId": 42850
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

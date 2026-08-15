@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:87",
+  "book": "riyad_assalihin",
+  "number": 87,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضى الله عنهما قال‏:‏ سقيت النبي صلى الله عليه وسلم من زمزم، فشرب وهو قائم ‏.‏((متفق عليه))",
+    "sourceId": 41152
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

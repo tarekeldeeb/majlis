@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1202",
+  "book": "riyad_assalihin",
+  "number": 1202,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن أبي  هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم  ‏:‏ ‏\"‏قال الله تعالى أعددت لعبادي الصالحين ما لا عين رأت ولا أذن سمعت ولا خطر على قلب بشر، واقرؤوا إن شئتم‏:‏ ‏{‏فلا تعلم نفس ما أخفي لهم من قرة أعين جزاء بما كانوا يعملون‏}‏ ‏(‏‏(‏السجدة‏:‏17‏)‏‏)‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42267
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

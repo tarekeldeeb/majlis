@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:169",
+  "book": "riyad_assalihin",
+  "number": 169,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي يوسف عبد الله بن سلام رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏يا أيها الناس أفشوا السلام، وأطعموا الطعام، وصلوا الأرحام وصلوا والناس نيام، تدخلوا الجنة بسلام‏\"‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41234
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

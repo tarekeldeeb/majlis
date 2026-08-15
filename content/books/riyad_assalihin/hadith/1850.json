@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1850",
+  "book": "riyad_assalihin",
+  "number": 1850,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنها أن النبى صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ إن الله رفيق يحب الرفق، ويعطى على الرفق ما لا يعطى على العنف ومالا يعطى على ما سواه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42915
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

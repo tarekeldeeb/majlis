@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:75",
+  "book": "riyad_assalihin",
+  "number": 75,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن أبى هريرة رضى الله عنه قال ‏:‏ قال رسول الله  صلى الله عليه وسلم ‏:‏طعام الاثنين كافي الثلاثة، وطعام الثلاثة كافي الأربعة‏\"‏.‏ ((متفق عليه))",
+    "sourceId": 41140
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

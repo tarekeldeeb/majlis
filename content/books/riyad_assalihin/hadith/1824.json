@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1824",
+  "book": "riyad_assalihin",
+  "number": 1824,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن رسول الله صلى الله عليه وسلم كان إذا أكل طعاماً لعق أصابعه الثلاث قال‏:‏ وقال‏:‏ “إذا سقطت لقمة أحدكم، فليمط عنها الأذى، وليأكلها، ولا يدعها للشيطان” وأمر أن تسلت القصعة قال‏:‏ فإنكم لا تدرون فى أى طعامكم البركة” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42889
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

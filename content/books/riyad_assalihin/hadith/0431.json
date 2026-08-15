@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:431",
+  "book": "riyad_assalihin",
+  "number": 431,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن عائشة رضي الله عنها قالت‏:‏ كان النبي صلى الله عليه وسلم إذا صلى ركعتي الفجر، اضطجع على شقه الأيمن‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41496
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:745",
+  "book": "riyad_assalihin",
+  "number": 745,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن علي رضي الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم إذا قام إلى الصلاة يكون من آخر ما يقول بين التشهد والتسليم‏:‏ ‏\n\"‏اللهم اغفر لي ما قدمت وما أخرت، وما أسررت وما أعلنت، وما أسرفت، وما أنت أعلم به مني، أنت المقدم، وأنت المؤخر، لا إله إلا أنت‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41810
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

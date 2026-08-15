@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1278",
+  "book": "riyad_assalihin",
+  "number": 1278,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثانى‏:‏ عن أبي ذر جندب بن جنادة، وأبي عبد الرحمن معاذ بن جبل، رضي الله عنهما، عن رسول الله صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏ اتق الله حيثما كنت واتبع السيئة الحسنة تمحها، وخالق الناس بخلق حسن‏\"‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن ‏)‏‏)‏‏.‏",
+    "sourceId": 42343
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

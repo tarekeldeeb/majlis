@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1293",
+  "book": "riyad_assalihin",
+  "number": 1293,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثالث‏:‏ عن ابن عباس رضي الله عنهما أيضاً قال‏:‏ ‏\"‏حسبنا الله ونعم الوكيل، قالها إبراهيم صلى الله عليه وسلم حين ألقي في النار، وقالها محمد صلى الله عليه وسلم حين قالوا‏:‏ إن الناس قد جمعوا لكم فاخشوهم فزادهم إيمانا وقالوا‏:‏ حسبنا الله ونعم الوكيل‏:‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42358
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

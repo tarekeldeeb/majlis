@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:306",
+  "book": "riyad_assalihin",
+  "number": 306,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "عن جابر رضي الله عنه أن رسول الله صلى  الله عليه وسلم  قال‏:‏ ‏\n\"‏إذا أطال أحدكم الغيبة فلا يطرقن أهله ليلاً‏\"‏‏\nوفي رواية أن رسول الله صلى الله عليه وسلم  نهى أن يطرق الرجل أهله ليلاً‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41371
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

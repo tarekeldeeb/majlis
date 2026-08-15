@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:122",
+  "book": "riyad_assalihin",
+  "number": 122,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن معاذ بن أنس رضى الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ من ترك اللباس تواضعاً لله، وهو يقدر عليه، دعاه الله يوم القيامة على رؤوس الخلائق حتى يخيره من أي حلل الإيمان شاء يلبسها‏\"‏.((رواه الترمذي))  \n‏",
+    "sourceId": 41187
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

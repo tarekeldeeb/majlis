@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:110",
+  "book": "riyad_assalihin",
+  "number": 110,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "عن أسماء بنت يزيد الأنصارية رضى الله عنها قالت‏:‏ كان كم قميص رسول الله صلى الله عليه وسلم إلى الرسغ.‏((رواه أبو داود والترمذي))",
+    "sourceId": 41175
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

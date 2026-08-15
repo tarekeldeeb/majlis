@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:23",
+  "book": "riyad_assalihin",
+  "number": 23,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن عائشة رضي الله عنها قالت‏:‏ ما رأيت رسول الله صلى الله عليه وسلم  مستجمعا قط ضاحكاً حتى ترى منه لهواته، إنما كان يتبسم ‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41088
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1881",
+  "book": "riyad_assalihin",
+  "number": 1881,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول “من خلع يداً من طاعة لقي الله يوم القيامة ولا حجة له، ومن مات وليس في عنقه بيعة مات ميتة جاهلية” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \n\nوفي رواية له‏:‏ “ومن مات وهو مفارق للجماعة، فإنه يموت ميتة جاهلية” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏\n\nوفي رواية له‏:‏ “ومن مات وهو مفارق للجماعة، فإنه يموت ميتة جاهلية”‏.‏",
+    "sourceId": 42946
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:91",
+  "book": "riyad_assalihin",
+  "number": 91,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضى الله عنه عن النبي  صلى الله عليه وسلم أنه نهى أن يشرب الرجل قائماً‏.‏ قال قتادة‏:‏ فقلنا لأنس‏:‏ فالأكل‏؟‏ قال‏:‏ ذلك أشر -أو أخبث- ‏.‏ وفى رواية له أن النبي صلى الله عليه وسلم زجر عن الشرب قائما.‏‏((رواه مسلم))‏\n \nوفى رواية له أن النبي صلى الله عليه وسلم زجر عن الشرب قائماً‏.‏",
+    "sourceId": 41156
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

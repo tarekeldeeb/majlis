@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:590",
+  "book": "riyad_assalihin",
+  "number": 590,
+  "chapter": {
+    "id": 9,
+    "title": "كتاب الاعتكاف"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها أن النبي صلى الله عليه وسلم كان يعتكف العشر الأواخر من رمضان، حتى توفاه الله، تعالى ثم اعتكف أزواجه من بعده‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41655
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

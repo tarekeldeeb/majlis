@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1895",
+  "book": "riyad_assalihin",
+  "number": 1895,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “إذا أراد الله بالأمير خيراً، جعل له وزير صدق، إن نسي ذكره، وإن ذكر أعانه، وإذا أراد به غير ذلك جعل له وزير سوء، إن نسي لم يذكره، وإذ ذكر لم يعنه” ‏(‏‏(‏رواه أبو داود بإسناد جيد على شرط مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42960
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:832",
+  "book": "riyad_assalihin",
+  "number": 832,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏من كان يؤمن بالله واليوم الآخر، فليقل خيرًا، أو ليصمت‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \nوهذا صريح أنه ينبغي أن لا يتكلم إلا إذا كان الكلام خيرًا، وهو الذي ظهرت مصلحته، ومتى شك في ظهور المصلحة، فلا يتكلم‏.‏",
+    "sourceId": 41897
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

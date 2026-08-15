@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1562",
+  "book": "riyad_assalihin",
+  "number": 1562,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس بن مالك رضي الله عنه قال‏:‏ خرجت مع جرير بن عبد الله البجلي رضي الله عنه في سفر، فكان يخدمني فقلت له‏:‏ لا تفعل، فقال‏:‏ إني قد رأيت الأنصار تصنع برسول الله صلى الله عليه وسلم شيئًا آليت على نفسي أن لا أصحب أحدًا منهم إلا خدمته‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42627
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

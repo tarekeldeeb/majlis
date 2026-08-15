@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:742",
+  "book": "riyad_assalihin",
+  "number": 742,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن سعد بن أبي وقاص رضي الله عنه أن رسول الله صلى الله عليه وسلم كان يتعوذ دبر الصلوات بهؤلاء الكلمات‏:‏ ‏\"‏اللهم إني أعوذ بك من الجبن والبخل، وأعوذ بك من أن أرد إلى أرذل العمر وأعوذ بك من فتنة الدنيا، وأعوذ بك من فتنة القبر” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41807
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

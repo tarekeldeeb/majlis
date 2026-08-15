@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1322",
+  "book": "riyad_assalihin",
+  "number": 1322,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الحادي عشر‏:‏ عن ابن مسعود رضي الله عنه قال‏:‏ قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ الجنة أقرب إلى أحدكم من شراك نعله، والنار مثل ذلك‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42387
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

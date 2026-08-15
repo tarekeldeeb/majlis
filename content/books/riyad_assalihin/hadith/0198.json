@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:198",
+  "book": "riyad_assalihin",
+  "number": 198,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضي الله عنه قال‏:‏ أتيت النبي صلى الله عليه وسلم  فدققت الباب، فقال ‏\"‏من ذا‏؟‏‏\"‏ فقلت‏:‏ أنا، فقال‏:‏ ‏\"‏أنا أنا‏؟‏‏!‏‏\"‏ كـأنه كرهها ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41263
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

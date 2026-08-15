@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1520",
+  "book": "riyad_assalihin",
+  "number": 1520,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر وعائشة رضي الله عنهما قالا‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ ما زال جبريل يوصيني بالجار حتى ظننت أنه سيورثه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42585
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

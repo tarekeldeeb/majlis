@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1075",
+  "book": "riyad_assalihin",
+  "number": 1075,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أنس بن مالك قَالَ : قَالَ رسولُ اللهِ : « مَا بَالُ أقْوامٍ يَرْفَعُونَ أبْصَارَهُمْ إِلَى السَّمَاءِ في صَلاَتِهِمْ » ! فَاشْتَدَّ قَولُهُ في ذَلِكَ حَتَّى قَالَ : « لَيَنْتَهُنَّ عَنْ ذَلِكَ ، أَوْ لَتُخطفَنَّ أَبْصَارُهُمْ » ! . رواه البخاري",
+    "sourceId": 42140
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:493",
+  "book": "riyad_assalihin",
+  "number": 493,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنها قالت‏:‏ ما كان رسول الله صلى الله عليه وسلم ، يزيد- في رمضان ولا في غيره- على إحدي عشرة ركعة‏:‏ يصلي أربعًا فلا تسأل عن حسنهن وطولهن‏!‏ ثم يصلي أربعًا فلا تسأل عن حسنهن وطولهن‏!‏ ثم يصلي ثلاثًا‏.‏ فقلت‏:‏ يا رسول الله أتنام قبل أن توتر‏!‏‏؟‏ فقال‏:‏ ‏\n\"‏يا عائشة إن عيني تنامان ولا ينام قلبي‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41558
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1365",
+  "book": "riyad_assalihin",
+  "number": 1365,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي عبد الله جابر بن سمرة رضي الله عنهما قال‏:‏ ‏\n\"‏كنت أصلى مع النبي صلى الله عليه وسلم الصلوات، فكانت صلاته قصداً وخطبته قصداً‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42430
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

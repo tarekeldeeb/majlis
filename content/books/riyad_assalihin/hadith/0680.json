@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:680",
+  "book": "riyad_assalihin",
+  "number": 680,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه قال‏:‏ قلت يا رسول الله أي الأعمال أفضل‏؟‏ قال‏:‏ ‏\"‏الإيمان بالله، والجهاد في سبيل الله‏\"‏ قلت‏:‏ أي الرقاب أفضل‏؟‏ قال‏:‏ ‏\"‏أنفسها عند أهلها وأكثرها ثمنًا” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41745
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

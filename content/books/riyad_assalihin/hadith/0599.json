@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:599",
+  "book": "riyad_assalihin",
+  "number": 599,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما، أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏عمرة في رمضان تعدل عمرة أو حجة معي‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41664
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

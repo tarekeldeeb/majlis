@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:504",
+  "book": "riyad_assalihin",
+  "number": 504,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه، قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏رحم الله رجلا قام من الليل، فصلى وأيقظ امرأته، فإن أبت نضح في وجهها الماء، ورحم الله امرأة قامت من الليل فصلت، وأيقظت زوجها فإن أبي نضحت في وجهه الماء‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41569
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -18,8 +18,11 @@
     "commentary": null
   },
   "review": {
-    "status": "ingested",
-    "reviewers": [],
-    "approvedAt": null
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
   }
 }

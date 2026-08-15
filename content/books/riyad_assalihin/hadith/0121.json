@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:121",
+  "book": "riyad_assalihin",
+  "number": 121,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ من جر ثوبه خيلاء لم ينظر الله إليه يوم القيامة‏\"‏ فقالت أم سلمة‏:‏ فكيف تصنع النساء بذيولهن، قال‏:‏ ‏\"‏يرخين شبراً‏\"‏ قالت‏:‏ ِإذاً تنكشف أقدامهن‏.‏ قال‏:‏ ‏\"‏فيرخينه ذراعاً لا يزدن‏\"‏‏.((رواه أبو داود والترمذي))",
+    "sourceId": 41186
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

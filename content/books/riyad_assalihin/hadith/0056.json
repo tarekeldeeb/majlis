@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:56",
+  "book": "riyad_assalihin",
+  "number": 56,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ ‏\n\"‏ما عاب رسول الله صلى الله عليه وسلم طعاماً قط، إن اشتهاه أكله، وإن كرهه تركه‏\"‏ ‏.‏ ((متفق عليه))",
+    "sourceId": 41121
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

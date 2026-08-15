@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1458",
+  "book": "riyad_assalihin",
+  "number": 1458,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏كل أمتي معافًى إلا المجاهرين، وإن من المجاهرة أن يعمل الرجل بالليل عملاً، ثم يصبح وقد ستره الله عليه فيقول‏:‏ يا فلان عملت البارحة كذا وكذا، وقد بات يستره ربه، ويصبح يكشف ستر الله عنه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42523
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

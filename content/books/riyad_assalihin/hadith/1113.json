@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1113",
+  "book": "riyad_assalihin",
+  "number": 1113,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أسامة بن زيد رضي الله عنه عن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏إذا سمعتم الطاعون بأرض، فلا تدخلوها، وإذا وقع بأرض، وأنتم فيها، فلا تخرجوا منها‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42178
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

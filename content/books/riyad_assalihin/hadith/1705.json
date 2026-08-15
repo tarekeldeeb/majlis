@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1705",
+  "book": "riyad_assalihin",
+  "number": 1705,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أسامة بن زيد، رضي الله عنهما، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏قمت على باب الجنة، فكان عامة من دخلها المساكين‏.‏ وأصحاب الجد محبوسون، غير أن أصحاب النار قد أمر بهم إلى النار‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏\n\n‏و‏(‏‏(‏‏ ‏الجد‏:الحظ والغنى‏.‏ وقد سبق بيان هذا الحديث في باب فضل الضعفة‏)‏‏)‏‏.‏",
+    "sourceId": 42770
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

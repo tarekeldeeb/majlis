@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1512",
+  "book": "riyad_assalihin",
+  "number": 1512,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ ما من يوم يصبح العباد فيه إلا ملكان ينزلان، فيقول أحدهما‏:‏ اللهم أعط منفقًا خلفًا، ويقول الآخر‏:‏ اللهم أعط ممسكًا تلفًا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42577
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

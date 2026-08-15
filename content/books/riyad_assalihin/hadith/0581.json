@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:581",
+  "book": "riyad_assalihin",
+  "number": 581,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص، رضي الله عنهما، قال‏:‏ قال رسول الله‏:‏ ‏\n\"‏صوم ثلاثة أيام من كل شهر صوم الدهر كله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41646
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:103",
+  "book": "riyad_assalihin",
+  "number": 103,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن أبى رمثة رفاعة التيمى رضى الله عنه قال‏:‏ رأيت رسول الله صلى الله عليه وسلم وعليه ثوبان أخضران‏.‏((رواه أبو داود والترمذي))",
+    "sourceId": 41168
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

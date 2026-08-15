@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1518",
+  "book": "riyad_assalihin",
+  "number": 1518,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عمرو بن شعيب، عن أبيه، عن جده رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ مروا أولادكم بالصلاة وهم أبناء سبع سنين، واضربوهم عليها، وهم أبناء عشر، وفرقوا بينهم في المضاجع‏\"‏ ‏(‏‏(‏حديث حسن رواه أبو داود بإسناد حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42583
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

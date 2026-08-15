@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:632",
+  "book": "riyad_assalihin",
+  "number": 632,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏ما أحد يدخل الجنة يحب أن يرجع إلى الدنيا وله ما على الأرض من شيء إلا الشهيد، يتمنى أن يرجع إلى الدنيا فيقتل عشر مرات لما يرى من الكرامة”",
+    "sourceId": 41697
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:301",
+  "book": "riyad_assalihin",
+  "number": 301,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه قال‏:‏ قال ‏:‏ رسول الله صلى  الله عليه وسلم ‏:‏ ‏\n\"‏ ثلاث دعوات مستجابات لا شك فيهن‏:‏ دعوة المظلوم، ودعوة المسافر، ودعوة الوالد على ولده‏\"‏ ‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏\nوليس في رواية أبي داود‏:‏ “على ولده”",
+    "sourceId": 41366
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

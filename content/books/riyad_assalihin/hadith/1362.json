@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1362",
+  "book": "riyad_assalihin",
+  "number": 1362,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ إن الدين يسر، ولن يشاد الدين إلا غلبه، فسددوا وقاربوا وأبشروا، واستعينوا بالغدوة والروحة وشيء من الدلجة‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏ \n\nوفي رواية له ‏:‏ ‏ ‏سددوا وقاربوا واغدوا وروحوا، وشيء من الدلجة، القصد القصد تبلغوا‏ ‏‏.‏",
+    "sourceId": 42427
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

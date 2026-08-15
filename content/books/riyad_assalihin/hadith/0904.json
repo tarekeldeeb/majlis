@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:904",
+  "book": "riyad_assalihin",
+  "number": 904,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏من خبب زوجة امرئ، أو مملوكه، فليس منا‏\"‏‏.‏ \n‏\"‏خَبَب‏\"‏ بخاء معجمة، ثم باء موحدة مكررة‏:‏ أي‏:‏ أفسده وخدعه‏.‏",
+    "sourceId": 41969
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

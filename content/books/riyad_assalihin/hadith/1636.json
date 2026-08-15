@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1636",
+  "book": "riyad_assalihin",
+  "number": 1636,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة، رضي الله عنه ، قال‏:‏ قال رسول الله ، صلى الله عليه وسلم لما خلق الله الخلق، كتب في كتاب، فهو عنده فوق العرش‏:‏ إن رحمتي تغلب غضبي‏\"‏‏.‏\n\n‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42701
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

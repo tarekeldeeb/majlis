@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1814",
+  "book": "riyad_assalihin",
+  "number": 1814,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدرى رضي الله عنه قال‏:‏ قال رجل‏:‏ أى الناس أفضل يا رسول الله‏؟‏ قال‏:‏ ‏\"‏مؤمن مجاهد بنفسه وماله فى سبيل الله‏\"‏ قال‏:‏  ثم من‏؟‏ قال‏:‏ ‏\"‏ رجل معتزل فى شعب من الشعاب يعبد ربه‏\"‏ \nوفى رواية‏:‏ ‏\"‏يتقي الله، ويدع الناس من شره‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42879
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:209",
+  "book": "riyad_assalihin",
+  "number": 209,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ قال رجل‏:‏ يا رسول الله، الرجل منا يلقي أخاه أو صديقه، أينحني له قال‏:‏ ‏\"‏لا‏\"‏ قال‏:‏ أفيلتزمه ويقبله‏؟‏فال‏:‏ ‏\"‏لا‏\"‏ قال‏:‏ فيأخذ بيده ويصافحه‏؟‏ قال‏:‏‏\"‏نعم‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41274
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

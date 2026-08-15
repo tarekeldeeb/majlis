@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1558",
+  "book": "riyad_assalihin",
+  "number": 1558,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنهما أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إن أبر البر أن يصل الرجل ود أبيه‏\"‏‏.‏",
+    "sourceId": 42623
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:602",
+  "book": "riyad_assalihin",
+  "number": 602,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعن السائب بن يزيد رضي الله عنه، قال‏:‏ حج بي مع رسول الله صلى الله عليه وسلم في حجة الوداع وأنا ابن سبع سنين‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41667
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

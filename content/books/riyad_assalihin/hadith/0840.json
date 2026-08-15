@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:840",
+  "book": "riyad_assalihin",
+  "number": 840,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏  ‏\n\"‏ومن وقاه الله شر ما بين لحييه، وشر ما بين رجليه دخل الجنة‏\"‏‏.‏ ‏(‏‏(‏رواه الترمذي، وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41905
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

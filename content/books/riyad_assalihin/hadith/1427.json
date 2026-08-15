@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1427",
+  "book": "riyad_assalihin",
+  "number": 1427,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏ من كانت عنده مظلمة لأخيه، من عرضه أو من شيء، فليتحلله منه اليوم قبل أن لا يكون دينار ولا درهم ، إن كان له عمل صالح أخذ منه بقدر مظلمته، وإن لم يكن له حسنات أخذ من سيئات صاحبه فحمل عليه‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42492
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1864",
+  "book": "riyad_assalihin",
+  "number": 1864,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضي الله عنه أن رجلاً قال‏:‏ يا رسول الله إن لى قرابة أصلهم ويقطعونى، وأحسن إليهم ويسيئون إلى، وأحلم عنهم ويجهلون على‏!‏ فقال‏:‏ “لئن كنت كما قلت فكأنما تسفهم المل ولا يزال معك من الله تعالى ظهير عليهم ما دمت على ذلك” ‏(‏‏(‏رواه مسلم‏)‏‏)‏ وقد سبق شرحه في “باب صلة الأرحام”‏.‏",
+    "sourceId": 42929
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

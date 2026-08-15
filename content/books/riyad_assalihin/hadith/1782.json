@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1782",
+  "book": "riyad_assalihin",
+  "number": 1782,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أبي سعيد الخدرى قال‏:‏ بينما نحن فى سفر مع النبي صلى الله عليه وسلم إذ جاء رجل على راحلة له ، فجعل يصرف بصره يمينا وشمالاً فقال رسول الله صلى الله عليه وسلم ‏:‏” من كان معه فضل ظهر فليعد به على من لا ظهر له، ومن كان له فضل من زاد فليعد به على من لا زاد له” فذكر من أصناف المال ما ذكر حتى رأينا أنه لا حق لأحد منا فى فضل‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42847
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

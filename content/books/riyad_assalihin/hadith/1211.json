@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1211",
+  "book": "riyad_assalihin",
+  "number": 1211,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن سعد رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏إن أهل الجنة ليتراءون الغرف في الجنة كما تتراءون الكوكب في السماء‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42276
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

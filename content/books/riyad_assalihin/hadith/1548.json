@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1548",
+  "book": "riyad_assalihin",
+  "number": 1548,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي أيوب خالد بن زيد الأنصاري رضي الله عنه أن رجلاً قال‏:‏ يا رسول الله أخبرني بعمل يدخلني الجنة، ويباعدني من النار‏.‏ فقال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏تعبد الله، ولاتشرك به شيئًا، وتقيم الصلاة، وتؤتي الزكاة، وتصل الرحم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42613
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

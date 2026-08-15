@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1288",
+  "book": "riyad_assalihin",
+  "number": 1288,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثالث‏:‏ عن ابن مسعود رضي الله عنه أن النبي صلى الله عليه وسلم كان يقول‏:‏ ‏\n\"‏اللهم إني أسألك الهدى والتقى والعفاف والغنى‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42353
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

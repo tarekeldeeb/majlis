@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1064",
+  "book": "riyad_assalihin",
+  "number": 1064,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\"‏لا يقولن أحدكم‏:‏ اللهم اغفر لي إن شئت‏:‏ اللهم ارحمني إن شئت، ليعزم المسألة، فإنه لا مكره له‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ ‏(‏‏(‏وفي رواية لمسلم‏:‏ ‏\"‏ولكن ليعزم، وليعظم الرغبة، فإن الله تعالى، لا يتعاظمه شيء أعطاه‏\"‏‏)‏‏)‏‏.‏",
+    "sourceId": 42129
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

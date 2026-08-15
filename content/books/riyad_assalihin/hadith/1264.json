@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1264",
+  "book": "riyad_assalihin",
+  "number": 1264,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن معاذ بن أنس رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ من كظم غيظاً ، وهو قادر على أن ينفذه، دعاه الله سبحانه وتعالى على رؤوس الخلائق يوم القيامة حتى يخيره من الحور العين ما شاء‏\"‏ ‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42329
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

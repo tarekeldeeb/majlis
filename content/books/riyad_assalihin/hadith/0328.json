@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:328",
+  "book": "riyad_assalihin",
+  "number": 328,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي لبابة بشير بن عبد المنذر رضي الله عنه قال، أ‏ن النبي صلى الله عليه وسلم قال‏:‏ من لم يتغنَ بالقرآن فليس منا ‏\"‏‏.‏‏(‏‏(‏رواه أبو داود بإسناد جيد‏)‏‏)‏ ‏.‏",
+    "sourceId": 41393
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

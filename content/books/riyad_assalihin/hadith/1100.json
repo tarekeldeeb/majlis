@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1100",
+  "book": "riyad_assalihin",
+  "number": 1100,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏لا يبع بعضكم على بيع بعض، ولا يخطب على خطبة أخيه إلا أن يأذن له‏\"‏ ‏(‏‏(‏متفق عليه، وهذا لفظ مسلم‏)‏‏)‏",
+    "sourceId": 42165
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

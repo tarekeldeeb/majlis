@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:201",
+  "book": "riyad_assalihin",
+  "number": 201,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسي رضي الله عنه قال‏:‏ سمعت رسول الله صلى  الله عليه وسلم  يقول‏:‏ ‏\n\"‏إذا عطس أحدكم فحمد الله فشمتوه، فإن لم يحمد الله فلا تشمتوه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41266
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

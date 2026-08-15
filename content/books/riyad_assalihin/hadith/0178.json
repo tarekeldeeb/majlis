@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:178",
+  "book": "riyad_assalihin",
+  "number": 178,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏يسلم الراكب على الماشي، والماشي على القاعد، والقليل على الكثير” ‏(‏‏(‏متفق عليه‏)‏‏)‏  \nوفي رواية للبخاري‏:‏ ‏\"‏والصغير على الكبير‏\"‏",
+    "sourceId": 41243
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

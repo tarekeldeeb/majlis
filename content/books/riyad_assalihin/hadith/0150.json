@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:150",
+  "book": "riyad_assalihin",
+  "number": 150,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن حذيفة بن اليمان رضى الله عنه أن رسول الله صلى الله عليه وسلم لعن من جلس وسط الحلقة‏‏.‏ ‏‏رواه أبو داود بإسناد صحيح.\nوروى الترمذى عن أبى مجلز‏:‏ أن رجلا قعد وسط الحلقة، فقال حذيفة‏:‏ ملعون على لسان محمد صلى الله عليه وسلم -من جلس وسط الحلقة‏. قال الترمذى: \n\"حديث حسن صحيح\".‏",
+    "sourceId": 41215
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

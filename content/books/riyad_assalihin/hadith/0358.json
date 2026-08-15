@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:358",
+  "book": "riyad_assalihin",
+  "number": 358,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص رضي الله عنهما أنه سمع رسول الله  صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏إذا سمعتم النداء فقولوا مثل ما يقول، ثم صلوا علي، فإنه من صلى على صلاة صلى الله عليه بها عشرًا، ثم سلوا الله لي الوسيلة، فإنها منزلة في الجنة لا تنبغي إلا لعبد من عباد الله وأرجو أن أكون أنا هو، فمن سأل لي الوسيلة حلت له الشفاعة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41423
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

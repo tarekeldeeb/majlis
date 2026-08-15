@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1500",
+  "book": "riyad_assalihin",
+  "number": 1500,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ كلكم راعٍ، وكلكم مسئول عن رعيته، والأمير راعٍ، والرجل راعٍ على أهل بيته؛ والمرأة راعية على بيت زوجها وولده، فكلكم راعٍ، وكلكم مسؤول عن رعيته‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42565
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

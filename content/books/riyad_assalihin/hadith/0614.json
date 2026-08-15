@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:614",
+  "book": "riyad_assalihin",
+  "number": 614,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن عثمان رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏رباط يوم في سبيل الله خير من ألف يوم فيما سواه من المنازل‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41679
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

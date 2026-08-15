@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:773",
+  "book": "riyad_assalihin",
+  "number": 773,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ جاء رجل إلى النبي صلى الله عليه وسلم، فقال‏:‏ يا رسول الله ما لقيت من عقرب لدغتني البارحة‏!‏ قال‏:‏ ‏\n\"‏أما لو قلت حين أمسيت‏:‏ أعوذ بكلمات الله التامات من شر ما خلق لم تضرك‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41838
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

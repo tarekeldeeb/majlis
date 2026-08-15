@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1792",
+  "book": "riyad_assalihin",
+  "number": 1792,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ خط النبي صلى الله عليه وسلم  خطوطا فقال‏:‏ ‏\"‏هذا الإنسان، وهذا أجله، فبينما هو كذلك إذ جاء الخط الأقرب” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42857
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

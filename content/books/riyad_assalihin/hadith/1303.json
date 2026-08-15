@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1303",
+  "book": "riyad_assalihin",
+  "number": 1303,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه ‏:‏ قال‏:‏ قال رسول الله صلى الله عليه وسلم قاربوا وسددوا، واعلموا أنه لن ينجو أحد منكم بعمله‏\"‏ قالوا‏:‏ ولا أنت يا رسول الله ‏؟‏ قال‏:‏ ‏\"‏ولا أنا إلا أن يتغمدنى الله برحمة منه وفضل‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42368
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

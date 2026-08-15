@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1304",
+  "book": "riyad_assalihin",
+  "number": 1304,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "فالأول‏:‏ عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ بادروا بالأعمال فتناً كقطع الليل المظلم يصبح الرجل مؤمنا ويمسي كافراً ويمسي مؤمنا ويصبح كافراً، يبيع دينه بعرض من الدنيا‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42369
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:897",
+  "book": "riyad_assalihin",
+  "number": 897,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن جُندب بن عبد الله رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏قال رجل‏:‏ والله لا يغفر الله لفلان، فقال الله عز وجل‏:‏ من ذا الذي يتألى علي أن لا أغفر لفلان‏!‏ فإني قد غفرت له، وأحبطت عملك‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41962
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

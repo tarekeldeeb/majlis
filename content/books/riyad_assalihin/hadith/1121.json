@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1121",
+  "book": "riyad_assalihin",
+  "number": 1121,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن عليّ رضي الله عنه قال‏:‏ حفظت عن رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا يتم بعد احتلام، ولا صمات يوم إلى الليل‏\"‏‏.‏ \nقال الخطابي في تفسير هذا الحديث‏:‏ كان من نسك الجاهلية الصمات، فنهوا في الإسلام عن ذلك، وأمروا بالذكر والحديث بالخير‏.‏",
+    "sourceId": 42186
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

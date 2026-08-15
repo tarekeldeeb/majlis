@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1253",
+  "book": "riyad_assalihin",
+  "number": 1253,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي عبد الرحمن عبد الله بن مسعود رضي الله عنه قال‏:‏ كأني انظر إلى رسول الله صلى الله عليه وسلم يحكي نبياً من الأنبياء، صلوات الله وسلامه عليهم، ضربه قومه فأدموه وهو يمسح الدم عن وجهه، يقول ‏:‏ ‏\n\"‏اللهم اغفر لقومى فإنهم لا يعلمون‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42318
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

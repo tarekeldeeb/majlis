@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1034",
+  "book": "riyad_assalihin",
+  "number": 1034,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي أُمامة إياس بن ثعلبة الحارثي رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\"‏من اقتطع حق امرئ مسلم بيمينه، فقد أوجب الله له النار‏.‏ -وحرم عليه الجنة‏\"‏ فقال له رجل‏:‏ وإن كان شيئًا يسيرًا يا رسول الله‏؟‏ قال‏:‏ ‏\"‏وإن كان قضيبًا من أراك‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42099
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

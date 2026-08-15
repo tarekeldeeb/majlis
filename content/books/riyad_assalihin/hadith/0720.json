@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:720",
+  "book": "riyad_assalihin",
+  "number": 720,
+  "chapter": {
+    "id": 14,
+    "title": "كتاب الصلاة على رسول الله صلى الله عليه وسلم"
+  },
+  "matn": {
+    "arabic": "وعن أوس بن أوس، رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏إن من أفضل أيامكم يوم الجمعة، فأكثروا على من الصلاة فيه، فإن صلاتكم معروضة علي‏\"‏ فقالوا‏:‏ يا رسول الله، كيف تعرض صلاتنا عليك وقد أرمت‏؟‏ قال‏:‏ يقول‏:‏ بلىت، قال‏:‏ ‏\"‏إن الله عز وجل حرم على الأرض أجساد الأنبياء‏\"‏ رواه أبو داود بإسناد صحيح‏.‏",
+    "sourceId": 41785
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

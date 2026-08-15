@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1487",
+  "book": "riyad_assalihin",
+  "number": 1487,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "و عن أبي شريح خويلد بن عمرو الخزاعي رضي الله عنه قال‏:‏ قال النبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏اللهم إني أحرج حق الضعيفين اليتيم والمرأة‏\"‏ ‏(‏‏(‏حديث حسن رواه النسائي بإسناد جيد‏)‏‏)‏‏.‏",
+    "sourceId": 42552
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

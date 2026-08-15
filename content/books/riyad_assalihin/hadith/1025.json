@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1025",
+  "book": "riyad_assalihin",
+  "number": 1025,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عمر بن الخطاب رضي الله عنه أنه خطب يوم الجمعة فقال في خطبته‏:‏ ثم إنكم أيها الناس تأكلون شجرتين ما أراهما إلا خبيثتين‏:‏ البصل، والثوم -لقد رأيت رسول الله صلى الله عليه وسلم  إذا وجد ريحهما من الرجل في المسجد أمر به، فأخرج إلى البقيع، فمن أكلهما، فليمتهما طبخًا‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42090
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

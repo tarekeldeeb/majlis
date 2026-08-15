@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:72",
+  "book": "riyad_assalihin",
+  "number": 72,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إن الشيطان يحضر أحدكم عند كل شئ من شأنه، حتى يحضره عند طعامه؛ فإذا سقطت لقمة أحدكم فليأخذها فليمط ما كان بها من أذى، ثم ليأكلها ولا يدعها للشيطان، فإذا فرغ فليلعق أصابعه؛ فإنه لا يدرى في أي طعامه البركة‏\"‏‏‏.‏‏‏((رواه مسلم))‏",
+    "sourceId": 41137
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

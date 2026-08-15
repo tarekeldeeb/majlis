@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1214",
+  "book": "riyad_assalihin",
+  "number": 1214,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن أبي  هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏إن أدنى مقعد أحدكم من الجنة أن يقول له‏:‏ تمن فيتمنى ويتمنى، فيقول له‏:‏ هل تمنيت‏؟‏ فيقول‏:‏ نعم، فيقول له‏:‏ فإن لك ما تمنيت ومثله معه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42279
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

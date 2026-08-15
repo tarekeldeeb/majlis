@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1510",
+  "book": "riyad_assalihin",
+  "number": 1510,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي مسعود البدري رضي الله عنه، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ إذا أنفق الرجل على أهله نفقة يحتسبها فهي له صدقة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42575
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

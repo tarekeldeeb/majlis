@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:559",
+  "book": "riyad_assalihin",
+  "number": 559,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن سلمان بن عامر الضبي الصحابي، رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا أفطر أحدكم، فليفطر على تمر فإن لم يجد فليفطر على ماء فإنه طهور‏\"‏ ‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41624
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

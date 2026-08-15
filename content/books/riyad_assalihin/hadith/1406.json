@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1406",
+  "book": "riyad_assalihin",
+  "number": 1406,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السادس‏:‏ عن أم المؤمنين أم الحكم زينب بنت جحش رضي الله عنها أن النبي صلى الله عليه وسلم دخل عليها فزعا يقول‏:‏ ‏\"‏لا إله إلا الله، ويل للعرب من شر قد اقترب، فتح اليوم من ردم يأجوج ومأجوج مثل هذه” وحلق بأصبعيه الإبهام والتي تليها‏.‏ فقلت‏:‏ يا رسول الله أنهلك وفينا الصالحون‏؟‏ قال‏:‏ ‏\"‏نعم إذا كثر الخبث‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42471
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

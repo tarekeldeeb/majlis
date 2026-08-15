@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1287",
+  "book": "riyad_assalihin",
+  "number": 1287,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثاني‏:‏ عن أبي سعيد الخدري رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ إن الدنيا حلوة خضرة، وإن الله مستخلفكم فيها فينظر كيف تعملون، فاتقوا الدنيا واتقوا النساء؛ فإن أول فتنة بني إسرائيل كانت في النساء‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42352
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

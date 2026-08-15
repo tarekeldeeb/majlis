@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:166",
+  "book": "riyad_assalihin",
+  "number": 166,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ لما خلق الله تعالى آدم عليه السلام قال‏:‏ اذهب فسلم على أولئك -نفر من الملائكة جلوس- فاستمع ما يحيونك، فإنه تحيتك وتحية ذريتك‏.‏ فقال‏:‏ السلام عليكم فقالوا‏:‏ السلام عليك ورحمة الله، فزادوه‏:‏ ورحمة الله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41231
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

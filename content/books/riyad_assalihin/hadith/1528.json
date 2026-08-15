@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1528",
+  "book": "riyad_assalihin",
+  "number": 1528,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمر رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏  \n\"‏خير الأصحاب عند الله تعالى خيرهم لصاحبه، وخير الجيران عند الله تعالى خيرهم لجاره‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42593
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

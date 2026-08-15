@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:538",
+  "book": "riyad_assalihin",
+  "number": 538,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن سعد رضي الله عنه عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إن في الجنة بابًا يقال له‏:‏ الريان، يدخل منه الصائمون يوم القيامة لا يدخل منه أحد غيرهم يقال‏:‏ أين الصائمون‏؟‏ فيقومون  لا يدخل منه أحد غيرهم، فإذا دخلوا أغلق فلم يدخل منه أحد‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41603
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

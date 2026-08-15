@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:791",
+  "book": "riyad_assalihin",
+  "number": 791,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص، رضي الله عنهما، قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏اللهم مصرف القلوب صرف قلوبنا على طاعتك‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41856
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

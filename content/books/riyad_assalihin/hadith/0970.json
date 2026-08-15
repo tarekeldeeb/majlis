@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:970",
+  "book": "riyad_assalihin",
+  "number": 970,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\"‏لا يمشي أحدكم في نعل واحدة لينعلهما جميعًا او ليخلعهما جميعًا‏\"‏‏.‏  \nوفي رواية ‏\"‏ أو ليحفهما جميعًا ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42035
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

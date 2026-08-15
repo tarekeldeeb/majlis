@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:836",
+  "book": "riyad_assalihin",
+  "number": 836,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إن العبد ليتكلم بالكلمة من رضوان الله تعالى ما يُلقي لها بالا يرفعه الله بها درجات، وإن العبد ليتكلم بالكلمة من سخط الله تعالى لا يُلقي لها بالا يَهوي بها في جهنم‏\"‏‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41901
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

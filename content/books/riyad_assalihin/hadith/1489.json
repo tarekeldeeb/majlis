@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1489",
+  "book": "riyad_assalihin",
+  "number": 1489,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "و عن أبي الدرداء عويمر رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏ابغوني في الضعفاء ، فإنما تنصرون، وترزقون بضعفائكم‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد جيد‏)‏‏)‏‏.‏",
+    "sourceId": 42554
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

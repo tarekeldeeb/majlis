@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:552",
+  "book": "riyad_assalihin",
+  "number": 552,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ كان لرسول الله صلى الله عليه وسلم مؤذنان‏:‏ بلال وابن أم مكتوم‏.‏ فقال رسول الله صلى الله عليه وسلم ‏\n\"‏ إن بلالا يؤذن بليل فكلوا واشربوا حتى يؤذن ابن أم مكتوم‏\"‏ قال ولم يكن بينهما إلا أن ينزل هذا ويرقى هذا، ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41617
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

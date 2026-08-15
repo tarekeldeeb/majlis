@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:430",
+  "book": "riyad_assalihin",
+  "number": 430,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، قال رمقت النبي صلى الله عليه وسلم شهرًا يقرأ في الركعتين قبل الفجر‏:‏ ‏{‏قل يا أيها الكافرون‏}‏، و‏:‏ ‏{‏قل هو الله أحد‏}‏‏.‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41495
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

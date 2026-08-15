@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1787",
+  "book": "riyad_assalihin",
+  "number": 1787,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن مسعود رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “ لا حسد إلا فى اثنتين ‏:‏ رجل آتاه الله مالاً ، فسلطه على هلكته فى الحق، ورجل آتاه الله حكمة فهو يقضي بها ويعلمها” ‏(‏‏(‏متفق عليه وتقدم شرحه قريباً‏)‏‏)‏ ‏.‏",
+    "sourceId": 42852
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

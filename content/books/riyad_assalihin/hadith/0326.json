@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:326",
+  "book": "riyad_assalihin",
+  "number": 326,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري رضي الله عنه أن رسول الله صلى الله عليه وسلم قال له ‏:‏‏\"‏ لقد أتيت مزمارا من مزامير آل داود ‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \nوفي روايه لمسلم ‏:‏ أن رسول الله صلى الله عليه وسلم قال له ‏:‏ ‏\"‏ لو رأيتني وأنا أستمع لقراءتك البارحة‏\"‏‏.‏",
+    "sourceId": 41391
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

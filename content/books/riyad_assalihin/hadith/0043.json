@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:43",
+  "book": "riyad_assalihin",
+  "number": 43,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أم عطية رضي الله عنها أن النبي صلى الله عليه وسلمى الله عليه وسلم ، قال لهن في غسل ابنته زينب رضي الله عنها ‏:‏ ‏\n\"‏ابدأن بميامنها ومواضع الوضوء منها‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41108
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

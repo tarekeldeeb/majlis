@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:960",
+  "book": "riyad_assalihin",
+  "number": 960,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ رأى رسول الله صلى الله عليه وسلم  صبيًا قد حلق بعض شعر رأسه وترك بعضه فنهاهم عن ذلك وقال‏:‏ ‏\n\"‏احلقوه كله، أو اتركوه كله‏\"‏‏.‏ رواه أبو داود بإسناد صحيح على شرط البخاري ومسلم‏.‏",
+    "sourceId": 42025
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

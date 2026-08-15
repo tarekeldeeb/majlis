@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1050",
+  "book": "riyad_assalihin",
+  "number": 1050,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان النبي صلى الله عليه وسلم  إذا عصفت الريح قال‏:‏ اللهم إني أسألك خيرها، وخير ما فيها، وخير ما أُرسلت به، وأعوذ بك من شرها، وشر ما فيها، وشر ما أُرسلت به‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42115
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

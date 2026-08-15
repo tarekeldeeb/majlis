@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:55",
+  "book": "riyad_assalihin",
+  "number": 55,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن معاذ بن أنس رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من أكل طعاماً فقال‏:‏ الحمد الله الذي أطعمني هذا، ورزقنيه من غير حول منى ولا قوةٍ، غفر له ما تقدم من ذنبه‏\"‏ ‏‏.‏((رواه أبو داود والترمذي))",
+    "sourceId": 41120
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

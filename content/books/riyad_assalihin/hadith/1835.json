@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1835",
+  "book": "riyad_assalihin",
+  "number": 1835,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏‏\"‏بينما رجل يمشى في حلة تعجبه نفسه، مرجل رأسه، يختال في مشيته، إذ خسف الله به، فهو يتجلجل في الأرض إلى يوم القيامة” ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42900
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

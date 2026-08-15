@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:715",
+  "book": "riyad_assalihin",
+  "number": 715,
+  "chapter": {
+    "id": 13,
+    "title": "كتاب حمد الله تعالى وشكره"
+  },
+  "matn": {
+    "arabic": "وعنه عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏كل أمر ذي بال لا يبدأ فيه‏:‏ بالحمد لله فهو أقطع‏\"‏ حديث حسن، ‏(‏‏(‏رواه أبو داود وغيره‏)‏‏)‏‏.‏",
+    "sourceId": 41780
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

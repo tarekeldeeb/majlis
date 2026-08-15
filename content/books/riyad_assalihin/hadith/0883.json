@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:883",
+  "book": "riyad_assalihin",
+  "number": 883,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ أتي النبي صلى الله عليه وسلم برجل قد شرب قال‏:‏ ‏\"‏اضربوه‏\"‏ قال أبو هريرة‏:‏ فمنا الضارب بيده، والضارب بنعله، والضارب بثوبه‏.‏ فلما انصرف، قال بعض القوم‏:‏ أخزاك الله، قال‏:‏ ‏\"‏لا تقولوا هذا، لا تُعينوا عليه الشيطان‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41948
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

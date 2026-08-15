@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:652",
+  "book": "riyad_assalihin",
+  "number": 652,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي مسعود رضي الله عنه قال‏:‏ جار رجل إلى النبي صلى الله عليه وسلم بناقة مخطومة فقال‏:‏ هذه في سبيل الله، فقال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لك بها يوم القيامة سبعمائة ناقة كلها مخطومة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41717
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

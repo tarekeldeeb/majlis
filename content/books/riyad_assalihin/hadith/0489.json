@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:489",
+  "book": "riyad_assalihin",
+  "number": 489,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، أن النبي صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏صلاة الليل مثنى مثنى، فإذا خفت الصبح فأوتر بواحدة‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41554
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

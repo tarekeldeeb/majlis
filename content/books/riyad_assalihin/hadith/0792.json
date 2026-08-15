@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:792",
+  "book": "riyad_assalihin",
+  "number": 792,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏تعوذوا بالله من جهد البلاء، ودرك الشقاء، وسوء القضاء، وشماته الأعداء‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \nوفي رواية‏:‏ قال سفيان‏:‏ أشك أني زدت واحدة منها‏.‏",
+    "sourceId": 41857
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

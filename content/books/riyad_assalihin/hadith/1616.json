@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1616",
+  "book": "riyad_assalihin",
+  "number": 1616,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سمرة بن جندب، رضي الله عنه، أن نبى الله، صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ منهم من تأخذه النار إلى كعبيه، ومن من تأخذ إلى ركبتيه، ومنهم من تأخذه إلى حجزته، ومنهم من تأخذه إلى ترقوته‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \n\n('‏‏ ‏الحجزة‏ ‏ ‏:‏ معقد الإزار تحت السرة و‏ ‏الترقوة‏ ‏ بفتح التاء وضم القاف‏:‏ هي العظم الذي عند ثغرة النحر، وللإنسان ترقوتان في جانبى النحر   ‏')",
+    "sourceId": 42681
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

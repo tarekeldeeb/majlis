@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1029",
+  "book": "riyad_assalihin",
+  "number": 1029,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عبد الرحمن بن سَمُرَة، رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏لا تحلفوا بالطواغي، ولا بآبائكم‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \n‏\"‏الطواغي‏\"‏‏:‏ جمع طاغية، وهي الأصنام، ومنه الحديث‏:‏ ‏\"‏هذه طاغية دوس‏\"‏‏:‏ أي‏:‏ صنمهم ومعبودهم، وروي في غير مسلم‏:‏ ‏\"‏بالطواغيت‏\"‏ جمع طاغوت، وهو الشيطان والصنم‏.‏",
+    "sourceId": 42094
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

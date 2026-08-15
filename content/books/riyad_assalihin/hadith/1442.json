@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1442",
+  "book": "riyad_assalihin",
+  "number": 1442,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قبل النبي الحسن بن علي رضي الله عنهما، وعنده الأقرع بن حابس، فقال الأقرع‏:‏ إن لي عشرة من الولد ما قبلت منهم أحدًا‏.‏ فنظر إليه رسول الله صلى الله عليه وسلم فقال‏:‏ “من لا يرحم لا يرحم” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42507
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

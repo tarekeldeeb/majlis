@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1274",
+  "book": "riyad_assalihin",
+  "number": 1274,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الرابع‏:‏ عن أبي ثابت، وقيل أبي سعيد، وقيل أبي الوليد، سهل بن حنيف ، وهو بدري، رضي الله عنه، أن النبي ، صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏من سأل الله، تعالى، الشهادة بصدق بلغه الله منازل الشهداء، وإن مات على فراشه‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏ ‏.‏",
+    "sourceId": 42339
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

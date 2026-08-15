@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:113",
+  "book": "riyad_assalihin",
+  "number": 113,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ما أسفل من الكعبين من الإزار ففي النار‏\"‏.‏‏‏((‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41178
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

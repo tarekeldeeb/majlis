@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:371",
+  "book": "riyad_assalihin",
+  "number": 371,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏يتعاقبون فيكم ملائكة بالليل، وملائكة بالنهار، ويجتمعون في صلاة الصبح وصلاة العصر، ثم يعرج الذين باتوا فيكم، فيسألهم الله -وهو أعلم بهم-‏:‏ كيف تركتم عبادي‏؟‏ فيقولون تركناهم وهم يصلون، وأتيناهم وهم يصلون‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41436
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:483",
+  "book": "riyad_assalihin",
+  "number": 483,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن سالم بن عبد الله بن عمر بن الخطاب، رضي الله عنهم، عن أبيه‏:‏ أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏نعم الرجل عبد الله لو كان يصلي من الليل‏\"‏ قال سالم‏:‏ فكان عبد الله بعد ذلك لا ينام إلا قليلا‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41548
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

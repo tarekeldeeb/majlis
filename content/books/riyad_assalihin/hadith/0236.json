@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:236",
+  "book": "riyad_assalihin",
+  "number": 236,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن سعد بن أبي وقاص رضي الله عنه قال‏:‏ جاءني رسول الله صلى  الله عليه وسلم  يعودني من وجع اشتد بي، فقلت‏:‏ بلغ بي ما ترى، وأنا ذو مال، ولايرثني إلا ابنتي، وذكر الحديث‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41301
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

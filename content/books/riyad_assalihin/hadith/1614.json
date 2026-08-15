@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1614",
+  "book": "riyad_assalihin",
+  "number": 1614,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال ‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏ يؤتى بجهنم يومئذ لها سبعون ألف زمام مع كل زمام سبعون ألف ملك يجرونها ‏\"‏ ‏(‏‏(‏ رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42679
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

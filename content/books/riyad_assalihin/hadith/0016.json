@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:16",
+  "book": "riyad_assalihin",
+  "number": 16,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن أنس رضي الله عنه أن النبى صلى الله عليه وسلم كان إذا تكلم بكلمة أعادها ثلاثاً حتى تفهم عنه، وإذا أتى على قومٍ فسلم عليهم سلم عليهم ثلاثاً‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41081
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

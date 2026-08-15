@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:973",
+  "book": "riyad_assalihin",
+  "number": 973,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنهما عن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏لا تتركوا النار في بيوتكم حين تنامون‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42038
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

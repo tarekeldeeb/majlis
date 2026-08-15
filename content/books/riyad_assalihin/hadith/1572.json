@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1572",
+  "book": "riyad_assalihin",
+  "number": 1572,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عمرو بن شعيب، عن أبيه ، عن جده رضي الله عنهم قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ليس منا من لم يرحم صغيرنا، ويعرف شرف كبيرنا‏\"‏ ‏(‏‏(‏حديث صحيح رواه أبو داود والترمذي، وقال الترمذي‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42637
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

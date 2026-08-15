@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:28",
+  "book": "riyad_assalihin",
+  "number": 28,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن أبي إبراهيم- ويقال أبو محمد، ويقال أبو معاوية- عبد الله بن أبي أوفى رضي الله عنه أن رسول الله صلى الله عليه وسلم  بشر خديجة، رضي الله عنها، ببيت في الجنة من قصب ، لا صخب فيه ولا نصب‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41093
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

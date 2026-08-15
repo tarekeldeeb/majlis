@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1879",
+  "book": "riyad_assalihin",
+  "number": 1879,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما عن النبى صلى الله عليه وسلم قال‏:‏ “على المرء المسلم السمع والطاعة فيما أحب وكره، إلا أن يؤمر بمعصية، فإذا أمر بمعصية فلا سمع ولا طاعة” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42944
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

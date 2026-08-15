@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:847",
+  "book": "riyad_assalihin",
+  "number": 847,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “لما عُرج بي مررت بقوم لهم أظفار من نُحاس يخمشون وجوههم وصدورهم، فقلت‏:‏ من هؤلاء يا جبريل‏؟‏ قال‏:‏ هؤلاء الذين يأكلون لحوم الناس، ويقعون في أعراضهم‏!‏”‏.‏ ‏(‏‏(‏رواه أبو داود‏.‏‏)‏‏)‏",
+    "sourceId": 41912
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

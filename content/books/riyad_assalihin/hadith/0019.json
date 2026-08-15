@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:19",
+  "book": "riyad_assalihin",
+  "number": 19,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن أبى وائل شقيق بن سلمة قال‏:‏ كان ابن مسعود رضي الله عنه يذكرنا في كل خميس، فقال له رجل‏:‏ يا أبا عبد الرحمن، لوددت أنك ذكرتنا كل يوم، فقال‏:‏ أما إنه يمنعني من ذلك أني أكره أن أملكم وإني أتخولكم بالموعظة، كما كان رسول الله صلى الله عليه وسلم يتخولنا بها مخافة السآمة علينا‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41084
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:200",
+  "book": "riyad_assalihin",
+  "number": 200,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم الله قال‏:‏ ‏\n\"‏إذا عطس أحدكم فليقل‏:‏ الحمد لله؛ وليقل له أخوه أو أصحابه‏:‏ يرحمك الله، فإذا قال له‏:‏ يرحمك الله، فليقل‏:‏ يهديكم الله ويصلح بالكم‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41265
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

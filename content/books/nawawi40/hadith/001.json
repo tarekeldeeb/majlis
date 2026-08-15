@@ -35,9 +35,12 @@
     "commentary": null
   },
   "review": {
-    "status": "draft",
-    "reviewers": [],
-    "approvedAt": null,
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15",
     "notes": "ملاحظة للمراجعين: نصُّ المصدر (hadith-json) يقول «رواه إماما المحدثين… رضي الله عنهما في صحيحيهما» بصيغة التثنية لكنه يذكر البخاري وحده — اسم الإمام مسلم ساقط من نص المصدر. يلزم تصحيح من مصدر مُدقَّق قبل الاعتماد وتوليد الصوت."
   }
 }

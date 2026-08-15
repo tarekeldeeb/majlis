@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:95",
+  "book": "riyad_assalihin",
+  "number": 95,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن زيد رضى الله عنه قال‏:‏ أتانا النبي صلى الله عليه وسلم، فأخرجنا له ماء في نور من صفر فتوضأ‏.‏‏‏((‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41160
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

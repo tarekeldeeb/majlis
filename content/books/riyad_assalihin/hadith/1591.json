@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1591",
+  "book": "riyad_assalihin",
+  "number": 1591,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ كان النبي صلى الله عليه وسلم يزور قباء راكبًا وماشيًا، فيصلي فيه ركعتين، ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ \nوفي رواية‏:‏ كان النبي صلى الله عليه وسلم يأتي مسجد قباء كل سبت راكبًا وماشيًا وكان ابن عمر يفعله ‏.‏",
+    "sourceId": 42656
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

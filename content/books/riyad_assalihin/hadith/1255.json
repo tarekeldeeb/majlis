@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1255",
+  "book": "riyad_assalihin",
+  "number": 1255,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود رضي الله عنه قال‏:‏ دخلت على النبي صلى الله عليه وسلم وهو يوعك فقلت‏:‏ يارسول الله إنك توعك وعكاً شديداً قال‏:‏ ‏\"‏أجل  إني أوعك كما يوعك رجلان منكم‏\"‏ قلت‏:‏ ذلك أن لك أجرين ‏؟‏ قال‏:‏ ‏\"‏أجل ذلك كذلك ما من مسلم يصيبه أذى؛  شوكة فما فوقها إلا كفر الله بها سيئاته ، وحطت عنه ذنوبه كما تحط الشجرة ورقها‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42320
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

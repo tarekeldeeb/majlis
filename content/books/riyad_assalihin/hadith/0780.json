@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:780",
+  "book": "riyad_assalihin",
+  "number": 780,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن علي رضي الله عنه أن رسول الله صلى الله عليه وسلم قال له ولفاطمة، رضي الله عنهما‏:‏ ‏\"‏إذا أويتما إلى فراشكما، أو‏:‏ إذا أخذتما مضجعكما - فكبرا ثلاثًا وثلاثين، وسبحا ثلاثًا وثلاثين، واحمدا ثلاثًا وثلاثين‏\"‏ وفي رواية‏:‏ التسبيح أربعًا وثلاثين‏\"‏ وفي رواية‏:‏ ‏\"‏التكبير أربعًا وثلاثين‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41845
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

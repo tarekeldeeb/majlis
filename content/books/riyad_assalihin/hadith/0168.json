@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:168",
+  "book": "riyad_assalihin",
+  "number": 168,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا تدخلوا الجنة حتى تؤمنوا ولا تؤمنوا حتى تحابوا أولا أدلكم على شيء إذا فعلتموه تحاببتم‏؟‏ أفشوا السلام بينكم‏\"‏ ‏(‏‏(‏رواه مسلم ‏)‏‏)‏‏.‏",
+    "sourceId": 41233
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

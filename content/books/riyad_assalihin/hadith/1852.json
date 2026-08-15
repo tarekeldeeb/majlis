@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1852",
+  "book": "riyad_assalihin",
+  "number": 1852,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضي الله عنه قال‏:‏ بال أعرابى في المسجد فقام الناس إليه ليقعوا فيه، فقال النبى صلى الله عليه وسلم‏:‏ “دعوه وأريقوا على بوله  سجلاً من ماء، أو ذنوباً من ماء، فإنما بعثتم ميسرين ولم تبعثوا معسرين” ‏(‏‏(‏رواه البخارى‏)‏‏)‏‏.‏",
+    "sourceId": 42917
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

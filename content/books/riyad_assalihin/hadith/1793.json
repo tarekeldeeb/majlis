@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1793",
+  "book": "riyad_assalihin",
+  "number": 1793,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن مسعود رضي الله عنه قال‏:‏ خط النبي صلى الله عليه وسلم  خطا مربعا، وخط خطاً فى الوسط خارجاً منه، وخط خططاً صغاراً إلى هذا الذى فى الوسط من جانبه الذى فى الوسط، فقال‏:‏ “هذا الإنسان، وهذا أجله محيطا به -أو قد أحاط به- وهذا الذى هو خارج أمله، وهذه الخطط الصغار الأعراض فإن أخطأه هذا ، نهشه هذا، وإن أخطأه هذا نهشه هذا” ‏(‏‏(‏رواه البخاري‏)‏‏)‏",
+    "sourceId": 42858
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1846",
+  "book": "riyad_assalihin",
+  "number": 1846,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبى أمامه الباهلى رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “أنا زعيم ببيت في ربض الجنة لمن ترك المراء، وإن كان محقاً، وببيت في وسط الجنة لمن ترك الكذب، وإن كان مازحاً، وببيت في أعلى الجنة لمن حسن خلقه” ‏(‏‏(‏حديث صحيح رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42911
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

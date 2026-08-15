@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1332",
+  "book": "riyad_assalihin",
+  "number": 1332,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الرابع؛‏:‏ عن أنس رضي الله عنه قال‏:‏ إن الله عز وجل تابع الوحي على رسول الله صلى الله عليه وسلم قبل وفاته، حتى توفي أكثر ما كان الوحي‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42397
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:136",
+  "book": "riyad_assalihin",
+  "number": 136,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضى الله عنها قالت‏:‏ كان النبي صلى الله عليه وسلم يصلى من الليل إحدى عشرا ركعة، فإذا طلع الفجر صلى ركعتين خفيفتين ، ثم اضطجع على شقه الأيمن حتى يجئ المؤذن فيؤذنه (‏‏(‏متفق عليه‏)‏‏)‏‏.‏  ‏‏",
+    "sourceId": 41201
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

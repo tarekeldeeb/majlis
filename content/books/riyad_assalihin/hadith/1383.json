@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1383",
+  "book": "riyad_assalihin",
+  "number": 1383,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الحادي عشر‏:‏ عن أبي سعيد عبد الله بن مغفل، رضي الله عنه ، قال‏:‏ نهى رسول الله، صلى الله عليه وسلم عن الخذف وقال‏:‏ ‏\n\"‏إنه لا يقتل الصيد، ولا ينكأ العدو، وإنه يفقأ العين، ويكسر السن‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42448
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

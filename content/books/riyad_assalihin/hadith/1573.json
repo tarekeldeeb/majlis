@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1573",
+  "book": "riyad_assalihin",
+  "number": 1573,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ميمون بن أبي شبيب رحمه الله أن عائشة رضي الله عنه الإمام مر بها سائل، فأعطته كسرة، ومر بها رجل عليه ثياب وهيئة، فأقعدته، فأكل فقيل لها في ذلك‏:‏ ‏؟‏ فقالت‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏أنزلوا الناس منازلهم‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏ لكن قال ميمون لم يدرك عائشة‏.‏",
+    "sourceId": 42638
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

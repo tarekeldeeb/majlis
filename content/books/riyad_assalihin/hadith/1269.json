@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1269",
+  "book": "riyad_assalihin",
+  "number": 1269,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي يحيى أسيد بن حضير رضي الله عنه أن رجلاً من الأنصار قال‏:‏ يا رسول الله ألا تستعملني كما استعملت فلاناً فقال‏:‏ ‏\n\"‏إنكم ستلقون بعدي أثرة، فاصبروا حتى تلقوني على الحوض‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42334
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

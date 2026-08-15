@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:917",
+  "book": "riyad_assalihin",
+  "number": 917,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي خراش حدرد بن أبي حدرد الأسلمي، ويقال السلمي الصحابي رضي الله عنه أنه سمع النبي صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏من هجر أخاه سنة فهو كسفك دمه‏\"‏‏.‏‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41982
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

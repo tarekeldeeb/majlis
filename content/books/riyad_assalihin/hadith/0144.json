@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:144",
+  "book": "riyad_assalihin",
+  "number": 144,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن الشريد بن سويد رضى الله عنه قال‏:‏ مر بي رسول الله صلى الله عليه وسلم وأنا جالس هكذا، وقد وضعت يدي اليسرى خلف ظهري، واتكأت على إلية يدي فقال‏:‏ ‏\n\"‏أتقعد قعدة المغضوب عليهم‏؟‏‏!‏‏\"‏ ((رواه أبو داود بإسناد صحيح)).‏",
+    "sourceId": 41209
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

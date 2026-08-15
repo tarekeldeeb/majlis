@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1096",
+  "book": "riyad_assalihin",
+  "number": 1096,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أنس رضي الله عنه قال‏:‏ نهى رسول الله صلى الله عليه وسلم  أن يبيع حاضر لباد وإن كان أخاه لأبيه وأمه‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42161
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

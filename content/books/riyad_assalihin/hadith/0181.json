@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:181",
+  "book": "riyad_assalihin",
+  "number": 181,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعنه عن رسول الله صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏إذا لقي أحدكم أخاه، فليسلم عليه، فإن حالت بينهما شجرة، أو جدار، أو حجر، ثم لقيه، فليسلم عليه‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41246
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

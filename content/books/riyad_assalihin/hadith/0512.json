@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:512",
+  "book": "riyad_assalihin",
+  "number": 512,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها، قالت‏:‏ كان رسول الله صلى الله عليه وسلم يجاور في العشر الأواخر من رمضان، ويقول‏:‏ ‏\n\"‏تحروا ليلة القدر في العشر الأواخر من رمضان‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41577
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

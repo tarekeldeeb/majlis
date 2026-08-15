@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1436",
+  "book": "riyad_assalihin",
+  "number": 1436,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أم سلمة رضي الله عنها، أن رسول الله صلى الله عليه وسلم قال‏:‏ \n\"إنما أنا بشر، وإنكم تختصمون إلي، ولعل بعضكم أن يكون ألحن بحجته من بعض، فأقضي له بنحو ما أسمع ، فمن قضيت له بحق أخيه فإنما أقطع له قطعة من النار\" ‏(‏‏(‏متفق عليه‏)‏‏)",
+    "sourceId": 42501
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

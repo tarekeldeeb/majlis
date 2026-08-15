@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1790",
+  "book": "riyad_assalihin",
+  "number": 1790,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ أخذ رسول الله صلى الله عليه وسلم بمنكبي فقال‏:‏ ‏\n\"‏كن فى الدنيا كأنك غريب أو عابر سبيل‏\"‏‏.‏ \nوكان ابن عمر رضي الله عنهما يقول‏:‏ إذا أمسيت، فلا تنتظر الصباح، وإذا أصبحت، فلا تنتظر المساء، وخذ من صحتك لمرضك، ومن حياتك لموتك “ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42855
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

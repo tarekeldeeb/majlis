@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:44",
+  "book": "riyad_assalihin",
+  "number": 44,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ “ إذا انتعل أحدكم فليبدأ باليمنى، وإذا نزع فليبدأ بالشمال‏.‏لتكن اليمنى أولهما تنعل، وآخرهما تنزع‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41109
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

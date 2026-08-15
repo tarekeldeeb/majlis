@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1338",
+  "book": "riyad_assalihin",
+  "number": 1338,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "-الخامس‏:‏ عنه قال لي النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏ لا تحقرن من المعروف شيئاً ولو أن تلقى أخاك بوجهٍ طليق‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42403
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

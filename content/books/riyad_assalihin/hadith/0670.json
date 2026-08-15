@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:670",
+  "book": "riyad_assalihin",
+  "number": 670,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏جاهدوا المشركين بأموالكم وأنفسكم وألسنتكم‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41735
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

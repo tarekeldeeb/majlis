@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:712",
+  "book": "riyad_assalihin",
+  "number": 712,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من تعلم علمًا مما يبتغى به وجه الله عز وجل لا يتعلمه إلا ليصيب به غرضًا من الدنيا لم يجد عرف الجنة يوم القيامة‏\"‏ ‏(‏‏(‏يعني ريحها‏)‏‏)‏، ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏.‏ ‏)‏‏)‏‏.‏",
+    "sourceId": 41777
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

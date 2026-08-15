@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1048",
+  "book": "riyad_assalihin",
+  "number": 1048,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي المنذر أبي بن كعب رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا تسبوا الريح، فإذا رأيتم ما تكرهون، فقولوا‏:‏ اللهم إنا نسألك من خير هذه الريح وخير ما فيها وخير ما أُمرت به، ونعوذ بك من شر هذه الريح وشر ما فيها وشر ما أُمرت به‏\"‏‏.‏‏(‏‏(‏رواه الترمذي وقال حديث حسن صحيح‏)‏‏)‏",
+    "sourceId": 42113
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

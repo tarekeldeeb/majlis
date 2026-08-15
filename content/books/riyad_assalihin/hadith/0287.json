@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:287",
+  "book": "riyad_assalihin",
+  "number": 287,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن سهل بن عمرو -وقيل سهل بن الربيع بن عمرو الأنصاري المعروف بابن الحنظلية، وهو من أهل بيعة الرضوان، رضي الله عنه، قال‏:‏ مر رسول الله صلى  الله عليه وسلم  ببعير قد لحق ظهره بطنه، فقال‏:‏ ‏\n\"‏اتقوا الله في هذه البهائهم المعجمة، فاركبوها صالحة وكلوها صالحة‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41352
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1471",
+  "book": "riyad_assalihin",
+  "number": 1471,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ احتجت الجنة والنار فقالت النار‏:‏ في الجبارون والمتكبرون، وقالت الجنة‏:‏ في ضعفاء الناس ومساكينهم، فقضى الله بينهما‏:‏ إنك الجنة رحمتي أرحم بك من أشاء، وإنك النار أعذب بك من أشاء، ولكليكما علي ملؤها‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42536
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

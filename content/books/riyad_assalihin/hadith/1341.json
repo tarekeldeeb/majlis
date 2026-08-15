@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1341",
+  "book": "riyad_assalihin",
+  "number": 1341,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثامن‏:‏ عنه قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ يا نساء المسلمات لا تحقرن جارة لجارتها ولو فرسن شاة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42406
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

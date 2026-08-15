@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:142",
+  "book": "riyad_assalihin",
+  "number": 142,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضى الله عنهما قال‏:‏ رأيت رسول الله صلى الله عليه وسلم بفناء الكعبة محتبياً بيديه هكذا‏.‏ ووصف بيديه الاحتباء، وهو القرفصاء‏.‏ ‏‏(‏‏(‏رواه البخاري‏)‏‏)‏.‏",
+    "sourceId": 41207
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

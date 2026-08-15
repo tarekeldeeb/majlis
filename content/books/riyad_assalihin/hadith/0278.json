@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:278",
+  "book": "riyad_assalihin",
+  "number": 278,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن صخر بن وداعة الغامدي الصحابي رضي الله عنه أن رسول الله صلى  الله عليه وسلم  قال‏:‏ “اللهم بارك لأمتي في بكورها‏\"‏ وكان إذا بعث سرية أو جيشاً بعثهم من أول النهار‏.‏ وكان صخر تاجراً فكان يبعث تجارته أول النهار، فأثري وكثر ماله” ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41343
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

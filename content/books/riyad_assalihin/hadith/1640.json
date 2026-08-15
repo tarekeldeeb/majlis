@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1640",
+  "book": "riyad_assalihin",
+  "number": 1640,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي أيوب خالد بن زيد، رضي الله عنه ، قال سمعت رسول الله صلى الله عليه وسلم، يقول‏:‏ ‏\n\"‏لولا أنكم تذنبون ؛ لخلق الله خلقاً يذنبون، فيستغفرون، فيغفر لهم‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42705
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

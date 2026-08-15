@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1225",
+  "book": "riyad_assalihin",
+  "number": 1225,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى عبد الله بن قيس الأشعرى رضي الله عنه قال‏:‏ سئل رسول الله صلى الله عليه وسلم عن الرجل يقاتل شجاعة، ويقاتل حميةً، ويقاتل رياء، أى ذلك في  سبيل الله‏؟‏ فقال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ من قاتل لتكون كلمة الله هى العليا فهو في  سبيل الله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42290
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

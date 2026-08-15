@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1795",
+  "book": "riyad_assalihin",
+  "number": 1795,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “أكثروا ذكر هاذم اللذات” ‏(‏‏(‏يعنى الموت‏)‏‏)‏ ‏(‏‏(‏رواه الترمذى وقال‏:‏ حدث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42860
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

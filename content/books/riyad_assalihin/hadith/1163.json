@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1163",
+  "book": "riyad_assalihin",
+  "number": 1163,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن سلمان الفارسي رضي الله عنه من قوله قال‏:‏ لا تكونن إن استطعت أول من يدخل السوق، ولا آخر من يخرج منها، فإنها معركة الشيطان، وبها ينصب رايته‏.‏ ‏(‏‏(‏رواه مسلم هكذا‏)‏‏)‏‏.‏ ورواه البرقاني في صحيحه عن سلمان قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏لا تكن أول من يدخل السوق، ولا آخر من يخرج منها، فيها باض الشيطان وفرخ‏\"‏‏.‏",
+    "sourceId": 42228
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

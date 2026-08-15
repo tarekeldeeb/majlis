@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1650",
+  "book": "riyad_assalihin",
+  "number": 1650,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ سمعت رسول الله صلى الله عليه وسلم، يقول‏:‏ يدنى المؤمن يوم القيامة من ربه حتى يضع كنفه عليه، فيقرره بذنوبه، فيقول‏:‏ أتعرف ذنب كذا‏؟‏ أتعرف ذنب كذا‏؟‏ فيقول‏:‏ رب أعرف قال‏:‏ فإني قد سترتها عليك في الدنيا، وأنا أغفرها لك اليوم، فيعطى صحيفة حسناته‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏\n\n‏‏(‏‏(‏كنفه‏:‏ ستره ورحمته‏)‏‏)‏‏.‏",
+    "sourceId": 42715
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

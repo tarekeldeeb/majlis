@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:416",
+  "book": "riyad_assalihin",
+  "number": 416,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن البراء، رضي الله عنه قال‏:‏ ‏\"‏كنا إذا صلينا خلف رسول الله صلى الله عليه وسلم ، أحببنا أن نكون عن يمينه، يقبل علينا بوجهه، فسمعته يقول‏:‏ ‏\"‏رب قني عذابك يوم تبعث - أو تجمع- عبادك‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41481
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

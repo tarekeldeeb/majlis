@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:37",
+  "book": "riyad_assalihin",
+  "number": 37,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ جاء رجل إلى النبي صلى الله عليه وسلمى الله عليه وسلم فقال يا رسول الله ، إني أريدُ سفراً، فزودني، فقال‏:‏ زودك الله التقوى‏\"‏ قال‏:‏ زدني، فقال‏:‏ ‏\"‏وغفر ذنبك‏\"‏ ، قال‏:‏ زدني، قال‏:‏ “ويسر لك الخير حيثما كنت” ‏(‏‏(‏رواه الترمذي وقال ‏:‏ حديث حسن‏)‏‏)‏",
+    "sourceId": 41102
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

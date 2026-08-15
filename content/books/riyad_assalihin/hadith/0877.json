@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:877",
+  "book": "riyad_assalihin",
+  "number": 877,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي الدرداء رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إن العبد إذا لعن شيئًا، صعدت اللعنة إلى السماء، فتغلق أبواب السماء دونها، ثم تهبط إلى الأرض، فتغلق أبوابها دونها، ثم تأخذ يمينًا وشمالا، فإذا لم تجد مساغًا رجعت إلى الذي لُعن، فإن كان أهلا لذلك، وإلا رجعت إلى قائلها‏\"‏‏.‏ رواه أبو داود.",
+    "sourceId": 41942
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

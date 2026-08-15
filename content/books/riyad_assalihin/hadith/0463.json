@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:463",
+  "book": "riyad_assalihin",
+  "number": 463,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أم هانئ فاختة بنت أبي طالب رضي الله عنها قالت‏:‏ ذهبت إلى رسول الله صلى الله عليه وسلم عام الفتح فوجدته يغتسل فلما فرغ من غسله صلى ثمان ركعات، وذلك ضحى‏\"‏ ‏(‏‏(‏متفق عليه وهذا مختصر لفظ إحدى روايات مسلم‏)‏‏)‏",
+    "sourceId": 41528
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

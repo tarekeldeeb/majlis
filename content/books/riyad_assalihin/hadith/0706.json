@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:706",
+  "book": "riyad_assalihin",
+  "number": 706,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من خرج في طلب العلم، فهو في سبيل الله حتى يرجع‏\"‏ رواه الترمذي وقال‏:‏ حديث حسن‏.‏",
+    "sourceId": 41771
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1465",
+  "book": "riyad_assalihin",
+  "number": 1465,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول صلى الله عليه وسلم‏:‏ ‏\"‏كل سلامى من الناس عليه صدقة، كل يوم تطلع فيه الشمس‏:‏ تعدل بين الاثنين صدقة، وتعين الرجل على دابته فتحمله عليها، أو ترفع له عليها متاعه صدقة‏.‏ والكلمة الطيبة صدقة، وبكل خطوة تمشيها إلى الصلاة صدقة، وتميط الأذى عن الطريق صدقة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ (17)",
+    "sourceId": 42530
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

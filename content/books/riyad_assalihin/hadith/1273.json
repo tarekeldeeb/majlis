@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1273",
+  "book": "riyad_assalihin",
+  "number": 1273,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثالث‏:‏ عن أبي سفيان صخر بن حرب ، رضي الله عنه، في  حديثه الطويل في  قصة هرقل، قال هرقل‏:‏ فماذا يأمركم -يعنى النبي صلى الله عليه وسلم- قال أبو سفيان‏:‏ قلت ‏:‏يقول ‏:‏ ‏\n\"‏ اعبدوا الله وحده لا تشركوا به شيئاً، واتركوا ما يقول آباؤكم ، ويأمرنا بالصلاة، والصدق، والعفاف، والصلة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42338
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

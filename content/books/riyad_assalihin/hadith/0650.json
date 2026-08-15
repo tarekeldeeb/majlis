@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:650",
+  "book": "riyad_assalihin",
+  "number": 650,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن عروة البارقي رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ الخيل معقود في نواصيها الخير إلى يوم القيامة‏:‏ الأجر والمغنم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41715
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

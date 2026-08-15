@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1738",
+  "book": "riyad_assalihin",
+  "number": 1738,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏ليس الغنى عن كثرة العرض، ولكن الغنى غنى النفس‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \n\n‏\"‏العرض‏\"‏ بفتح العين والراء‏:‏ هو المال‏.‏",
+    "sourceId": 42803
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

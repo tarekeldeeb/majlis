@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:180",
+  "book": "riyad_assalihin",
+  "number": 180,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه في حديث المسيء صلاته أنه جاء فصلى، ثم جاء النبي صلى الله عليه وسلم، فسلم عليه، فرد عليه السلام، فقال‏:‏ ‏\n\"‏ارجع فصلِ، فإنك لم تصلِ‏\"‏ فرجع فصلى، ثم جاء فسلم على النبي صلى الله عليه وسلم، حتى فعل ذلك ثلاث مرات” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41245
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

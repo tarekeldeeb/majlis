@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1826",
+  "book": "riyad_assalihin",
+  "number": 1826,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم  قال‏:‏ لو دعيت إلى كراع أو ذراع لأجبت ولو أهدى إلى ذراع أو كراع لقبلت”‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42891
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

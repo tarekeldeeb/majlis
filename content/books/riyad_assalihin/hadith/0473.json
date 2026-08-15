@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:473",
+  "book": "riyad_assalihin",
+  "number": 473,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري، رضي الله عنه، أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏غسل الجمعة واجب على كل محتلم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41538
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

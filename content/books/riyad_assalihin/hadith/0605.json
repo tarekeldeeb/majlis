@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:605",
+  "book": "riyad_assalihin",
+  "number": 605,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما قال‏:‏ كانت عكاظ ومجنة، وذو المجاز أسواقًا في الجاهلية، فتأثموا أن يتجروا في المواسم، فنزلت‏:‏ ‏{‏ليس عليكم جناح أن تبتغوا فضلا من ربكم‏}‏ ‏(‏‏(‏البقرة‏:‏ 198‏)‏‏)‏ في مواسم الحج‏.‏‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41670
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

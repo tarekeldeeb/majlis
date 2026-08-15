@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1621",
+  "book": "riyad_assalihin",
+  "number": 1621,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ كنا مع رسول الله، صلى الله عليه وسلم إذا سمع وجبة فقال‏:‏ ‏\"‏هل تدرون ما هذا‏؟‏‏\"‏ قلنا‏:‏ الله ورسوله أعلم‏.‏ قال‏:‏ هذا حجر رمى به في النار منذ سبعين خريفاً فهو يهوي في النار الآن حتى انتهي إلى قعره، فسمعتم وجبتها‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42686
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

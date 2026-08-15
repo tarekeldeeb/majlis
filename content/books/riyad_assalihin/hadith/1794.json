@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1794",
+  "book": "riyad_assalihin",
+  "number": 1794,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم‏:‏ قال‏:‏ “بادروا بالأعمال سبعاً، هل تنتظرون إلا فقراً منسياً، أو غنى مطغياً، أو مرضاً مفسداً، أو هرماً مفنداً، أو موتاً مجهزاً، أو الدجال، فشر غائب ينتظر، أو الساعة، فالساعة أدهى وأمر‏؟‏‏!‏” ‏(‏‏(‏رواه الترمذى وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42859
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

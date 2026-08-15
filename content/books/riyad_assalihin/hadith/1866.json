@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1866",
+  "book": "riyad_assalihin",
+  "number": 1866,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ قدم رسول الله صلى الله عليه وسلم من سفر وقد سترت سهوة لى بقرام فيه تماثيل، فلما رآه رسول الله صلى الله عليه وسلم هتكه وتلون وجهه وقال‏:‏ “يا عائشة‏:‏ أشد الناس عذابا عند الله يوم القيامة الذين يضاهون بخلق الله” ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42931
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

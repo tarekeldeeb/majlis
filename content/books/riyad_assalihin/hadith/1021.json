@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1021",
+  "book": "riyad_assalihin",
+  "number": 1021,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن السائب بن زيد الصحابي رضي الله عنه قال‏:‏ كنت في المسجد فحصبني رجل، فنظرت فإذا عمر بن الخطاب رضي الله عنه فقال‏:‏ اذهب فائتني بهذين، فجئته بهما، فقال‏:‏ من أين أنتما‏؟‏ فقالا‏:‏ من أهل الطائف، فقال‏:‏ لو كنتما من أهل البلد، لأوجعتكما، ترفعان أصواتكما في مسجد رسول الله صلى الله عليه وسلم  ‏!‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42086
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

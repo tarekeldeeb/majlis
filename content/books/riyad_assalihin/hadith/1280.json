@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1280",
+  "book": "riyad_assalihin",
+  "number": 1280,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الرابع‏:‏ عن أنس رضي الله عنه قال‏:‏ ‏\n\"‏إنكم لتعملون أعمالاً هي أدق في  أعينكم من الشعر، كنا نعدها على عهد رسول الله صلى الله عليه وسلم من الموبقات‏\"‏ ‏(‏‏(‏رواه البخاري ‏)‏‏)‏ \n\n'‏وقال ‏:‏ ‏ ‏الموبقات‏ ‏ المهلكات  ‏'.‏",
+    "sourceId": 42345
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

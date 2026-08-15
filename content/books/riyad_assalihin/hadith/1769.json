@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1769",
+  "book": "riyad_assalihin",
+  "number": 1769,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ ما سئل رسول الله صلى الله عليه وسلم على الإسلام شيئاً إلا أعطاه، ولقد جاءه رجل، فأعطاه غنماً بين جبلين فرجع إلى قومه فقال‏:‏ يا قوم أسلموا، فإن محمداً يعطى من لا يخشى الفقر، وإن كان الرجل ليسلم ما يريد إلا الدنيا، فما يلبث إلا يسيراً حتى يكون الإسلام أحب إليه من الدنيا وما عليها”‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42834
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

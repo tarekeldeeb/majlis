@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1028",
+  "book": "riyad_assalihin",
+  "number": 1028,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر، رضي الله عنهما، عن النبي صلى الله عليه وسلم ، قال‏:‏ ‏\"‏إن الله تعالى ينهاكم أن تحلفوا بآبائكم، فمن كان حالفًا، فليحلف بالله، أو ليصمت‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏  \nوفي رواية في الصحيح ‏\"‏فمن كان حالفًا فلا يحلف إلا بالله أو ليسكت‏\"‏‏.‏",
+    "sourceId": 42093
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

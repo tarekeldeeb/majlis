@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:858",
+  "book": "riyad_assalihin",
+  "number": 858,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما أن رسول الله صلى الله عليه وسلم مر بقبرين فقال‏:‏ “إنهما يعذابان ، وما يعذبان في كبير‏!‏ بلى إنه كبير‏:‏ أما أحدهما ، فكان يمشي بالنميمة، وأما الآخر فكان لا يستتر من بوله ‏(‏‏(‏متفق عليه وهذا لفظ إحدى روايات البخاري‏)‏‏)‏‏.‏ \nقال العلماء‏:‏ معنى ‏\n\"‏وما يعذبان في كبير‏\"‏ أي كبير في زعمهما وقيل‏:‏ كبير تركه عليهما‏.‏",
+    "sourceId": 41923
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

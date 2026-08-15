@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:736",
+  "book": "riyad_assalihin",
+  "number": 736,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن ثوبان رضي الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم‏:‏ إذا انصرف من صلاته استغفر ثلاثا ، وقال ‏:‏ ‏\n\"‏ اللهم أنت السلام ومنك السلام تباركت يا ذا الجلال والإكرام “ قيل للأوزاعي ، وهو أحد رواة الحديث ‏:‏ كيف الاستغفار ‏؟‏ قال ‏:‏ يقول ‏:‏ أستغفر الله أستغفر الله ‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41801
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

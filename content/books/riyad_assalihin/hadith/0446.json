@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:446",
+  "book": "riyad_assalihin",
+  "number": 446,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ كنا بالمدينة فإذا أذن المؤذن لصلاة المغرب ابتدروا السواري، فركعوا ركعتين، حتى إن الرجل الغريب ليدخل المسجد فيحسب أن الصلاة قد صليت من كثرة من يصليهما‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41511
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

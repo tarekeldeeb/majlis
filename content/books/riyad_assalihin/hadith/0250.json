@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:250",
+  "book": "riyad_assalihin",
+  "number": 250,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى  الله عليه وسلم ‏:‏ “من شهد الجنازة حتي يصلى  عليها، فله قيراط ، ومن شهدها حتي تدفن، فله قيراطان‏\"‏ قيل‏:‏ وما القيراطان‏؟‏ قال‏:‏ “مثل الجبلين العظيمين” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41315
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

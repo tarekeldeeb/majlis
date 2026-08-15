@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1728",
+  "book": "riyad_assalihin",
+  "number": 1728,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "-وعن عبد الله بن عمرو بن العاص رضي الله عنهما ، أن رسول الله صلى الله عليه وسلم قال ‏:‏ ‏\n\"‏ قد أفلح من أسلم ، وكان رزقه كفافا ، وقنعه الله بما آتاه ‏\"‏ ‏(‏‏(‏رواه مسلم ‏)‏‏)‏‏.‏",
+    "sourceId": 42793
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1600",
+  "book": "riyad_assalihin",
+  "number": 1600,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أبي كريمة المقداد بن معد يكرب رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا أحب الرجل أخاه، فليخبره أنه يحبه‏\"‏ ‏(‏‏(‏رواه أبو داود، والترمذي وقال ‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42665
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

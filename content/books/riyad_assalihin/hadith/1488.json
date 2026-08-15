@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1488",
+  "book": "riyad_assalihin",
+  "number": 1488,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن مصعب بن سعد بن أبي وقاص رضي الله عنهما قال‏:‏ رأى سعد أن له فضلا على من دونه، فقال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏هل تنصرون وترزقون إلا بضعفائكم‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏ هكذا مرسلا، فإن مصعب بن سعد تابعي، ‏(‏‏(‏ورواه الحافظ أبو بكر البرقاني في صحيحه متصلا عن مصعب عن أبيه رضي الله عنه‏)‏‏)‏‏.‏",
+    "sourceId": 42553
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

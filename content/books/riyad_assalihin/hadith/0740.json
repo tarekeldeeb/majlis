@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:740",
+  "book": "riyad_assalihin",
+  "number": 740,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعنه عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏من سبح الله في دبر كل صلاة ثلاثًا وثلاثين، وحمد الله ثلاثًا وثلاثين، وكبر الله ثلاثًا وثلاثين، وقال تمام المائة‏:‏ لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، غفرت خطاياه وإن كانت مثل زبد البحر” ‏(‏‏(‏رواه مسلم‏)‏‏)‏",
+    "sourceId": 41805
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

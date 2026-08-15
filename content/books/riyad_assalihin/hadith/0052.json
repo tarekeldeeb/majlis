@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:52",
+  "book": "riyad_assalihin",
+  "number": 52,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أمية بن مخشى الصحابي رضى الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم جالساً ، ورجل يأكل، فلم يسم الله حتى لم يبق من طعامه إلا لقمة، فلما رفعها إلى فيه، قال‏:‏ بسم الله أوله وآخره، فضحك النبي صلى الله عليه وسلم، ثم قال‏:‏‏\n\"‏ما زال الشيطان يأكل معه، فلما ذكر اسم الله استقاء ما فيه بطنه‏\"‏ ‏.‏ ‏‏((رواه أبو داود والنسائي))",
+    "sourceId": 41117
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

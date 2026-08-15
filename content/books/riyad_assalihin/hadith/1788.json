@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1788",
+  "book": "riyad_assalihin",
+  "number": 1788,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما‏:‏ عن النبي صلى الله عليه وسلم  قال ‏:‏‏\"‏ لا حسد إلى فى اثنتين‏:‏ رجل آتاه الله القرآن، فهو يقوم به آناء الليل وآناء النهار، ورجل آتاه الله مالاً فهو ينفقه آناء الليل وآناء النهار” ‏(‏‏(‏متفق عليه‏)‏‏)‏\n\n“الآناء”:الساعات .‏",
+    "sourceId": 42853
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

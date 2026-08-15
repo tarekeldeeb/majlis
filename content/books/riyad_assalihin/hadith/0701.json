@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:701",
+  "book": "riyad_assalihin",
+  "number": 701,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص رضي الله عنهما أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏بلغوا عني ولو آية وحدثوا عن بني إسرائيل ولا حرج، ومن كذب علي متعمدًا فليتبوأ مقعده من النار‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41766
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

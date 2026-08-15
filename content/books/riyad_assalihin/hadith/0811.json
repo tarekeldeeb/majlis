@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:811",
+  "book": "riyad_assalihin",
+  "number": 811,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن أبي الدرداء، رضي الله عنه، قال‏:‏ رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏كان من دعاء داود عليه السلام‏:‏ ‏\"‏اللهم إني أسألك حبك، وحب من يحبك، والعمل الذي يبلغني حبك، اللهم اجعل حبك أحب إلى من نفسي، وأهلي، ومن الماء البارد‏\"‏‏.‏ رواه الترمذي وقال حديث حسن‏.‏",
+    "sourceId": 41876
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

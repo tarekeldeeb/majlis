@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1061",
+  "book": "riyad_assalihin",
+  "number": 1061,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏لا تسموا العنب الكَرْم، فإن الكَرْم المسلم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ ‏(‏‏(‏وهذا لفظ مسلم‏)‏‏)‏‏.‏ \nوفي رواية‏:‏ ‏\"‏فإنما الكرم قلب المؤمن‏\"‏ وفي رواية للبخاري ومسلم‏:‏ ‏\"‏يقولون الكرم، إنما الكرم قلب المؤمن‏\"‏‏.‏",
+    "sourceId": 42126
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

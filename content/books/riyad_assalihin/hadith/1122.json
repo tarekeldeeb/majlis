@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1122",
+  "book": "riyad_assalihin",
+  "number": 1122,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن قيس بن أبي  حازم قال‏:‏ دخل أبو بكر الصديق رضي الله عنه على امرأة من أحمس يقال لها‏:‏ زينب، فرأها لا تتكلم‏.‏ فقال‏:‏ ما لها لا تتكلم‏؟‏ فقالوا‏:‏ حجت مصمته، فقال لها‏:‏ تكلمي فإن هذا لا يحل، هذا من عمل الجاهلية‏!‏ فتكلمت‏.‏ رواه البخاري",
+    "sourceId": 42187
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

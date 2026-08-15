@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:119",
+  "book": "riyad_assalihin",
+  "number": 119,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن أبى سعيد الخدرى رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إزارة المسلم إلى نصف الساق، ولا حرج -أو لا جناح- فيما بينه وبين الكعبين، فما كان أسفل من الكعبين فهو في النار، ومن جر إزاره بطرا لم ينظر الله إليه‏\"‏‏.((رواه أبو داود))",
+    "sourceId": 41184
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1762",
+  "book": "riyad_assalihin",
+  "number": 1762,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عدى بن حاتم رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏اتقوا النار ولو بشق تمرة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42827
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:800",
+  "book": "riyad_assalihin",
+  "number": 800,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن زيد بن أرقم رضي الله عنه قال‏:‏ كان رسول الله صلى الله عليه وسلم، يقول‏:‏ ‏\n\"‏اللهم إني أعوذ بك من العجز والكسل، والبخل والهرم، وعذاب القبر، اللهم آت نفسي تقواها، وزكها أنت خير من زكاها، أنت وليها ومولاها، اللهم إني أعوذ بك من علم لا ينفع ومن قلب لا يخشع، ومن نفس لا تشبع، ومن دعوة لا يستجاب لها‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41865
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

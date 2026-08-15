@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:772",
+  "book": "riyad_assalihin",
+  "number": 772,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏من قال حين يصبح وحين يمسي‏:‏ سبحان الله وبحمده مائة مرة، لم يأتِ أحد يوم القيامة بأفضل مما جاء به، إلا أحد قال مثل ما قال أو زاد‏\"‏ ‏(‏‏(‏ رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41837
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

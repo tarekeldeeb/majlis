@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1588",
+  "book": "riyad_assalihin",
+  "number": 1588,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏الناس معادن كمعادن الذهب والفضة، خيارهم في الجاهلية خيارهم في الإسلام إذا فقهوا، والأرواح جنود مجندة، فما تعارف منها ائتلف، وما تناكر منها اختلف‏\"‏ ‏(‏‏(‏رواه مسلم‏؟‏‎‏)‏‏)‏‏.‏ \n‏(‏‏(‏وروى البخاري‏)‏‏)‏ قوله‏:‏ ‏\"‏الأرواح‏\"‏ من رواية عائشة رضي الله عنها‏",
+    "sourceId": 42653
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

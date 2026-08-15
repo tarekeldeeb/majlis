@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:788",
+  "book": "riyad_assalihin",
+  "number": 788,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه، قال‏:‏ كان أكثر دعاء النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏اللهم آتنا في الدنيا حسنة، وفي الآخرة حسنة، وقنا عذاب النار‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \nزاد مسلم في روايته قال‏:‏ وكان أنس إذا أراد أن يدعو بدعوة دعا بها، وإذا أراد أن يدعو بدعاء دعا بها فيه‏.‏",
+    "sourceId": 41853
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

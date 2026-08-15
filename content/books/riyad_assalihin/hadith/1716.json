@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1716",
+  "book": "riyad_assalihin",
+  "number": 1716,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سعيد بن أبي وقاص، رضي الله عنه، قال‏:‏ إني لأول العرب رمي بسهم في سبيل الله، ولقد كنا نغزو مع رسول الله صلى الله عليه وسلم ما لنا طعام إلا ورق الحلبة، هذا السمر، حتى إن كان أحدنا ليضع كما تضع الشاة ما له خلط‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \n\n‏\n\"‏ الحلبة‏\"‏ بضم الحاء المهملة وإسكان الباء الموحدة‏:‏ وهي والسمر، نوعان معروفان من شجر البادية‏.‏",
+    "sourceId": 42781
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

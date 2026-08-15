@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:268",
+  "book": "riyad_assalihin",
+  "number": 268,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن عمرو بن العاص رضي الله عنه قال‏:‏ إذا دفنتمونى، فأقيموا حول قبري قدر ما تنحر  جذور، ويقسم لحمها حت أستأنس بكم، وأعلم ماذا أراجع به رسل ربي‏\"‏ ‏(‏‏(‏رواه مسلم‏.‏ وقد سبق بطوله‏)‏‏)‏‏.‏ وقال الشافعي رحمه الله‏:‏ ويستحب أن يقرأ عنده شيء من القرآن، وإن ختموا القرآن عنده كان حسناً‏.‏",
+    "sourceId": 41333
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:253",
+  "book": "riyad_assalihin",
+  "number": 253,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "عن عائشة رضي الله عنها، قالت: قال رسول الله صلى الله عليه وسلم: “ما من ميت يصلي عليه أمة من المسلمين يبلغون مائة كلهم يشفعون له إلا شفعوا فيه“ ((رواه مسلم).",
+    "sourceId": 41318
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

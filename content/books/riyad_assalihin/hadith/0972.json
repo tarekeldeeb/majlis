@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:972",
+  "book": "riyad_assalihin",
+  "number": 972,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضي الله عنه أن رسول الله صلى الله عليه وسلم نهى أن ينتعل الرجل قائمًا‏\"‏‏.‏ ((رواه أبو داود بإسناد حسن ))",
+    "sourceId": 42037
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

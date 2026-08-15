@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:14",
+  "book": "riyad_assalihin",
+  "number": 14,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏والكلمة الطيبة صدقة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ وهو بعض حديث تقدم بطوله‏.‏",
+    "sourceId": 41079
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

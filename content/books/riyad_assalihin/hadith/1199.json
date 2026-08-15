@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1199",
+  "book": "riyad_assalihin",
+  "number": 1199,
+  "chapter": {
+    "id": 19,
+    "title": "كتاب الاستغفار"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ “قال الله تعالى‏:‏ يا ابن آدم إنك ما دعوتني ورجوتني غفرت لك ما كان منك ولا أبالي، يا ابن آدم لو بلغت ذنوبك عنان السماء، ثم استغفرتني ، غفرت لك ولا أبالي، يا ابن آدم إنك لو أتيتني بقراب الأرض خطايا، ثم لقيتني لا تشرك بي شيئاً، لأتيتك بقرابها مغفرة‏\"‏ ‏.‏ (2)",
+    "sourceId": 42264
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

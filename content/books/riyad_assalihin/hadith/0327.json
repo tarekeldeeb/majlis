@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:327",
+  "book": "riyad_assalihin",
+  "number": 327,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن البراء بن عازب رضي الله عنهما قال ‏:‏سمعت النبي صلى الله عليه وسلم قرأ في العشاء بالتين والزيتون، فما سمعت أحدًا أحسن صوتا منه ‏.‏‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41392
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

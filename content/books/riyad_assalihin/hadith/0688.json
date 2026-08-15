@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:688",
+  "book": "riyad_assalihin",
+  "number": 688,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رجلا أتى النبي صلى الله عليه وسلم يتقاضاه فأغلظ له فهم به أصحابه، فقال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏دعوه فإن لصاحب الحق مقالا‏\"‏ ثم قال‏:‏ ‏\"‏أعطوه سنا مثل سنه‏\"‏ قالوا‏:‏ يا رسول الله لا نجد إلا أمثل من سنه، قال‏:‏ ‏\"‏أعطوه فإن خيركم أحسنكم قضاء‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41753
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:199",
+  "book": "riyad_assalihin",
+  "number": 199,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏إن الله يحب العطاس، ويكره التثاؤب، فإذا عطس أحدكم وحمد الله تعالي كان حقاً علي كل مسلم سمعه أن يقول له‏:‏يرحمك الله، وأما التثاؤب فإنما هو من الشيطان، فإذا تثاءب أحدكم فليرده ما استطاع، فإن أحدكم إذا تثاءب ضحك منه الشيطان‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41264
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1149",
+  "book": "riyad_assalihin",
+  "number": 1149,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن مرادس الأسلمي رضي الله عنه قال‏:‏ قال للنبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏يذهب الصالحون الأول فالأول، وتبقى حثالة كحثالة الشعير أو التمر، لا يباليهم الله باله‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42214
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

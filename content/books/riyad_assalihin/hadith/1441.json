@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1441",
+  "book": "riyad_assalihin",
+  "number": 1441,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن النعمان بن بشير رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\"‏ مثل المؤمنين في توادهم وتراحمهم وتعاطفهم، مثل الجسد إذا اشتكى منه عضو تداعى له سائر الجسد بالسهر والحمى” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42506
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

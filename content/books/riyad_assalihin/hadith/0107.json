@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:107",
+  "book": "riyad_assalihin",
+  "number": 107,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعنها قالت‏:‏ خرج رسول الله صلى الله عليه وسلم ذات غداة، وعليه مرط مرحل من شعر أسود‏.‏‏‏((رواه مسلم))‏",
+    "sourceId": 41172
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1053",
+  "book": "riyad_assalihin",
+  "number": 1053,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إذا قال رجل لأخيه‏:‏ يا كافر، فقد باء بها أحدهما، فإن كان كما قال وإلا رجعت عليه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42118
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

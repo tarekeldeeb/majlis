@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1809",
+  "book": "riyad_assalihin",
+  "number": 1809,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن الحسن بن على رضي الله عنهما، قال‏:‏ حفظت من رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏دع ما يريبك إلى ما لا يريبك‏\"‏ ‏(‏‏(‏رواه الترمذى وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42874
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

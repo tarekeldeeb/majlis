@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:175",
+  "book": "riyad_assalihin",
+  "number": 175,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أسماء بنت يزيد رضي الله عنه عنها أن رسول الله صلى الله عليه وسلم، مر في المسجد يومًا، وعصبة من النساء قعود، فألوى بيده بالتسليم‏.‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏",
+    "sourceId": 41240
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1482",
+  "book": "riyad_assalihin",
+  "number": 1482,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم‏:‏ ‏\"‏ الساعي على الأرملة والمسكين كالمجاهد في سبيل الله‏\"‏ وأحسبه قال‏:‏ ‏\"‏ وكالقائم الذي لا يفتر، وكالصائم الذي لا يفطر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42547
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

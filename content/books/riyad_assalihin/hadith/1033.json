@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1033",
+  "book": "riyad_assalihin",
+  "number": 1033,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن ابن مسعود رضي الله عنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏من خلف على مال امرئ مسلم بغير حقه، لقي الله وهو عليه غضبان‏\"‏ قال‏:‏ ثم قرأ علينا رسول الله صلى الله عليه وسلم  مصداقه من كتاب الله عز وجل‏:‏ ‏{‏إن الذين يشترون بعهد الله وأيمانهم ثمنًا قليلا‏}‏ ‏(‏‏(‏آل عمران‏:‏ 77‏)‏‏)‏ إلى آخر الآية‏:‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42098
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

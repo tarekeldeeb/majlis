@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:70",
+  "book": "riyad_assalihin",
+  "number": 70,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضى الله عنه أن رسول الله صلى الله عليه وسلم أمر بلعق الأصابع والصحفة، وقال‏:‏ ‏\n\"‏إنكم لا تدرون في أي طعامكم البركة‏\"‏.‏‏‏((رواه مسلم))‏",
+    "sourceId": 41135
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

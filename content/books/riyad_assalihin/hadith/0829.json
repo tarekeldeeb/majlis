@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:829",
+  "book": "riyad_assalihin",
+  "number": 829,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن رجلين من أصحاب النبي صلى الله عليه وسلم خرجا من عند النبي صلى الله عليه وسلم، في ليلة مظلمة ومعهما مثل المصباحين بين أيديهما، فلما افترقا، صار مع كل واحد منهما واحد حتى أتى أهله‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏ من طرق، وفي بعضها أن الرجلين أسيد بن حضير، وعباد بن بشر رضي الله عنهما‏.‏",
+    "sourceId": 41894
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

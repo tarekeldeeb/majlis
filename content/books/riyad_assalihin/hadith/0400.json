@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:400",
+  "book": "riyad_assalihin",
+  "number": 400,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن بريدة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏العهد الذي بيننا وبينهم الصلاة، فمن تركها فقد كفر‏\"‏ ‏(‏‏(‏رواه  الترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41465
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

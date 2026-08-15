@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1513",
+  "book": "riyad_assalihin",
+  "number": 1513,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ اليد العليا خير من اليد السفلى وابدأ بمن تعول، وخير الصدقة ما كان عن ظهر غنًى، ومن يستعفف، يعفه الله، ومن يستغن، يغنه الله‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42578
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

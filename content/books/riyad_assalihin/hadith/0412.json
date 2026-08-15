@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:412",
+  "book": "riyad_assalihin",
+  "number": 412,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أقيموا الصفوف، وحاذوا المناكب، وسدوا الخلل، ولينوا بأيدي إخوانكم، ولا تذروا فرجات للشيطان، ومن وصل صفًا وصله الله، ومن قطع صفًا قطعه الله‏\"‏‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41477
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:839",
+  "book": "riyad_assalihin",
+  "number": 839,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لا تكثروا الكلام بغير ذكر الله، فإن كثرة الكلام بغير ذكر الله تعالى قسوة للقلب‏!‏ وإن أبعد الناس من الله القلب القاسي‏\"‏‏.‏ رواه الترمذي‏.‏",
+    "sourceId": 41904
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

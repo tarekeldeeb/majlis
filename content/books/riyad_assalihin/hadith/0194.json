@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:194",
+  "book": "riyad_assalihin",
+  "number": 194,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "عن كلدة بن الحنبل رضي الله عنه قال‏:‏ أتيت النبي صلى الله عليه وسلم ، فدخلت عليه ولم أسلم، فقال النبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏ارجع فقل السلام عليكم أأدخل‏؟‏‏\"‏ \n‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41259
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:260",
+  "book": "riyad_assalihin",
+  "number": 260,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن واثلة بن الأسقع رضي الله عنه قال‏:‏ صلى  بنا رسول الله صلى  الله عليه وسلم  علي رجل من المسلمين، فسمعته يقول‏:‏ ‏\n\"‏اللهم إن فلان ابن فلان في ذمتك وحبل جوارك، فقه فتنة القبر، وعذاب النار، وأنت أهل الوفاء والحمد؛ اللهم اغفر له وارحمه، إنك أنت الغفور الرحيم‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
+    "sourceId": 41325
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

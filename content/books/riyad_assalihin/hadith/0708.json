@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:708",
+  "book": "riyad_assalihin",
+  "number": 708,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعن أبي أمامة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏فضل العالم على العابد كفضلي على أدناكم‏\"‏ ثم قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏إن الله وملائكته وأهل السماوات والأرض حتى النملة في جحرها وحتى الحوت ليصلون على معلمي الناس الخير‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏.‏ ‏)‏‏)‏‏.‏",
+    "sourceId": 41773
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

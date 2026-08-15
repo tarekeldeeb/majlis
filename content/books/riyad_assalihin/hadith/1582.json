@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1582",
+  "book": "riyad_assalihin",
+  "number": 1582,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما قال‏:‏ قال النبي صلى الله عليه وسلم لجبريل‏:‏ ما يمنعك أن تزورنا أكثر مما تزورنا‏؟‏‏\"‏ فنزلت ‏:‏‏{‏وما نتنزل إلا بأمر ربك له ما بين أيدينا وما خلفنا وما بين ذلك‏}‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42647
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

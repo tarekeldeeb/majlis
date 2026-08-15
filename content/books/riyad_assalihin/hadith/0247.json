@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:247",
+  "book": "riyad_assalihin",
+  "number": 247,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن أسامة بن زيد رضي الله عنهما أن رسول الله صلى  الله عليه وسلم  رفع إليه ابن ابنته وهو في الموت، ففاض عينا رسول الله صلى  الله عليه وسلم  فقال له سعد‏:‏ ما هذا يا رسول الله‏؟‏‏!‏ قال‏:‏ ‏\n\"‏هذه رحمة جعلها الله تعالي في قلوب عباده الرحماء‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41312
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

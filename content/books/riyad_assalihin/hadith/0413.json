@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:413",
+  "book": "riyad_assalihin",
+  "number": 413,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أنس، رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏رصوا صفوفكم، وقاربوا بينها وحاذوا الأعناق فوالذي نفسي بيده إني لأرى الشيطان يدخل من خلل الصف، كأنها الحذف‏\"‏ ‏(‏‏(‏حديث صحيح رواه أبو داود بإسناد على شرط مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41478
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

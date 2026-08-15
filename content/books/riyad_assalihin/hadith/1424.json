@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1424",
+  "book": "riyad_assalihin",
+  "number": 1424,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “إن الله ليملي للظالم فإذا أخذه لم يفلته ثم قرأ‏:‏ ‏{‏وكذلك أخذ ربك إذا أخذ القرى وهي ظالمة إن أخذه أليم شديد‏}‏ ‏(‏‏(‏هود ‏:‏ 102‏)‏‏)‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42489
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

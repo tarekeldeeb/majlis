@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1154",
+  "book": "riyad_assalihin",
+  "number": 1154,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن أبي أوفى رضي الله عنهما قال‏:‏ غزونا مع رسول الله صلى الله عليه وسلم  سبع غزوات نأكل الجراد، وفي رواية‏:‏ نأكل معه الجراد‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42219
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

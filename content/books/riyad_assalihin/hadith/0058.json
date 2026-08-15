@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:58",
+  "book": "riyad_assalihin",
+  "number": 58,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن أبى هريرة رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إذا دعي أحدكم ، فليجب، فإن كان صائما فليصل، وإن كان مفطراً فليطعم‏\"‏ .‏‏‏((رواه مسلم))‏",
+    "sourceId": 41123
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

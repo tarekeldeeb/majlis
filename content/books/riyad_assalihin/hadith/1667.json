@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1667",
+  "book": "riyad_assalihin",
+  "number": 1667,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن الشخير، رضي الله عنه ، قال‏:‏ أتيت رسول الله صلى الله عليه وسلم، وهو يصلي ولجوفه أزيز كأزير المرجل من البكاء‏.‏ ‏(‏‏(‏حديث صحيح رواه أبو داود، والترمذي بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42732
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

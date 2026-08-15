@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1602",
+  "book": "riyad_assalihin",
+  "number": 1602,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أنس، رضي الله عنه ، أن رجلاً كان عند النبي، صلى الله عليه وسلم، فمر رجل به، فقال‏:‏ يا رسول الله إني لأحب هذا، فقال له النبي صلى الله عليه وسلم‏:‏ ‏\"‏أأعلمته‏؟‏‏\"‏ قال‏:‏ لا ‏:‏ قال‏:‏ ‏\"‏أعلمه‏\"‏ فلحقه، فقال ‏:‏ إني أحبك في الله، فقال‏:‏ أحبك الله الذي أحببتني له‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42667
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1336",
+  "book": "riyad_assalihin",
+  "number": 1336,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثالث عنه قال‏:‏ قال النبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏ عرضت علي أعمال أمتي حسنها وسيئها، فوجدت في محاسن أعمالها الأذى يماط عن الطريق، ووجدت في مساوىء أعمالها النخاعة تكون في المسجد لا تدفن‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42401
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

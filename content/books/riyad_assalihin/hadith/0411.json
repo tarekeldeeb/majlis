@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:411",
+  "book": "riyad_assalihin",
+  "number": 411,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن البراء بن عازب رضي الله عنهما، قال كان رسول الله صلى الله عليه وسلم يتخلل من ناحية إلى ناحية، يمسح صدورنا ومناكبنا ويقول،‏:‏ ‏\"‏لا تختلفوا فتختلف قلوبكم‏\"‏ وكان يقول‏:‏ ‏\"‏إن الله وملائكته يصلون على الصفوف الأُول‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41476
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

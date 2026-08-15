@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:466",
+  "book": "riyad_assalihin",
+  "number": 466,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن جابر، رضي الله عنه قال‏:‏ أتيت النبي صلى الله عليه وسلم وهو في المسجد فقال‏:‏ ‏\n\"‏صلِ ركعتين‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41531
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:59",
+  "book": "riyad_assalihin",
+  "number": 59,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "عن أبى مسعود البدرى رضى الله عنه قال‏:‏ دعا رجل النبي صلى الله عليه وسلم لطعام صنعه له خامس خمسة، فتبعهم رجل، فلما بلغ الباب، قال النبي صلى الله عليه وسلم‏:‏ ‏\n\"‏إن هذا تبعنا؛ فإن شئت أن تأذن له، وإن شئت رجع‏\"‏ قال‏:‏ بل آذن له يا رسول الله ‏.‏((متفق عليه))",
+    "sourceId": 41124
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

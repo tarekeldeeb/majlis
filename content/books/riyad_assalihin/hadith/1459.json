@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1459",
+  "book": "riyad_assalihin",
+  "number": 1459,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏إذا زنت الأمة فتبين زناها فليجلدها الحد، ولا يثرب عليها، ثم إن زنت الثانية فليجلدها الحد ولا يثرب عليها، ثم إن زنت الثالثة فليبعها ولو بحبل من شعر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ (15)",
+    "sourceId": 42524
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

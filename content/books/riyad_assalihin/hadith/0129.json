@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:129",
+  "book": "riyad_assalihin",
+  "number": 129,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن حذيفة رضى الله عنه قال‏:‏ نهانا النبي صلى الله عليه وسلم أن نشرب في آنية الذهب والفضة، وأن نأكل فيها، وعن لبس الحرير والديباج،وأن نجلس عليه‏.‏‏‏((‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41194
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1072",
+  "book": "riyad_assalihin",
+  "number": 1072,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏أما يخشى أحدكم إذا رفع رأسه قبل الإمام أن يجعل الله رأسه رأس حمار‏!‏ أو يجعل الله صورته صورة حمار‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42137
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

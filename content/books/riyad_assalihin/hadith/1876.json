@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1876",
+  "book": "riyad_assalihin",
+  "number": 1876,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص رضي الله عنهما قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن المقسطين عند الله على منابر من نور‏:‏ الذين يعدلون في حمكهم وأهليهم وما ولوا‏\"‏ ‏(‏‏(‏رواه مسلم ‏)‏‏)‏‏.‏",
+    "sourceId": 42941
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

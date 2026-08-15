@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1527",
+  "book": "riyad_assalihin",
+  "number": 1527,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ قلت‏:‏ يارسول الله إن لي جارين، فإلى أيهما أُهْدِي‏؟‏ قال‏:‏ ‏\n\"‏ إلى أقربهما منك بابًا‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42592
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

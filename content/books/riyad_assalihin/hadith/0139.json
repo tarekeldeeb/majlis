@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:139",
+  "book": "riyad_assalihin",
+  "number": 139,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه ، عن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏ من قعد مقعداً لم يذكر الله تعالى فيه،كانت عليه من الله تعالى ترة، ومن اضطجع مضجعاً لا يذكر الله تعالى فيه، كانت عليه من الله ترة‏\"‏ ((رواه أبو داود بإسناد حسن)).‏ \n\"الترة\" بكسر التاء المثناة من فوق، وهي: النقص، وقيل: التبعة.",
+    "sourceId": 41204
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

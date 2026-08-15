@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:685",
+  "book": "riyad_assalihin",
+  "number": 685,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى الأشعري قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏المملوك الذي يحسن عبادة ربه ويؤدي إلى سيده الذي عليه من الحق، والنصيحة والطاعة له أجران‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41750
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

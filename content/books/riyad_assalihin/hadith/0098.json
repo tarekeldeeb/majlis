@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:98",
+  "book": "riyad_assalihin",
+  "number": 98,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أم سلمة رضى الله عنها أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏الذي يشرب في آنية الفضة إنما يجرجر في بطنه نار جهنم‏\"‏‏.((متفق عليه))  \n‏ وفى ‏:‏ ‏\"‏إن الذي يأكل أو يشرب في آنية الفضة والذهب‏\"‏  \nوفى رواية له‏:‏ ‏\"‏ من شرب في إناءٍ من ذهب أو فضة فإنما يجرجر في بطنه ناراً من جهنم‏.‏",
+    "sourceId": 41163
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

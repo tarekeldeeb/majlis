@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1285",
+  "book": "riyad_assalihin",
+  "number": 1285,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "التاسع‏:‏ عن عمر رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا يسأل الرجل فيم ضرب امرأته‏\"‏ ‏(‏‏(‏رواه أبو دواد وغيره‏)‏‏)‏ ‏.‏",
+    "sourceId": 42350
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

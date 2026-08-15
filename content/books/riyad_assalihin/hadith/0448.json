@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:448",
+  "book": "riyad_assalihin",
+  "number": 448,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما، أن النبي صلى الله عليه وسلم كان لا يصلي بعد الجمعة حتى ينصرف، فيصلي ركعتين في بيته‏. (‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41513
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

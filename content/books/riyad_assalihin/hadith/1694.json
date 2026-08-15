@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1694",
+  "book": "riyad_assalihin",
+  "number": 1694,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هُرَيْرَة رضي اللَّه عنه ، قال ‏:‏ سمعتُ رسولَ اللَّه صَلّى اللهُ عَلَيْهِ وسَلَّم يقول ألا إن الدنيا ملعونة، ملعون ما فيها، إلا ذكر الله تعالى، وما والاه، وعالماً ومتعلماً‏\"‏‏.‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏ \n‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42759
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1521",
+  "book": "riyad_assalihin",
+  "number": 1521,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي ذر رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏يا أبا ذر إذا طبخت مرقة، فأكثر ماءها، وتعاهد جيرانك‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ \nوفي رواية له عن أبي ذر قال‏:‏ إن خليلي صلى الله عليه وسلم أوصاني‏:‏ ‏\"‏ إذا طبخت مرقًا فأكثر ماءها، ثم انظر أهل بيت من جيرانك، فأصبهم منها بمعروف‏\"‏‏.‏",
+    "sourceId": 42586
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

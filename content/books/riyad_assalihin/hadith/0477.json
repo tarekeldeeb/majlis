@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:477",
+  "book": "riyad_assalihin",
+  "number": 477,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم ، ذكر يوم الجمعة، فقال‏:‏ ‏\n\"‏فيها ساعة لا يوافقها عبد مسلم، وهو قائم يصلي يسأل الله شيئًا، إلا أعطاه إياه‏\"‏ وأشار بيده يقللها، ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41542
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

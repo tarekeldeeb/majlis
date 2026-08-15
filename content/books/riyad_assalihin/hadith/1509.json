@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1509",
+  "book": "riyad_assalihin",
+  "number": 1509,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن سعد بن أبي وقاص رضي الله عنه في حديثه الطويل الذي قدمناه في أول الكتاب في باب النية أن رسول الله صلى الله عليه وسلم قال له‏:‏ ‏\n\"‏ وإنك لن تنفق تبغي بها وجه الله إلا أجرت بها حتى ما تجعل في في امرأتك‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42574
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

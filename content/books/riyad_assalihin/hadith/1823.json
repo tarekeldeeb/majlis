@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1823",
+  "book": "riyad_assalihin",
+  "number": 1823,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي رفاعة تميم بن أسيد رضي الله عنه قال‏:‏ انتهيت إلى رسول الله صلى الله عليه وسلم وهو يخطب، فقلت‏:‏ يا رسول الله رجل غريب جاء يسأل عن دينه لا يدرى ما دينه‏؟‏ فأقبل علي رسول الله صلى الله عليه وسلم، وترك خطبته حتى انتهى إلى فأتى بكرسي، فقعد عليه وجعل يعلمني مما علمه الله ثم أتى خطبته فأتم آخرها”‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42888
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

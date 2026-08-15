@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:214",
+  "book": "riyad_assalihin",
+  "number": 214,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قبل النبي،صلى الله عليه وسلم الحسن بن على، رضي الله عنهما، فقال الأقرع بن حابس‏:‏ إن لي عشرة من الولد ما قبلت منهم أحداً‏.‏ فقال رسول الله صلى  الله عليه وسلم ‏:‏ ‏\n\"‏من لا يرحم لا يرحم‏!‏‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41279
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:757",
+  "book": "riyad_assalihin",
+  "number": 757,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏سبق المفردون‏\"‏ قالوا‏:‏ وما المفردون يا رسول الله‏؟‏ قال‏:‏ ‏\"‏الذاكرون الله كثيرًا والذكرات‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ وروي : (( المفردون )) بتشديد الراء وتخفيفها والمشهور الذي قاله الجمهور : التشديد.",
+    "sourceId": 41822
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

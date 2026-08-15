@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:255",
+  "book": "riyad_assalihin",
+  "number": 255,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "وعن مرثد بن عبد الله اليزني قال‏:‏ كان مالك بن هبيرة رضي الله عنه إذا صلى  علي الجنازة ، فتقال الناس عليها، جزأهم عليها ثلاثة أجزاء، ثم قال‏:‏ قال رسول الله صلى  الله عليه وسلم ‏:‏ “من صلى  عليه ثلاثة صفوف، فقد أوجب “ ‏(‏‏(‏رواه أبو دواد، والترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41320
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:978",
+  "book": "riyad_assalihin",
+  "number": 978,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن عمر بن الخطاب رضي الله عنه قال‏:‏ قال النبي صلى الله عليه وسلم  ‏:‏‏\"‏الميت يُعذب في قبره بما نِيح عليه ‏\"‏‏. وَفِي روايةٍ:\"مَا نِيحَ علَيْهِ\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42043
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

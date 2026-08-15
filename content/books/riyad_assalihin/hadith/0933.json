@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:933",
+  "book": "riyad_assalihin",
+  "number": 933,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن ابن عباس رضي الله عنهما أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏الذي يعود في هبته كالكلب يرجع في قيئه‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \n‏(‏‏(‏وفي رواية‏:‏ ‏\"‏مثل الذي يرجع في صدقته، كمثل الكلب يقيء، ثم يعود في قيئه فيأكله‏\"‏‏.‏ وفي رواية‏:‏ ‏\"‏العائد في هبته كالعائد في قيئه‏)‏‏)‏‏.‏",
+    "sourceId": 41998
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

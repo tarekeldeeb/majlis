@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:425",
+  "book": "riyad_assalihin",
+  "number": 425,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن عائشة رضي الله عنها أن رسول الله صلى الله عليه وسلم، كان يصلي ركعتين خفيفتين بين النداء والإقامة من صلاة الصبح‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏  \nوفي رواية لهما‏:‏ يصلي ركعتي الفجر، إذا سمع الأذان فيخففهما حتى أقول هل قرأ فيهمابأم القرآن‏!‏‏.‏ وفي رواية لمسلم‏:‏ كان يصلى ركعتيي الفجر إذا سمع الأذان ويخففهما‏.‏\nوفي رواية‏:‏ إذا طلع الفجر‏.‏",
+    "sourceId": 41490
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

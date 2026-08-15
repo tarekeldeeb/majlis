@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1658",
+  "book": "riyad_assalihin",
+  "number": 1658,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن جابر بن عبد الله، رضي الله عنهما ، أنه سمع النبي، صلى الله عليه وسلم، قبل موته بثلاثة أيام يقول ‏:‏ لا يموتن أحدكم إلا وهو يحسن الظن بالله عز وجل‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42723
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

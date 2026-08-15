@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1717",
+  "book": "riyad_assalihin",
+  "number": 1717,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة، رضي الله عنه، قال‏:‏ قال رسول الله، صلى الله عليه وسلم ‏:‏ ‏\"‏ اللهم اجعل رزق آل محمد قوتاً‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \n\nقال أهل اللغة والغريب‏:‏ معنى ‏\"‏ قوتاً‏\"‏ أي‏:‏ ما يسد الرمق‏.‏",
+    "sourceId": 42782
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

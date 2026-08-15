@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:115",
+  "book": "riyad_assalihin",
+  "number": 115,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضى الله عنهما ، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏الإسبال من الإزار، والقميص، والعمامة؛ من جر شيئاً خيلاء لم ينظر الله إليه يوم القيامة‏\"‏‏‏‏.‏((رواه أبو داود والنسائي))",
+    "sourceId": 41180
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

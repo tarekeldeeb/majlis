@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1375",
+  "book": "riyad_assalihin",
+  "number": 1375,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الثالث‏:‏ عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\"‏كل أمتي يدخلون الجنة إلا من أبى ‏\"‏ ‏.‏ قيل‏:‏ ومن يأبى يا رسول الله قال‏:‏ ‏\"‏ من أطاعني دخل الجنة، ومن عصاني فقد أبى‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42440
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

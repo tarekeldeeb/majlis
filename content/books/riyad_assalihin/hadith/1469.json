@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1469",
+  "book": "riyad_assalihin",
+  "number": 1469,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن حارثة بن وهب رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ “ألا أخبركم بأهل الجنة‏؟‏ كل ضعيف متضعف ، لو أقسم على الله لأبره‏.‏ ألا أخبركم بأهل النار‏؟‏ كل عتل جواظ مستكبر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏ (21)",
+    "sourceId": 42534
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

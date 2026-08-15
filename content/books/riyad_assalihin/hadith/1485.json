@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1485",
+  "book": "riyad_assalihin",
+  "number": 1485,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ ‏\"‏دخلت علي امرأة ومعها ابنتان لها تسأل ، فلم تجد عندي شيئا غير تمرة واحدة، فأعطيتها إياها فقسمتها بين ابنتيها ولم تأكل منها، ثم قامت فخرجت، فدخل النبي صلى الله عليه وسلم علينا، فأخبرته فقال‏:‏ ‏\"‏من ابتلي من هذه البنات بشيء فأحسن إليهن كن له سترًا من النار‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42550
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

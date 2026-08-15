@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:696",
+  "book": "riyad_assalihin",
+  "number": 696,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي صفوان سويد بن قيس، رضي الله عنه قال‏:‏ جلبت أنا ومخرمة العبدي بزًا من هجر، فجاءنا النبي صلى الله عليه وسلم فساومنا سراويل، وعندي وزان يزن بالأجر، فقال النبي صلى الله عليه وسلم للوزان ‏\n\"‏زن وأرجح‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41761
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

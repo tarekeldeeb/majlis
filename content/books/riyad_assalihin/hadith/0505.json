@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:505",
+  "book": "riyad_assalihin",
+  "number": 505,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه وعن أبي سعيد رضي الله عنهما، قالا‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إذا أيقظ الرجل أهله من الليل فصليا أو صلى ركعتين جميعًا كتب في الذاكرين والذاكرات‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41570
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

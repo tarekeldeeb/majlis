@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:432",
+  "book": "riyad_assalihin",
+  "number": 432,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنها قالت‏:‏ كان النبي صلى الله عليه وسلم يصلي فيما بين أن يفرغ من صلاة العشاء إلى الفجر إحدى عشرة ركعة يسلم بين كل ركعتين، ويوتر بواحدة، فإذا سكت المؤذن من صلاة الفجر، وتبين له الفجر وجاء المؤذن، قام فركع ركعتين خفيفتين، ثم اضطجع على شقه الأيمن هكذا حتى يأتيه المؤذن للإقامة‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏ (15)",
+    "sourceId": 41497
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

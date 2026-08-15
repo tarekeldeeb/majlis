@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:71",
+  "book": "riyad_assalihin",
+  "number": 71,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏إذا وقعت لقمة أحدكم، فليأخذها فليمط ما كان بها من أذى وليأكلها، ولا يدعها للشيطان، ولا يمسح يده بالمنديل حتى يلعق أصابعه؛ فإنه لا يدرى في أي طعامه البركة‏\"‏ .‏‏((رواه مسلم))‏\n‏",
+    "sourceId": 41136
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

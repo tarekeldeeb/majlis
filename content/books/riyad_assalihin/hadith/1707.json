@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1707",
+  "book": "riyad_assalihin",
+  "number": 1707,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة، رضي الله عنها ، قالت‏:‏ ما شبع آل محمد، صلى الله عليه وسلم ، من خبز شعير يومين متتابعين حتى قبض‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ \nوفي رواية‏:‏ ما شبع آل محمد، صلى الله عليه وسلم ، منذ قدم المدينة من طعام البر ثلاث ليال تباعاً حتى قبض‏.‏",
+    "sourceId": 42772
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

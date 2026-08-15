@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:389",
+  "book": "riyad_assalihin",
+  "number": 389,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏والذي نفسي بيده، لقد هممت أن آمر بحطب فيحتطب، ثم آمر بالصلاة فيؤذن لها، ثم آمر رجلا فيؤم الناس، ثم أخالف إلى رجال فأحرق عليهم بيوتهم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41454
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:135",
+  "book": "riyad_assalihin",
+  "number": 135,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال لي رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏إذا أتيت مضجعك فتوضأ وضوءك للصلاة، ثم اضطجع على شقك الأيمن ، وقل ‏.‏‏.‏‏.‏ ‏\"‏ وذكر نحوهن وفيه‏:‏ ‏\"‏ واجعلهن آخر ما تقول‏\" (‏‏(‏متفق عليه‏)‏‏)‏.‏‏",
+    "sourceId": 41200
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

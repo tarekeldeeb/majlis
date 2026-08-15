@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:96",
+  "book": "riyad_assalihin",
+  "number": 96,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضى الله عنه أن رسول الله صلى الله عليه وسلم دخل على رجل من الأنصار، ومعه صاحب له، فقال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏إن كان عندك ماء بات هذه الليلة في سنة وإلا كرعنا‏\"‏‏‏.‏‏‏((‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41161
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

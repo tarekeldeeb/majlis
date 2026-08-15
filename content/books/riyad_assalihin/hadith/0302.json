@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:302",
+  "book": "riyad_assalihin",
+  "number": 302,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "عن أبي موسي الأشعري رضي الله عنه أن رسول الله كان إذا خاف قوماً قال‏:‏ ‏\n\"‏ اللهم إنا نجعلك في نحورهم ، ونعوذ بك من شرورهم‏\"‏ ‏(‏‏(‏رواه أبو داود، والنسائي بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41367
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

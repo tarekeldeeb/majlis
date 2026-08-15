@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:722",
+  "book": "riyad_assalihin",
+  "number": 722,
+  "chapter": {
+    "id": 14,
+    "title": "كتاب الصلاة على رسول الله صلى الله عليه وسلم"
+  },
+  "matn": {
+    "arabic": "وعنه رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏لا تجعلوا قبري عيدًا وصلوا علي، فإن صلاتكم تبلغني حيث كنتم‏\"‏ رواه أبو داود بإسناد صحيح‏.‏",
+    "sourceId": 41787
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

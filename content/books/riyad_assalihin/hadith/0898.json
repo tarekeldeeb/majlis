@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:898",
+  "book": "riyad_assalihin",
+  "number": 898,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن واثلة بن الأسقع رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏ لا تظهر الشماتة لأخيك، فيرحمه الله ويبتليك‏\"‏‏.‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏ \nوفي الباب حديث أبي هريرة السابق في باب التجسس‏:‏ ‏\"‏ كل المسلم على المسلم حرام‏\"‏ الحديث‏.‏",
+    "sourceId": 41963
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1791",
+  "book": "riyad_assalihin",
+  "number": 1791,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ “ ما حق امرئ مسلم ، له شئ يوصي فيه ، يبيت ليلتين إلا ووصيته مكتوبة عنده” ‏(‏‏(‏متفق عليه‏)‏‏)‏ هذا لفظ البخاري‏.‏ \n\nوفى رواية لمسلم” يبيت ثلاث ليال‏:‏ قال ابن عمر‏:‏ ما مرت على ليلة منذ سمعت رسول الله صلى الله عليه وسلم قال ذلك إلا وعندي وصيتي‏.‏",
+    "sourceId": 42856
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

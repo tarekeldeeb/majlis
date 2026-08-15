@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:779",
+  "book": "riyad_assalihin",
+  "number": 779,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن حذيفة وأبي ذر رضي الله عنهما أن رسول الله صلى الله عليه وسلم كان إذا أوى إلى فراشه قال‏:‏ ‏\n\"‏باسمك اللهم أحيا وأموت‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41844
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

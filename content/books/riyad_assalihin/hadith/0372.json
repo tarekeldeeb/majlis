@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:372",
+  "book": "riyad_assalihin",
+  "number": 372,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "- وعن جرير بن عبد الله البجلي رضي الله عنه قال‏:‏ كنا عند النبي صلى الله عليه وسلم، فنظر إلى القمر ليلة البدر فقال‏:‏ ‏\"‏إنكم سترون ربكم كما ترون هذا القمر، لاتضامون في رؤيته، فإن استطعتم أن لا تغلبو على صلاة قبل طلوع الشمس، وقبل غروبها فافعلوا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ ‏(‏‏(‏وفي رواية‏:‏ ‏\"‏فنظر إلى القمر ليلة أربع عشرة‏\"‏‏)‏‏)‏‏.‏",
+    "sourceId": 41437
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

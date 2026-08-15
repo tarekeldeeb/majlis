@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:603",
+  "book": "riyad_assalihin",
+  "number": 603,
+  "chapter": {
+    "id": 10,
+    "title": "كتاب الحج"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما أن النبي صلى الله عليه وسلم لقي ركبا بالروحاء فقال‏:‏ ‏\"‏من القوم‏؟‏‏\"‏ قالوا‏:‏ المسلمون‏.‏ قالوا من أنت‏؟‏ قال‏:‏ ‏\"‏رسول الله‏\"‏ فرفعت امرأة صبيًا فقالت‏:‏ ألهذا حج‏؟‏ قال ‏\"‏نعم ولك أجر‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41668
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

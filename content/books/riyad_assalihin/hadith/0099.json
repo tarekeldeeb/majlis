@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:99",
+  "book": "riyad_assalihin",
+  "number": 99,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضى الله عنهما أن رسول الله صلى الله عليه وسلم قال‏:‏ إلبسوا من ثيابكم البياض؛ فإنها من خير ثيابكم، وكفنوا فيها موتاكم‏\"‏.‏((رواه أبو داود والترمذي))",
+    "sourceId": 41164
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

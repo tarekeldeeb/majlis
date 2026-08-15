@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:18",
+  "book": "riyad_assalihin",
+  "number": 18,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "عن جرير بن عبد الله رضي الله عنه قال‏:‏ قال لي رسول الله صلى الله عليه وسلم في حجة الوداع‏:‏ ‏\"‏استنصت الناس‏\"‏  ثم قال‏:‏ لا ترجعوا بعدي كفاراً يضرب بعضكم رقاب بعض‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41083
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

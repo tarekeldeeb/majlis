@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1818",
+  "book": "riyad_assalihin",
+  "number": 1818,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عياض بن حمار رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “إن الله أوحى إلي أن تواضعوا حتى لا يفخر أحد على أحد، ولا يبغي أحد على أحد” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42883
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

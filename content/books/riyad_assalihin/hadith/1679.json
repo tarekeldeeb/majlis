@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1679",
+  "book": "riyad_assalihin",
+  "number": 1679,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن المستورد بن شداد رضي الله عنه ، قال‏:‏ قال رسول الله، صلى الله عليه وسلم‏:‏”ما الدنيا في الآخرة، إلا مثل ما يجعل أحدكم أصبعه في اليم، فلينظر بم يرجع‏؟‏‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42744
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

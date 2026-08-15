@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1890",
+  "book": "riyad_assalihin",
+  "number": 1890,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبى سعيد عبد الرحمن بن سمرة رضي الله عنه ، قال‏:‏ قال رسول الله صلى الله عليه وسلم ، ‏\"‏يا عبد الرحمن بن سمرة‏:‏ لا تسأل الإمارة، فإنك إن أعطيتها عن غير مسألة أعنت عليها، وإن أعطيتها عن مسألةٍ وكلت إليها، وإذا حلفت على يمين ، فرأيت غيرها خيراً منها، فأت الذى هو خير ، وكفر عن يمينك” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42955
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:785",
+  "book": "riyad_assalihin",
+  "number": 785,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن حذيفة رضي الله عنه أن رسول الله صلى الله عليه وسلم، كان إذا أراد أن يرقد وضع يده اليمنى تحت خده، ثم يقول‏:‏ ‏\n\"‏اللهم قني عذابك يوم تبعث عبادك‏\"‏‏.‏ ‏(‏‏(‏رواه الترمذي وقال حديث حسن ورواه أبو داود من رواية حفصة رضي الله عنه وفيه أنه كان يقوله ثلاث مرات‏)‏‏)‏‏.‏",
+    "sourceId": 41850
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

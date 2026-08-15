@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:92",
+  "book": "riyad_assalihin",
+  "number": 92,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أبى هريرة رضى الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ لا يشربن أحد منكم قائماً، فمن نسى فليستقئ‏\"‏‏‏‏. ((رواه مسلم))‏",
+    "sourceId": 41157
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

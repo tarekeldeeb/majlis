@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:109",
+  "book": "riyad_assalihin",
+  "number": 109,
+  "chapter": {
+    "id": 3,
+    "title": "كتــــاب اللباس"
+  },
+  "matn": {
+    "arabic": "عن أم سلمة رضى الله عنها قالت‏:‏ كان أحب الثياب إلى رسول الله صلى الله عليه وسلم القميص‏.‏((رواه أبو داود والترمذي))",
+    "sourceId": 41174
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

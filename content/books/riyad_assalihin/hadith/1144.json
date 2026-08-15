@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1144",
+  "book": "riyad_assalihin",
+  "number": 1144,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ ‏\n\"‏يتركون المدينة على خير ما كانت، لا يغشاها إلا العوافي -يريد‏:‏ عوافي السباع والطير، وآخر من يحشر راعيان من مزينة يريدان المدينة ينعقان بغنمهما فيجدانها وحوشاً، حتى إذا بلغا ثنية الوداع خراً على وجوههما‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42209
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

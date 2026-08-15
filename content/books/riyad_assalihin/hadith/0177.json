@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:177",
+  "book": "riyad_assalihin",
+  "number": 177,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن أبي جري الهجيمي رضي الله عنه قال‏:‏ أتيت رسول الله صلى الله عليه وسلم فقلت‏:‏ عليك السلام يا رسول الله قال‏:‏ ‏\n\"‏لا تقل عليك السلام؛ فإن عليك السلام تحية الموتى‏\"‏‏.‏ \n‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن صحيح‏.‏ وقد سبق بطوله‏)‏‏)‏‏.‏",
+    "sourceId": 41242
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

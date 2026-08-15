@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1141",
+  "book": "riyad_assalihin",
+  "number": 1141,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن أبي  هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏ لا تقوم الساعة حتى يقاتل المسلمون اليهود، حتى يختبيء اليهودي من وراء الحجر والشجر، فيقول الحجر والشجر‏:‏ يا مسلم هذا يهودي خلفى تعالى فاقتله، إلا الغرقد فإنه من شجر اليهود‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42206
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

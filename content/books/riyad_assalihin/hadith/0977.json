@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:977",
+  "book": "riyad_assalihin",
+  "number": 977,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن مسروق قال ‏:‏ دخلنا على عبدالله بن مسعود رضي الله عنه فقال ‏:‏ يا أيها الناس من علم شيئا فليقل به، ومن لم يعلم، فليقل ‏:‏الله أعلم، فإن من العلم أن يقول الرجل لما لا يعلم‏:‏ الله أعلم ‏.‏ قال الله تعالى لنبيه صلى الله عليه وسلم ‏:‏‏{‏قل ما أسألكم عليه من أجر وما أنا من المتكلفين‏}‏‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42042
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

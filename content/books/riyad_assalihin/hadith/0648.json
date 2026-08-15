@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:648",
+  "book": "riyad_assalihin",
+  "number": 648,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي موسى، رضي الله عنه أن النبي صلى الله عليه وسلم كان إذا خاف قومًا قال‏:‏ اللهم إنا نجعلك في نحورهم، ونعوذ بك من شرورهم‏\"‏‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41713
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

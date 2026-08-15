@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1774",
+  "book": "riyad_assalihin",
+  "number": 1774,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها أنهم ذبحوا شاة، فقال النبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏ما بقى منها‏؟‏‏\"‏ قالت‏:‏ ما بقى منها إلا كتفها، قال‏:‏ “بقى كلها غير كتفها” ‏(‏‏(‏رواه الترمذى وقال‏:‏ حديث صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42839
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

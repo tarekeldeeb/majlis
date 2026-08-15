@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:666",
+  "book": "riyad_assalihin",
+  "number": 666,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي أمامة، رضي الله عنه أن رجلا قال‏:‏ يا رسول الله ائذن لي في السياحة‏.‏ فقال النبي صلى الله عليه وسلم ‏:‏ ‏\n\"‏إن سياحة أمتي الجهاد في سبيل الله، عز وجل‏\"‏ ‏(‏‏(‏رواه أبو داود بإسناد جيد‏)‏‏)‏‏.‏",
+    "sourceId": 41731
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

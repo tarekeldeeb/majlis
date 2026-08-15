@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:308",
+  "book": "riyad_assalihin",
+  "number": 308,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه قال‏:‏ أقبلنا مع النبي صلى الله عليه وسلم ، حتي إذ كنا بظهر المدينة، قال‏:‏ ‏\n\"‏آيبون، تائبون ، عابدون ، لربنا حامدون‏\"‏ فلم يزل يقول ذلك حتي قدمنا المدينة، ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41373
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:982",
+  "book": "riyad_assalihin",
+  "number": 982,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أم عطية نَُسيبة -بضم النون وفتحها- رضي الله عنها قالت ‏:‏ أخذ علينا رسول الله صلى الله عليه وسلم  عند البيعة أن لا ننوح‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42047
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

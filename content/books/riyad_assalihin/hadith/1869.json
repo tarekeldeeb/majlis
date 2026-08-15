@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1869",
+  "book": "riyad_assalihin",
+  "number": 1869,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال‏:‏ سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ “كلكم راع، وكلكم مسئول عن رعيته‏:‏ الإمام راع ومسؤول عن رعيته، والرجل راع في أهله ومسؤول عن رعيته، والمرأة راعية في بيت زوجها ومسؤولة عن رعيتها، والخادم راع في مال سيده ومسؤول عن رعيته وكلكم راع ومسؤول عن رعيته” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42934
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:778",
+  "book": "riyad_assalihin",
+  "number": 778,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن عثمان بن عفان رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏ما من عبد يقول في صباح كل يوم ومساء كل ليلة‏:‏ بسم الله الذي لا يضر مع اسمه شيء في الأرض ولا في السماء وهو السميع العليم، ثلاث مرات، إلا لم يضره شيء‏\"‏‏.‏ رواه أبو داود والترمذي وقال حديث حسن صحيح ‏.‏",
+    "sourceId": 41843
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

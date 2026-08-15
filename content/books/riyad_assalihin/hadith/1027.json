@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1027",
+  "book": "riyad_assalihin",
+  "number": 1027,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "عن أم سلمة رضي الله عنها قالت قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من كان له ذبح يذبحه، فإذا أهل هلال ذي الحجة، فلا  يأخذن من شعره ولا من أظفاره شيئًا حتى يضحي‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42092
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

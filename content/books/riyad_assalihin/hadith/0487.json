@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:487",
+  "book": "riyad_assalihin",
+  "number": 487,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن سلام، رضي الله عنه ، أن النبي، صلى الله عليه وسلم ،قال‏:‏ ‏\n\"‏أيها الناس أفشوا السلام، وأطعموا الطعام، وصلوا بالليل والناس نيام، تدخلوا الجنة بسلام‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41552
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1886",
+  "book": "riyad_assalihin",
+  "number": 1886,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن مسعود رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ “إنها ستكون بعدى أثرة، وأمور تنكرونها‏!‏” قالوا‏:‏ يا رسول الله، كيف تأمر من أدرك منا ذلك‏؟‏ قال‏:‏ “تؤدون الحق الذى عليكم، وتسألون الله الذى لكم” ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42951
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

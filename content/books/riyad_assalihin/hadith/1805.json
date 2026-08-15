@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1805",
+  "book": "riyad_assalihin",
+  "number": 1805,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "عن أنس رضي الله عنه أن النبي صلى الله عليه وسلم، وجد تمرة فىالطريق فقال‏:‏ “لولا أنى أخاف أن تكون من الصدقة لأكلتها” ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 42870
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

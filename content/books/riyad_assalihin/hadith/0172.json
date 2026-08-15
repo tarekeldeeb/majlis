@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:172",
+  "book": "riyad_assalihin",
+  "number": 172,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنه قالت‏:‏ قال لي رسول الله صلى الله عليه وسلم‏:‏ “هذا جبريل يقرأ عليك السلام‏\"‏ قالت‏:‏ قلت‏:‏ ‏\"‏وعليه السلام ورحمة الله وبركاته‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏\nوهكذا وقع في بعض روايات الصحيحين‏:‏ \"وبركاته\" وفي بعضها بحذفها وزيادة الثقة مقبولة",
+    "sourceId": 41237
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

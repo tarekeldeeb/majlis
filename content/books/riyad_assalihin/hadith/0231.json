@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:231",
+  "book": "riyad_assalihin",
+  "number": 231,
+  "chapter": {
+    "id": 6,
+    "title": "كتاب عيادة المريض وتشييع الميت والصلاة عليه وحضور دفنه"
+  },
+  "matn": {
+    "arabic": "عن ابن عباس، رضي الله عنهما، أن علي بن أبي طالب، رضي الله عنه خرج من عند رسول الله صلى  الله عليه وسلم ، في وجعه الذي توفي فيه فقال الناس‏:‏ يا أبا الحسن كيف أصبح رسول الله صلى  الله عليه وسلم ‏؟‏ قال‏:‏ أصبح بحمد الله بارئاً‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41296
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

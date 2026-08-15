@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:57",
+  "book": "riyad_assalihin",
+  "number": 57,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضى الله عنه أن النبي صلى الله عليه وسلم سأل أهله الأدم فقالوا‏:‏ ما عندنا إلا خل، فدعا به، فجعل يأكل ويقول‏:‏ ‏\n\"‏نعم الأدم الخل، نعم الأدم الخل‏\"‏ ‏.‏‏‏((رواه مسلم))‏",
+    "sourceId": 41122
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

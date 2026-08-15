@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1443",
+  "book": "riyad_assalihin",
+  "number": 1443,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ قدم ناس من الأعراب على رسول الله صلى الله عليه وسلم، فقالوا ‏:‏ أتقبلون صبيانكم‏؟‏ فقال‏:‏ ‏\"‏نعم‏\"‏ قالوا‏:‏ لكنا والله ما نقبل ‏!‏ فقال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏أو أملك إن كان الله نزع من قلوبكم الرحمة‏؟‏‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42508
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:438",
+  "book": "riyad_assalihin",
+  "number": 438,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن السائب، رضي الله عنه أن رسول الله صلى الله عليه وسلم كان يصلى أربعًا بعد أن تزول الشمس قبل الظهر، وقال ‏\n\"‏إنها ساعة تفتح فيها أبواب السماء، فأحب أن يصعد لي فيها عمل صالح‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 41503
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

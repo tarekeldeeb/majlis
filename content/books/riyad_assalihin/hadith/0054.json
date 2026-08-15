@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:54",
+  "book": "riyad_assalihin",
+  "number": 54,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أبى أمامة رضى الله عنه أن النبي صلى الله عليه وسلم كان إذا رفع مائدته قال‏:‏ ‏\n\"‏الحمد لله حمداً كثيراً طَيِّباً مباركاً فيه، غير مكفى ولامودع، ولا مستغنى عنه ربنا‏\"‏ ‏‏.‏(‏‏(‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41119
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

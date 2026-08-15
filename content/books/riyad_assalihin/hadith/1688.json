@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1688",
+  "book": "riyad_assalihin",
+  "number": 1688,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي العباس سهل بن سعد الساعدى، رضي الله عنه، قال‏:‏ جاء رجل إلى النبي صلى الله عليه وسلم فقال‏:‏ يا رسول الله دلني على عمل إذا عملته أحبني الله، واحبني الناس، فقال‏:‏ “ازهد في الدنيا يحبك الله، وازهد فيما عند الناس يحبك الناس” ‏(‏‏(‏حديث حسن رواه ابن ماجه وغيره بأسانيد حسنة‏)‏‏)‏‏.‏",
+    "sourceId": 42753
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

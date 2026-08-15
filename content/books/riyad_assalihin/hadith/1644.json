@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1644",
+  "book": "riyad_assalihin",
+  "number": 1644,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن البراء بن عازب، رضي الله عنهما، عن النبي، صلى الله عليه وسلم، قال‏:‏ “المسلم إذا سئل في القبر يشهد أن لا إله إلا الله، وأن محمداً رسول الله، فذلك قوله تعالى‏:‏ ‏{‏يثبت الله الذين آمنوا بالقول الثابت في الحياة الدنيا وفي الآخرة‏}‏ ‏(‏‏(‏إبراهيم‏:‏27‏)‏‏)‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 42709
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1222",
+  "book": "riyad_assalihin",
+  "number": 1222,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي يزيد معن بن يزيد بن الأخنس رضي الله عنهم، وهو وأبوه وجده صحابيون، قال‏:‏ كان أبي يزيد أخرج دنانير يتصدق بها فوضعها عند رجل في  المسجد فجئت فأخذتها فأتيته بها، فقال‏:‏ والله ما إياك أردت، فخاصمته إلى رسول الله صلى الله عليه وسلم فقال‏:‏ ‏\n\"‏ لك ما نويت يا يزيد، ولك ما أخذت يامعن‏\"‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42287
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

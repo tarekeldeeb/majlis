@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:290",
+  "book": "riyad_assalihin",
+  "number": 290,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "وعن أبي سعيد الخدري، رضي الله عنه، قال‏:‏ بينما نحن في سفر إذ جاء رجل علي راحلة له، فجعل يصرف بصره يميناً وشمالاً، فقال رسول الله صلى  الله عليه وسلم ‏:‏ ‏\"‏من كان معه فضل ظهر؛ فليعد به علي من لا ظهر له، ومن كان له فضل زاد فليعد به علي من لا زاد له‏\"‏ فذكر من أصناف المال ما ذكره، حتي رأينا‏:‏ أنه لا حق لأحد منا في فضل‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41355
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

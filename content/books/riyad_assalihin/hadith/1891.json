@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1891",
+  "book": "riyad_assalihin",
+  "number": 1891,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبى ذر رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “ يا أبا ذر إني أراك ضعيفاً، وإنى أحبُّ لك ما أحب لنفسي، لا تأمرن على اثنين ولا تولين مال يتيم” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42956
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

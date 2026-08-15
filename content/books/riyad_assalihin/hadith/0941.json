@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:941",
+  "book": "riyad_assalihin",
+  "number": 941,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏ من تعلم علمًا مما يبتغى به وجه الله عز وجل لا يتعلمه إلا ليصيب به عرضًا من الدنيا، لم يجد عَرف الجنة يوم القيامة‏\"‏  يعني ريحها‏.‏ رواه أبو داود بإسناد صحيح‏ والأحاديث في الباب كثير مشهورة.‏",
+    "sourceId": 42006
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

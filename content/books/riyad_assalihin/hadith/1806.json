@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1806",
+  "book": "riyad_assalihin",
+  "number": 1806,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن النواس بن سمعان رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ البر حسن الخلق، والإثم ما حاك فى نفسك، وكرهت أن يطلع عليه الناس” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42871
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

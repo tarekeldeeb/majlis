@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:79",
+  "book": "riyad_assalihin",
+  "number": 79,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن أبى قتادة رضى الله عنه أن النبي صلى الله عليه وسلم نهى أن يتنفس في الإناء‏.‏‏((متفق عليه))",
+    "sourceId": 41144
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

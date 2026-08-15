@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:138",
+  "book": "riyad_assalihin",
+  "number": 138,
+  "chapter": {
+    "id": 4,
+    "title": "كتاب آداب النوم"
+  },
+  "matn": {
+    "arabic": "وعن يعيش بن طخفة الغفارى رضى الله عنه قال‏:‏ قال أبى‏:‏ بينما أنا مضطجع في المسجد على بطني إذا رجل يحركني برجله فقال‏:‏ ‏\n\"‏إن هذه ضجعة يبغضها الله‏\"‏ قال‏:‏ فنظرت ، فإذا رسول الله صلى الله عليه وسلم‏. ((رواه أبو داود بإسناد صحيح))‏.‏",
+    "sourceId": 41203
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

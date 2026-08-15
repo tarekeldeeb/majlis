@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1771",
+  "book": "riyad_assalihin",
+  "number": 1771,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن جبير بن مطعم رضي الله عنه أنه قال‏:‏ بينما هو يسير مع النبي صلى الله عليه وسلم مقفله من حنين، فعلقه الأعراب يسألونه، حتى اضطروه إلى سمرة، فخطفت رداءه، فوقف النبي صلى الله عليه وسلم  فقال‏:‏ “أعطونى ردائى، فلو كان لى عدد هذه العضاة نعماً، لقسمته بينكم، ثم لا تجدونى بخيلاً ولا كذاباً ولا جباناً ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42836
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

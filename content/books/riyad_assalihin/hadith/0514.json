@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:514",
+  "book": "riyad_assalihin",
+  "number": 514,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنها رضي الله عنها، قالت‏:‏ كان رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إذا دخل العشر الأواخر من رمضان، أحيا الليلة، وأيقظ أهله، وجد وشد المئزر‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41579
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

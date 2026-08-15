@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1151",
+  "book": "riyad_assalihin",
+  "number": 1151,
+  "chapter": {
+    "id": 18,
+    "title": "كتاب المنثورات والملح"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما قال : قال رسولُ اللهِ : « إذَا أنْزَلَ اللهُ تَعَالَى بِقَومٍ عَذَاباً ، أصَابَ العَذَابُ مَنْ كَانَ فِيهِمْ ، ثُمَّ بُعِثُوا عَلَى أَعْمَالِهِمْ » . متفق عليه .",
+    "sourceId": 42216
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:409",
+  "book": "riyad_assalihin",
+  "number": 409,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ أقيمت الصلاة، فأقبل علينا رسول الله صلى الله عليه وسلم بوجهه فقال‏:‏ ‏\"‏أقيموا صفوفكم وتراصوا، فإني أراكم من وراء ظهري‏\"‏ ‏(‏‏(‏رواه البخاري بلفظه، ومسلم بمعناه‏)‏‏)‏‏.‏ \nوفي رواية للبخاري‏:‏ وكان أحدنا يلزق منكبه بمنكب صاحبه وقدمه بقدمه‏\"‏‏.‏",
+    "sourceId": 41474
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1822",
+  "book": "riyad_assalihin",
+  "number": 1822,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن الأسود بن يزيد قال‏:‏ سئلت عائشة رضي الله عنها‏:‏ ما كان النبي صلى الله عليه وسلم يصنع فى بيته‏؟‏ قالت‏:‏ كان يكون فى مهنة أهله -يعنى‏:‏ خدمة أهله- فإذا حضرت الصلاة، خرج إلى الصلاة” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42887
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:88",
+  "book": "riyad_assalihin",
+  "number": 88,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن النزال بن سبرة رضى الله عنه قال‏:‏ أتى علي رضى الله عنه باب الرحبة فشرب قائماً، وقال‏:‏ إني رأيت رسول الله صلى الله عليه وسلم فعل كما رأيتموني فعلت‏.‏‏‏((‏رواه البخارى‏)‏‏)‏‏",
+    "sourceId": 41153
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

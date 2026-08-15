@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1767",
+  "book": "riyad_assalihin",
+  "number": 1767,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم  “أربعون خصلة أعلاها منيحة العنز ما من عامل يعمل بخصلة منها رجاء ثوابها وتصديق موعودها إلا أدخله الله تعالى بها الجنة” ‏(‏‏(‏رواه البخاري‏.‏ وقد سبق بيان هذا الحديث فى باب بيان كثرة طرق الخير‏)‏‏)‏‏.‏",
+    "sourceId": 42832
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

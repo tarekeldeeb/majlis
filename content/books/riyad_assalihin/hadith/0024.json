@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:24",
+  "book": "riyad_assalihin",
+  "number": 24,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ سمعت رسول الله صلى الله عليه وسلم  يقول‏:‏ “إذا أقيمت الصلاة، فلا تأتوها وأنتم تسعون، وأتوها وأنتم تمشون، وعليكم السكينة، فما أدركتم فصلوا، وما فاتكم فأتموا” ‏(‏‏(‏متفق عليه‏)‏‏)‏ زاد مسلم في رواية له‏:‏ ‏\n\"‏فإن أحدكم إذا كان يعمد إلى الصلاة فهو في صلاة‏\"‏‏.‏",
+    "sourceId": 41089
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1320",
+  "book": "riyad_assalihin",
+  "number": 1320,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "التاسع‏:‏ عن ابن مسعود رضي الله عنه قال‏:‏ صليت مع النبي صلى الله عليه وسلم ليلة، فأطال القيام حتى هممت بأمر سوء‏!‏ قيل‏:‏ وما هممت به‏؟‏ \nقال‏:‏ هممت أن أجلس وأدعه‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42385
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1475",
+  "book": "riyad_assalihin",
+  "number": 1475,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أسامة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏ قمت على باب الجنة، فإذا عامة من دخلها المساكين، وأصحاب الجد محبوسون، غير أن أصحاب النار قد أمر بهم إلى النار‏.‏ وقمت على باب النار فإذا عامة من دخلها النساء” ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏ (24)",
+    "sourceId": 42540
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

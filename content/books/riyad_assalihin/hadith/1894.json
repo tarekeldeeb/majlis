@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1894",
+  "book": "riyad_assalihin",
+  "number": 1894,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "-عن أبي سعيد وأبي هريرة رضي الله عنهما أن رسول الله صلى الله عليه وسلم قال ‏:‏ “ما بعث الله من نبي، ولا استخلف من خليفة إلا كانت له بطانتان بطانة تأمره بالمعروف وتحضه عليه، وبطانة تأمره بالشر وتحضه عليه، والمعصوم من عصم الله” ‏(‏‏(‏رواه البخارى‏)‏‏)‏‏.‏",
+    "sourceId": 42959
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:334",
+  "book": "riyad_assalihin",
+  "number": 334,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أنس رضي الله عنه أن رجلا قال‏:‏ يارسول الله إني أحب هذه السورة ‏\"‏قل هو الله أحد‏\"‏‏:‏‏\"‏إن حبها أدخلك الجنة‏\"‏ ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن- رواه البخاري في صحيحه تعليقًا‏)‏‏)‏‏.‏",
+    "sourceId": 41399
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

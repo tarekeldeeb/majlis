@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1690",
+  "book": "riyad_assalihin",
+  "number": 1690,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة، رضي الله عنها، قالت‏:‏ توفي رسول الله صلى الله عليه وسلم وما في بيتي من شئ يأكله ذو كبد إلا شطر شعير في رف لي، فاكلت منه حتى طال علي، فكلته ففنى، ‏(‏‏(‏متفق عليه‏)‏‏)‏‏\n‏شطر شعير\" شئ من شعير، كذا فسره الترمذي‏.‏",
+    "sourceId": 42755
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

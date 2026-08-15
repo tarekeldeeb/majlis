@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:319",
+  "book": "riyad_assalihin",
+  "number": 319,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن البراء بن عازب  رضي الله عنهما قال‏:‏ كان رجل يقرأ سورة الكهف، وعنده فرس مربوط بشطنين فتغشته سحابة فجعلت تدنو، وجعل فرسه ينفر منها‏.‏ فلما أصبح أتى النبي صلى الله عليه وسلم ، فذكر له ذلك فقال ‏:‏‏\n\"‏ تلك السكينة تنزلت للقرآن‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
+    "sourceId": 41384
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

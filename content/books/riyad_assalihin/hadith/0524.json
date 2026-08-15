@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:524",
+  "book": "riyad_assalihin",
+  "number": 524,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\"‏الفطرة خمس، أو خمس من الفطرة‏:‏ الختان، والاستحداد، وتقليم الأظفار، ونتف الإبط، وقص الشارب‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ (24)",
+    "sourceId": 41589
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

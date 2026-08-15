@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1325",
+  "book": "riyad_assalihin",
+  "number": 1325,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "الرابع عشر‏:‏ عن أبي صفوان عبد الله بن بسر الأسلمي، رضي الله عنه، قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ ‏\"‏ خير الناس من طال عمره وحسن عمله‏\"‏ ‏(‏‏(‏رواه الترمذي، وقال‏:‏ حديث حسن‏.‏ ‏\"‏بسر‏\"‏‏:‏ بضم الياء وبالسين المهملة‏)‏‏)‏‏.‏",
+    "sourceId": 42390
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

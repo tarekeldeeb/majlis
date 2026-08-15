@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1569",
+  "book": "riyad_assalihin",
+  "number": 1569,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن جابر رضي الله عنه أن النبي صلى الله عليه وسلم كان يجمع بين الرجلين من قتلى أحد يعني في القبر، ثم يقول‏:‏ أيهما أكثر أخذًا للقرآن‏؟‏‏\"‏ فإذا أشير له إلى أحدهما قدمه في اللحد‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 42634
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1800",
+  "book": "riyad_assalihin",
+  "number": 1800,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما، قال مر رسول الله صلى الله عليه وسلم بقبور بالمدينة فأقبل عليهم بوجهه فقال‏:‏ “السلام عليكم يا أهل القبور، يغفر الله لنا ولكم أنتم سلفنا ونحن بالأثر” ‏(‏‏(‏رواه الترمذي وقال‏:‏ حديث حسن‏)‏‏)‏‏.‏",
+    "sourceId": 42865
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

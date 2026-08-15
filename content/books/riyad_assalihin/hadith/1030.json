@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1030",
+  "book": "riyad_assalihin",
+  "number": 1030,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن بريدة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏من حلف بالأمانة، فليس منا‏\"‏‏.‏ ‏(‏‏(‏حديث صحيح رواه أبو داود بإسناد صحيح‏)‏‏)‏",
+    "sourceId": 42095
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:994",
+  "book": "riyad_assalihin",
+  "number": 994,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن أبي مسعود البدري رضي الله عنه قال‏:‏ إن رسول الله صلى الله عليه وسلم  ‏\n\"‏نهى عن ثمن الكلب، ومهر البغي وحُلوان الكاهن‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42059
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

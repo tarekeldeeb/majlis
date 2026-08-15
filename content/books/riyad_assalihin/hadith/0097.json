@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:97",
+  "book": "riyad_assalihin",
+  "number": 97,
+  "chapter": {
+    "id": 2,
+    "title": "كتـــــاب أدب الطعام"
+  },
+  "matn": {
+    "arabic": "وعن حذيفة رضى الله عنه قال‏:‏ إن النبي صلى الله عليه وسلم نهانا عن الحرير والديباج والشرب في آنية الذهب والفضة، وقال‏:‏ ‏\n\"‏هي لهم في الدنيا، وهى لكم في الآخرة‏\"‏‏.((متفق عليه))  \n‏",
+    "sourceId": 41162
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

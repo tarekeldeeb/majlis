@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:718",
+  "book": "riyad_assalihin",
+  "number": 718,
+  "chapter": {
+    "id": 14,
+    "title": "كتاب الصلاة على رسول الله صلى الله عليه وسلم"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن عمرو بن العاص، رضي الله عنهما أنه سمع رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏من صلى علي صلاة، صلى الله عليه بها عشرًا‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41783
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

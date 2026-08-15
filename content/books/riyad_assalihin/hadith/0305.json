@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:305",
+  "book": "riyad_assalihin",
+  "number": 305,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏السفر قطعة من العذاب، يمنع أحدكم طعامه، وشرابه ونومه، فإذا قضى أحدكم نهمته من سفره، فليعجل إلى أهله‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏\n ‏نهمته‏ ‏ ‏:‏ مقصوده",
+    "sourceId": 41370
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

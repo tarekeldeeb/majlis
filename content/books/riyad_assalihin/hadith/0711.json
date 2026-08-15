@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:711",
+  "book": "riyad_assalihin",
+  "number": 711,
+  "chapter": {
+    "id": 12,
+    "title": "كتاب العلم"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏من سئل عن علم فكتمه ألجم يوم القيامة بلجام من نار‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي، وقال‏:‏ حديث حسن‏.‏",
+    "sourceId": 41776
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

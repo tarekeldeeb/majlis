@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1519",
+  "book": "riyad_assalihin",
+  "number": 1519,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "و عن أبي ثرية سبرة بن معبد الجهني رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\"‏ علموا الصبي الصلاة لسبع سنين‏\"‏ واضربوه عليها ابن عشر سنين‏\"‏ حديث حسن رواه أبو داود، والترمذي وقال حديث حسن‏.‏ ولفظ أبي داود‏:‏ ‏\"‏ مروا الصبي بالصلاة إذا بلغ سبع سنين‏\"‏‏.‏",
+    "sourceId": 42584
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

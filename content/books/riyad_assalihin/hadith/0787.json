@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:787",
+  "book": "riyad_assalihin",
+  "number": 787,
+  "chapter": {
+    "id": 16,
+    "title": "كتاب الدعوات"
+  },
+  "matn": {
+    "arabic": "وعن عائشة، رضي الله عنها، قالت‏:‏ كان رسول الله صلى الله عليه وسلم، يستحب الجوامع من الدعاء، ويدع ما سوى ذلك‏.‏ ‏(‏‏(‏رواه أبو داود بإسناد جيد‏)‏‏)‏‏.‏",
+    "sourceId": 41852
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

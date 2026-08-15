@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1620",
+  "book": "riyad_assalihin",
+  "number": 1620,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن أبي هريرة، رضي الله عنه ، أن رسول الله صلى الله عليه وسلم، قال‏:‏ ‏\n\"‏يعرق الناس يوم القيامة حتى يذهب عرقهم في الأرض سبعين ذراعاً، ويلجمهم حتى يبلغ آذانهم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏\n\n'‏‏(‏‏(‏ومعنى ‏ ‏يذهب في الأرض‏ ‏ ‏:‏ ينزل ويغوص‏)‏‏)‏‏.‏   ‏'",
+    "sourceId": 42685
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:543",
+  "book": "riyad_assalihin",
+  "number": 543,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عباس رضي الله عنهما‏:‏ قال‏:‏ كان رسول الله صلى الله عليه وسلم أجود الناس، وكان أجود ما يكون في رمضان حين يلقاه جبريل وكان جبريل يلقاه في كل ليلة من رمضان فيدارسه القرآن فَلَرَسول الله صلى الله عليه وسلم حين يلقاه جبريل أجود بالخير من الريح المرسلة‏\"‏ ‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41608
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

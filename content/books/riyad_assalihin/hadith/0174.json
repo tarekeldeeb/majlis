@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:174",
+  "book": "riyad_assalihin",
+  "number": 174,
+  "chapter": {
+    "id": 5,
+    "title": "كتاب السلام"
+  },
+  "matn": {
+    "arabic": "وعن المقداد رضي الله عنه في حديثه الطويل قال‏:‏ كنا نرفع للنبي صلى الله عليه وسلم نصيبه من اللبن، فيجيء من الليل، فيسلم تسليمًا لا يوقظ نائمًا، ويسمع اليقظان، فجاء النبي صلى الله عليه وسلم فسلم كما كان يُسلم‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41239
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

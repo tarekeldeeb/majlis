@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1892",
+  "book": "riyad_assalihin",
+  "number": 1892,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعنه قال‏:‏ قلت يا رسول الله ألا تستعملني‏؟‏ فضرب بيده على منكبي ثم قال‏:‏ “يا أبا ذر إنك ضعيف، وإنها أمانة، وإنها يوم القيامة خزي وندامة، إلا من أخذها بحقها، وأدى  الذى عليه فيها” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 42957
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

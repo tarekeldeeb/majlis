@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:961",
+  "book": "riyad_assalihin",
+  "number": 961,
+  "chapter": {
+    "id": 17,
+    "title": "كتاب الأمور المنهي عنها"
+  },
+  "matn": {
+    "arabic": "وعن عبد الله بن جعفر رضي الله عنهما أن النبي صلى الله عليه وسلم  أمهل آل جعفر رضي الله عنه ثلاثًا، ثم أتاهم فقال‏:‏ ‏\"‏لا تبكوا على أخي بعد اليوم‏\"‏‏.‏ ثم قال‏:‏ ‏\"‏ادعوا لي بني أخي‏\"‏ فجيء بنا كأننا أفرخ فقال‏:‏ ‏\"‏ادعوا لي الحلاق‏\"‏ فأمره، فحلق رءوسنا‏\"‏‏.‏ رواه أبو داود بإسناد صحيح على شرط البخاري ومسلم‏.‏",
+    "sourceId": 42026
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

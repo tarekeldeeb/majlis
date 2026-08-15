@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:743",
+  "book": "riyad_assalihin",
+  "number": 743,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعن معاذ رضي الله عنه أن رسول الله صلى الله عليه وسلم أخذ بيده وقال‏:‏ ‏\"‏يا معاذ والله إني لأحبك‏\"‏ فقال‏:‏ ‏\"‏أوصيك يا معاذ لا تدعن في دبر كل صلاة تقول‏:‏ اللهم أعني على ذكرك، وشكرك، وحسن عبادتك‏\"‏‏.‏ رواه أبو داود بإسناد صحيح‏.‏",
+    "sourceId": 41808
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

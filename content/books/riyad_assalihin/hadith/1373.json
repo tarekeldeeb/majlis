@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1373",
+  "book": "riyad_assalihin",
+  "number": 1373,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "فالأول ‏:‏ عن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏دعوني ماتركتكم‏:‏ إنما أهلك من كان قبلكم كثرة سؤالهم ، واختلافهم على أنبيائهم، فإذا نهيتكم عن شيء فاجتنبوه، وإذا أمرتكم بأمر فأتوا منه ما استطعتم‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42438
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

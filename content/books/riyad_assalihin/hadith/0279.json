@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:279",
+  "book": "riyad_assalihin",
+  "number": 279,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "عن ابن عمر رضي الله عنهما قال‏:‏ قال رسول الله صلى  الله عليه وسلم ‏:‏ ‏\"‏لو أن الناس يعلمون من الوحدة ما أعلم ما سار راكب بليل وحده” ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "sourceId": 41344
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

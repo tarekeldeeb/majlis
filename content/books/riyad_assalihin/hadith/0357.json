@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:357",
+  "book": "riyad_assalihin",
+  "number": 357,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "- وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏إذا نودي بالصلاة، أدبر الشيطان، له ضراط حتى لا يسمع التأذين، فإذا قضي النداء أقبل، حتى ثوب بالصلاة أدبر حتى إذا قضي التثويب أقبل حتى يخطر بين المرء ونفسه يقول‏:‏ اذكر كذا، واذكر كذا- لما لم يذكر من قبل- حتى يظل الرجل ما يدري كم صلى‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 41422
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

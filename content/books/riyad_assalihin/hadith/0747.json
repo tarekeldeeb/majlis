@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:747",
+  "book": "riyad_assalihin",
+  "number": 747,
+  "chapter": {
+    "id": 15,
+    "title": "كتاب الأذكار"
+  },
+  "matn": {
+    "arabic": "وعنها أن رسول الله صلى الله عليه وسلم كان يقول في ركوعه وسجوده‏:‏ ‏\n\"‏سبوح قدوس رب الملائكة والروح‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
+    "sourceId": 41812
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

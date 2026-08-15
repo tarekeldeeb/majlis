@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:458",
+  "book": "riyad_assalihin",
+  "number": 458,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن ابن عمر رضي الله عنهما أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏بادروا الصبح بالوتر‏\"‏ ‏(‏‏(‏رواه أبو داود والترمذي‏)‏‏)‏‏.‏ وقال‏:‏ حديث حسن صحيح‏.‏",
+    "sourceId": 41523
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

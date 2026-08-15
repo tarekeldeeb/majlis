@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1590",
+  "book": "riyad_assalihin",
+  "number": 1590,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "وعن عمر بن الخطاب رضي الله عنه قال‏:‏ استأذنت النبي صلى الله عليه وسلم في العمرة، فأذن لي، وقال‏:‏ ‏\"‏لا تنسنا يا أخي من دعائك‏\"‏ فقال كلمة ما يسرني أن لي بها الدنيا‏.‏ \nوفي رواية قال‏:‏ ‏\"‏أشركنا يا أخي في دعائك‏\"‏‏.‏\nحديث صحيح ‏(‏‏(‏رواه أبو داود، والترمذي وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 42655
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

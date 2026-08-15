@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:1318",
+  "book": "riyad_assalihin",
+  "number": 1318,
+  "chapter": {
+    "id": 0,
+    "title": "كتاب المقدمات"
+  },
+  "matn": {
+    "arabic": "السابع‏:‏ عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏ حجبت النار بالشهوات، وحجبت الجنة بالمكاره‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "sourceId": 42383
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

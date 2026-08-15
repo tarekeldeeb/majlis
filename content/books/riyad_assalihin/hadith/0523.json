@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:523",
+  "book": "riyad_assalihin",
+  "number": 523,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "وعن عائشة رضي الله عنها ان النبي صلى الله عليه وسلم ‏:‏ قال‏:‏ ‏\n\"‏السواك مطهرة للفم مرضاة للرب‏\"‏ ‏(‏‏(‏رواه النسائي، وابن خذيمة في صحيحه بأسانيد صحيحة‏)‏‏)‏‏.‏",
+    "sourceId": 41588
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

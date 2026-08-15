@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:449",
+  "book": "riyad_assalihin",
+  "number": 449,
+  "chapter": {
+    "id": 8,
+    "title": "كتاب الفضائل"
+  },
+  "matn": {
+    "arabic": "عن زيد بن ثابت رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏صلوا أيها الناس في بيوتكم، فإن الصلاة صلاة المرء في بيته إلا المكتوبة‏\"‏‏.‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏",
+    "sourceId": 41514
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

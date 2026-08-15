@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:671",
+  "book": "riyad_assalihin",
+  "number": 671,
+  "chapter": {
+    "id": 11,
+    "title": "كتاب الجهاد"
+  },
+  "matn": {
+    "arabic": "وعن أبي عمرو ويقال‏:‏ أبو حكيم النعمان بن مقرن رضي الله عنه قال‏:‏ شهدت رسول الله صلى الله عليه وسلم إذا لم يقاتل من أول النهار أخر القتال حتى تزول الشمس وتهب الريح وينزل النصر‏.‏ ‏(‏‏(‏رواه أبو داود، والترمذي، وقال‏:‏ حديث حسن صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41736
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

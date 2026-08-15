@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:42",
+  "book": "riyad_assalihin",
+  "number": 42,
+  "chapter": {
+    "id": 1,
+    "title": "كتاب الأدب"
+  },
+  "matn": {
+    "arabic": "وعنها قالت‏:‏ كانت يد رسول الله صلى الله عليه وسلم ، اليمنى لطهوره وطعامه، وكان اليسرى لخلائه وما كان من أذى‏.‏ حديث صحيح، ‏(‏‏(‏رواه أبو داود وغيره بإسناد صحيح‏)‏‏)‏‏.‏",
+    "sourceId": 41107
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}

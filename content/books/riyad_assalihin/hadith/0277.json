@@ -1,0 +1,32 @@
+{
+  "id": "riyad_assalihin:277",
+  "book": "riyad_assalihin",
+  "number": 277,
+  "chapter": {
+    "id": 7,
+    "title": "كتاب آداب السفر"
+  },
+  "matn": {
+    "arabic": "عن كعب بن مالك، رضي الله عنه أن النبي صلى الله عليه وسلمى الله عليه وسلم  الله عليه وسلم  خرج في غزوة تبوك يوم الخميس، وكان يحب أن يخرج يوم الخميس‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏\nوفي رواية في “الصحيحين” لقلما كان رسول الله صلى  الله عليه وسلم  يخرج إلا في يوم الخميس‏.‏",
+    "sourceId": 41342
+  },
+  "commentary": {
+    "adab": [],
+    "fawaid": [],
+    "meaning": null,
+    "relatedAyat": [],
+    "sources": []
+  },
+  "audio": {
+    "matn": null,
+    "commentary": null
+  },
+  "review": {
+    "status": "approved",
+    "reviewers": [
+      "Dr Yasmeen Farouk",
+      "Tarek Eldeeb"
+    ],
+    "approvedAt": "2026-08-15"
+  }
+}
