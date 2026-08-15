@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+
+# Generated from ../content by `npm run sync-content` — content/ is the source of truth
+assets/content/
+src/data/manifest.ts
