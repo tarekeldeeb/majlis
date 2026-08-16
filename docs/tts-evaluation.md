@@ -12,6 +12,10 @@ Goal: choose one open/free TTS able to read **fully diacritized classical Arabic
 | **Meta MMS-TTS (ara)** | CC-BY-**NC** weights | Non-commercial clause: likely acceptable for a free app but restricts downstream reuse — treat as last resort and get consensus first. |
 | **Coqui XTTS-v2** | CPML (**non-commercial**) | License conflicts with the strictly-open principle; excluded unless relicensed. |
 
+## Diacritization — complete (2026-08-16)
+
+All 1,896 Riyad al-Salihin hadiths are now diacritized: 558 via tashkeel-transfer (sourced from the 9-books collections), 1,299 via direct CATT, and the final 39 long hadiths (which exceeded CATT's ~1024-token encoder limit) via `pipeline/diacritize/auto_diacritize_catt_long.py` — split on sentence boundaries into sub-800-char chunks, diacritized individually, rejoined. Combined with the 42 in-source-diacritized Nawawi hadiths, the full 1,938-hadith corpus is TTS-ready.
+
 ## Method
 
 1. Test set: hadith 001 matn + its approved commentary (contrasting registers: narration vs. explanation).
