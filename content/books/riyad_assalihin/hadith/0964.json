@@ -8,7 +8,13 @@
   },
   "matn": {
     "arabic": "وعَنْ عائشة رضي اللَّه عنْهَا نَحْوُهُ، متفقٌ عليه.",
-    "sourceId": 42029
+    "sourceId": 42029,
+    "diacritized": "وَعَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا نَحْوُهُ مُتَّفَقٌ عَلَيْهِ",
+    "diacritizationSource": {
+      "method": "catt-auto",
+      "model": "abjadai/catt (encoder-decoder)",
+      "needsReview": true
+    }
   },
   "commentary": {
     "adab": [],
