@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعن البراء رضي الله عنه قال‏:‏ قال رسول الله صلى  الله عليه وسلم ‏:‏ ‏\n\"‏ما من مسلمين يلتقيان فيتصافحان إلا غفر لهما قبل أن يفترقا‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
     "sourceId": 41273,
-    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ مَا مِنْ مُسْلِمَيْنِ يَلْتَقِيَانِ فَيَتَصَافَحَانِ إِلاَّ غُفِرَ لَهُمَا قَبْلَ أَنْ يَفْتَرِقَا",
+    "diacritized": "وَعَنْ الْبَرَاء رَضِيَ اللَّهِ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَا مِنْ مُسْلِمَيْنِ يَلْتَقِيَانِ فَيَتَصَافَحَانِ إِلاَّ غُفِرَ لَهُمَا قَبْلَ أَنْ يَفْتَرِقَا‏\"‏ ‏(‏‏(‏رَوَاهُ أَبُو دَاوُد‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "abudawud",
-      "sourceId": 25718,
-      "coverage": 0.704,
-      "matchedWords": 19,
-      "totalWords": 27,
-      "riyadWordStart": 5,
-      "riyadWordEnd": 23,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "abudawud",
+        "sourceId": 25718,
+        "coverage": 0.704,
+        "matchedWords": 19,
+        "totalWords": 27,
+        "riyadWordStart": 5,
+        "riyadWordEnd": 23,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.689,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُصَافَحَةُ عِنْدَ لِقَاءِ الْمُسْلِمِ أَخَاهُ.",
+      "الْإِسْرَاعُ إِلَى الْمُصَافَحَةِ طَلَبًا لِلْمَغْفِرَةِ."
+    ],
+    "fawaid": [
+      "الْمُصَافَحَةُ سَبَبٌ لِمَغْفِرَةِ الذُّنُوبِ.",
+      "الْمَغْفِرَةُ تَحْصُلُ قَبْلَ افْتِرَاقِ الْمُتَصَافِحَيْنِ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّهُ مَا مِنْ مُسْلِمَيْنِ يَلْتَقِيَانِ فَيَتَصَافَحَانِ إِلَّا غُفِرَ لَهُمَا قَبْلَ أَنْ يَفْتَرِقَا، فَالْمُصَافَحَةُ عِبَادَةٌ تُثْمِرُ الْمَغْفِرَةَ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

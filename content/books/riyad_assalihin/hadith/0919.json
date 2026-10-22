@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.801,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ التَّنَاجِي دُونَ الثَّالِثِ.",
+      "مُرَاعَاةُ شُعُورِ الْجَمَاعَةِ."
+    ],
+    "fawaid": [
+      "إِذَا كَانُوا ثَلَاثَةً فَلَا يَتَنَاجَى اثْنَانِ دُونَ الثَّالِثِ.",
+      "التَّنَاجِي بَيْنَ اثْنَيْنِ لَا يَضُرُّ إِذَا كَانَ الْحَاضِرُونَ أَرْبَعَةً."
+    ],
+    "meaning": "نَهَى النَّبِيُّ ﷺ أَنْ يَتَنَاجَى اثْنَانِ دُونَ الثَّالِثِ إِذَا كَانُوا ثَلَاثَةً، لِأَنَّ ذَلِكَ يُحْزِنُ الثَّالِثَ وَيُوقِعُ فِي سُوءِ الظَّنِّ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

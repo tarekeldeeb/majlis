@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.9,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "قَوْلُ: السَّلَامُ عَلَيْكُمْ أَأَدْخُلُ عِنْدَ الِاسْتِئْذَانِ.",
+      "تَعْلِيمُ الْجَاهِلِ الْأَدَبَ الصَّحِيحَ بِالرِّفْقِ."
+    ],
+    "fawaid": [
+      "السَّلَامُ قَبْلَ الِاسْتِئْذَانِ سُنَّةٌ.",
+      "الِاسْتِئْذَانُ يَكُونُ بِلَفْظٍ يُفْهِمُ طَلَبَ الْإِذْنِ."
+    ],
+    "meaning": "اسْتَأْذَنَ رَجُلٌ مِنْ بَنِي عَامِرٍ عَلَى النَّبِيِّ ﷺ فَقَالَ أَأَلِجُ، فَأَمَرَ النَّبِيُّ ﷺ خَادِمَهُ أَنْ يُعَلِّمَهُ الِاسْتِئْذَانَ فَيَقُولَ السَّلَامُ عَلَيْكُمْ أَأَدْخُلُ، فَفَعَلَ فَأَذِنَ لَهُ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

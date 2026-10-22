@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.914,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ تَعْذِيبِ الْبَهَائِمِ.",
+      "الرِّفْقُ بِالْحَيَوَانِ عِنْدَ الذَّبْحِ."
+    ],
+    "fawaid": [
+      "نَهَى النَّبِيُّ ﷺ عَنْ حَبْسِ الْبَهَائِمِ لِلْقَتْلِ.",
+      "الرَّحْمَةُ بِالْحَيَوَانِ مِنْ آدَابِ الْإِسْلَامِ."
+    ],
+    "meaning": "نَهَى النَّبِيُّ ﷺ عَنْ تَصْبِيرِ الْبَهَائِمِ، أَيْ حَبْسِهَا لِلْقَتْلِ، لِمَا فِيهِ مِنَ التَّعْذِيبِ وَالْإِيلَامِ بِغَيْرِ حَاجَةٍ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين للنووي — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

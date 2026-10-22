@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال‏:‏ “كان زكريا عليه السلام نجاراً” ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 42823,
-    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ كَانَ",
+    "diacritized": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ كَانَ زَكَرِيَّا عَلَيْهِ السَّلَامِ نَجَّارًا” ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 13283,
-      "coverage": 0.563,
-      "matchedWords": 9,
-      "totalWords": 16,
-      "riyadWordStart": 1,
-      "riyadWordEnd": 9,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 13283,
+        "coverage": 0.563,
+        "matchedWords": 9,
+        "totalWords": 16,
+        "riyadWordStart": 1,
+        "riyadWordEnd": 9,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.651,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الِاعْتِمَادُ عَلَى الْحِرْفَةِ الْمُبَاحَةِ.",
+      "التَّوَاضُعُ فِي أَعْمَالِ الدُّنْيَا."
+    ],
+    "fawaid": [
+      "كَانَ زَكَرِيَّا عَلَيْهِ السَّلَامُ نَجَّارًا.",
+      "أَخْبَرَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِذَلِكَ تَرْغِيبًا فِي الْعَمَلِ.",
+      "الْحِرَفُ الْمَشْرُوعَةُ لَا تُنَافِي عُلُوَّ الْمَنْزِلَةِ."
+    ],
+    "meaning": "رَوَى أَبُو هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ذَكَرَ أَنَّ زَكَرِيَّا عَلَيْهِ السَّلَامُ كَانَ نَجَّارًا، فَيُسْتَدَلُّ بِذَلِكَ عَلَى مَشْرُوعِيَّةِ الْكَسْبِ وَالِاعْتِمَادِ عَلَى عَمَلِ الْيَدِ فِي الْحِرَفِ الْمُبَاحَةِ، وَأَنَّ ذَلِكَ لَا يَنْقُصُ مِنْ قَدْرِ الْأَنْبِيَاءِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين — كتاب المقدمات"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

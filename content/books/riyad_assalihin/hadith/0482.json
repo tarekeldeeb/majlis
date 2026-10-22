@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.973,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "التَّنْبِيهُ إِلَى قِيَامِ اللَّيْلِ وَالْحَثُّ عَلَيْهِ.",
+      "الرِّفْقُ فِي دَعْوَةِ الْأَهْلِ إِلَى الطَّاعَةِ."
+    ],
+    "fawaid": [
+      "قِيَامُ اللَّيْلِ مِنْ أَعْظَمِ الْعِبَادَاتِ الَّتِي حَثَّ عَلَيْهَا النَّبِيُّ ﷺ.",
+      "الدَّعْوَةُ إِلَى الصَّلَاةِ تَشْمَلُ الْأَهْلَ وَالْأَقَارِبَ."
+    ],
+    "meaning": "طَرَقَ النَّبِيُّ ﷺ عَلِيًّا وَفَاطِمَةَ رَضِيَ اللَّهُ عَنْهُمَا لَيْلًا، فَقَالَ لَهُمَا: أَلَا تُصَلِّيَانِ، وَفِي ذَلِكَ حَثٌّ عَلَى قِيَامِ اللَّيْلِ وَتَنْبِيهٌ إِلَى فَضْلِهِ، وَدَلِيلٌ عَلَى عِنَايَةِ النَّبِيِّ ﷺ بِأَهْلِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

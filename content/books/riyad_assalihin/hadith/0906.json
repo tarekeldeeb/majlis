@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.886,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْوَفَاءُ بِالْعُهُودِ.",
+      "تَرْكُ الْغَدْرِ وَلَوْ مَعَ الْمُخَالِفِ."
+    ],
+    "fawaid": [
+      "لِكُلِّ غَادِرٍ لِوَاءٌ يَوْمَ الْقِيَامَةِ يُعَرَّفُ بِهِ.",
+      "الْغَدْرُ مِنَ الْكَبَائِرِ لِشِدَّةِ الْوَعِيدِ عَلَيْهِ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ كُلَّ غَادِرٍ يُنْصَبُ لَهُ يَوْمَ الْقِيَامَةِ لِوَاءٌ يُعْرَفُ بِهِ بَيْنَ النَّاسِ، فَيُفْتَضَحُ بِعَمَلِهِ وَغَدْرِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

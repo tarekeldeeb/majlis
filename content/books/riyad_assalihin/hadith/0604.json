@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "وعن أنس رضي الله عنه، أن رسول الله صلى الله عليه وسلم حج على رحل وكانت زاملته‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
     "sourceId": 41669,
-    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَجَّ عَلَى رَحْلٍ وَكَانَتْ زَامِلَتَهُ",
+    "diacritized": "وَعَنْ أَنَسٍ رَضِيَ اللَّهِ عَنْهُ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَجَّ عَلَى رَحْلٍ وَكَانَتْ زَامِلَتَهُ ‏(‏‏(‏رَوَاهُ الْبُخَارِيُّ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "bukhari",
-      "sourceId": 1465,
-      "coverage": 0.632,
-      "matchedWords": 12,
-      "totalWords": 19,
-      "riyadWordStart": 5,
-      "riyadWordEnd": 16,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "bukhari",
+        "sourceId": 1465,
+        "coverage": 0.632,
+        "matchedWords": 12,
+        "totalWords": 19,
+        "riyadWordStart": 5,
+        "riyadWordEnd": 16,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.704,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "التَّوَاضُعُ فِي الْعِبَادَةِ وَالسَّيْرِ إِلَى الْحَجِّ.",
+      "الِاقْتِدَاءُ بِالنَّبِيِّ ﷺ فِي حَجِّهِ."
+    ],
+    "fawaid": [
+      "حَجَّ النَّبِيُّ ﷺ عَلَى رَحْلٍ وَلَهُ زَامِلَةٌ.",
+      "الْحَجُّ لَا يَتَوَقَّفُ عَلَى الْمَرْكَبِ الْفَاخِرِ."
+    ],
+    "meaning": "أَخْبَرَ أَنَسٌ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ حَجَّ عَلَى رَحْلٍ وَكَانَتْ لَهُ زَامِلَةٌ. وَفِي هَذَا بَيَانُ تَوَاضُعِ النَّبِيِّ ﷺ وَاقْتِصَادِهِ فِي مَرْكَبِهِ. وَالْحَدِيثُ يَدُلُّ عَلَى أَنَّ الْعِبَادَةَ لَا تَتَوَقَّفُ عَلَى الْمَظَاهِرِ الْفَاخِرَةِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "صحيح البخاري",
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الحج"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

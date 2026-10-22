@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.842,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ التَّحْرِيشِ بَيْنَ الْمُسْلِمِينَ.",
+      "الْإِصْلَاحُ بَيْنَ النَّاسِ."
+    ],
+    "fawaid": [
+      "الشَّيْطَانُ يَئِسَ مِنْ أَنْ يُعْبَدَ فِي جَزِيرَةِ الْعَرَبِ.",
+      "أَعْظَمُ مَا يَسْعَى إِلَيْهِ الشَّيْطَانُ الْإِفْسَادُ بَيْنَ الْمُسْلِمِينَ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ الشَّيْطَانَ قَدْ يَئِسَ مِنْ أَنْ يَعْبُدَهُ الْمُصَلُّونَ فِي جَزِيرَةِ الْعَرَبِ، وَلَكِنَّهُ يَجْتَهِدُ فِي التَّحْرِيشِ بَيْنَهُمْ وَإِفْسَادِ قُلُوبِهِمْ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

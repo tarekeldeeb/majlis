@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.856,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "السَّلَامُ عِنْدَ دُخُولِ الْبَيْتِ عَلَى الْأَهْلِ.",
+      "طَلَبُ الْبَرَكَةِ بِالسَّلَامِ لِلنَّفْسِ وَالْأَهْلِ."
+    ],
+    "fawaid": [
+      "السَّلَامُ سَبَبٌ لِنُزُولِ الْبَرَكَةِ فِي الْبَيْتِ.",
+      "تَعْلِيمُ الصِّغَارِ آدَابَ الدُّخُولِ وَالسَّلَامِ."
+    ],
+    "meaning": "أَوْصَى النَّبِيُّ ﷺ أَنَسًا رَضِيَ اللَّهُ عَنْهُ إِذَا دَخَلَ عَلَى أَهْلِهِ أَنْ يُسَلِّمَ، وَأَخْبَرَهُ أَنَّ ذَلِكَ يَكُونُ بَرَكَةً عَلَيْهِ وَعَلَى أَهْلِ بَيْتِهِ، وَفِيهِ تَعْلِيمُ الصِّغَارِ آدَابَ الدُّخُولِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.881,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُبَادَرَةُ بِالسَّلَامِ بَعْدَ ثَلَاثٍ.",
+      "قَبُولُ السَّلَامِ وَصِلَةُ الْأُخُوَّةِ."
+    ],
+    "fawaid": [
+      "مَنْ رَدَّ السَّلَامَ فَقَدْ شَارَكَ فِي الْأَجْرِ.",
+      "الْمُبْتَدِئُ بِالسَّلَامِ يَخْرُجُ مِنَ الْهَجْرِ."
+    ],
+    "meaning": "بَيَّنَ النَّبِيُّ ﷺ أَنَّ الْمُؤْمِنَ إِذَا مَرَّتْ بِهِ ثَلَاثٌ فَلْيَلْقَ أَخَاهُ وَلْيُسَلِّمْ عَلَيْهِ، فَإِنْ رَدَّ فَقَدِ اشْتَرَكَا فِي الْأَجْرِ، وَإِنْ لَمْ يَرُدَّ بَاءَ الْآخَرُ بِالْإِثْمِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

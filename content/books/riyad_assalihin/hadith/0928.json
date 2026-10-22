@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.849,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الرَّحْمَةُ بِالْحَيَوَانِ وَعَدَمُ الْوَسْمِ فِي الْوَجْهِ.",
+      "الِاقْتِدَاءُ بِهَدْيِ النَّبِيِّ ﷺ فِي الرِّفْقِ."
+    ],
+    "fawaid": [
+      "الْوَسْمُ فِي وَجْهِ الْحَيَوَانِ مُنْكَرٌ.",
+      "كَرَاهَةُ التَّعْذِيبِ فِي الْوَجْهِ لِأَنَّهُ يَشِينُ الْخِلْقَةَ."
+    ],
+    "meaning": "رَأَى النَّبِيُّ ﷺ حِمَارًا مَوْسُومًا فِي وَجْهِهِ فَأَنْكَرَ ذَلِكَ، وَأَمَرَ بِحِمَارِهِ فَكُوِيَ فِي جَاعِرَتَيْهِ، فَكَانَ أَوَّلَ مَنْ كَوَى الْجَاعِرَتَيْنِ، رِفْقًا بِالْحَيَوَانِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

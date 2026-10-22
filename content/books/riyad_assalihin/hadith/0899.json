@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏:‏ ‏\n\"‏ اثنتان في الناس هما بهم كفر‏:‏ الطعن في النسب، والنياحة على الميت‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 41964,
-    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ اثْنَتَانِ فِي النَّاسِ هُمَا بِهِمْ كُفْرٌ الطَّعْنُ فِي النَّسَبِ وَالنِّيَاحَةُ عَلَى الْمَيِّتِ",
+    "diacritized": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهِ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ اثْنَتَانِ فِي النَّاسِ هُمَا بِهِمْ كُفْرٌ الطَّعْنُ فِي النَّسَبِ وَالنِّيَاحَةِ عَلَى الْمَيِّتِ‏\"‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 7410,
-      "coverage": 0.714,
-      "matchedWords": 20,
-      "totalWords": 28,
-      "riyadWordStart": 6,
-      "riyadWordEnd": 25,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 7410,
+        "coverage": 0.714,
+        "matchedWords": 20,
+        "totalWords": 28,
+        "riyadWordStart": 6,
+        "riyadWordEnd": 25,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.685,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "حِفْظُ اللِّسَانِ عَنِ الطَّعْنِ فِي الْأَنْسَابِ.",
+      "تَرْكُ النِّيَاحَةِ عَلَى الْمَيِّتِ."
+    ],
+    "fawaid": [
+      "الطَّعْنُ فِي النَّسَبِ وَالنِّيَاحَةُ مِنْ خِصَالِ الْكُفْرِ.",
+      "الْمَيِّتُ يُحْتَاجُ إِلَى الدُّعَاءِ لَا إِلَى رَفْعِ الصَّوْتِ."
+    ],
+    "meaning": "بَيَّنَ النَّبِيُّ ﷺ أَنَّ خَصْلَتَيْنِ فِي النَّاسِ هُمَا بِهِمْ كُفْرٌ: الطَّعْنُ فِي نَسَبِ الْمُسْلِمِ، وَالنِّيَاحَةُ عَلَى الْمَيِّتِ، وَفِيهِمَا اعْتِرَاضٌ وَأَذًى.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

@@ -9,16 +9,28 @@
   "matn": {
     "arabic": "وعن أبى اليقظان عمار بن ياسر رضي الله عنهما قال‏:‏  سمعت رسول الله صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏إن طول صلاة الرجل، وقصر خطبته، مئنة من فقهه، فأطيلوا الصلاة، وأقصروا الخطبة‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 41085,
-    "diacritized": "سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\n\"‏ إِنَّ طُولَ صَلاَةِ الرَّجُلِ وَقِصَرَ خُطْبَتِهِ مَئِنَّةٌ مِنْ فِقْهِهِ فَأَطِيلُوا الصَّلاَةَ وَاقْصُرُوا الْخُطْبَةَ",
+    "diacritized": "وَعَنْ أَبَى الْيَقْظَان عَمَّارٍ بْنُ يَاسِرٌ رَضِيَ اللَّهِ عَنْهُمَا قَالَ‏:‏ سُمِعَتْ رَسُولُ اللَّهِ صَلَّى اللَّهِ عَلَيْهِ وَسَلَّمَ يَقُولُ‏:‏ ‏\n\"‏إِنْ طُول صَلَاة الرَّجُلُ، وَقَصَّرَ خُطْبَته، مَئِنَّة مِنْ فِقْهِهِ، فَأَطِيلُوا الصَّلَاةِ، وَأَقْصِرُوا الْخُطْبَة‏\"‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 9178,
-      "coverage": 0.636,
-      "matchedWords": 21,
-      "totalWords": 33,
-      "riyadWordStart": 10,
-      "riyadWordEnd": 30,
-      "partial": true
+      "method": "catt-auto-full",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 9178,
+        "coverage": 0.636,
+        "matchedWords": 21,
+        "totalWords": 33,
+        "riyadWordStart": 10,
+        "riyadWordEnd": 30,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.801,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
@@ -45,10 +57,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-17"
+    "reviewers": [],
+    "approvedAt": "2026-08-17",
+    "reviewPolicy": "deferred"
   }
 }

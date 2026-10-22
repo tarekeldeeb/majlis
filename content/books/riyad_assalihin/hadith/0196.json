@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.891,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "التَّعْرِيفُ بِالنَّفْسِ عِنْدَ السُّؤَالِ عَنْهَا.",
+      "مُصَاحَبَةُ النَّبِيِّ ﷺ وَمُلَازَمَتُهُ فِي بَعْضِ أَحْوَالِهِ."
+    ],
+    "fawaid": [
+      "الِاسْتِفْسَارُ عَنِ الشَّخْصِ قَبْلَ الْحُكْمِ عَلَيْهِ.",
+      "حُسْنُ رَدِّ الْمُسْلِمِ عَلَى مَنْ سَأَلَهُ عَنْ نَفْسِهِ."
+    ],
+    "meaning": "خَرَجَ أَبُو ذَرٍّ رَضِيَ اللَّهُ عَنْهُ لَيْلَةً فَرَأَى النَّبِيَّ ﷺ يَمْشِي وَحْدَهُ، فَمَشَى فِي ظِلِّ الْقَمَرِ، فَالْتَفَتَ النَّبِيُّ ﷺ فَرَآهُ فَقَالَ مَنْ هَذَا فَقَالَ أَبُو ذَرٍّ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين للنووي — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

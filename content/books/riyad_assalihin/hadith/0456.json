@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعن أبي سعيد الخدري رضي الله عنه أن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أوتروا قبل أن تصبحوا‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 41521,
-    "diacritized": "أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\n\"‏ أَوْتِرُوا قَبْلَ أَنْ تُصْبِحُوا",
+    "diacritized": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللَّهِ عَنْهُ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏ \"‏ أَوْتِرُوا قَبْلَ أَنْ تُصْبِحُوا‏\"‏‏.‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 8934,
-      "coverage": 0.55,
-      "matchedWords": 11,
-      "totalWords": 20,
-      "riyadWordStart": 7,
-      "riyadWordEnd": 17,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 8934,
+        "coverage": 0.55,
+        "matchedWords": 11,
+        "totalWords": 20,
+        "riyadWordStart": 7,
+        "riyadWordEnd": 17,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.697,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُبَادَرَةُ إِلَى الْوِتْرِ قَبْلَ طُلُوعِ الْفَجْرِ.",
+      "عَدَمُ تَأْخِيرِ الْوِتْرِ إِلَى مَا بَعْدَ الْفَجْرِ."
+    ],
+    "fawaid": [
+      "وَقْتُ الْوِتْرِ يَنْتَهِي بِطُلُوعِ الْفَجْرِ.",
+      "الْأَمْرُ بِالْوِتْرِ قَبْلَ الصُّبْحِ فِيهِ حَثٌّ عَلَى الْمُبَادَرَةِ بِالطَّاعَةِ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ أَصْحَابَهُ أَنْ يُوتِرُوا قَبْلَ أَنْ يُصْبِحُوا، لِأَنَّ وَقْتَ الْوِتْرِ يَنْقَضِي بِطُلُوعِ الْفَجْرِ، فَيُبَادِرُ الْمُسْلِمُ إِلَى خَتْمِ لَيْلِهِ بِالْوِتْرِ قَبْلَ انْتِهَاءِ وَقْتِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

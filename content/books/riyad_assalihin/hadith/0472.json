@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعن ابن عمر رضي الله عنهما، أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏إذا جاء أحدكم الجمعة، فليغتسل‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
     "sourceId": 41537,
-    "diacritized": "عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ إِذَا جَاءَ أَحَدُكُمُ الْجُمُعَةَ فَلْيَغْتَسِلْ",
+    "diacritized": "وَعَنْ ابْنُ عُمَرَ رَضِيَ اللَّهِ عَنْهُمَا، أَنْ رَسُولُ اللَّهِ صَلَّى اللَّهِ عَلَيْهِ وَسَلَّمَ ، قَالَ‏:‏ ‏\n\"‏إذَا جَاءَ أَحَدكُمْ الْجُمُعَةِ، فَلْيَغْتَسِلْ‏\"‏ ‏(‏‏(‏مُتَّفَقٌ عَلَيْهِ‏)‏‏)‏ ‏.‏",
     "diacritizationSource": {
-      "collection": "bukhari",
-      "sourceId": 856,
-      "coverage": 0.81,
-      "matchedWords": 17,
-      "totalWords": 21,
-      "riyadWordStart": 2,
-      "riyadWordEnd": 18,
-      "partial": true
+      "method": "catt-auto-full",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "bukhari",
+        "sourceId": 856,
+        "coverage": 0.81,
+        "matchedWords": 17,
+        "totalWords": 21,
+        "riyadWordStart": 2,
+        "riyadWordEnd": 18,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.877,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الِاغْتِسَالُ عِنْدَ إِرَادَةِ الذَّهَابِ إِلَى الْجُمُعَةِ.",
+      "الِاسْتِعْدَادُ لِلْجُمُعَةِ بِالطَّهَارَةِ وَالنَّظَافَةِ."
+    ],
+    "fawaid": [
+      "الِاغْتِسَالُ يَوْمَ الْجُمُعَةِ مِنْ سُنَنِهِ الْمُؤَكَّدَةِ.",
+      "الْعِنَايَةُ بِالنَّظَافَةِ فِي يَوْمِ الْجُمُعَةِ مِنْ تَمَامِ الْأَدَبِ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ مَنْ جَاءَ إِلَى الْجُمُعَةِ أَنْ يَغْتَسِلَ، وَفِي ذَلِكَ حَثٌّ عَلَى الطَّهَارَةِ وَالنَّظَافَةِ يَوْمَ الْجُمُعَةِ، وَاسْتِعْدَادٌ لِحُضُورِ الْخُطْبَةِ وَالصَّلَاةِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

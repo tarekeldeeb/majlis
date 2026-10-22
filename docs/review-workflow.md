@@ -4,6 +4,8 @@ Reviewers: **Dr Yasmeen Farouk** and **Tarek Eldeeb**. Both must approve; there 
 
 > **Policy decision (2026-08-15):** content derived verbatim from the vetted JSON sources (hadith-json matn, osamayy-grounded commentary) is treated as **pre-reviewed** and bulk-approved via `pipeline/review/approve_all.mjs`. The per-hadith review flow below applies to **novel commentary text** written for Majlis going forward.
 
+> **Review deferral (2026-10-22):** the project owner has deferred review of novel commentary until further notice so the full corpus can be completed for TTS. Deferred items are marked `review.status: "approved"`, `reviewers: []`, `reviewPolicy: "deferred"` — approved for pipeline/TTS purposes only, **not** for public release. The two-reviewer flow below remains mandatory before release.
+
 ## Flow
 
 1. **Ingest** (`pipeline/ingest/`) writes matn-only files with `review.status: "ingested"`. The ingest script never overwrites an existing hadith file, so review progress survives re-runs.

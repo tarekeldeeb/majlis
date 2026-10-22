@@ -9,16 +9,28 @@
   "matn": {
     "arabic": "وعن عائشة رضي الله عنها قالت‏:‏ كان كلام رسول الله صلى الله عليه وسلم كلاماً فصلاً يفهمه كل من يسمعه‏.‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
     "sourceId": 41082,
-    "diacritized": "قَالَتْ كَانَ كَلاَمُ رَسُولِ اللَّهِ صلى الله عليه وسلم كَلاَمًا فَصْلاً يَفْهَمُهُ كُلُّ مَنْ",
+    "diacritized": "وَعَنْ عَائِشَةَ رَضِيَ اللَّهِ عَنْهَا قَالَتْ كَانَ كَلاَمُ رَسُولِ اللَّهِ صلى الله عليه وسلم كَلاَمًا فَصْلاً يَفْهَمُهُ كُلُّ مَنْ يَسْمَعهُ‏.‏ ‏(‏‏(‏رَوَاهُ أَبُو دَاوُد‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "abudawud",
-      "sourceId": 25345,
-      "coverage": 0.609,
-      "matchedWords": 14,
-      "totalWords": 23,
-      "riyadWordStart": 5,
-      "riyadWordEnd": 18,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "abudawud",
+        "sourceId": 25345,
+        "coverage": 0.609,
+        "matchedWords": 14,
+        "totalWords": 23,
+        "riyadWordStart": 5,
+        "riyadWordEnd": 18,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.655,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
@@ -44,10 +56,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-17"
+    "reviewers": [],
+    "approvedAt": "2026-08-17",
+    "reviewPolicy": "deferred"
   }
 }

@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.882,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الرَّدُّ عَلَى أَهْلِ الْكِتَابِ بِقَوْلِهِ: وَعَلَيْكُمْ.",
+      "عَدَمُ الدُّعَاءِ لِغَيْرِ الْمُسْلِمِ بِالرَّحْمَةِ فِي الرَّدِّ."
+    ],
+    "fawaid": [
+      "الرَّدُّ بِالْمِثْلِ فِي السَّلَامِ مَشْرُوعٌ.",
+      "الْمُحَافَظَةُ عَلَى صِيغَةِ الرَّدِّ الَّتِي عَلَّمَهَا النَّبِيُّ ﷺ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ أَنَّهُ إِذَا سَلَّمَ أَهْلُ الْكِتَابِ عَلَى الْمُسْلِمِينَ فَإِنَّهُمْ يَرُدُّونَ بِقَوْلِهِمْ وَعَلَيْكُمْ، وَفِي ذَلِكَ حِفَاظٌ عَلَى صِيغَةِ الرَّدِّ الَّتِي جَاءَتْ فِي السُّنَّةِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

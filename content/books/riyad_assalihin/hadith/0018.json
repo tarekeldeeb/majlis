@@ -9,16 +9,28 @@
   "matn": {
     "arabic": "عن جرير بن عبد الله رضي الله عنه قال‏:‏ قال لي رسول الله صلى الله عليه وسلم في حجة الوداع‏:‏ ‏\"‏استنصت الناس‏\"‏  ثم قال‏:‏ لا ترجعوا بعدي كفاراً يضرب بعضكم رقاب بعض‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
     "sourceId": 41083,
-    "diacritized": "قَالَ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم فِي حَجَّةِ الْوَدَاعِ ‏\"‏ اسْتَنْصِتِ النَّاسَ ‏\"‏‏.‏ ثُمَّ قَالَ ‏\"‏ لاَ تَرْجِعُوا بَعْدِي كُفَّارًا، يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ",
+    "diacritized": "عَنْ جَرِيرٌ بْنُ عَبْدُ اللَّهِ رَضِيَ اللَّهِ عَنْهُ قَالَ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم فِي حَجَّةِ الْوَدَاعِ ‏\"‏ اسْتَنْصِتِ النَّاسَ ‏\"‏‏.‏ ثُمَّ قَالَ ‏\"‏ لاَ تَرْجِعُوا بَعْدِي كُفَّارًا، يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ ‏(‏‏(‏مُتَّفَقٌ عَلَيْهِ‏)‏‏)‏ ‏.‏",
     "diacritizationSource": {
-      "collection": "bukhari",
-      "sourceId": 6815,
-      "coverage": 0.706,
-      "matchedWords": 24,
-      "totalWords": 34,
-      "riyadWordStart": 8,
-      "riyadWordEnd": 31,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "bukhari",
+        "sourceId": 6815,
+        "coverage": 0.706,
+        "matchedWords": 24,
+        "totalWords": 34,
+        "riyadWordStart": 8,
+        "riyadWordEnd": 31,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.734,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
@@ -50,10 +62,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-17"
+    "reviewers": [],
+    "approvedAt": "2026-08-17",
+    "reviewPolicy": "deferred"
   }
 }

@@ -13,7 +13,7 @@ Named after *majālis al-samāʿ* — the traditional gatherings where hadith bo
   1. `FreeTierProvider`: project-hosted free tier (expected to be rate-limited or blocked at times),
   2. `ByoKeyProvider`: user supplies their own API key in settings as the fallback/replacement.
   Both speak one OpenAI-compatible chat interface so the app logic never knows which is active.
-- **Content review:** content derived verbatim from the vetted JSON sources is pre-reviewed and bulk-approved (project decision, 2026-08-15; `pipeline/review/approve_all.mjs`). Novel commentary text written for Majlis requires sign-off by **Dr Yasmeen Farouk** and **Tarek Eldeeb** before it ships.
+- **Content review:** content derived verbatim from the vetted JSON sources is pre-reviewed and bulk-approved (project decision, 2026-08-15; `pipeline/review/approve_all.mjs`). **Review of novel commentary is deferred until further notice** (project-owner decision, 2026-10-22): drafted commentary ships at `approved` status for TTS/content completion, with `reviewers: []` and `reviewPolicy: "deferred"`. It must be reviewed by **Dr Yasmeen Farouk** and **Tarek Eldeeb** before any public release.
 - **Licensing constraint:** strictly open-source or free components. No paid/proprietary dependencies anywhere in the stack.
 - **Project license:** Waqf General Public License 2.0 (رخصة وقف العامّة) — `LICENSE` (Arabic, authoritative) + `LICENSE-en` (informal translation). Note: Waqf is not OSI/SPDX-listed, which affects F-Droid main-repo eligibility (Phase 4) and inbound/outbound compatibility with OSI-only projects.
 

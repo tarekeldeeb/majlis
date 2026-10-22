@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.899,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ احْتِقَارِ الْمُسْلِمِ.",
+      "احْتِرَامُ النَّاسِ وَتَوْقِيرُهُمْ."
+    ],
+    "fawaid": [
+      "الِاحْتِقَارُ شَرٌّ عَظِيمٌ يَكْفِي الْمُسْلِمَ مِنْهُ.",
+      "الْمُسْلِمُ لَهُ حَقٌّ عَظِيمٌ فِي الْإِكْرَامِ وَعَدَمِ الِاسْتِخْفَافِ."
+    ],
+    "meaning": "بَيَّنَ النَّبِيُّ ﷺ أَنَّ الْحَقِيرَ مِنَ الشَّرِّ أَنْ يَحْتَقِرَ الْمُسْلِمُ أَخَاهُ، فَالِاسْتِخْفَافُ بِالْمُسْلِمِ مَمْنُوعٌ وَهُوَ مِنْ كِبْرِ النَّفْسِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

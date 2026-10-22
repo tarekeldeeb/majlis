@@ -13,15 +13,30 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.951,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْحِرْصُ عَلَى الْعُمْرَةِ فِي رَمَضَانَ.",
+      "اغْتِنَامُ الْمَوَاسِمِ الْفَاضِلَةِ."
+    ],
+    "fawaid": [
+      "الْعُمْرَةُ فِي رَمَضَانَ تَعْدِلُ عُمْرَةً أَوْ حَجَّةً مَعَ النَّبِيِّ ﷺ.",
+      "فَضْلُ الْعُمْرَةِ يَخْتَلِفُ بِاخْتِلَافِ الْوَقْتِ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ الْعُمْرَةَ فِي رَمَضَانَ تَعْدِلُ عُمْرَةً أَوْ حَجَّةً مَعَهُ. وَفِي هَذَا تَرْغِيبٌ عَظِيمٌ فِي الْعُمْرَةِ فِي هَذَا الشَّهْرِ الْفَاضِلِ. وَالْحَدِيثُ يَدُلُّ عَلَى أَنَّ الْفَضْلَ يَخْتَلِفُ بِاخْتِلَافِ الزَّمَانِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "صحيح البخاري",
+      "صحيح مسلم"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +44,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

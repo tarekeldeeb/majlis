@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.887,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "إِمْسَاكُ الْيَدِ عَلَى الْفَمِ عِنْدَ التَّثَاؤُبِ.",
+      "مُجَاهَدَةُ التَّثَاؤُبِ وَعَدَمُ إِظْهَارِهِ."
+    ],
+    "fawaid": [
+      "التَّثَاؤُبُ مِنَ الشَّيْطَانِ فَيُسْتَحَبُّ دَفْعُهُ.",
+      "سَتْرُ الْفَمِ عِنْدَ التَّثَاؤُبِ أَدَبٌ شَرْعِيٌّ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ إِذَا تَثَاءَبَ الْمُسْلِمُ أَنْ يُمْسِكَ بِيَدِهِ عَلَى فَمِهِ، وَبَيَّنَ أَنَّ الشَّيْطَانَ يَدْخُلُ عِنْدَ التَّثَاؤُبِ، فَفِيهِ الْأَدَبُ وَالْحِفَاظُ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

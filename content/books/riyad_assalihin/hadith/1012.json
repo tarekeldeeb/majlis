@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏الجرس مزامير الشيطان‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏",
     "sourceId": 42077,
-    "diacritized": "صلى الله عليه وسلم قَالَ\n ‏\n\"‏ الْجَرَسُ مَزَامِيرُ الشَّيْطَانِ",
+    "diacritized": "وَعَنْهُ أَنْ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْجَرَسُ مَزَامِيرُ الشَّيْطَانُ‏\"‏‏.‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 12682,
-      "coverage": 0.615,
-      "matchedWords": 8,
-      "totalWords": 13,
-      "riyadWordStart": 3,
-      "riyadWordEnd": 10,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 12682,
+        "coverage": 0.615,
+        "matchedWords": 8,
+        "totalWords": 13,
+        "riyadWordStart": 3,
+        "riyadWordEnd": 10,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.6,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الِابْتِعَادُ عَنِ الْأَجْرَاسِ الْمُعَلَّقَةِ لِمَا فِيهَا مِنْ صَوْتٍ مَذْمُومٍ.",
+      "اسْتِشْعَارُ عَظَمَةِ الْأَمْرِ فِيمَا نُسِبَ إِلَى الشَّيْطَانِ مِنَ الْآلَاتِ."
+    ],
+    "fawaid": [
+      "الْجَرَسُ مِنْ آلَاتِ اللَّهْوِ الَّتِي نُسِبَتْ إِلَى الشَّيْطَانِ تَنْفِيرًا مِنْهَا.",
+      "الْأَلْفَاظُ الشَّرْعِيَّةُ كَافِيَةٌ فِي بَيَانِ قُبْحِ الْمُنْكَرِ دُونَ تَفْصِيلٍ."
+    ],
+    "meaning": "وَصَفَ النَّبِيُّ ﷺ الْجَرَسَ بِأَنَّهُ مِنْ مَزَامِيرِ الشَّيْطَانِ، وَالْمُرَادُ نِسْبَتُهُ إِلَى مَا يُشْبِهُ آلَاتِ اللَّهْوِ وَالْعَزْفِ، فَيُكْرَهُ تَعْلِيقُهُ عَلَى الدَّوَابِّ وَنَحْوِهَا، وَالْمَعْنَى تَحْذِيرُ الْمُسْلِمِ مِنْ مُشَابَهَةِ أَهْلِ الْبَاطِلِ فِي أَصْوَاتِهِمْ وَآلَاتِهِمْ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

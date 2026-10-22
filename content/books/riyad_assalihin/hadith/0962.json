@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "وعن علي قال‏:‏ نهى رسول الله صلى الله عليه وسلم  أن تحلق المرأة رأسها‏.‏ ‏(‏‏(‏رواه النسائي‏)‏‏)‏‏.‏",
     "sourceId": 42027,
-    "diacritized": "نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا",
+    "diacritized": "وَعَنْ عَلَيَّ قَالَ‏:‏ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا ‏(‏‏(‏رَوَاهُ النَّسَائِيُّ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "nasai",
-      "sourceId": 19794,
-      "coverage": 0.688,
-      "matchedWords": 11,
-      "totalWords": 16,
-      "riyadWordStart": 3,
-      "riyadWordEnd": 13,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "nasai",
+        "sourceId": 19794,
+        "coverage": 0.688,
+        "matchedWords": 11,
+        "totalWords": 16,
+        "riyadWordStart": 3,
+        "riyadWordEnd": 13,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.651,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "حِفْظُ شَعْرِ الْمَرْأَةِ وَعَدَمُ حَلْقِ رَأْسِهَا.",
+      "الِالْتِزَامُ بِأَحْكَامِ الشَّرْعِ فِي الزِّينَةِ."
+    ],
+    "fawaid": [
+      "نَهَى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا.",
+      "الْحَدِيثُ رَوَاهُ النَّسَائِيُّ.",
+      "الْحُكْمُ يَخْتَصُّ بِالْمَرْأَةِ دُونَ الرَّجُلِ."
+    ],
+    "meaning": "نَهَى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا، فَحَلْقُ شَعْرِ الْمَرْأَةِ مُخَالِفٌ لِهَدْيِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَيُفَرَّقُ بَيْنَهُ وَبَيْنَ حَلْقِ رَأْسِ الصَّبِيِّ الَّذِي وَرَدَ فِي بَعْضِ الْأَحَادِيثِ لِمَصْلَحَةٍ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها، باب النهي عن القزع"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

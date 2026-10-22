@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعنه أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏ لا تناجشوا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
     "sourceId": 41966,
-    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ لاَ",
+    "diacritized": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لَا تَنَاجَشُوا‏\"‏ ‏(‏‏(‏مُتَّفَقٌ عَلَيْهِ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "bukhari",
-      "sourceId": 2074,
-      "coverage": 0.692,
-      "matchedWords": 9,
-      "totalWords": 13,
-      "riyadWordStart": 1,
-      "riyadWordEnd": 9,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "bukhari",
+        "sourceId": 2074,
+        "coverage": 0.692,
+        "matchedWords": 9,
+        "totalWords": 13,
+        "riyadWordStart": 1,
+        "riyadWordEnd": 9,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.592,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "اجْتِنَابُ النَّجْشِ فِي الْبَيْعِ.",
+      "تَرْكُ الْخِدَاعِ وَالْمُخَادَعَةِ فِي الْمُعَامَلَاتِ."
+    ],
+    "fawaid": [
+      "النَّجْشُ مِنْ أَنْوَاعِ الْغِشِّ.",
+      "الشَّرِيعَةُ تَحْفَظُ حُقُوقَ الْمُتَعَاقِدِينَ."
+    ],
+    "meaning": "نَهَى النَّبِيُّ ﷺ عَنِ النَّجْشِ، وَهُوَ الْمَزِيدُ فِي السِّلْعَةِ لِخِدَاعِ الْمُشْتَرِي، لِمَا فِيهِ مِنَ الْغِشِّ وَالْإِضْرَارِ بِالنَّاسِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين للنووي — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

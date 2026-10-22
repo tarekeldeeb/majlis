@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه قال قال رسول الله صلى الله عليه وسلم‏:‏ ‏\n\"‏وسطوا الإمام، وسدوا الخلل‏\"‏ ‏(‏‏(‏رواه أبو داود‏)‏‏)‏‏.‏",
     "sourceId": 41482,
-    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ وَسِّطُوا الإِمَامَ وَسُدُّوا الْخَلَلَ",
+    "diacritized": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهِ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ وَسِّطُوا الإِمَامَ وَسُدُّوا الْخَلَل‏\"‏ ‏(‏‏(‏رَوَاهُ أَبُو دَاوُد‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "abudawud",
-      "sourceId": 21185,
-      "coverage": 0.571,
-      "matchedWords": 12,
-      "totalWords": 21,
-      "riyadWordStart": 6,
-      "riyadWordEnd": 17,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "abudawud",
+        "sourceId": 21185,
+        "coverage": 0.571,
+        "matchedWords": 12,
+        "totalWords": 21,
+        "riyadWordStart": 6,
+        "riyadWordEnd": 17,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.61,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "جَعْلُ الْإِمَامِ فِي وَسَطِ الصَّفِّ.",
+      "سَدُّ الْخَلَلِ وَالْفُرَجَاتِ فِي الصُّفُوفِ."
+    ],
+    "fawaid": [
+      "وَسَطِيَّةُ الْإِمَامِ فِي الصَّفِّ هِيَ الْعَدْلُ.",
+      "سَدُّ الْخَلَلِ مِنْ إِتْمَامِ الصَّلَاةِ.",
+      "أَمْرُ النَّبِيِّ ﷺ بِذَلِكَ يَدُلُّ عَلَى عِنَايَتِهِ بِالصُّفُوفِ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ أَنْ يُجْعَلَ الْإِمَامُ فِي وَسَطِ الصَّفِّ، وَأَنْ تُسَدَّ الْخَلَلُ وَالْفُرَجَاتُ فِيهِ. وَالْوَسَطِيَّةُ فِي ذَلِكَ هِيَ الْعَدْلُ، فَلَا يَكُونُ الْإِمَامُ مَائِلًا إِلَى الْيَمِينِ وَلَا إِلَى الشِّمَالِ. وَفِي الْأَمْرِ بِسَدِّ الْخَلَلِ حَثٌّ عَلَى إِتْمَامِ الصُّفُوفِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

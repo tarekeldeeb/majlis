@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.856,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُبَادَرَةُ إِلَى الصُّلْحِ بَيْنَ الْمُسْلِمِينَ.",
+      "تَرْكُ الشَّحْنَاءِ وَالْعَدَاوَةِ."
+    ],
+    "fawaid": [
+      "الْأَعْمَالُ تُعْرَضُ عَلَى اللَّهِ كُلَّ اثْنَيْنِ وَخَمِيسٍ.",
+      "الْمَغْفِرَةُ تُؤَجَّلُ لِمَنْ بَيْنَهُ وَبَيْنَ أَخِيهِ شَحْنَاءُ حَتَّى يَصْطَلِحَا."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ الْأَعْمَالَ تُعْرَضُ كُلَّ اثْنَيْنِ وَخَمِيسٍ، فَيُغْفَرُ لِلْمُسْلِمِينَ إِلَّا مَنْ بَيْنَهُ وَبَيْنَ أَخِيهِ عَدَاوَةٌ، فَيُوقَفُ حَتَّى يَصْطَلِحَا.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

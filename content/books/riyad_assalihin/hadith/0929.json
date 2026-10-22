@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.89,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ الْوَسْمِ وَالضَّرْبِ فِي الْوَجْهِ.",
+      "الرَّحْمَةُ بِالْحَيَوَانِ."
+    ],
+    "fawaid": [
+      "لَعَنَ النَّبِيُّ ﷺ مَنْ وَسَمَ الْحَيَوَانَ فِي وَجْهِهِ.",
+      "النَّهْيُ عَنِ الضَّرْبِ فِي الْوَجْهِ وَالْوَسْمِ فِيهِ."
+    ],
+    "meaning": "مَرَّ النَّبِيُّ ﷺ عَلَى حِمَارٍ وُسِمَ فِي وَجْهِهِ فَلَعَنَ الَّذِي وَسَمَهُ، وَنَهَى عَنِ الضَّرْبِ فِي الْوَجْهِ وَالْوَسْمِ فِيهِ، لِمَا فِيهِ مِنَ الْأَذَى وَالتَّشْوِيهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

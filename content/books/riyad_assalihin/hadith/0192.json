@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.892,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الِاسْتِئْذَانُ قَبْلَ الدُّخُولِ حِفَاظًا عَلَى الْبَصَرِ.",
+      "غَضُّ الْبَصَرِ عَنْ بُيُوتِ النَّاسِ وَعَوْرَاتِهِمْ."
+    ],
+    "fawaid": [
+      "الِاسْتِئْذَانُ سَبَبٌ لِحِفْظِ الْبَصَرِ عَنِ الْمُحَرَّمِ.",
+      "مَنْعُ النَّظَرِ فِي بَيْتِ الْغَيْرِ بِغَيْرِ إِذْنٍ."
+    ],
+    "meaning": "بَيَّنَ النَّبِيُّ ﷺ أَنَّمَا جُعِلَ الِاسْتِئْذَانُ مِنْ أَجْلِ الْبَصَرِ، أَيْ لِيَحْفَظَ الْمُسْلِمُ بَصَرَهُ عَنْ رُؤْيَةِ مَا لَا يَحِلُّ لَهُ فِي بُيُوتِ النَّاسِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

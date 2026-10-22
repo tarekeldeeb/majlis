@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم ‏\n\"‏الدنيا سجن المؤمن وجنة الكافر‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 42751,
-    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ الدُّنْيَا سِجْنُ الْمُؤْمِنِ\n وَجَنَّةُ الْكَافِرِ",
+    "diacritized": "وَعَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرُ‏\"‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 14510,
-      "coverage": 0.813,
-      "matchedWords": 13,
-      "totalWords": 16,
-      "riyadWordStart": 1,
-      "riyadWordEnd": 13,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 14510,
+        "coverage": 0.813,
+        "matchedWords": 13,
+        "totalWords": 16,
+        "riyadWordStart": 1,
+        "riyadWordEnd": 13,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.636,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الصَّبْرُ عَلَى ضِيقِ الدُّنْيَا لِلْمُؤْمِنِ.",
+      "عَدَمُ الِاسْتِرْسَالِ فِي التَّنَعُّمِ."
+    ],
+    "fawaid": [
+      "الْمُؤْمِنُ يَنْتَظِرُ رَاحَتَهُ فِي الْآخِرَةِ.",
+      "الْكَافِرُ يَأْخُذُ حَظَّهُ مِنَ النَّعِيمِ فِي الدُّنْيَا."
+    ],
+    "meaning": "يُخْبِرُ النَّبِيُّ ﷺ أَنَّ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ، فَالْمُؤْمِنُ يَمْتَنِعُ فِيهَا عَنِ الشَّهَوَاتِ صَبْرًا عَلَى الطَّاعَةِ، وَالْكَافِرُ يَتَنَعَّمُ فِيهَا بِمَا أُوتِيَ، ثُمَّ يَكُونُ مَآلُ الْمُؤْمِنِ إِلَى الْجَنَّةِ وَمَآلُ الْكَافِرِ إِلَى النَّارِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب المقدمات",
+      "صحيح مسلم"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

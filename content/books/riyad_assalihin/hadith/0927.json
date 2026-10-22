@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.823,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الرَّحْمَةُ بِالنَّاسِ وَعَدَمُ تَعْذِيبِهِمْ.",
+      "الْإِنْكَارُ عَلَى الظُّلْمِ بِالْحُجَّةِ."
+    ],
+    "fawaid": [
+      "اللَّهُ يُعَذِّبُ مَنْ يُعَذِّبُ النَّاسَ فِي الدُّنْيَا.",
+      "الْأَمِيرُ يَجِبُ أَنْ يَرْفُقَ بِرَعِيَّتِهِ."
+    ],
+    "meaning": "رَأَى هِشَامُ بْنُ حَكِيمٍ أُنَاسًا يُعَذَّبُونَ فِي الشَّمْسِ بِسَبَبِ الْخَرَاجِ، فَأَخْبَرَ أَنَّهُ سَمِعَ النَّبِيَّ ﷺ يَقُولُ إِنَّ اللَّهَ يُعَذِّبُ الَّذِينَ يُعَذِّبُونَ النَّاسَ فِي الدُّنْيَا، فَأُمِرَ بِإِطْلَاقِهِمْ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

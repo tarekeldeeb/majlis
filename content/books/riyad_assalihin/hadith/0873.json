@@ -9,24 +9,46 @@
   "matn": {
     "arabic": "وعن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏ ‏\n\"‏لا ينبغي لصدِّيق أن يكون لعانًا‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 41938,
-    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى\n الله عليه وسلم قَالَ ‏\n\"‏ لاَ يَنْبَغِي لِصِدِّيقٍ أَنْ يَكُونَ لَعَّانًا",
+    "diacritized": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهِ عَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ يَنْبَغِي لِصِدِّيقٍ أَنْ يَكُونَ لِعَانًا‏\"‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 13723,
-      "coverage": 0.636,
-      "matchedWords": 14,
-      "totalWords": 22,
-      "riyadWordStart": 6,
-      "riyadWordEnd": 19,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 13723,
+        "coverage": 0.636,
+        "matchedWords": 14,
+        "totalWords": 22,
+        "riyadWordStart": 6,
+        "riyadWordEnd": 19,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.688,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ اللَّعْنِ وَالْبُعْدُ عَنْهُ.",
+      "الرِّفْقُ فِي الْكَلَامِ مَعَ النَّاسِ.",
+      "الْحِرْصُ عَلَى أَنْ يَكُونَ الْمُؤْمِنُ رَحِيمًا."
+    ],
+    "fawaid": [
+      "اللَّعْنُ يُنَافِي كَمَالَ الصِّدْقِ وَالْإِيمَانِ.",
+      "الْمُؤْمِنُ لَا يَكُونُ لَعَّانًا.",
+      "مُلَازَمَةُ اللَّعْنِ تُبْعِدُ صَاحِبَهَا عَنْ خُلُقِ الصِّدِّيقِينَ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ الصِّدِّيقَ لَا يَنْبَغِي أَنْ يَكُونَ كَثِيرَ اللَّعْنِ، لِأَنَّ اللَّعْنَ يُنَافِي الصِّدْقَ وَالرَّحْمَةَ، وَيَدْفَعُ صَاحِبَهُ إِلَى الْقَسْوَةِ وَالْبُعْدِ عَنْ سَبِيلِ أَهْلِ الْخَيْرِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها — باب تحريم لعن المعين"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +56,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

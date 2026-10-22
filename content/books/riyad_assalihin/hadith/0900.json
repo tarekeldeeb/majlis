@@ -13,15 +13,30 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.854,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ الْغِشِّ فِي الْبَيْعِ وَالشِّرَاءِ.",
+      "الصِّدْقُ وَالْبَيَانُ فِي السِّلَعِ."
+    ],
+    "fawaid": [
+      "الْغِشُّ خُرُوجٌ عَنْ سَبِيلِ الْمُسْلِمِينَ.",
+      "حَمْلُ السِّلَاحِ عَلَى الْمُسْلِمِينَ مُنْكَرٌ عَظِيمٌ.",
+      "إِخْفَاءُ عَيْبِ الطَّعَامِ مِنَ الْغِشِّ."
+    ],
+    "meaning": "حَذَّرَ النَّبِيُّ ﷺ مِنَ الْغِشِّ وَمِنْ حَمْلِ السِّلَاحِ عَلَى الْمُسْلِمِينَ، وَبَيَّنَ فِي قِصَّةِ الطَّعَامِ أَنَّ إِخْفَاءَ عَيْبِهِ عَنِ الْمُشْتَرِي غِشٌّ مُحَرَّمٌ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +44,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

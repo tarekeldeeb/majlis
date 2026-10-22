@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.843,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ إِطْلَاقِ الْحُكْمِ عَلَى النَّاسِ بِالْهَلَاكِ.",
+      "الِاشْتِغَالُ بِنَفْسِهِ عَنْ عُيُوبِ النَّاسِ."
+    ],
+    "fawaid": [
+      "مَنْ قَالَ إِنَّ النَّاسَ هَلَكُوا عُجْبًا فَهُوَ أَهْلَكُهُمْ.",
+      "الْكَلَامُ عَنْ نَقْصِ النَّاسِ فِي الدِّينِ تَحَزُّنًا لَا يُنْكَرُ إِذَا خَلَا مِنَ الْعُجْبِ."
+    ],
+    "meaning": "حَذَّرَ النَّبِيُّ ﷺ مَنْ يَحْكُمُ عَلَى النَّاسِ بِالْهَلَاكِ عُجْبًا بِنَفْسِهِ وَاحْتِقَارًا لَهُمْ، وَأَمَّا قَوْلُ ذَلِكَ تَحَزُّنًا عَلَى الدِّينِ فَلَا بَأْسَ بِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

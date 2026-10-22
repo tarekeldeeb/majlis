@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعن جابر رضي الله عنه قال‏:‏ سئل رسول الله صلى الله عليه وسلم ‏:‏ أي الصلاة أفضل‏؟‏ قال‏:‏ ‏\n\"‏طول القنوت‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 41562,
-    "diacritized": "قَالَ سُئِلَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَىُّ الصَّلاَةِ أَفْضَلُ قَالَ ‏\n\"‏ طُولُ الْقُنُوتِ",
+    "diacritized": "وَعَنْ جَابِرٌ رَضِيَ اللَّهِ عَنْهُ قَالَ‏:‏ سُئِلَ رَسُولُ اللَّهِ صَلَّى اللَّهِ عَلَيْهِ وَسَلَّمَ ‏:‏ أَيْ الصَّلَاةِ أَفْضَلُ‏؟‏ قَالَ‏:‏ ‏\n\"‏طُول الْقُنُوتُ‏\"‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 8939,
-      "coverage": 0.667,
-      "matchedWords": 14,
-      "totalWords": 21,
-      "riyadWordStart": 5,
-      "riyadWordEnd": 18,
-      "partial": true
+      "method": "catt-auto-full",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 8939,
+        "coverage": 0.667,
+        "matchedWords": 14,
+        "totalWords": 21,
+        "riyadWordStart": 5,
+        "riyadWordEnd": 18,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.833,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "أَنْ يَطُولَ قُنُوتُ الْمُصَلِّي بِالْقِيَامِ وَالذِّكْرِ وَالْخُشُوعِ.",
+      "أَنْ يَعْتَنِيَ الْمُسْلِمُ بِجَوْدَةِ الصَّلَاةِ لَا بِكَثْرَةِ الْعَدَدِ فَقَطْ."
+    ],
+    "fawaid": [
+      "أَفْضَلُ الصَّلَاةِ مَا طَالَ قِيَامُهُ وَخُشُوعُهُ.",
+      "الْقُنُوتُ يَشْمَلُ الْقِيَامَ وَالطَّاعَةَ وَالْخُشُوعَ."
+    ],
+    "meaning": "سُئِلَ النَّبِيُّ ﷺ أَيُّ الصَّلَاةِ أَفْضَلُ؟ فَقَالَ: طُولُ الْقُنُوتِ، وَالْمُرَادُ بِهِ طُولُ الْقِيَامِ وَالْخُشُوعِ وَالرُّكُوعِ وَالسُّجُودِ، لَا مُجَرَّدُ طُولِ الْقِرَاءَةِ مَعَ تَخْفِيفِ بَاقِي الْأَرْكَانِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

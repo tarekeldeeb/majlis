@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعن ابن عمر رضي الله عنهما، عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏أحفوا الشوارب وأعفوا اللحى‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏ ‏.‏",
     "sourceId": 41591,
-    "diacritized": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\n\"‏ أَحْفُوا الشَّوَارِبَ وَأَعْفُوا اللِّحَى",
+    "diacritized": "وَعَنْ ابْنُ عُمَرَ رَضِيَ اللَّهِ عَنْهُمَا، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ أَحْفُوا الشَّوَارِبَ وَأَعْفُوا اللِّحَى‏\"‏ ‏(‏‏(‏مُتَّفَقٌ عَلَيْهِ‏)‏‏)‏ ‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 7783,
-      "coverage": 0.579,
-      "matchedWords": 11,
-      "totalWords": 19,
-      "riyadWordStart": 6,
-      "riyadWordEnd": 16,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 7783,
+        "coverage": 0.579,
+        "matchedWords": 11,
+        "totalWords": 19,
+        "riyadWordStart": 6,
+        "riyadWordEnd": 16,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.662,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "أَنْ يُحْفِيَ الْمُسْلِمُ شَارِبَهُ.",
+      "أَنْ يُعْفِيَ الْمُسْلِمُ لِحْيَتَهُ فَلَا يَقُصُّ مِنْهَا."
+    ],
+    "fawaid": [
+      "أَمَرَ النَّبِيُّ ﷺ بِإِحْفَاءِ الشَّوَارِبِ وَإِعْفَاءِ اللِّحَى.",
+      "الْعِنَايَةُ بِهَيْئَةِ الشَّارِبِ وَاللِّحْيَةِ مِنْ خِصَالِ الْفِطْرَةِ."
+    ],
+    "meaning": "قَالَ النَّبِيُّ ﷺ: أَحْفُوا الشَّوَارِبَ وَأَعْفُوا اللِّحَى، أَيْ قُصُّوا الشَّوَارِبَ قَصًّا بَالِغًا وَاتْرُكُوا اللِّحَى تَنْمُو، وَفِيهِ بَيَانُ أَنَّ هَذِهِ الْهَيْئَةَ مِنْ خِصَالِ الْفِطْرَةِ الَّتِي شُرِعَتْ لِلْمُسْلِمِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

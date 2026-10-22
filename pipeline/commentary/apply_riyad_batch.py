@@ -4,8 +4,10 @@ to Riyad al-Salihin hadith files, by hadith number. Batch file: JSON object
 keyed by hadith number (string) -> commentary object, same shape as
 content/books/*/hadith/*.json's "commentary" field.
 
-Sets review.status to "approved" per the project's 2026-08-15 policy decision
-(novel commentary ships without a per-hadith reviewer gate).
+Sets review.status to "approved" for pipeline/TTS purposes only. Review of
+novel commentary is deferred by project-owner decision (2026-10-22); files
+carry reviewers: [] and reviewPolicy: "deferred" so no unperformed review is
+attributed. Public release still requires both reviewers' sign-off.
 
 Usage (from repo root): python3 pipeline/commentary/apply_riyad_batch.py <batch.json>
 """
@@ -16,7 +18,6 @@ from pathlib import Path
 from datetime import date
 
 RIYAD_DIR = Path("content/books/riyad_assalihin/hadith")
-REVIEWERS = ["Dr Yasmeen Farouk", "Tarek Eldeeb"]
 
 
 def main():
@@ -40,7 +41,8 @@ def main():
         doc["commentary"] = commentary
         doc["review"] = {
             "status": "approved",
-            "reviewers": REVIEWERS,
+            "reviewers": [],
+            "reviewPolicy": "deferred",
             "approvedAt": date.today().isoformat(),
         }
         fp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")

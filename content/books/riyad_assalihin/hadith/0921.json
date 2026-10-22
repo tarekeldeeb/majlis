@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.86,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الرَّحْمَةُ بِالْحَيَوَانِ وَالْإِحْسَانُ إِلَيْهِ.",
+      "عَدَمُ حَبْسِ الْحَيَوَانِ بِلَا طَعَامٍ وَلَا شَرَابٍ."
+    ],
+    "fawaid": [
+      "تَعْذِيبُ الْحَيَوَانِ قَدْ يُوجِبُ الْعِقَابَ.",
+      "الْحَيَوَانُ الْمَحْبُوسُ يَجِبُ أَنْ يُطْعَمَ وَيُسْقَى."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ عَنِ امْرَأَةٍ عُذِّبَتْ فِي هِرَّةٍ حَبَسَتْهَا حَتَّى مَاتَتْ جُوعًا، فَدَخَلَتِ النَّارَ بِسَبَبِهَا، وَفِيهِ تَحْذِيرٌ مِنْ تَعْذِيبِ الْحَيَوَانِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

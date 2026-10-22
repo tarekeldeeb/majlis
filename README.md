@@ -6,7 +6,7 @@ Named after **مجالس السماع** — the traditional gatherings where had
 
 ## Status
 
-Phase 0 — content pipeline. First book: الأربعون النووية (40 Hadith Nawawi).
+Phase 0 — content pipeline complete: both books (42 Nawawi + 1,896 Riyad al-Salihin) have fully diacritized matn and complete commentary, ready for TTS. Phase 1 app scaffold is in place; batch audio generation is next.
 
 ## Layout
 

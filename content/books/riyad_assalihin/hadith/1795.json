@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "وعنه قال‏:‏ قال رسول الله صلى الله عليه وسلم‏:‏ “أكثروا ذكر هاذم اللذات” ‏(‏‏(‏يعنى الموت‏)‏‏)‏ ‏(‏‏(‏رواه الترمذى وقال‏:‏ حدث حسن‏)‏‏)‏‏.‏",
     "sourceId": 42860,
-    "diacritized": "قَالَ قَالَ رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ ‏:‏ ‏\n\"‏ أَكْثِرُوا ذِكْرَ هَاذِمِ اللَّذَّاتِ ‏\"‏ ‏.‏ يَعْنِي الْمَوْتَ",
+    "diacritized": "وَعَنْهُ قَالَ‏:‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهِ عَلَيْهِ وَسَلَّمَ‏:‏ “أَكْثِرُوا ذُكِرَ هَاذِمٌ اللَّذَّاتِ” ‏(‏‏(‏يَعْنِى الْمَوْتِ‏)‏‏)‏ ‏(‏‏(‏رَوَاهُ التِّرْمِذِىُّ وَقَالَ‏:‏ حَدَّثَ حَسَنٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "ibnmajah",
-      "sourceId": 33829,
-      "coverage": 0.7,
-      "matchedWords": 14,
-      "totalWords": 20,
-      "riyadWordStart": 1,
-      "riyadWordEnd": 14,
-      "partial": true
+      "method": "catt-auto-full",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "ibnmajah",
+        "sourceId": 33829,
+        "coverage": 0.7,
+        "matchedWords": 14,
+        "totalWords": 20,
+        "riyadWordStart": 1,
+        "riyadWordEnd": 14,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.866,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "ذِكْرُ الْمَوْتِ وَاسْتِحْضَارُهُ فِي كُلِّ حَالٍ.",
+      "عَدَمُ الِانْهِمَاكِ فِي اللَّذَّاتِ الْفَانِيَةِ."
+    ],
+    "fawaid": [
+      "ذِكْرُ الْمَوْتِ يُزَهِّدُ فِي الدُّنْيَا وَيَحُثُّ عَلَى الْعَمَلِ.",
+      "هَاذِمُ اللَّذَّاتِ هُوَ الْمَوْتُ الَّذِي يَقْطَعُ كُلَّ شَهْوَةٍ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ بِالْإِكْثَارِ مِنْ ذِكْرِ مَا يَهْدِمُ اللَّذَّاتِ، وَهُوَ الْمَوْتُ، فَإِنَّ اسْتِحْضَارَهُ يُنْقِصُ حُبَّ الدُّنْيَا وَيَدْفَعُ إِلَى الِاسْتِعْدَادِ لِلْآخِرَةِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "سنن الترمذي — كتاب الزهد",
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب المقدمات"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

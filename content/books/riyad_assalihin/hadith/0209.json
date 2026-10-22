@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.85,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُصَافَحَةُ عِنْدَ اللِّقَاءِ بَدَلًا مِنَ الِانْحِنَاءِ.",
+      "تَرْكُ الِانْحِنَاءِ لِلْبَشَرِ وَالِاقْتِصَارِ عَلَى الْمُصَافَحَةِ."
+    ],
+    "fawaid": [
+      "الِانْحِنَاءُ لِغَيْرِ اللَّهِ مَنْهِيٌّ عَنْهُ.",
+      "الْمُعَانَقَةُ وَالتَّلَازُمُ لَا يَكُونَانِ فِي كُلِّ لِقَاءٍ."
+    ],
+    "meaning": "سَأَلَ رَجُلٌ النَّبِيَّ ﷺ أَيَنْحَنِي الرَّجُلُ لِأَخِيهِ إِذَا لَقِيَهُ فَقَالَ لَا، وَأَذِنَ لَهُ فِي أَنْ يَأْخُذَ بِيَدِهِ وَيُصَافِحَهُ، فَالْمُصَافَحَةُ هِيَ الْمَشْرُوعَةُ عِنْدَ اللِّقَاءِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

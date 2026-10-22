@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.905,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُبَادَرَةُ إِلَى تَحِيَّةِ الْمَسْجِدِ عِنْدَ دُخُولِهِ.",
+      "عَدَمُ الْجُلُوسِ فِي الْمَسْجِدِ قَبْلَ الصَّلَاةِ."
+    ],
+    "fawaid": [
+      "تَحِيَّةُ الْمَسْجِدِ سُنَّةٌ مُؤَكَّدَةٌ يُبَادِرُ إِلَيْهَا الدَّاخِلُ.",
+      "الْمَسْجِدُ بَيْتُ اللَّهِ، وَمِنْ أَدَبِ دُخُولِهِ الصَّلَاةُ قَبْلَ الْجُلُوسِ."
+    ],
+    "meaning": "أَمَرَ النَّبِيُّ ﷺ مَنْ دَخَلَ الْمَسْجِدَ أَنْ لَا يَجْلِسَ حَتَّى يُصَلِّيَ رَكْعَتَيْنِ، وَفِي ذَلِكَ حَثٌّ عَلَى تَحِيَّةِ الْمَسْجِدِ وَالْعِنَايَةِ بِالصَّلَاةِ عِنْدَ الدُّخُولِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

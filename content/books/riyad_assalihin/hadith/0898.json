@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.835,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ الشَّمَاتَةِ بِالْمُسْلِمِينَ.",
+      "الرِّقَّةُ عَلَى الْمُبْتَلَى وَالدُّعَاءُ لَهُ."
+    ],
+    "fawaid": [
+      "الشَّمَاتَةُ بِالْمُسْلِمِ مَمْنُوعَةٌ.",
+      "مَنْ شَمِتَ بِأَخِيهِ رُبَّمَا ابْتَلَاهُ اللَّهُ مِثْلَ بَلَائِهِ."
+    ],
+    "meaning": "نَهَى النَّبِيُّ ﷺ عَنْ إِظْهَارِ الشَّمَاتَةِ لِلْأَخِ، لِأَنَّ اللَّهَ قَدْ يَرْحَمُ الْمُبْتَلَى وَيُعَافِيهِ، ثُمَّ يَبْتَلِي الشَّامِتَ بِمِثْلِ مَا شَمِتَ بِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

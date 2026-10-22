@@ -16,6 +16,8 @@ Goal: choose one open/free TTS able to read **fully diacritized classical Arabic
 
 All 1,896 Riyad al-Salihin hadiths are now diacritized: 558 via tashkeel-transfer (sourced from the 9-books collections), 1,299 via direct CATT, and the final 39 long hadiths (which exceeded CATT's ~1024-token encoder limit) via `pipeline/diacritize/auto_diacritize_catt_long.py` — split on sentence boundaries into sub-800-char chunks, diacritized individually, rejoined. Combined with the 42 in-source-diacritized Nawawi hadiths, the full 1,938-hadith corpus is TTS-ready.
 
+**Correction (2026-10-22):** the tashkeel-transfer pass stored only the matched span in `matn.diacritized`, so its isnad prefix and takhrij suffix were missing from the TTS text. `pipeline/diacritize/rediacritize_transfer_full.py` now generates a full-matn CATT base for all 558 transfer hadiths, and `merge_transfer_spans.py` restores the original transfer diacritics word-by-word inside it, leaving CATT only at the boundaries. `qa_riyad.py` checks letter coverage and diacritic density; current QA passes 1,887/1,896, with the remaining 9 carrying source digits only.
+
 ## Method
 
 1. Test set: hadith 001 matn + its approved commentary (contrasting registers: narration vs. explanation).

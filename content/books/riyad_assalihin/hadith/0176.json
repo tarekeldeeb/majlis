@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.862,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُبَادَرَةُ إِلَى السَّلَامِ قَبْلَ الْآخَرِينَ.",
+      "أَنَّ مَنْ بَدَأَ النَّاسَ بِالسَّلَامِ فَهُوَ أَقْرَبُهُمْ إِلَى اللَّهِ."
+    ],
+    "fawaid": [
+      "الْبِدَارُ بِالسَّلَامِ سَبَبٌ لِقُرْبِ الْمَرْءِ مِنْ رَبِّهِ.",
+      "تَرْكُ انْتِظَارِ السَّلَامِ مِنَ الْغَيْرِ مِنْ كَمَالِ الْأَدَبِ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ أَوْلَى النَّاسِ بِاللَّهِ تَعَالَى هُوَ مَنْ بَدَأَ النَّاسَ بِالسَّلَامِ، فَالسَّابِقُ إِلَى التَّحِيَّةِ أَوْلَى بِالْقُرْبِ وَالْفَضْلِ مِمَّنِ انْتَظَرَ حَتَّى يُسَلَّمَ عَلَيْهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين للنووي — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

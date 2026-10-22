@@ -9,24 +9,46 @@
   "matn": {
     "arabic": "وعن أبى قتادة رضى الله عنه أن النبي صلى الله عليه وسلم نهى أن يتنفس في الإناء‏.‏‏((متفق عليه))",
     "sourceId": 41144,
-    "diacritized": "أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى أَنْ يَتَنَفَّسَ فِي الإِنَاءِ",
+    "diacritized": "وَعَنْ أَبَى قَتَادَةَ رِضًى اللَّهِ عَنْهُ أَنْ النَّبِيِّ صَلَّى اللَّهِ عَلَيْهِ وَسَلَّمَ نَهَى أَنْ يَتَنَفَّس فِي الْإِنَاءِ‏.‏‏((مُتَّفَقٌ عَلَيْهِ))",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 7798,
-      "coverage": 0.579,
-      "matchedWords": 11,
-      "totalWords": 19,
-      "riyadWordStart": 6,
-      "riyadWordEnd": 16,
-      "partial": true
+      "method": "catt-auto-full",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 7798,
+        "coverage": 0.579,
+        "matchedWords": 11,
+        "totalWords": 19,
+        "riyadWordStart": 6,
+        "riyadWordEnd": 16,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.899,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ التَّنَفُّسِ فِي الْإِنَاءِ.",
+      "الْفَصْلُ بَيْنَ الرَّشَفَاتِ بِالتَّنَفُّسِ خَارِجَ الْإِنَاءِ.",
+      "مُرَاعَاةُ نَظَافَةِ الْإِنَاءِ لِمَنْ يَشْرَبُ بَعْدَهُ."
+    ],
+    "fawaid": [
+      "النَّبِيُّ ﷺ نَهَى عَنِ التَّنَفُّسِ فِي الْإِنَاءِ.",
+      "الْأَذَى وَالْأَمْرَاضُ قَدْ تَنْتَقِلُ بِالنَّفَسِ فِي الْإِنَاءِ.",
+      "الْأَدَبُ فِي الشُّرْبِ يَحْفَظُ صِحَّةَ الْجَمَاعَةِ."
+    ],
+    "meaning": "نَهَى النَّبِيُّ ﷺ أَنْ يَتَنَفَّسَ الْإِنْسَانُ فِي الْإِنَاءِ، لِأَنَّ النَّفَسَ فِيهِ مُسْتَقْذَرٌ عِنْدَ مَنْ يَشْرَبُ بَعْدَهُ، وَرُبَّمَا خَرَجَ مَعَهُ مَا يُؤْذِي، فَيَتَنَفَّسُ الشَّارِبُ خَارِجَ الْإِنَاءِ ثُمَّ يَعُودُ إِلَى شُرْبِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب أدب الطعام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +56,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

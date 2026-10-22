@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.875,
+        "letterRatio": 0.99,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "التَّعْرِيفُ بِالِاسْمِ لَا بِقَوْلِ أَنَا فَقَطْ عِنْدَ الِاسْتِئْذَانِ.",
+      "عَدَمُ الِاكْتِفَاءِ بِالْإِشَارَةِ الْمُبْهَمَةِ فِي التَّعْرِيفِ."
+    ],
+    "fawaid": [
+      "الْبَيَانُ فِي التَّعْرِيفِ أَوْلَى مِنَ الْإِبْهَامِ.",
+      "كَرَاهَةُ الْإِجْمَالِ الَّذِي لَا يُعَرِّفُ الْمُتَكَلِّمَ."
+    ],
+    "meaning": "أَتَى جَابِرٌ رَضِيَ اللَّهُ عَنْهُ النَّبِيَّ ﷺ فَدَقَّ الْبَابَ، فَقَالَ النَّبِيُّ ﷺ مَنْ ذَا فَقَالَ أَنَا، فَقَالَ أَنَا أَنَا كَأَنَّهُ كَرِهَ ذَلِكَ، وَفِيهِ أَنَّ التَّعْرِيفَ يَكُونُ بِالِاسْمِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين للنووي — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

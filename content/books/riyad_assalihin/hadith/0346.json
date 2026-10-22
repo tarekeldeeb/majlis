@@ -9,24 +9,44 @@
   "matn": {
     "arabic": "وعنه قال‏:‏ سمعت خليلي صلى الله عليه وسلم يقول‏:‏ ‏\n\"‏تبلغ الحلية من المؤمن حيث يبلغ الوضوء‏\"‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏‏.‏",
     "sourceId": 41411,
-    "diacritized": "سَمِعْتُ خَلِيلِي صلى الله عليه وسلم يَقُولُ ‏\n\"‏ تَبْلُغُ الْحِلْيَةُ مِنَ الْمُؤْمِنِ حَيْثُ يَبْلُغُ الْوَضُوءُ",
+    "diacritized": "وَعَنْهُ قَالَ‏:‏ سَمِعْتُ خَلِيلِي صلى الله عليه وسلم يَقُولُ ‏ \"‏ تَبْلُغُ الْحِلْيَةُ مِنَ الْمُؤْمِنِ حَيْثُ يَبْلُغُ الْوُضُوءِ‏\"‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "muslim",
-      "sourceId": 7769,
-      "coverage": 0.778,
-      "matchedWords": 14,
-      "totalWords": 18,
-      "riyadWordStart": 2,
-      "riyadWordEnd": 15,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "muslim",
+        "sourceId": 7769,
+        "coverage": 0.778,
+        "matchedWords": 14,
+        "totalWords": 18,
+        "riyadWordStart": 2,
+        "riyadWordEnd": 15,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.676,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُحَافَظَةُ عَلَى الْوُضُوءِ وَاسْتِحْضَارُ ثَوَابِهِ.",
+      "إِتْمَامُ الْوُضُوءِ عَلَى الْوَجْهِ الَّذِي يَبْلُغُ بِهِ الْعَبْدُ مَا وَعَدَهُ اللَّهُ."
+    ],
+    "fawaid": [
+      "الْحِلْيَةُ مِنَ الْمُؤْمِنِ تَبْلُغُ مَدَى وُضُوئِهِ.",
+      "الْوُضُوءُ نُورٌ يَوْمَ الْقِيَامَةِ يَكُونُ حِلْيَةً لِصَاحِبِهِ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ الْحِلْيَةَ مِنَ الْمُؤْمِنِ تَبْلُغُ حَيْثُ يَبْلُغُ وُضُوءُهُ، أَيْ أَنَّ مَوَاضِعَ الْوُضُوءِ تَكُونُ يَوْمَ الْقِيَامَةِ حِلْيَةً وَنُورًا، وَفِي هَذَا تَرْغِيبٌ فِي إِتْمَامِ الْوُضُوءِ وَالْعِنَايَةِ بِهِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +54,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

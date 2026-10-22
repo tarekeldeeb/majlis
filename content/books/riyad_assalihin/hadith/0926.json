@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.948,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "تَرْكُ ضَرْبِ الْمَمْلُوكِ بِغَيْرِ حَدٍّ.",
+      "الْإِحْسَانُ إِلَى الرَّقِيقِ."
+    ],
+    "fawaid": [
+      "كَفَّارَةُ ضَرْبِ الْمَمْلُوكِ أَوْ لَطْمِهِ عِتْقُهُ.",
+      "الظُّلْمُ فِي الْعُقُوبَةِ يُوجِبُ الْكَفَّارَةَ."
+    ],
+    "meaning": "بَيَّنَ النَّبِيُّ ﷺ أَنَّ مَنْ ضَرَبَ غُلَامَهُ أَوْ لَطَمَهُ بِغَيْرِ ذَنْبٍ، فَإِنَّ كَفَّارَةَ ذَلِكَ أَنْ يُعْتِقَهُ، حِفْظًا لِكَرَامَةِ الْمَمْلُوكِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "رياض الصالحين للنووي — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

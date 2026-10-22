@@ -5,9 +5,15 @@ build/
 .DS_Store
 .env
 .env.*
+__pycache__/
+*.pyc
 
 # Generated audio is published to the CDN, not committed
 content/audio/
 
 # Local scratch caches for pipeline scripts
 .cache/
+
+# Generated content QA reports (reproducible from the scripts)
+content/books/riyad_assalihin/content-audit.json
+content/books/riyad_assalihin/diacritization-qa.json

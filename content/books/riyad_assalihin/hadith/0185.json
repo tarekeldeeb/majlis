@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.915,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "السَّلَامُ عَلَى الْمَرْأَةِ عَلَى الرَّجُلِ مَعَ أَمْنِ الْفِتْنَةِ.",
+      "طَلَبُ الْعِلْمِ وَالسُّؤَالِ عِنْدَ الْحَاجَةِ."
+    ],
+    "fawaid": [
+      "جَوَازُ سَلَامِ الْمَرْأَةِ عَلَى النَّبِيِّ ﷺ.",
+      "الِاسْتِعَانَةُ بِالسَّتْرِ عِنْدَ الِاغْتِسَالِ."
+    ],
+    "meaning": "أَتَتْ أُمُّ هَانِئٍ رَضِيَ اللَّهُ عَنْهَا النَّبِيَّ ﷺ يَوْمَ الْفَتْحِ وَهُوَ يَغْتَسِلُ وَفَاطِمَةُ تَسْتُرُهُ، فَسَلَّمَتْ عَلَيْهِ، وَذَكَرَتْ بَقِيَّةَ الْحَدِيثِ، فَفِيهِ سَلَامُ الْمَرْأَةِ عَلَى الرَّجُلِ عِنْدَ أَمْنِ الْفِتْنَةِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين لابن عثيمين رحمه الله — كتاب السلام"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

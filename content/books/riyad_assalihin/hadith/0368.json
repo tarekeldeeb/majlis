@@ -9,24 +9,45 @@
   "matn": {
     "arabic": "عن أبي موسى رضي الله عنه أن رسول الله صلى الله عليه وسلم قال‏:‏‏\n\"‏من صلى البردين دخل الجنة‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
     "sourceId": 41433,
-    "diacritized": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\n\"‏ مَنْ صَلَّى الْبَرْدَيْنِ دَخَلَ الْجَنَّةَ",
+    "diacritized": "عَنْ أَبِي مُوسَى رَضِيَ اللَّهِ عَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ مَنْ صَلَّى الْبَرْدَيْنِ دَخَلَ الْجَنَّةَ ‏(‏‏(‏مُتَّفَقٌ عَلَيْهِ‏)‏‏)‏‏.‏",
     "diacritizationSource": {
-      "collection": "bukhari",
-      "sourceId": 561,
-      "coverage": 0.619,
-      "matchedWords": 13,
-      "totalWords": 21,
-      "riyadWordStart": 6,
-      "riyadWordEnd": 18,
-      "partial": true
+      "method": "transfer+catt-boundaries",
+      "model": "abjadai/catt (encoder-decoder)",
+      "previousTransfer": {
+        "collection": "bukhari",
+        "sourceId": 561,
+        "coverage": 0.619,
+        "matchedWords": 13,
+        "totalWords": 21,
+        "riyadWordStart": 6,
+        "riyadWordEnd": 18,
+        "partial": true,
+        "needsReview": true
+      },
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.72,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "الْمُحَافَظَةُ عَلَى صَلَاةِ الصُّبْحِ وَالْعَصْرِ.",
+      "الْعِنَايَةُ بِالصَّلَاتَيْنِ اللَّتَيْنِ جَاءَ فِيهِمَا فَضْلٌ خَاصٌّ."
+    ],
+    "fawaid": [
+      "مَنْ صَلَّى الْبَرْدَيْنِ دَخَلَ الْجَنَّةَ.",
+      "الْبَرْدَانِ هُمَا الصُّبْحُ وَالْعَصْرُ.",
+      "خُصَّتْ صَلَاةُ الْفَجْرِ بِأَنَّهَا مَشْهُودَةٌ يَشْهَدُهَا اللَّهُ وَمَلَائِكَتُهُ."
+    ],
+    "meaning": "أَخْبَرَ النَّبِيُّ ﷺ أَنَّ مَنْ صَلَّى الْبَرْدَيْنِ دَخَلَ الْجَنَّةَ، وَالْبَرْدَانِ هُمَا صَلَاةُ الصُّبْحِ وَصَلَاةُ الْعَصْرِ، وَقَدِ اخْتَصَّتْ هَاتَانِ الصَّلَاتَانِ بِفَضْلٍ لَيْسَ فِي غَيْرِهِمَا، فَيَنْبَغِي الْمُحَافَظَةُ عَلَيْهِمَا.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الفضائل"
+    ]
   },
   "audio": {
     "matn": null,
@@ -34,10 +55,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }

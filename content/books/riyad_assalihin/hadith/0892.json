@@ -13,15 +13,29 @@
     "diacritizationSource": {
       "method": "catt-auto",
       "model": "abjadai/catt (encoder-decoder)",
-      "needsReview": true
+      "qa": {
+        "checkedAt": "2026-10-22",
+        "density": 0.821,
+        "letterRatio": 1.0,
+        "hasDigits": false,
+        "status": "pass"
+      }
     }
   },
   "commentary": {
-    "adab": [],
-    "fawaid": [],
-    "meaning": null,
+    "adab": [
+      "كَفُّ الْأَذَى عَنْ أَعْرَاضِ الْمُسْلِمِينَ.",
+      "السَّتْرُ عَلَى الْمُسْلِمِ فِيمَا لَا يَظْهَرُ مِنْ عَيْبِهِ."
+    ],
+    "fawaid": [
+      "تَتَبُّعُ عَوْرَاتِ النَّاسِ يُفْسِدُهُمْ وَيُهْلِكُهُمْ.",
+      "كَثِيرٌ مِنَ الْأُمُورِ بَيْنَ الْعَبْدِ وَرَبِّهِ لَا يَجُوزُ تَتَبُّعُهَا."
+    ],
+    "meaning": "بَيَّنَ النَّبِيُّ ﷺ أَنَّ تَتَبُّعَ عَوْرَاتِ الْمُسْلِمِينَ يُفْسِدُهُمْ أَوْ يَكَادُ يُفْسِدُهُمْ، فَالْوَاجِبُ تَرْكُ التَّجَسُّسِ وَالِاكْتِفَاءُ بِمَا ظَهَرَ مِنَ الْأَعْمَالِ.",
     "relatedAyat": [],
-    "sources": []
+    "sources": [
+      "شرح رياض الصالحين للشيخ محمد بن صالح العثيمين رحمه الله — كتاب الأمور المنهي عنها"
+    ]
   },
   "audio": {
     "matn": null,
@@ -29,10 +43,8 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [
-      "Dr Yasmeen Farouk",
-      "Tarek Eldeeb"
-    ],
-    "approvedAt": "2026-08-15"
+    "reviewers": [],
+    "reviewPolicy": "deferred",
+    "approvedAt": "2026-10-22"
   }
 }
