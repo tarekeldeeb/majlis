@@ -10,6 +10,9 @@ const appRoot = path.resolve(__dirname, '..');
 const contentBooksDir = path.resolve(appRoot, '../content/books');
 const targetAssetsBooksDir = path.resolve(appRoot, 'assets/content/books');
 const manifestFile = path.resolve(appRoot, 'src/data/manifest.ts');
+const contentAudioDir = path.resolve(appRoot, '../content/audio');
+const targetAssetsAudioDir = path.resolve(appRoot, 'assets/content/audio');
+const audioManifestFile = path.resolve(appRoot, 'src/data/audio-manifest.ts');
 
 function copyDirRecursive(src, dest) {
   if (!fs.existsSync(src)) return;
@@ -138,5 +141,67 @@ export function getHadithByNumber(bookId: string, hadithNumber: number): Hadith 
 fs.mkdirSync(path.dirname(manifestFile), { recursive: true });
 fs.writeFileSync(manifestFile, manifestCode, 'utf-8');
 
+// 4. Copy narration MP3s and generate a static require map for them.
+// Hadith JSON references audio as "<bookId>/<file>.mp3"; Metro needs literal imports.
+fs.rmSync(targetAssetsAudioDir, { recursive: true, force: true });
+
+const audioEntries = [];
+
+if (fs.existsSync(contentAudioDir)) {
+  for (const entry of fs.readdirSync(contentAudioDir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+
+    const bookId = entry.name;
+    const sourceBookDir = path.join(contentAudioDir, bookId);
+    const files = fs
+      .readdirSync(sourceBookDir)
+      .filter((f) => f.endsWith('.mp3'))
+      .sort();
+
+    if (files.length === 0) continue;
+
+    const targetBookDir = path.join(targetAssetsAudioDir, bookId);
+    fs.mkdirSync(targetBookDir, { recursive: true });
+
+    for (const file of files) {
+      fs.copyFileSync(path.join(sourceBookDir, file), path.join(targetBookDir, file));
+      audioEntries.push(`${bookId}/${file}`);
+    }
+  }
+}
+
+const audioImports = [];
+const audioMapLines = [];
+
+for (const relPath of audioEntries) {
+  const variable = `audio_${relPath.replace(/[^A-Za-z0-9]/g, '_')}`;
+  audioImports.push(
+    `import ${variable} from '../../assets/content/audio/${relPath}';`
+  );
+  audioMapLines.push(`  '${relPath}': ${variable},`);
+}
+
+const audioManifestCode = `// Generated automatically by scripts/sync-content.mjs
+// DO NOT EDIT MANUALLY
+
+${audioImports.join('\n')}
+
+export type AudioAsset = number | string;
+
+export const audioSources: Record<string, AudioAsset> = {
+${audioMapLines.join('\n')}
+};
+
+export function getAudioAsset(relativePath: string | null | undefined): AudioAsset | undefined {
+  if (!relativePath) return undefined;
+  return audioSources[relativePath];
+}
+`;
+
+fs.mkdirSync(path.dirname(audioManifestFile), { recursive: true });
+fs.writeFileSync(audioManifestFile, audioManifestCode, 'utf-8');
+
 console.log(`✅ Content sync complete: ${bookDirs.length} books, ${totalHadiths} hadiths.`);
+console.log(`🔊 Synced ${audioEntries.length} narration file(s).`);
 console.log(`📝 Generated TypeScript manifest at: ${manifestFile}`);
+console.log(`📝 Generated audio manifest at: ${audioManifestFile}`);
