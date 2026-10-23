@@ -8,3 +8,4 @@ web-build/
 # Generated from ../content by `npm run sync-content` — content/ is the source of truth
 assets/content/
 src/data/manifest.ts
+src/data/audio-manifest.ts

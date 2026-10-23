@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { CommentarySection } from '../../../src/components/CommentarySection';
+import { HadithAudioPlayer } from '../../../src/components/HadithAudioPlayer';
 import { formatHadithTitle, theme, toArabicDigits } from '../../../src/constants/theme';
 import { getBook, getHadithByNumber, getHadithsForBook } from '../../../src/data';
 import { useProgress } from '../../../src/progress/progress';
@@ -94,6 +95,10 @@ export default function HadithScreen() {
             {book?.title}
             {hadith.chapter?.title ? ` — ${hadith.chapter.title}` : ''}
           </Text>
+          <HadithAudioPlayer
+            matnPath={hadith.audio?.matn}
+            commentaryPath={hadith.audio?.commentary}
+          />
         </View>
 
         {/* Matn */}
@@ -124,15 +129,8 @@ export default function HadithScreen() {
         <View style={styles.bottomSpacer} />
       </ScrollView>
 
-      {/* Journey action bar: listen / done / discuss */}
+      {/* Journey action bar: done / discuss */}
       <View style={styles.actionBar}>
-        <Pressable style={[styles.actionBtn, styles.actionBtnDisabled]} disabled>
-          <Text style={styles.actionBtnTextDisabled}>استمع</Text>
-          <View style={styles.soonBadge}>
-            <Text style={styles.soonBadgeText}>قريبًا</Text>
-          </View>
-        </Pressable>
-
         <Pressable
           onPress={() => toggleDone(currentBookId, num)}
           style={({ pressed }) => [
@@ -316,9 +314,6 @@ const styles = StyleSheet.create({
   actionBtnPressed: {
     opacity: 0.85,
   },
-  actionBtnDisabled: {
-    backgroundColor: 'rgba(255, 253, 247, 0.08)',
-  },
   actionBtnOutline: {
     borderWidth: 1,
     borderColor: 'rgba(255, 253, 247, 0.45)',
@@ -339,23 +334,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '700',
     color: '#2A2513',
-    writingDirection: 'rtl',
-  },
-  actionBtnTextDisabled: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: 'rgba(250, 249, 246, 0.55)',
-    writingDirection: 'rtl',
-  },
-  soonBadge: {
-    backgroundColor: 'rgba(255, 253, 247, 0.14)',
-    paddingHorizontal: 6,
-    paddingVertical: 1,
-    borderRadius: theme.radius.full,
-  },
-  soonBadgeText: {
-    fontSize: 10,
-    color: 'rgba(250, 249, 246, 0.7)',
     writingDirection: 'rtl',
   },
   errorContainer: {
