@@ -4,16 +4,25 @@ An open-source interactive hadith audiobook (web / iOS / Android). Majlis reads 
 
 Named after **مجالس السماع** — the traditional gatherings where hadith books were read aloud and discussed.
 
+**Live app:** https://tarekeldeeb.github.io/majlis/
+
 ## Status
 
 Phase 0 — content pipeline complete: both books (42 Nawawi + 1,896 Riyad al-Salihin) have fully diacritized matn and complete commentary, ready for TTS. Phase 1 app scaffold is in place; batch audio generation is next.
+
+## Pipeline
+
+1. Get the text
+2. Add diacritization
+3. Summarize ādāb, fawāʾid, and sharḥ
+4. Generate the audio with TTS
 
 ## Layout
 
 | Path | Purpose |
 |---|---|
 | `content/` | Reviewed content assets (books, commentary, review state) |
-| `pipeline/` | Build-time scripts: ingest → draft → review → TTS → package |
+| `pipeline/` | Build-time scripts for the pipeline above |
 | `docs/` | Content schema, review workflow, TTS evaluation |
 | `app/` | React Native (Expo) app — Phase 1 |
 | `server/` | Chat backend (LLM providers + MCP clients) — Phase 2 |
