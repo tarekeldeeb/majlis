@@ -73,9 +73,18 @@ def chunk_text_f5(text, max_chars=120):
 ui.chunk_text = chunk_text_f5
 
 
+SALLA = "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ"
+SALLA_RE = re.compile(
+    r"صلى\s+الله\s+عليه\s+(?:و\s*)?(?:آل(?:ه|هِ)?\s+)?(?:و\s*)?سلم"
+)
+SALLA_ALT_RE = re.compile(r"عليه\s+الصلاة\s+والسلام")
+
+
 def tts_text(text):
     """Normalize one read-aloud string without changing its wording."""
-    s = text.replace("ﷺ", "صلى الله عليه وسلم")
+    s = text.replace("ﷺ", SALLA)
+    s = SALLA_RE.sub(SALLA, s)
+    s = SALLA_ALT_RE.sub("عَلَيْهِ الصَّلَاةُ وَالسَّلَامُ", s)
     s = BIDI.sub("", s)
     # Drop footnote markers / bare citation numbers; they are for display, not speech.
     s = re.sub(r"\([0-9٠-٩۰-۹]+\)", " ", s)
