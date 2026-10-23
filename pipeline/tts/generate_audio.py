@@ -59,34 +59,18 @@ WIDTH = {"nawawi40": 3, "riyad_assalihin": 4}
 BIDI = re.compile(r"[‎‏‪-‮]")
 
 
-SENT = re.compile(r"(?<=[.!?؛])\s+")
-CHUNK_LIMIT = 180
+CHUNK_LIMIT = 220
 CROSSFADE = 0.15
 
-
-def chunk_sentence(text, max_chars=120, limit=CHUNK_LIMIT):
-    """Sentence-aware chunks: never split immediately after a comma/colon."""
-    sentences = [s.strip() for s in SENT.split(text) if s.strip()]
-    chunks, cur = [], ""
-    for s in sentences:
-        if not cur:
-            cur = s
-        elif len(cur) + 1 + len(s) <= limit:
-            cur += " " + s
-        else:
-            chunks.append(cur)
-            cur = s
-        while len(cur) > limit:
-            cut = cur.rfind(" ", 0, limit)
-            cut = cut if cut > 0 else limit
-            chunks.append(cur[:cut].strip())
-            cur = cur[cut:].strip()
-    if cur:
-        chunks.append(cur)
-    return chunks
+_orig_chunk_text = ui.chunk_text
 
 
-ui.chunk_text = chunk_sentence
+def chunk_text_f5(text, max_chars=120):
+    """Use F5-TTS punctuation-aware chunking with its quality-sized chunks."""
+    return _orig_chunk_text(text, max_chars=CHUNK_LIMIT)
+
+
+ui.chunk_text = chunk_text_f5
 
 
 def tts_text(text):
@@ -163,8 +147,9 @@ def main():
     ap.add_argument("--book", default="all", help="book id, 'all', or a comma-separated list")
     ap.add_argument("--start", type=int, default=1)
     ap.add_argument("--limit", type=int, default=0, help="max hadiths per book (0 = all)")
-    ap.add_argument("--nfe-step", type=int, default=16)
-    ap.add_argument("--speed", type=float, default=1.0)
+    ap.add_argument("--nfe-step", type=int, default=32)
+    ap.add_argument("--speed", type=float, default=0.77,
+                    help="SILMA multiplies this by 1.3 for diacritized text; 0.77 -> effective 1.0")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--matn-ref-audio", default=str(MATN_REF_AUDIO), help="matn reference WAV (<= 8 s)")
@@ -192,10 +177,10 @@ def main():
     for book in books:
         queue.extend((book, fp, doc, matn_mp3, comm_mp3) for fp, doc, matn_mp3, comm_mp3 in pending(book, args.start, args.limit, args.force))
 
-    print(f"queue: {len(queue)} hadith(s); nfe_step={args.nfe_step} speed={args.speed}", flush=True)
+    print(f"queue: {len(queue)} hadith(s); nfe_step={args.nfe_step} speed={args.speed} (effective {args.speed*1.3:.2f})", flush=True)
     print(f"matn voice: {matn_ref_audio} ({len(matn_ref_text.split())} words)", flush=True)
     print(f"commentary voice: {comm_ref_audio} ({len(comm_ref_text.split())} words)", flush=True)
-    print(f"chunking: sentence-aware <= {CHUNK_LIMIT} chars; crossfade={CROSSFADE}s", flush=True)
+    print(f"chunking: F5 punctuation-aware <= {CHUNK_LIMIT} chars; crossfade={CROSSFADE}s", flush=True)
     if args.dry_run:
         for book, fp, doc, _, _ in queue[:20]:
             print(f"  {book}:{doc['number']}")
