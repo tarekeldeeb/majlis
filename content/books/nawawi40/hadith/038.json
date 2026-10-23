@@ -37,8 +37,8 @@
     ]
   },
   "audio": {
-    "matn": null,
-    "commentary": null
+    "matn": "nawawi40/038-matn.mp3",
+    "commentary": "nawawi40/038-commentary.mp3"
   },
   "review": {
     "status": "approved",
