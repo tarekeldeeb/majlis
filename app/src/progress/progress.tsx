@@ -22,6 +22,7 @@ interface ProgressContextValue {
   ready: boolean;
   isDone: (bookId: string, num: number) => boolean;
   toggleDone: (bookId: string, num: number) => void;
+  markDone: (bookId: string, num: number) => void;
   markVisited: (bookId: string, num: number) => void;
   bookProgress: (bookId: string) => BookProgress;
   lastVisited: LastVisited | null;
@@ -33,6 +34,7 @@ const ProgressContext = createContext<ProgressContextValue>({
   ready: false,
   isDone: () => false,
   toggleDone: () => {},
+  markDone: () => {},
   markVisited: () => {},
   bookProgress: () => EMPTY_BOOK,
   lastVisited: null,
@@ -72,6 +74,16 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     [state, persist]
   );
 
+  const markDone = useCallback(
+    (bookId: string, num: number) => {
+      const book = state.books[bookId] ?? EMPTY_BOOK;
+      if (book.done.includes(num)) return;
+      const done = [...book.done, num].sort((a, b) => a - b);
+      persist({ ...state, books: { ...state.books, [bookId]: { ...book, done } } });
+    },
+    [state, persist]
+  );
+
   const markVisited = useCallback(
     (bookId: string, num: number) => {
       const book = state.books[bookId] ?? EMPTY_BOOK;
@@ -93,11 +105,24 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
   );
 
   const value = useMemo(
-    () => ({ ready, isDone, toggleDone, markVisited, bookProgress, lastVisited: state.lastVisited }),
-    [ready, isDone, toggleDone, markVisited, bookProgress, state.lastVisited]
+    () => ({
+      ready,
+      isDone,
+      toggleDone,
+      markDone,
+      markVisited,
+      bookProgress,
+      lastVisited: state.lastVisited,
+    }),
+    [ready, isDone, toggleDone, markDone, markVisited, bookProgress, state.lastVisited]
   );
 
-  return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;
+  return (
+    <ProgressContext.Provider value={value}>
+      {/* Children must not write progress before the stored state is loaded. */}
+      {ready ? children : null}
+    </ProgressContext.Provider>
+  );
 }
 
 export function useProgress(): ProgressContextValue {
