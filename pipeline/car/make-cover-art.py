@@ -41,7 +41,6 @@ def render_text(text: str, workdir: Path, width: int, size: int, font: str) -> I
             "--wrap=word",
             "--rtl",
             "--language=ar",
-            "--align=right",
             "--margin=0",
             "-o",
             str(dst),
