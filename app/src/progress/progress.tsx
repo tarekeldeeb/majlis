@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const STORAGE_KEY = 'majlis.progress.v1';
@@ -43,17 +43,25 @@ const ProgressContext = createContext<ProgressContextValue>({
 export function ProgressProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<ProgressState>({ books: {}, lastVisited: null });
   const [ready, setReady] = useState(false);
+  const stateRef = useRef(state);
 
   useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY)
       .then((raw) => {
-        if (raw) setState(JSON.parse(raw));
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          stateRef.current = parsed;
+          setState(parsed);
+        }
       })
       .catch(() => {})
       .finally(() => setReady(true));
   }, []);
 
-  const persist = useCallback((next: ProgressState) => {
+  const persist = useCallback((updater: (prev: ProgressState) => ProgressState) => {
+    const next = updater(stateRef.current);
+    if (next === stateRef.current) return;
+    stateRef.current = next;
     setState(next);
     AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(next)).catch(() => {});
   }, []);
@@ -65,38 +73,48 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
   const toggleDone = useCallback(
     (bookId: string, num: number) => {
-      const book = state.books[bookId] ?? EMPTY_BOOK;
-      const done = book.done.includes(num)
-        ? book.done.filter((n) => n !== num)
-        : [...book.done, num].sort((a, b) => a - b);
-      persist({ ...state, books: { ...state.books, [bookId]: { ...book, done } } });
+      persist((prev) => {
+        const book = prev.books[bookId] ?? EMPTY_BOOK;
+        const done = book.done.includes(num)
+          ? book.done.filter((n) => n !== num)
+          : [...book.done, num].sort((a, b) => a - b);
+        return { ...prev, books: { ...prev.books, [bookId]: { ...book, done } } };
+      });
     },
-    [state, persist]
+    [persist]
   );
 
   const markDone = useCallback(
     (bookId: string, num: number) => {
-      const book = state.books[bookId] ?? EMPTY_BOOK;
-      if (book.done.includes(num)) return;
-      const done = [...book.done, num].sort((a, b) => a - b);
-      persist({ ...state, books: { ...state.books, [bookId]: { ...book, done } } });
+      persist((prev) => {
+        const book = prev.books[bookId] ?? EMPTY_BOOK;
+        if (book.done.includes(num)) return prev;
+        const done = [...book.done, num].sort((a, b) => a - b);
+        return { ...prev, books: { ...prev.books, [bookId]: { ...book, done } } };
+      });
     },
-    [state, persist]
+    [persist]
   );
 
   const markVisited = useCallback(
     (bookId: string, num: number) => {
-      const book = state.books[bookId] ?? EMPTY_BOOK;
-      if (book.last === num && state.lastVisited?.bookId === bookId && state.lastVisited.number === num) {
-        return;
-      }
-      persist({
-        ...state,
-        books: { ...state.books, [bookId]: { ...book, last: num } },
-        lastVisited: { bookId, number: num },
+      persist((prev) => {
+        const book = prev.books[bookId] ?? EMPTY_BOOK;
+        if (
+          book.last === num &&
+          prev.lastVisited?.bookId === bookId &&
+          prev.lastVisited.number === num
+        ) {
+          return prev;
+        }
+        return {
+          ...prev,
+          books: { ...prev.books, [bookId]: { ...book, last: num } },
+          lastVisited: { bookId, number: num },
+        };
       });
     },
-    [state, persist]
+    [persist]
   );
 
   const bookProgress = useCallback(
