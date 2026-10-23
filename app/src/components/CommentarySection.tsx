@@ -29,19 +29,6 @@ export function CommentarySection({ commentary }: CommentarySectionProps) {
 
   return (
     <View style={styles.container}>
-      {/* المعنى الإجمالي */}
-      {hasMeaning && (
-        <View style={styles.sectionCard}>
-          <View style={styles.sectionHeader}>
-            <View style={styles.iconCircle}>
-              <Text style={styles.iconText}>📖</Text>
-            </View>
-            <Text style={styles.sectionTitle}>المعنى الإجمالي</Text>
-          </View>
-          <Text style={styles.meaningText}>{commentary.meaning}</Text>
-        </View>
-      )}
-
       {/* الآداب */}
       {hasAdab && (
         <View style={styles.sectionCard}>
@@ -83,6 +70,19 @@ export function CommentarySection({ commentary }: CommentarySectionProps) {
               </View>
             ))}
           </View>
+        </View>
+      )}
+
+      {/* المعنى الإجمالي — after ādāb and fawāʾid, matching the commentary audio order */}
+      {hasMeaning && (
+        <View style={styles.sectionCard}>
+          <View style={styles.sectionHeader}>
+            <View style={styles.iconCircle}>
+              <Text style={styles.iconText}>📖</Text>
+            </View>
+            <Text style={styles.sectionTitle}>المعنى الإجمالي</Text>
+          </View>
+          <Text style={styles.meaningText}>{commentary.meaning}</Text>
         </View>
       )}
 
