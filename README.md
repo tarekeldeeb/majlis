@@ -8,6 +8,8 @@ Named after **مجالس السماع** — the traditional gatherings where had
 
 Phase 0 — content pipeline complete: both books (42 Nawawi + 1,896 Riyad al-Salihin) have fully diacritized matn and complete commentary, ready for TTS. Phase 1 app scaffold is in place; batch audio generation is next.
 
+**Live web build:** https://tarekeldeeb.github.io/majlis/ — every push to `main` rebuilds the Expo web export and publishes it to the `gh-pages` branch (`.github/workflows/deploy-pages.yml`). Build locally with `cd app && npm run build:pages`.
+
 ## Layout
 
 | Path | Purpose |
