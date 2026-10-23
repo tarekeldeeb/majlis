@@ -64,5 +64,14 @@ Root cause of the ceiling (confirmed by sampling — every hadith had *some* can
 2. **`pynini`/OpenFST:** confirmed `nemo_text_processing`'s `Normalizer` is only used by `silma_tts.api.SilmaTTS` for generic number/date verbalization (`load_nemo_text_normalizer` / `normalize_text`, both gated behind `enable_normalizer` / `normalize_numbers` flags) — never reachable for our input, which is always pre-diacritized classical Arabic prose with no digits. Patched the package's top-level import to be lazy (`pipeline/tts/patch_silma_no_nemo.py`) instead of fighting the native `pynini` build; call with `SilmaTTS(enable_normalizer=False)` and `.infer(..., normalize_numbers=False)`.
 3. **`torchcodec`** (torchaudio's new default audio-loading backend) needs FFmpeg's shared libraries at runtime, not just build time → `brew install ffmpeg` + `export DYLD_LIBRARY_PATH="/opt/homebrew/lib:$DYLD_LIBRARY_PATH"`.
 
-Verified end-to-end: `hadith001_silma_local.wav`, 42.76s — matches the hosted-demo sample (43s) almost exactly, confirming the local path produces the same output. Runs on MPS (Apple Silicon GPU); ~2:39 for this 79-word hadith (8 chunks, SILMA's own sentence-level batching). At that rate, batch-generating ~2,000 hadiths is an overnight job, not a blocker.
+Verified end-to-end: `hadith001_silma_local.wav`, 42.76s — matches the hosted-demo sample (43s) almost exactly, confirming the local path produces the same output. Runs on MPS (Apple Silicon GPU). Measured 2026-10-23: **~2 s/word** (79-word matn = 143 s wall / 43 s audio; 141-word commentary = 313 s wall / 86 s audio); the full ~256k-word corpus is roughly **6 days** at `nfe_step=16`, resumable. Use `nfe_step=8` for ~half the time after a listening check.
 - The engine must run locally (build machine) — no paid API.
+
+## Male reference voice (2026-10-23)
+
+The project owner preferred a male narrator. SILMA is zero-shot, so the voice is chosen entirely by the reference clip. After an A/B on hadith 001 (79 words), the owner selected:
+
+- **ClArTTS clip `ch_05_arabic_tts_dataset_177.wav`** — single male speaker, Classical Arabic, 4.64 s, CC-BY-4.0.
+- Stored at `pipeline/tts/voices/clartts107.wav` with its exact transcript; attribution in `pipeline/tts/voices/README.md`.
+- Same 79-word matn: ClArTTS reference produced **33 s** of audio (narration pace), versus **78 s** with an Alafasy Qurʾān reference (recitation cadence). The owner called ClArTTS a clear win.
+- **Final voice assignment:** male ClArTTS for the **matn**; SILMA's bundled female reference for the **commentary** (ādāb/fawāʾid/meaning). `generate_audio.py` defaults to both and exposes `--matn-ref-*` / `--comm-ref-*` overrides.

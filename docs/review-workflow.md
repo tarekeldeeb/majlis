@@ -4,7 +4,9 @@ Reviewers: **Dr Yasmeen Farouk** and **Tarek Eldeeb**. Both must approve; there 
 
 > **Policy decision (2026-08-15):** content derived verbatim from the vetted JSON sources (hadith-json matn, osamayy-grounded commentary) is treated as **pre-reviewed** and bulk-approved via `pipeline/review/approve_all.mjs`. The per-hadith review flow below applies to **novel commentary text** written for Majlis going forward.
 
-> **Review deferral (2026-10-22):** the project owner has deferred review of novel commentary until further notice so the full corpus can be completed for TTS. Deferred items are marked `review.status: "approved"`, `reviewers: []`, `reviewPolicy: "deferred"` — approved for pipeline/TTS purposes only, **not** for public release. The two-reviewer flow below remains mandatory before release.
+> **Review deferral (2026-10-22):** the project owner deferred review of novel commentary so the full corpus could be completed for TTS. Deferred items were marked `review.status: "approved"`, `reviewers: []`, `reviewPolicy: "deferred"` — approved for pipeline/TTS purposes only, **not** for public release.
+
+> **Owner review (2026-10-23):** Tarek Eldeeb reviewed the Riyad corpus (including the JSON escape-character/bidi cleanup). Riyad files now carry `reviewers: ["Tarek Eldeeb"]` and `reviewPolicy: "owner-reviewed-second-pending"`. Dr Yasmeen Farouk's sign-off remains mandatory before release.
 
 ## Flow
 

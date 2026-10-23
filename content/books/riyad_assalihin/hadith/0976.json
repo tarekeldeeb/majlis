@@ -7,7 +7,7 @@
     "title": "كتاب الأمور المنهي عنها"
   },
   "matn": {
-    "arabic": "وعن ابن عمر رضي الله عنهما قال ‏:‏‏\n\"‏نهينا عن التكلف‏\"‏‏.‏ ‏(‏‏(‏رواه البخاري‏)‏‏)‏‏.‏",
+    "arabic": "وعن ابن عمر رضي الله عنهما قال : «نهينا عن التكلف». ((رواه البخاري)).",
     "sourceId": 42041,
     "diacritized": "وَعَنْ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ نُهِينَا عَنْ التَّكَلُّفِ رَوَاهُ الْبُخَارِيُّ",
     "diacritizationSource": {
@@ -43,8 +43,10 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [],
-    "reviewPolicy": "deferred",
-    "approvedAt": "2026-10-22"
+    "reviewers": [
+      "Tarek Eldeeb"
+    ],
+    "reviewPolicy": "owner-reviewed-second-pending",
+    "approvedAt": "2026-10-23"
   }
 }

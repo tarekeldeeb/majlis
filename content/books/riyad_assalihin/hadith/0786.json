@@ -7,9 +7,9 @@
     "title": "كتاب الدعوات"
   },
   "matn": {
-    "arabic": "وعن النعمان بن بشير رضي الله عنهما عن النبي صلى الله عليه وسلم قال‏:‏ ‏\n\"‏الدعاء هو العبادة‏\"‏‏.‏",
+    "arabic": "وعن النعمان بن بشير رضي الله عنهما عن النبي صلى الله عليه وسلم قال: «الدعاء هو العبادة».",
     "sourceId": 41851,
-    "diacritized": "وَعَنْ النُّعْمَانِ بْنُ بَشِير رَضِيَ اللَّهِ عَنْهُمَا عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الدُّعَاءُ هُوَ الْعِبَادَةِ‏\"‏‏.‏",
+    "diacritized": "وَعَنْ النُّعْمَانِ بْنُ بَشِير رَضِيَ اللَّهِ عَنْهُمَا عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ » الدُّعَاءُ هُوَ الْعِبَادَةِ».",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -55,8 +55,10 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [],
-    "reviewPolicy": "deferred",
-    "approvedAt": "2026-10-22"
+    "reviewers": [
+      "Tarek Eldeeb"
+    ],
+    "reviewPolicy": "owner-reviewed-second-pending",
+    "approvedAt": "2026-10-23"
   }
 }

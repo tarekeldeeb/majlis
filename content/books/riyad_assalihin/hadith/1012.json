@@ -7,9 +7,9 @@
     "title": "كتاب الأمور المنهي عنها"
   },
   "matn": {
-    "arabic": "وعنه أن النبي صلى الله عليه وسلم  قال‏:‏ ‏\n\"‏الجرس مزامير الشيطان‏\"‏‏.‏ ‏(‏‏(‏رواه مسلم‏)‏‏)‏",
+    "arabic": "وعنه أن النبي صلى الله عليه وسلم قال: «الجرس مزامير الشيطان». ((رواه مسلم))",
     "sourceId": 42077,
-    "diacritized": "وَعَنْهُ أَنْ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْجَرَسُ مَزَامِيرُ الشَّيْطَانُ‏\"‏‏.‏ ‏(‏‏(‏رَوَاهُ مُسْلِمٌ‏)‏‏)‏",
+    "diacritized": "وَعَنْهُ أَنْ النَّبِيِّ صلى الله عليه وسلم قَالَ » الْجَرَسُ مَزَامِيرُ الشَّيْطَانُ». ((رَوَاهُ مُسْلِمٌ))",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -54,8 +54,10 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [],
-    "reviewPolicy": "deferred",
-    "approvedAt": "2026-10-22"
+    "reviewers": [
+      "Tarek Eldeeb"
+    ],
+    "reviewPolicy": "owner-reviewed-second-pending",
+    "approvedAt": "2026-10-23"
   }
 }

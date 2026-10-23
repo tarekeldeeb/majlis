@@ -55,8 +55,10 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [],
-    "reviewPolicy": "deferred",
-    "approvedAt": "2026-10-22"
+    "reviewers": [
+      "Tarek Eldeeb"
+    ],
+    "reviewPolicy": "owner-reviewed-second-pending",
+    "approvedAt": "2026-10-23"
   }
 }

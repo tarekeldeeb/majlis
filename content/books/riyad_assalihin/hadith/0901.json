@@ -7,9 +7,9 @@
     "title": "كتاب الأمور المنهي عنها"
   },
   "matn": {
-    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم ، قال‏:‏ ‏\n\"‏ لا تناجشوا‏\"‏ ‏(‏‏(‏متفق عليه‏)‏‏)‏‏.‏",
+    "arabic": "وعنه أن رسول الله صلى الله عليه وسلم ، قال: « لا تناجشوا» ((متفق عليه)).",
     "sourceId": 41966,
-    "diacritized": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لَا تَنَاجَشُوا‏\"‏ ‏(‏‏(‏مُتَّفَقٌ عَلَيْهِ‏)‏‏)‏‏.‏",
+    "diacritized": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ » لَا تَنَاجَشُوا» ((مُتَّفَقٌ عَلَيْهِ)).",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -54,8 +54,10 @@
   },
   "review": {
     "status": "approved",
-    "reviewers": [],
-    "reviewPolicy": "deferred",
-    "approvedAt": "2026-10-22"
+    "reviewers": [
+      "Tarek Eldeeb"
+    ],
+    "reviewPolicy": "owner-reviewed-second-pending",
+    "approvedAt": "2026-10-23"
   }
 }
