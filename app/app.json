@@ -19,7 +19,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "bundler": "metro"
+      "bundler": "metro",
+      "output": "single",
+      "name": "مجلس",
+      "shortName": "مجلس",
+      "lang": "ar",
+      "dir": "rtl",
+      "themeColor": "#1E3A2F",
+      "backgroundColor": "#FAF9F6",
+      "description": "مجلس — كتاب حديث صوتي تفاعلي مفتوح المصدر."
+    },
+    "experiments": {
+      "baseUrl": "/majlis"
     },
     "plugins": [
       "expo-router",
