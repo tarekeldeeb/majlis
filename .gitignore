@@ -8,8 +8,10 @@ build/
 __pycache__/
 *.pyc
 
-# Generated audio is published to the CDN, not committed
-content/audio/
+# TTS runtime state and intermediates (MP3 deliverables are tracked in Git LFS)
+content/audio/generation-state.json
+content/audio/*.tmp
+content/audio/**/*.wav
 
 # Local scratch caches for pipeline scripts
 .cache/
