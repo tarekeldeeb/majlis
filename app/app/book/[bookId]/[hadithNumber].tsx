@@ -22,7 +22,7 @@ export default function HadithScreen() {
   const totalCount = allHadiths.length || 42;
   const hadith = getHadithByNumber(currentBookId, num);
 
-  const { isDone, toggleDone, markVisited } = useProgress();
+  const { isDone, toggleDone, markDone, markVisited } = useProgress();
   const done = isDone(currentBookId, num);
   const [showDiscuss, setShowDiscuss] = useState(false);
 
@@ -38,6 +38,11 @@ export default function HadithScreen() {
     if (hasPrev) router.replace(`/book/${currentBookId}/${num - 1}`);
   };
   const handleNext = () => {
+    if (hasNext) router.replace(`/book/${currentBookId}/${num + 1}`);
+  };
+
+  const handleAudioCompleted = () => {
+    markDone(currentBookId, num);
     if (hasNext) router.replace(`/book/${currentBookId}/${num + 1}`);
   };
 
@@ -98,11 +103,7 @@ export default function HadithScreen() {
           <HadithAudioPlayer
             matnPath={hadith.audio?.matn}
             commentaryPath={hadith.audio?.commentary}
-            onCompleted={
-              hasNext
-                ? () => router.replace(`/book/${currentBookId}/${num + 1}`)
-                : undefined
-            }
+            onCompleted={handleAudioCompleted}
           />
         </View>
 

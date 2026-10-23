@@ -83,7 +83,10 @@ export function HadithAudioPlayer({
     if (!status.didJustFinish) return;
     setFinished(true);
 
-    const advance = onCompletedRef.current;
+    // Only a complete matn+commentary listen counts as finishing the hadith.
+    const hasFullNarration =
+      matnSource !== undefined && commentarySource !== undefined;
+    const advance = hasFullNarration ? onCompletedRef.current : undefined;
     if (!advance) return;
 
     // Brief pause on "finished" before moving on, so the transition isn't abrupt.
@@ -98,7 +101,7 @@ export function HadithAudioPlayer({
         advanceTimer.current = null;
       }
     };
-  }, [status.didJustFinish]);
+  }, [status.didJustFinish, matnSource, commentarySource]);
 
   if (sources.length === 0) {
     return (
