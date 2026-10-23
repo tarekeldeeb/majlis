@@ -18,9 +18,9 @@ from pathlib import Path
 from PIL import Image, ImageChops
 
 SIZE = 1024
-MARGIN_X = 110
-MARGIN_TOP = 90
-MARGIN_BOTTOM = 90
+MARGIN_X = 55
+MARGIN_TOP = 45
+MARGIN_BOTTOM = 45
 FADE_PX = 150
 INK = "#1C1917"
 
