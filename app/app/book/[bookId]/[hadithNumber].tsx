@@ -98,6 +98,11 @@ export default function HadithScreen() {
           <HadithAudioPlayer
             matnPath={hadith.audio?.matn}
             commentaryPath={hadith.audio?.commentary}
+            onCompleted={
+              hasNext
+                ? () => router.replace(`/book/${currentBookId}/${num + 1}`)
+                : undefined
+            }
           />
         </View>
 

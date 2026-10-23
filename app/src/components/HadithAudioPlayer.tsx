@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { setAudioModeAsync, useAudioPlaylist, useAudioPlaylistStatus } from 'expo-audio';
@@ -9,6 +9,7 @@ import { getAudioAsset, type AudioAsset } from '../data';
 interface HadithAudioPlayerProps {
   matnPath?: string | null;
   commentaryPath?: string | null;
+  onCompleted?: () => void;
 }
 
 function formatTime(seconds: number): string {
@@ -19,7 +20,11 @@ function formatTime(seconds: number): string {
   return toArabicDigits(`${minutes}:${rest}`);
 }
 
-export function HadithAudioPlayer({ matnPath, commentaryPath }: HadithAudioPlayerProps) {
+export function HadithAudioPlayer({
+  matnPath,
+  commentaryPath,
+  onCompleted,
+}: HadithAudioPlayerProps) {
   const matnSource = getAudioAsset(matnPath);
   const commentarySource = getAudioAsset(commentaryPath);
 
@@ -42,6 +47,13 @@ export function HadithAudioPlayer({ matnPath, commentaryPath }: HadithAudioPlaye
 
   const [autoplayBlocked, setAutoplayBlocked] = useState(false);
   const [finished, setFinished] = useState(false);
+
+  const onCompletedRef = useRef(onCompleted);
+  const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    onCompletedRef.current = onCompleted;
+  }, [onCompleted]);
 
   const playlistId = playlist.id;
 
@@ -68,7 +80,24 @@ export function HadithAudioPlayer({ matnPath, commentaryPath }: HadithAudioPlaye
   }, [status.currentTime]);
 
   useEffect(() => {
-    if (status.didJustFinish) setFinished(true);
+    if (!status.didJustFinish) return;
+    setFinished(true);
+
+    const advance = onCompletedRef.current;
+    if (!advance) return;
+
+    // Brief pause on "finished" before moving on, so the transition isn't abrupt.
+    advanceTimer.current = setTimeout(() => {
+      advanceTimer.current = null;
+      advance();
+    }, 900);
+
+    return () => {
+      if (advanceTimer.current) {
+        clearTimeout(advanceTimer.current);
+        advanceTimer.current = null;
+      }
+    };
   }, [status.didJustFinish]);
 
   if (sources.length === 0) {
@@ -91,6 +120,10 @@ export function HadithAudioPlayer({ matnPath, commentaryPath }: HadithAudioPlaye
 
   const handlePress = () => {
     if (finished) {
+      if (advanceTimer.current) {
+        clearTimeout(advanceTimer.current);
+        advanceTimer.current = null;
+      }
       setFinished(false);
       playlist.skipTo(0);
       playlist.play();
