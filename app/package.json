@@ -6,6 +6,7 @@
     "prestart": "npm run sync-content",
     "start": "expo start",
     "build:web": "npm run sync-content && expo export --platform web",
+    "build:pages": "npm run build:web && node scripts/prepare-pages.mjs",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",

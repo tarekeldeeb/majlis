@@ -1,0 +1,69 @@
+name: Deploy web app to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install dependencies
+        working-directory: app
+        run: npm ci
+
+      - name: Build web export
+        working-directory: app
+        run: npm run build:pages
+
+      - name: Publish to gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          deploy_dir="$RUNNER_TEMP/gh-pages"
+          repo_url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p "$deploy_dir"
+          cd "$deploy_dir"
+          git init -q -b gh-pages
+          git remote add origin "$repo_url"
+
+          # Deploy commits are appended to gh-pages rather than force-pushed.
+          # An empty index means the new commit's tree is exactly app/dist.
+          if git fetch --depth=1 origin gh-pages; then
+            git reset --soft FETCH_HEAD
+          fi
+
+          rsync -a --delete --exclude '.git' "$GITHUB_WORKSPACE/app/dist/" .
+          git add -A
+
+          if git rev-parse --verify HEAD >/dev/null 2>&1 && git diff --cached --quiet; then
+            echo "No changes to deploy."
+            exit 0
+          fi
+
+          git commit -q -m "Deploy ${GITHUB_SHA::7}"
+          git push origin HEAD:gh-pages
