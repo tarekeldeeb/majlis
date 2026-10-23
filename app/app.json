@@ -10,9 +10,11 @@
       "backgroundColor": "#18181b"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "majlis.quranquiz.net"
     },
     "android": {
+      "package": "majlis.quranquiz.net",
       "adaptiveIcon": {
         "backgroundColor": "#18181b"
       }
