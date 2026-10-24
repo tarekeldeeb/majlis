@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { CommentarySection } from '../../../src/components/CommentarySection';
+import { AdabSection, FawaidSection, MeaningSection, CommentaryExtras } from '../../../src/components/CommentarySection';
 import { HadithAudioPlayer } from '../../../src/components/HadithAudioPlayer';
 import { formatHadithTitle, theme, toArabicDigits } from '../../../src/constants/theme';
 import { getBook, getHadithByNumber, getHadithsForBook } from '../../../src/data';
 import { useProgress } from '../../../src/progress/progress';
+
+type SectionKey = 'matn' | 'adab' | 'fawaid' | 'meaning';
 
 export default function HadithScreen() {
   const router = useRouter();
@@ -25,6 +27,7 @@ export default function HadithScreen() {
   const { isDone, toggleDone, markDone, markVisited } = useProgress();
   const done = isDone(currentBookId, num);
   const [showDiscuss, setShowDiscuss] = useState(false);
+  const { height: windowHeight } = useWindowDimensions();
 
   useEffect(() => {
     if (hadith) markVisited(currentBookId, num);
@@ -46,6 +49,43 @@ export default function HadithScreen() {
     if (hasNext) router.replace(`/book/${currentBookId}/${num + 1}`);
   };
 
+  const scrollRef = useRef<ScrollView>(null);
+  const offsets = useRef<Partial<Record<SectionKey, number>>>({});
+  const pendingSection = useRef<SectionKey | null>(null);
+
+  const scrollToSection = useCallback((key: SectionKey) => {
+    const y = offsets.current[key];
+    if (y === undefined) {
+      pendingSection.current = key;
+      return;
+    }
+    scrollRef.current?.scrollTo({ y: Math.max(0, y - 8), animated: true });
+  }, []);
+
+  const registerOffset = useCallback(
+    (key: SectionKey, y: number) => {
+      offsets.current[key] = y;
+      if (pendingSection.current === key) {
+        pendingSection.current = null;
+        scrollToSection(key);
+      }
+    },
+    [scrollToSection]
+  );
+
+  const handleSegmentChange = useCallback(
+    (target: SectionKey) => {
+      scrollToSection(target);
+    },
+    [scrollToSection]
+  );
+
+  useEffect(() => {
+    offsets.current = {};
+    pendingSection.current = 'matn';
+    scrollRef.current?.scrollTo({ y: 0, animated: false });
+  }, [currentBookId, num]);
+
   if (!hadith) {
     return (
       <View style={styles.errorContainer}>
@@ -59,67 +99,84 @@ export default function HadithScreen() {
 
   return (
     <View style={styles.container}>
+      <View style={styles.fixedHeader}>
+        {/* Heading + player, pinned above the scrolling text */}
+        <View style={styles.titleCard}>
+          <View style={styles.titleRow}>
+            <Pressable
+              onPress={handlePrev}
+              disabled={!hasPrev}
+              style={[styles.navBtn, !hasPrev && styles.navBtnDisabled]}
+            >
+              <Text style={[styles.navBtnText, !hasPrev && styles.navBtnTextDisabled]}>
+                → السابق
+              </Text>
+            </Pressable>
+
+            <View style={styles.titleCenter}>
+              <View style={styles.titleLine}>
+                <Text style={styles.hadithMainTitle}>{formatHadithTitle(hadith.number)}</Text>
+                <View style={styles.hadithIndexPill}>
+                  <Text style={styles.hadithIndexText}>
+                    {toArabicDigits(num)} / {toArabicDigits(totalCount)}
+                  </Text>
+                </View>
+              </View>
+              <Text style={styles.bookSubTitle}>
+                {book?.title}
+                {hadith.chapter?.title ? ` — ${hadith.chapter.title}` : ''}
+              </Text>
+            </View>
+
+            <Pressable
+              onPress={handleNext}
+              disabled={!hasNext}
+              style={[styles.navBtn, !hasNext && styles.navBtnDisabled]}
+            >
+              <Text style={[styles.navBtnText, !hasNext && styles.navBtnTextDisabled]}>
+                التالي ←
+              </Text>
+            </Pressable>
+          </View>
+
+          <HadithAudioPlayer
+            audio={hadith.audio}
+            onCompleted={handleAudioCompleted}
+            onSegmentChange={handleSegmentChange}
+          />
+        </View>
+      </View>
+
       <ScrollView
+        ref={scrollRef}
         style={styles.scrollArea}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={true}
       >
-        {/* Position within the journey */}
-        <View style={styles.navHeader}>
-          <Pressable
-            onPress={handlePrev}
-            disabled={!hasPrev}
-            style={[styles.navBtn, !hasPrev && styles.navBtnDisabled]}
-          >
-            <Text style={[styles.navBtnText, !hasPrev && styles.navBtnTextDisabled]}>
-              → السابق
-            </Text>
-          </Pressable>
-
-          <View style={styles.hadithIndexPill}>
-            <Text style={styles.hadithIndexText}>
-              {toArabicDigits(num)} / {toArabicDigits(totalCount)}
-            </Text>
-          </View>
-
-          <Pressable
-            onPress={handleNext}
-            disabled={!hasNext}
-            style={[styles.navBtn, !hasNext && styles.navBtnDisabled]}
-          >
-            <Text style={[styles.navBtnText, !hasNext && styles.navBtnTextDisabled]}>
-              التالي ←
-            </Text>
-          </Pressable>
-        </View>
-
-        {/* Heading */}
-        <View style={styles.titleCard}>
-          <Text style={styles.hadithMainTitle}>{formatHadithTitle(hadith.number)}</Text>
-          <Text style={styles.bookSubTitle}>
-            {book?.title}
-            {hadith.chapter?.title ? ` — ${hadith.chapter.title}` : ''}
-          </Text>
-          <HadithAudioPlayer
-            matnPath={hadith.audio?.matn}
-            commentaryPath={hadith.audio?.commentary}
-            onCompleted={handleAudioCompleted}
-          />
-        </View>
-
         {/* Matn */}
-        <View style={styles.matnCard}>
-          <View style={styles.matnOrnamentRule} />
-          <View style={styles.matnHeader}>
-            <Text style={styles.matnLabel}>نَصُّ الْحَدِيثِ الشَّرِيفِ</Text>
+        <View onLayout={(event) => registerOffset('matn', event.nativeEvent.layout.y)}>
+          <View style={styles.matnCard}>
+            <View style={styles.matnOrnamentRule} />
+            <View style={styles.matnHeader}>
+              <Text style={styles.matnLabel}>نَصُّ الْحَدِيثِ الشَّرِيفِ</Text>
+            </View>
+            <Text style={styles.matnBody} selectable>
+              {hadith.matn?.arabic}
+            </Text>
           </View>
-          <Text style={styles.matnBody} selectable>
-            {hadith.matn?.arabic}
-          </Text>
         </View>
 
-        {/* Commentary (آداب / فوائد / المعنى الإجمالي) */}
-        <CommentarySection commentary={hadith.commentary} />
+        {/* Commentary sections, each a direct scroll child for exact auto-scroll offsets */}
+        <View onLayout={(event) => registerOffset('adab', event.nativeEvent.layout.y)}>
+          <AdabSection items={hadith.commentary?.adab} />
+        </View>
+        <View onLayout={(event) => registerOffset('fawaid', event.nativeEvent.layout.y)}>
+          <FawaidSection items={hadith.commentary?.fawaid} />
+        </View>
+        <View onLayout={(event) => registerOffset('meaning', event.nativeEvent.layout.y)}>
+          <MeaningSection meaning={hadith.commentary?.meaning} />
+        </View>
+        <CommentaryExtras commentary={hadith.commentary} />
 
         {/* Discussion panel (Phase 2 entry point) */}
         {showDiscuss && (
@@ -132,7 +189,7 @@ export default function HadithScreen() {
           </View>
         )}
 
-        <View style={styles.bottomSpacer} />
+        <View style={{ height: Math.max(120, windowHeight) }} />
       </ScrollView>
 
       {/* Journey action bar: done / discuss */}
@@ -174,25 +231,44 @@ const styles = StyleSheet.create({
   scrollArea: {
     flex: 1,
   },
+  fixedHeader: {
+    paddingHorizontal: theme.spacing.md,
+    paddingTop: theme.spacing.md,
+    paddingBottom: theme.spacing.sm,
+    gap: theme.spacing.md,
+    backgroundColor: theme.colors.background,
+    borderBottomWidth: 1,
+    borderBottomColor: theme.colors.borderSubtle,
+    zIndex: 2,
+  },
   scrollContent: {
     padding: theme.spacing.md,
     gap: theme.spacing.md,
   },
-  navHeader: {
+  titleRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: theme.colors.surface,
-    paddingHorizontal: theme.spacing.md,
-    paddingVertical: theme.spacing.sm,
-    borderRadius: theme.radius.md,
-    borderWidth: 1,
-    borderColor: theme.colors.borderSubtle,
+    gap: theme.spacing.sm,
+  },
+  titleCenter: {
+    flex: 1,
+    alignItems: 'center',
+    gap: 2,
+  },
+  titleLine: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    gap: theme.spacing.sm,
   },
   navBtn: {
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: theme.radius.sm,
+    minWidth: 64,
+    alignItems: 'center',
   },
   navBtnDisabled: {
     opacity: 0.3,
@@ -223,17 +299,19 @@ const styles = StyleSheet.create({
     padding: theme.spacing.md,
     borderWidth: 1,
     borderColor: theme.colors.border,
-    gap: 4,
+    gap: theme.spacing.sm,
   },
   hadithMainTitle: {
     ...theme.typography.title,
     fontSize: 22,
     color: theme.colors.text,
     fontFamily: theme.matnFontFamily,
+    textAlign: 'center',
   },
   bookSubTitle: {
     ...theme.typography.caption,
     color: theme.colors.textSecondary,
+    textAlign: 'center',
   },
   matnCard: {
     backgroundColor: theme.colors.surface,

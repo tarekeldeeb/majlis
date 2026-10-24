@@ -17,10 +17,10 @@ Examples:
   python3 -I pipeline/tts/generate_audio.py --book all --nfe-step 8 --speed 1.05
 
 Default voices:
-  - matn: ClArTTS clip `ch_05_arabic_tts_dataset_177.wav` (single male speaker,
-    Classical Arabic, CC-BY-4.0) — `pipeline/tts/voices/clartts107.wav`.
-  - commentary (adab/fawaid/meaning): SILMA's bundled reference
-    `ar.ref.24k.wav` (female) — `pipeline/tts/voices/silma-default-female.wav`.
+  - matn/number: ClArTTS clip `ch_05_arabic_tts_dataset_177.wav` (single male
+    speaker, Classical Arabic, CC-BY-4.0) — `pipeline/tts/voices/clartts107.wav`.
+  - commentary (adab/fawaid/meaning): Arabic Speech Corpus male speaker
+    (Nawar Halabi, CC-BY-4.0) — `pipeline/tts/voices/arabic-speech-corpus-male.wav`.
 
 Override either voice with `--matn-ref-audio`/`--matn-ref-text-file` and
 `--comm-ref-audio`/`--comm-ref-text-file`. SILMA conditions on a reference clip
@@ -46,21 +46,33 @@ os.environ.setdefault("SSL_CERT_FILE", __import__("certifi").where())
 from silma_tts.api import SilmaTTS
 import silma_tts.infer.utils_infer as ui
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from synth import synthesize, synthesize_items
+from arabic_numbers import hadith_number_text
+
 ROOT = Path(__file__).resolve().parents[2]
 BOOKS_DIR = ROOT / "content/books"
 AUDIO_DIR = ROOT / "content/audio"
+TITLE_DIR = AUDIO_DIR / "titles"
+SEGMENT_ORDER = ("number", "matn", "adab", "fawaid", "meaning")
+TITLES = {
+    "adab": "الْآدَابُ",
+    "fawaid": "الْفَوَائِدُ",
+    "meaning": "الْمَعْنَى الْإِجْمَالِيُّ",
+}
 MATN_REF_AUDIO = ROOT / "pipeline/tts/voices/clartts107.wav"
 MATN_REF_TEXT = "أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ شَرُّ مَا أُعْطِيَ الْعَبْدُ"
-COMM_REF_AUDIO = ROOT / "pipeline/tts/voices/silma-default-female.wav"
-COMM_REF_TEXT = "ويدقق النظر في القرآن الكريم وسائر الكتب السماوية ويتبع مسالك الرسل العظام عليهم الصلاة والسلام."
+COMM_REF_AUDIO = ROOT / "pipeline/tts/voices/arabic-speech-corpus-male.wav"
+COMM_REF_TEXT = "لِيَتَمَكَّنَ الْقَارِئُ مِنْ مُتَابَعَةِ تَطَوُّرِ الْقِصَّةِ الْخَبَرِيَّةِ بِشَكْلٍ سَلِسٍ وَفَعَّالٍ"
 STATE = AUDIO_DIR / "generation-state.json"
 
 WIDTH = {"nawawi40": 3, "riyad_assalihin": 4}
 BIDI = re.compile(r"[‎‏‪-‮]")
 
 
-CHUNK_LIMIT = 220
-CROSSFADE = 0.15
+CHUNK_LIMIT = 180
+CROSSFADE = 0.02
+BULLET_PAUSE = 0.8
 
 _orig_chunk_text = ui.chunk_text
 
@@ -95,23 +107,67 @@ def tts_text(text):
     return s
 
 
+def segment_texts(doc):
+    """Read-aloud text for each independently toggleable segment."""
+    c = doc.get("commentary") or {}
+    adab = c.get("adab") or []
+    fawaid = c.get("fawaid") or []
+    meaning = c.get("meaning") or ""
+    return {
+        "number": tts_text(hadith_number_text(doc["number"])),
+        "matn": tts_text(doc["matn"].get("diacritized") or doc["matn"]["arabic"]),
+        "adab": tts_text(" ".join(adab)) if adab else "",
+        "fawaid": tts_text(" ".join(fawaid)) if fawaid else "",
+        "meaning": tts_text(meaning) if meaning else "",
+    }
+
+
+def segment_item_texts(doc, kind):
+    """Bullet texts for adab/fawaid, or a single text for other segments."""
+    c = doc.get("commentary") or {}
+    if kind == "adab":
+        items = c.get("adab") or []
+    elif kind == "fawaid":
+        items = c.get("fawaid") or []
+    else:
+        return [segment_texts(doc)[kind]]
+    return [tts_text(item) for item in items if isinstance(item, str) and item.strip()]
+
+
+def segment_paths(book, num):
+    width = WIDTH.get(book, 3)
+    base = AUDIO_DIR / book
+    return {kind: base / f"{num:0{width}d}-{kind}.mp3" for kind in SEGMENT_ORDER}
+
+
+def valid_mp3(path):
+    return path.exists() and path.stat().st_size > 0
+
+
 def commentary_text(c):
     parts = list(c.get("adab") or []) + list(c.get("fawaid") or []) + [c.get("meaning", "")]
     return tts_text(" ".join(p.strip() for p in parts if isinstance(p, str) and p.strip()))
 
 
 def to_mp3(wav_path, mp3_path):
-    subprocess.run(
-        [
-            "ffmpeg", "-y", "-loglevel", "error",
-            "-i", str(wav_path),
-            "-ac", "1", "-ar", "24000", "-b:a", "96k",
-            "-af", "afade=t=in:st=0:d=0.02,areverse,afade=t=in:st=0:d=0.02,areverse",
-            str(mp3_path),
-        ],
-        check=True,
-    )
-    wav_path.unlink(missing_ok=True)
+    base = [
+        "ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-threads", "1",
+        "-i", str(wav_path),
+        "-ac", "1", "-ar", "24000", "-b:a", "96k",
+    ]
+    attempts = [
+        base + ["-af", "afade=t=in:st=0:d=0.02", str(mp3_path)],
+        base + [str(mp3_path)],
+    ]
+    last_error = None
+    for command in attempts:
+        try:
+            subprocess.run(command, check=True)
+            wav_path.unlink(missing_ok=True)
+            return
+        except subprocess.CalledProcessError as exc:
+            last_error = exc
+    raise last_error
 
 
 def load_state():
@@ -141,14 +197,21 @@ def pending(book, start, limit, force):
         num = doc["number"]
         if num < start:
             continue
-        width = WIDTH.get(book, 3)
-        matn_mp3 = AUDIO_DIR / book / f"{num:0{width}d}-matn.mp3"
-        comm_mp3 = AUDIO_DIR / book / f"{num:0{width}d}-commentary.mp3"
-        if force or not (matn_mp3.exists() and matn_mp3.stat().st_size and comm_mp3.exists() and comm_mp3.stat().st_size):
-            docs.append((fp, doc, matn_mp3, comm_mp3))
+        texts = segment_texts(doc)
+        paths = segment_paths(book, num)
+        missing = [
+            kind for kind in SEGMENT_ORDER
+            if texts[kind] and (force or not valid_mp3(paths[kind]))
+        ]
+        if missing:
+            docs.append((fp, doc, paths, missing, texts))
         if limit and len(docs) >= limit:
             break
     return docs
+
+
+def titles_pending(force):
+    return [key for key in TITLES if force or not valid_mp3(TITLE_DIR / f"{key}.mp3")]
 
 
 def main():
@@ -158,7 +221,9 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="max hadiths per book (0 = all)")
     ap.add_argument("--nfe-step", type=int, default=32)
     ap.add_argument("--speed", type=float, default=0.77,
-                    help="SILMA multiplies this by 1.3 for diacritized text; 0.77 -> effective 1.0")
+                    help="matn/number speed; SILMA multiplies this by 1.3 for diacritized text; 0.77 -> effective 1.0")
+    ap.add_argument("--comm-speed", type=float, default=0.84,
+                    help="commentary speed; 0.84 -> effective 1.09")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--matn-ref-audio", default=str(MATN_REF_AUDIO), help="matn reference WAV (<= 8 s)")
@@ -184,20 +249,29 @@ def main():
     books = ["nawawi40", "riyad_assalihin"] if args.book == "all" else [b.strip() for b in args.book.split(",") if b.strip()]
     queue = []
     for book in books:
-        queue.extend((book, fp, doc, matn_mp3, comm_mp3) for fp, doc, matn_mp3, comm_mp3 in pending(book, args.start, args.limit, args.force))
+        queue.extend((book, *item) for item in pending(book, args.start, args.limit, args.force))
+    titles = titles_pending(args.force)
 
-    print(f"queue: {len(queue)} hadith(s); nfe_step={args.nfe_step} speed={args.speed} (effective {args.speed*1.3:.2f})", flush=True)
-    print(f"matn voice: {matn_ref_audio} ({len(matn_ref_text.split())} words)", flush=True)
+    print(
+        f"queue: {len(queue)} hadith(s), {len(titles)} title clip(s); "
+        f"matn speed={args.speed} ({args.speed*1.3:.2f}), "
+        f"commentary speed={args.comm_speed} ({args.comm_speed*1.3:.2f})",
+        flush=True,
+    )
+    print(f"matn/number voice: {matn_ref_audio} ({len(matn_ref_text.split())} words)", flush=True)
     print(f"commentary voice: {comm_ref_audio} ({len(comm_ref_text.split())} words)", flush=True)
-    print(f"chunking: F5 punctuation-aware <= {CHUNK_LIMIT} chars; crossfade={CROSSFADE}s", flush=True)
+    print(f"chunking: punctuation-aware <= {CHUNK_LIMIT} chars; crossfade={CROSSFADE}s", flush=True)
     if args.dry_run:
-        for book, fp, doc, _, _ in queue[:20]:
-            print(f"  {book}:{doc['number']}")
+        for book, fp, doc, paths, missing, texts in queue[:20]:
+            print(f"  {book}:{doc['number']} -> {','.join(missing)}")
+        if titles:
+            print(f"  titles -> {','.join(titles)}")
         return
-    if not queue:
+    if not queue and not titles:
         return
 
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+    TITLE_DIR.mkdir(parents=True, exist_ok=True)
     state = load_state()
     if not state.get("startedAt"):
         state["startedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S%z")
@@ -211,34 +285,97 @@ def main():
     ok = failed = 0
     run_start = time.perf_counter()
     voices = {"matn": (matn_ref_audio, matn_ref_text), "commentary": (comm_ref_audio, comm_ref_text)}
-    for i, (book, fp, doc, matn_mp3, comm_mp3) in enumerate(queue, 1):
+
+    for key in titles:
+        out = TITLE_DIR / f"{key}.mp3"
+        try:
+            wav = out.with_suffix(".wav")
+            wav_data, sr = synthesize(
+                tts,
+                comm_ref_audio,
+                comm_ref_text,
+                tts_text(TITLES[key]),
+                nfe_step=args.nfe_step,
+                speed=args.comm_speed,
+                max_chars=CHUNK_LIMIT,
+                fade_seconds=CROSSFADE,
+                keep_start=0.2,
+                lead_in=0.15,
+            )
+            tts.export_wav(wav_data, str(wav))
+            to_mp3(wav, out)
+            print(f"title: {key} -> {out.name}", flush=True)
+        except Exception as e:
+            failed += 1
+            state["failures"].append({"id": f"title:{key}", "error": str(e)})
+            print(f"FAILED title:{key}: {e}", flush=True)
+
+    for i, (book, fp, doc, paths, missing, texts) in enumerate(queue, 1):
         num = doc["number"]
-        matn_mp3.parent.mkdir(parents=True, exist_ok=True)
         item_t = time.perf_counter()
         try:
-            for kind, text, out in (
-                ("matn", tts_text(doc["matn"].get("diacritized") or doc["matn"]["arabic"]), matn_mp3),
-                ("commentary", commentary_text(doc.get("commentary") or {}), comm_mp3),
-            ):
-                if args.force or not (out.exists() and out.stat().st_size):
-                    ref_audio, ref_text = voices[kind]
-                    wav = out.with_suffix(".wav")
-                    tts.infer(
-                        ref_file=str(ref_audio),
-                        ref_text=ref_text,
-                        gen_text=text,
-                        file_wave=str(wav),
-                        normalize_numbers=False,
-                        force_tashkeel=False,
+            for kind in missing:
+                ref_audio, ref_text = voices["matn" if kind in ("number", "matn") else "commentary"]
+                out = paths[kind]
+                out.parent.mkdir(parents=True, exist_ok=True)
+                wav = out.with_suffix(".wav")
+                segment_speed = args.speed if kind in ("number", "matn") else args.comm_speed
+                if kind in ("adab", "fawaid"):
+                    wav_data, sr = synthesize_items(
+                        tts,
+                        ref_audio,
+                        ref_text,
+                        segment_item_texts(doc, kind),
                         nfe_step=args.nfe_step,
-                        speed=args.speed,
-                        cross_fade_duration=CROSSFADE,
+                        speed=segment_speed,
+                        max_chars=CHUNK_LIMIT,
+                        fade_seconds=CROSSFADE,
+                        pause_seconds=BULLET_PAUSE,
                     )
-                    to_mp3(wav, out)
-            doc["audio"] = {
-                "matn": f"{book}/{matn_mp3.name}",
-                "commentary": f"{book}/{comm_mp3.name}",
-            }
+                else:
+                    wav_data, sr = synthesize(
+                        tts,
+                        ref_audio,
+                        ref_text,
+                        texts[kind],
+                        nfe_step=args.nfe_step,
+                        speed=segment_speed,
+                        max_chars=CHUNK_LIMIT,
+                        fade_seconds=CROSSFADE,
+                        keep_start=0.2 if kind == "number" else 0.15,
+                    )
+                tts.export_wav(wav_data, str(wav))
+                to_mp3(wav, out)
+
+            audio = dict(doc.get("audio") or {})
+            for kind, path in paths.items():
+                audio[kind] = f"{book}/{path.name}" if valid_mp3(path) else None
+
+            # Once all three commentary parts exist, the old unsplit file is redundant.
+            split_ready = all(
+                texts[k] and valid_mp3(paths[k]) for k in ("adab", "fawaid", "meaning")
+            )
+            if split_ready:
+                legacy_rel = audio.get("commentary")
+                legacy = (
+                    AUDIO_DIR / legacy_rel
+                    if legacy_rel
+                    else AUDIO_DIR / book / f"{num:0{WIDTH.get(book, 3)}d}-commentary.mp3"
+                )
+                if legacy.exists():
+                    rel = legacy.relative_to(ROOT)
+                    try:
+                        subprocess.run(
+                            ["git", "-C", str(ROOT), "rm", "--quiet", "--", str(rel)],
+                            check=True,
+                        )
+                        print(f"  git rm legacy commentary: {legacy.name}", flush=True)
+                    except subprocess.CalledProcessError:
+                        legacy.unlink(missing_ok=True)
+                        print(f"  removed legacy commentary (untracked): {legacy.name}", flush=True)
+                audio.pop("commentary", None)
+
+            doc["audio"] = audio
             fp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
             state["generated"][f"{book}:{num}"] = {
                 "at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
@@ -249,7 +386,7 @@ def main():
             eta = (elapsed / i) * (len(queue) - i) / 60
             print(
                 f"[{i}/{len(queue)}] {book}:{num} {time.perf_counter()-item_t:.1f}s "
-                f"elapsed={elapsed/60:.1f}m eta={eta:.0f}m",
+                f"segments={','.join(missing)} elapsed={elapsed/60:.1f}m eta={eta:.0f}m",
                 flush=True,
             )
         except Exception as e:

@@ -57,7 +57,14 @@ Root cause of the ceiling (confirmed by sampling — every hadith had *some* can
 
 ## Decision (2026-08-15)
 
-**TTS candidate: SILMA TTS v1, using its default bundled reference voice** (`ar.ref.24k.wav`, gender not confirmed by me — Tarek confirmed by listening). Chosen over Piper (rejected as robotic) after the reference-audio bug fix above. This is a project-owner decision made by ear, not a full blind two-reviewer bake-off — revisit formally with Dr Yasmeen Farouk if needed before wide release.
+**TTS candidate: SILMA TTS v1.** The original 2026-08-15 decision used the bundled reference voice; that voice is now the A/B control only.
+
+**2026-10-23 voice and segmentation update (owner-approved):**
+- **Matn and hadith number:** ClArTTS male voice (`clartts107`).
+- **Commentary:** Arabic Speech Corpus male voice (Nawar Halabi, CC-BY-4.0), selected after listening; it is distinct from the matn voice.
+- **Structure:** commentary is split into three independent segments — ādāb, fawāʾid, meaning — with shared title clips before each and a `الحديث رقم …` clip before the matn. The app exposes three toggles, default all on.
+- **Pacing:** commentary speed is `0.84` (effective ~1.09 after SILMA's 1.3× diacritized-text multiplier); matn stays `0.77`.
+- **Clicks and pauses:** SILMA's internal multi-chunk path inserts 0.5–1.3 s of silence and can click at chunk cuts. `pipeline/tts/synth.py` now chunks at punctuation (180 chars, with long narrator chains split at `بن`), applies 8 ms edge fades to every chunk, and joins with a 20 ms equal-power crossfade. No silence is inserted between normal chunks; Ādāb/Fawāʾid bullets get an explicit 0.8 s pause.
 
 **Production self-hosting — solved.** Local SILMA now runs fully self-hosted (`pipeline/tts/setup_silma_local.sh` + `patch_silma_no_nemo.py`), unblocking batch generation for all ~2,000 hadiths without depending on the shared hosted demo. Three real, understood issues, each fixed for a documented reason (not worked around blindly):
 1. **SSL:** Python-on-macOS ships no CA bundle → `export SSL_CERT_FILE=$(python3 -c 'import certifi; print(certifi.where())')`.

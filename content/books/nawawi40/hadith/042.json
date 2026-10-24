@@ -36,7 +36,10 @@
   },
   "audio": {
     "matn": "nawawi40/042-matn.mp3",
-    "commentary": "nawawi40/042-commentary.mp3"
+    "number": "nawawi40/042-number.mp3",
+    "adab": "nawawi40/042-adab.mp3",
+    "fawaid": "nawawi40/042-fawaid.mp3",
+    "meaning": "nawawi40/042-meaning.mp3"
   },
   "review": {
     "status": "approved",

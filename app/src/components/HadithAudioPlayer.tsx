@@ -1,16 +1,28 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { setAudioModeAsync, useAudioPlaylist, useAudioPlaylistStatus } from 'expo-audio';
-import { ProgressBar } from './ProgressBar';
+import { SeekBar } from './SeekBar';
 import { theme, toArabicDigits } from '../constants/theme';
 import { getAudioAsset, type AudioAsset } from '../data';
+import { useSettings } from '../settings/settings';
+import type { HadithAudio } from '../types/content';
+
+export type PlayerSection = 'matn' | 'adab' | 'fawaid' | 'meaning';
 
 interface HadithAudioPlayerProps {
-  matnPath?: string | null;
-  commentaryPath?: string | null;
+  audio?: HadithAudio;
   onCompleted?: () => void;
+  onSegmentChange?: (target: PlayerSection) => void;
 }
+
+interface Segment {
+  source: AudioAsset;
+  label: string;
+  target: PlayerSection;
+}
+
+const EMPTY_SOURCES: AudioAsset[] = [];
 
 function formatTime(seconds: number): string {
   if (!Number.isFinite(seconds) || seconds < 0) return '٠:٠٠';
@@ -20,49 +32,74 @@ function formatTime(seconds: number): string {
   return toArabicDigits(`${minutes}:${rest}`);
 }
 
-export function HadithAudioPlayer({
-  matnPath,
-  commentaryPath,
-  onCompleted,
-}: HadithAudioPlayerProps) {
-  const matnSource = getAudioAsset(matnPath);
-  const commentarySource = getAudioAsset(commentaryPath);
+export function HadithAudioPlayer({ audio, onCompleted, onSegmentChange }: HadithAudioPlayerProps) {
+  const { settings } = useSettings();
 
-  const sources = useMemo<AudioAsset[]>(() => {
-    const list: AudioAsset[] = [];
-    if (matnSource !== undefined) list.push(matnSource);
-    if (commentarySource !== undefined) list.push(commentarySource);
+  const segments = useMemo<Segment[]>(() => {
+    const list: Segment[] = [];
+    const push = (path: string | null | undefined, label: string, target: PlayerSection) => {
+      const source = getAudioAsset(path);
+      if (source !== undefined) list.push({ source, label, target });
+    };
+
+    push(audio?.number, 'رقم الحديث', 'matn');
+    push(audio?.matn, 'نص الحديث', 'matn');
+
+    const c = settings.commentary;
+    if (c.adab) {
+      push('titles/adab.mp3', 'الآداب', 'adab');
+      push(audio?.adab, 'الآداب المستفادة', 'adab');
+    }
+    if (c.fawaid) {
+      push('titles/fawaid.mp3', 'الفوائد', 'fawaid');
+      push(audio?.fawaid, 'الفوائد', 'fawaid');
+    }
+    if (c.meaning) {
+      push('titles/meaning.mp3', 'المعنى الإجمالي', 'meaning');
+      push(audio?.meaning, 'المعنى الإجمالي', 'meaning');
+    }
+
+    // Backward compatibility with the pre-split single commentary file.
+    if (!audio?.adab && !audio?.fawaid && !audio?.meaning) {
+      push(audio?.commentary, 'الشرح والفوائد', 'adab');
+    }
     return list;
-  }, [matnSource, commentarySource]);
+  }, [audio, settings.commentary]);
 
-  const segmentLabels = useMemo(() => {
-    const list: string[] = [];
-    if (matnSource !== undefined) list.push('نص الحديث');
-    if (commentarySource !== undefined) list.push('الشرح والفوائد');
-    return list;
-  }, [matnSource, commentarySource]);
-
-  const playlist = useAudioPlaylist({ sources, loop: 'none', updateInterval: 250 });
+  const segmentKey = useMemo(
+    () => segments.map((segment) => `${segment.label}:${segment.source}`).join('|'),
+    [segments]
+  );
+  const playlist = useAudioPlaylist({ sources: EMPTY_SOURCES, loop: 'none', updateInterval: 250 });
   const status = useAudioPlaylistStatus(playlist);
 
   const [autoplayBlocked, setAutoplayBlocked] = useState(false);
   const [finished, setFinished] = useState(false);
 
   const onCompletedRef = useRef(onCompleted);
+  const onSegmentChangeRef = useRef(onSegmentChange);
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     onCompletedRef.current = onCompleted;
   }, [onCompleted]);
 
-  const playlistId = playlist.id;
+  useEffect(() => {
+    onSegmentChangeRef.current = onSegmentChange;
+  }, [onSegmentChange]);
 
   useEffect(() => {
-    if (sources.length === 0) return;
+    const segment = segments[status.currentIndex];
+    if (segment) onSegmentChangeRef.current?.(segment.target);
+  }, [status.currentIndex, segmentKey]);
 
+  useEffect(() => {
+    playlist.clear();
     setAutoplayBlocked(false);
     setFinished(false);
+    if (segments.length === 0) return;
 
+    for (const segment of segments) playlist.add(segment.source);
     setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
     playlist.play();
 
@@ -70,10 +107,9 @@ export function HadithAudioPlayer({
     const timer = setTimeout(() => {
       if (playlist.currentTime < 0.05) setAutoplayBlocked(true);
     }, 2000);
-
     return () => clearTimeout(timer);
-    // A new playlist instance means a different hadith is on screen.
-  }, [playlistId]);
+    // segmentKey encodes both the selected parts and their audio sources.
+  }, [segmentKey]);
 
   useEffect(() => {
     if (status.currentTime > 0.05) setAutoplayBlocked(false);
@@ -83,10 +119,7 @@ export function HadithAudioPlayer({
     if (!status.didJustFinish) return;
     setFinished(true);
 
-    // Only a complete matn+commentary listen counts as finishing the hadith.
-    const hasFullNarration =
-      matnSource !== undefined && commentarySource !== undefined;
-    const advance = hasFullNarration ? onCompletedRef.current : undefined;
+    const advance = onCompletedRef.current;
     if (!advance) return;
 
     // Brief pause on "finished" before moving on, so the transition isn't abrupt.
@@ -101,9 +134,16 @@ export function HadithAudioPlayer({
         advanceTimer.current = null;
       }
     };
-  }, [status.didJustFinish, matnSource, commentarySource]);
+  }, [status.didJustFinish]);
 
-  if (sources.length === 0) {
+  const handleSeek = useCallback(
+    (seconds: number) => {
+      playlist.seekTo(seconds).catch(() => {});
+    },
+    [playlist]
+  );
+
+  if (segments.length === 0) {
     return (
       <View style={styles.container}>
         <View style={styles.unavailableRow}>
@@ -116,9 +156,10 @@ export function HadithAudioPlayer({
 
   const playing = status.playing && !autoplayBlocked;
   const ratio = status.duration > 0 ? status.currentTime / status.duration : 0;
+  const current = segments[status.currentIndex];
   const segmentLabel = finished
     ? 'انتهى التسجيل'
-    : segmentLabels[status.currentIndex] ?? segmentLabels[0];
+    : current?.label ?? segments[0]?.label ?? 'التسجيل';
   const icon: 'play' | 'pause' | 'refresh' = finished ? 'refresh' : playing ? 'pause' : 'play';
 
   const handlePress = () => {
@@ -164,14 +205,14 @@ export function HadithAudioPlayer({
           </Text>
         </View>
 
-        {playlist.trackCount > 1 && !finished && (
+        {segments.length > 1 && !finished && (
           <Text style={styles.counter}>
-            {toArabicDigits(status.currentIndex + 1)} / {toArabicDigits(playlist.trackCount)}
+            {toArabicDigits(status.currentIndex + 1)} / {toArabicDigits(segments.length)}
           </Text>
         )}
       </View>
 
-      <ProgressBar ratio={ratio} height={5} />
+      <SeekBar ratio={ratio} duration={status.duration} onSeek={handleSeek} height={5} />
 
       {autoplayBlocked && (
         <Text style={styles.hint}>اضغط زر التشغيل لبدء الاستماع — المتصفح أوقف التشغيل التلقائي</Text>
