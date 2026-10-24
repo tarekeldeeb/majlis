@@ -23,8 +23,12 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.progressTrack,
     overflow: 'hidden',
     width: '100%',
+    position: 'relative',
   },
   fill: {
     backgroundColor: theme.colors.gold,
+    position: 'absolute',
+    right: 0,
+    top: 0,
   },
 });

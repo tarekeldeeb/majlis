@@ -20,8 +20,9 @@ ROOT = Path(__file__).resolve().parents[2]
 AUDIO = ROOT / "content/audio"
 IN_FLIGHT_SECONDS = 600
 FFMPEG_ARGS = [
+    "-nostdin", "-threads", "1",
     "-ac", "1", "-ar", "24000", "-b:a", "96k",
-    "-af", "afade=t=in:st=0:d=0.02,areverse,afade=t=in:st=0:d=0.02,areverse",
+    "-af", "afade=t=in:st=0:d=0.02",
 ]
 
 

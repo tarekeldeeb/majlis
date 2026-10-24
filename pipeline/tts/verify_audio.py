@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Verify generated TTS audio against the content files.
 
-Checks that every approved hadith has non-empty matn and commentary MP3s,
-reports durations and words-per-second, and flags missing/suspicious files.
-Writes a Markdown report and (optionally) a local HTML listening page.
+Checks every approved hadith's number, matn, and commentary segment MP3s plus
+the shared title clips. Reports durations, words-per-second, missing files, and
+suspicious durations. Writes a Markdown report and an optional local listening
+page.
 
 Usage (from repo root):
   python3 -I pipeline/tts/verify_audio.py --book nawawi40
@@ -14,12 +15,25 @@ import argparse
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 BOOKS = ROOT / "content/books"
-AUDIO = ROOT / "content/audio"
+AUDIO_DIR = ROOT / "content/audio"
 WIDTH = {"nawawi40": 3, "riyad_assalihin": 4}
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from arabic_numbers import hadith_number_text
+
+SEGMENTS = [
+    ("number", "رقم الحديث"),
+    ("matn", "المتن"),
+    ("adab", "الآداب"),
+    ("fawaid", "الفوائد"),
+    ("meaning", "المعنى الإجمالي"),
+]
+TITLES = [("adab", "الآداب"), ("fawaid", "الفوائد"), ("meaning", "المعنى الإجمالي")]
 
 
 def duration(path: Path):
@@ -38,66 +52,98 @@ def word_count(text: str) -> int:
     return len(re.findall(r"\S+", text or ""))
 
 
-def commentary_text(c: dict) -> str:
-    parts = list(c.get("adab") or []) + list(c.get("fawaid") or []) + [c.get("meaning", "")]
-    return " ".join(p.strip() for p in parts if isinstance(p, str) and p.strip())
+def segment_text(doc, key: str) -> str:
+    commentary = doc.get("commentary") or {}
+    if key == "number":
+        return hadith_number_text(doc["number"])
+    if key == "matn":
+        return doc["matn"].get("diacritized") or doc["matn"].get("arabic", "")
+    if key == "adab":
+        return " ".join(commentary.get("adab") or [])
+    if key == "fawaid":
+        return " ".join(commentary.get("fawaid") or [])
+    if key == "meaning":
+        return commentary.get("meaning") or ""
+    return ""
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--book", default="nawawi40")
-    ap.add_argument("--html", action="store_true", help="also write a local listening page")
+    ap.add_argument("--start", type=int, default=1)
+    ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--html", action="store_true")
     args = ap.parse_args()
 
     width = WIDTH.get(args.book, 3)
     book_dir = BOOKS / args.book / "hadith"
-    audio_dir = AUDIO / args.book
+    audio_dir = AUDIO_DIR / args.book
     rows = []
     missing = []
     flags = []
+    checked = 0
 
     for fp in sorted(book_dir.glob("*.json")):
         doc = json.loads(fp.read_text(encoding="utf-8"))
         if doc.get("review", {}).get("status") != "approved":
             continue
         num = doc["number"]
-        matn_mp3 = audio_dir / f"{num:0{width}d}-matn.mp3"
-        comm_mp3 = audio_dir / f"{num:0{width}d}-commentary.mp3"
-        matn_text = doc["matn"].get("diacritized") or doc["matn"].get("arabic", "")
-        comm_text = commentary_text(doc.get("commentary") or {})
-        row = {
-            "number": num,
-            "chapter": (doc.get("chapter") or {}).get("title", ""),
-            "matn_words": word_count(matn_text),
-            "comm_words": word_count(comm_text),
-            "matn_mp3": matn_mp3,
-            "comm_mp3": comm_mp3,
-            "matn_sec": duration(matn_mp3) if matn_mp3.exists() else None,
-            "comm_sec": duration(comm_mp3) if comm_mp3.exists() else None,
-        }
-        rows.append(row)
-        for kind, path, sec, words in (
-            ("matn", matn_mp3, row["matn_sec"], row["matn_words"]),
-            ("commentary", comm_mp3, row["comm_sec"], row["comm_words"]),
-        ):
+        if num < args.start:
+            continue
+        if args.limit and checked >= args.limit:
+            break
+        checked += 1
+        audio = doc.get("audio") or {}
+        for key, label in SEGMENTS:
+            text = segment_text(doc, key)
+            if not text:
+                continue
+            rel = audio.get(key)
+            path = (AUDIO_DIR / rel) if rel else (audio_dir / f"{num:0{width}d}-{key}.mp3")
+            sec = duration(path) if path.exists() else None
+            rows.append({"number": num, "key": key, "label": label, "path": path,
+                         "words": word_count(text), "sec": sec})
             if not path.exists() or path.stat().st_size == 0:
-                missing.append(f"{num:0{width}d}-{kind}")
-                continue
-            if sec is None:
-                flags.append(f"{num:0{width}d}-{kind}: unreadable duration")
-                continue
-            if sec < 3:
-                flags.append(f"{num:0{width}d}-{kind}: only {sec}s")
-            elif words and (sec / words > 1.2 or sec / words < 0.18):
-                flags.append(f"{num:0{width}d}-{kind}: {sec}s for {words} words ({sec/words:.2f}s/word)")
+                missing.append(f"{num:0{width}d}-{key}")
+            elif sec is None:
+                flags.append(f"{num:0{width}d}-{key}: unreadable duration")
+            elif sec < 1:
+                flags.append(f"{num:0{width}d}-{key}: only {sec}s")
+            elif word_count(text) and not (0.12 <= sec / word_count(text) <= 1.3):
+                flags.append(
+                    f"{num:0{width}d}-{key}: {sec}s for {word_count(text)} words"
+                )
 
-    report = audio_dir / "verification.md"
+        # Legacy single commentary file, if no split segments exist.
+        if not any(audio.get(k) for k in ("adab", "fawaid", "meaning")):
+            legacy = audio.get("commentary")
+            if legacy:
+                path = AUDIO_DIR / legacy
+                if not path.exists() or path.stat().st_size == 0:
+                    missing.append(f"{num:0{width}d}-commentary")
+                else:
+                    rows.append({"number": num, "key": "commentary",
+                                 "label": "الشرح (قديم)", "path": path,
+                                 "words": word_count(" ".join(segment_text(doc, k) for k in ("adab", "fawaid", "meaning"))),
+                                 "sec": duration(path)})
+
+    title_rows = []
+    for key, label in TITLES:
+        path = AUDIO_DIR / "titles" / f"{key}.mp3"
+        sec = duration(path) if path.exists() else None
+        title_rows.append({"key": key, "label": label, "path": path, "sec": sec})
+        if not path.exists() or path.stat().st_size == 0:
+            missing.append(f"titles/{key}")
+
+    out_dir = audio_dir if args.book != "all" else AUDIO_DIR
+    report = out_dir / "verification.md"
     lines = [
         f"# TTS verification — {args.book}",
         "",
-        f"- Approved hadiths: {len(rows)}",
-        f"- MP3s present: {len(rows) * 2 - len(missing)} / {len(rows) * 2}",
-        f"- Missing files: {len(missing)}",
+        f"- Hadiths checked: {len({r['number'] for r in rows})}",
+        f"- Segment files present: {len(rows) - len(missing)} / {len(rows)}",
+        f"- Shared titles present: {sum(1 for t in title_rows if t['sec'] is not None)} / {len(title_rows)}",
+        f"- Missing: {len(missing)}",
         f"- Flags: {len(flags)}",
         "",
     ]
@@ -105,45 +151,44 @@ def main():
         lines += ["## Missing", "", ", ".join(missing), ""]
     if flags:
         lines += ["## Flags", ""] + [f"- {f}" for f in flags] + [""]
-    lines += [
-        "## Files",
-        "",
-        "| # | Chapter | Matn | Commentary | Matn s | Comm s |",
-        "|---|---|---:|---:|---:|---:|",
-    ]
+    lines += ["## Segments", "", "| # | Segment | Words | Seconds |", "|---|---|---:|---:|"]
     for r in rows:
-        mark = "—" if r["matn_sec"] is None else str(r["matn_sec"])
-        cmark = "—" if r["comm_sec"] is None else str(r["comm_sec"])
         lines.append(
-            f"| {r['number']} | {r['chapter']} | {r['matn_words']} w | "
-            f"{r['comm_words']} w | {mark} | {cmark} |"
+            f"| {r['number']} | {r['label']} | {r['words']} | {r['sec'] if r['sec'] is not None else '—'} |"
         )
     report.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     if args.html:
         html = [
             "<!doctype html><html lang='ar' dir='rtl'><meta charset='utf-8'>",
-            "<title>TTS verification — nawawi40</title>",
+            f"<title>TTS verification — {args.book}</title>",
             "<style>body{font-family:system-ui;margin:2rem;max-width:900px}"
-            "h2{margin-top:2rem}audio{display:block;margin:.4rem 0 1rem}</style>",
-            "<h1>TTS verification — nawawi40</h1>",
-            "<p>Listen to each file; flag any mispronunciation, skipped text, or wrong voice.</p>",
+            "h2{margin-top:2rem}audio{display:block;margin:.35rem 0 .9rem}</style>",
+            f"<h1>TTS verification — {args.book}</h1>",
+            "<h2>Shared titles</h2>",
         ]
-        for r in rows:
-            if not (r["matn_mp3"].exists() or r["comm_mp3"].exists()):
-                continue
-            html.append(f"<h2>الحديث {r['number']} — {r['chapter']}</h2>")
-            if r["matn_mp3"].exists():
-                html.append(f"<div>المتن</div><audio controls preload='none' src='{r['matn_mp3'].name}'></audio>")
-            if r["comm_mp3"].exists():
-                html.append(f"<div>الشرح (آداب/فوائد/معنى)</div><audio controls preload='none' src='{r['comm_mp3'].name}'></audio>")
+        for t in title_rows:
+            if t["path"].exists():
+                html.append(
+                    f"<div>{t['label']}</div><audio controls preload='none' "
+                    f"src='../titles/{t['key']}.mp3'></audio>"
+                )
+        for number in sorted({r["number"] for r in rows}):
+            html.append(f"<h2>الحديث {number}</h2>")
+            for r in [x for x in rows if x["number"] == number]:
+                if not r["path"].exists():
+                    continue
+                html.append(
+                    f"<div>{r['label']}</div><audio controls preload='none' "
+                    f"src='{r['path'].name}'></audio>"
+                )
         html.append("</html>")
-        (audio_dir / "verification.html").write_text("\n".join(html), encoding="utf-8")
+        (out_dir / "verification.html").write_text("\n".join(html), encoding="utf-8")
 
-    print(f"approved: {len(rows)}; missing: {len(missing)}; flags: {len(flags)}")
+    print(f"segments: {len(rows)}; missing: {len(missing)}; flags: {len(flags)}")
     print(f"report: {report}")
     if args.html:
-        print(f"listening page: {audio_dir / 'verification.html'}")
+        print(f"listening page: {out_dir / 'verification.html'}")
 
 
 if __name__ == "__main__":

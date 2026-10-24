@@ -9,8 +9,9 @@ Build-time stages; each stage reads/writes `content/` and is safe to re-run:
    - `BATCH_INSTRUCTIONS.md` + `docs/commentary-style.md` define the draft contract.
    - `validate_batches.py <batch.json...>` checks every entry before applying.
    - `apply_riyad_batch.py <batch.json>` writes commentary into the hadith files and marks review as deferred.
+   - `punctuate_commentary.py [--apply]` adds conservative clause commas to read-aloud commentary.
 3. **diacritize/** — tashkeel transfer, CATT fallback, `rediacritize_transfer_full.py` (full-matn CATT for partial transfer spans), `qa_riyad.py` (structural QA + flag clearing), `diacritize_commentary.py` (only strings below the density threshold).
-4. **tts/** — generate audio for `approved` hadiths with SILMA: male ClArTTS voice for the matn, SILMA's female reference for the commentary. `run_batch.sh --book nawawi40` (or `--book all`) is resumable, writes `content/audio/<book>/<NNN>-matn.mp3` + `-commentary.mp3`, and records the paths in each hadith's `audio` field.
+4. **tts/** — generate per-segment audio for `approved` hadiths with SILMA: number + matn in the male ClArTTS voice, and ādāb/fawāʾid/meaning in the male Arabic Speech Corpus voice. `run_batch.sh --book nawawi40` is resumable, writes `content/audio/<book>/<NNN>-{number,matn,adab,fawaid,meaning}.mp3` plus shared `content/audio/titles/*.mp3`, and records the paths in each hadith's `audio` field. `synth.py` does punctuation-aware chunking (180 chars, with long narrator chains split at `بن`), 8 ms edge fades and a 20 ms crossfade to avoid SILMA's inter-chunk silence and clicks; Ādāb/Fawāʾid bullets get an explicit 0.8 s pause.
 5. **package/** — bundle `approved` content + audio manifests into app assets; must exclude anything not approved.
 
 Scripts are dependency-free Node ≥ 18 (`.mjs`) or Python 3 stdlib unless a stage needs the CATT/TTS eval venv (`.cache/eval-venv`).

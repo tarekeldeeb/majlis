@@ -3,90 +3,88 @@ import { StyleSheet, Text, View } from 'react-native';
 import { theme, toArabicDigits } from '../constants/theme';
 import type { HadithCommentary } from '../types/content';
 
-interface CommentarySectionProps {
-  commentary?: HadithCommentary;
+interface AdabSectionProps {
+  items?: string[];
 }
 
-export function CommentarySection({ commentary }: CommentarySectionProps) {
-  if (!commentary) return null;
-
-  const hasAdab = Array.isArray(commentary.adab) && commentary.adab.length > 0;
-  const hasFawaid = Array.isArray(commentary.fawaid) && commentary.fawaid.length > 0;
-  const hasMeaning = typeof commentary.meaning === 'string' && commentary.meaning.trim().length > 0;
-  const hasAyat = Array.isArray(commentary.relatedAyat) && commentary.relatedAyat.length > 0;
-  const hasSources = Array.isArray(commentary.sources) && commentary.sources.length > 0;
-
-  if (!hasAdab && !hasFawaid && !hasMeaning && !hasAyat && !hasSources) {
-    return (
-      <View style={styles.emptyContainer}>
-        <Text style={styles.emptyTitle}>الشرح والتعليق</Text>
-        <Text style={styles.emptyText}>
-          يتم حاليًا إعداد الشروح المعتمدة (الآداب والفوائد والمعنى الإجمالي) لهذا الحديث ضمن خطة المراجعة.
-        </Text>
+export function AdabSection({ items }: AdabSectionProps) {
+  if (!items || items.length === 0) return null;
+  return (
+    <View style={styles.sectionCard}>
+      <View style={styles.sectionHeader}>
+        <View style={styles.iconCircle}>
+          <Text style={styles.iconText}>🌱</Text>
+        </View>
+        <Text style={styles.sectionTitle}>الآداب المستفادة</Text>
       </View>
-    );
-  }
+      <View style={styles.list}>
+        {items.map((item, idx) => (
+          <View key={`adab-${idx}`} style={styles.listItem}>
+            <View style={styles.bulletNumber}>
+              <Text style={styles.bulletText}>{toArabicDigits(idx + 1)}</Text>
+            </View>
+            <Text style={styles.itemText}>{item}</Text>
+          </View>
+        ))}
+      </View>
+    </View>
+  );
+}
+
+interface FawaidSectionProps {
+  items?: string[];
+}
+
+export function FawaidSection({ items }: FawaidSectionProps) {
+  if (!items || items.length === 0) return null;
+  return (
+    <View style={styles.sectionCard}>
+      <View style={styles.sectionHeader}>
+        <View style={styles.iconCircle}>
+          <Text style={styles.iconText}>💡</Text>
+        </View>
+        <Text style={styles.sectionTitle}>الفوائد والعِبر</Text>
+      </View>
+      <View style={styles.list}>
+        {items.map((item, idx) => (
+          <View key={`fawaid-${idx}`} style={styles.listItem}>
+            <View style={styles.bulletNumber}>
+              <Text style={styles.bulletText}>{toArabicDigits(idx + 1)}</Text>
+            </View>
+            <Text style={styles.itemText}>{item}</Text>
+          </View>
+        ))}
+      </View>
+    </View>
+  );
+}
+
+interface MeaningSectionProps {
+  meaning?: string | null;
+}
+
+export function MeaningSection({ meaning }: MeaningSectionProps) {
+  if (!meaning || !meaning.trim()) return null;
+  return (
+    <View style={styles.sectionCard}>
+      <View style={styles.sectionHeader}>
+        <View style={styles.iconCircle}>
+          <Text style={styles.iconText}>📖</Text>
+        </View>
+        <Text style={styles.sectionTitle}>المعنى الإجمالي</Text>
+      </View>
+      <Text style={styles.meaningText}>{meaning}</Text>
+    </View>
+  );
+}
+
+export function CommentaryExtras({ commentary }: { commentary?: HadithCommentary }) {
+  const hasAyat = Array.isArray(commentary?.relatedAyat) && commentary!.relatedAyat.length > 0;
+  const hasSources = Array.isArray(commentary?.sources) && commentary!.sources.length > 0;
+  if (!hasAyat && !hasSources) return null;
 
   return (
-    <View style={styles.container}>
-      {/* الآداب */}
-      {hasAdab && (
-        <View style={styles.sectionCard}>
-          <View style={styles.sectionHeader}>
-            <View style={styles.iconCircle}>
-              <Text style={styles.iconText}>🌱</Text>
-            </View>
-            <Text style={styles.sectionTitle}>الآداب المستفادة</Text>
-          </View>
-          <View style={styles.list}>
-            {commentary.adab!.map((item, idx) => (
-              <View key={`adab-${idx}`} style={styles.listItem}>
-                <View style={styles.bulletNumber}>
-                  <Text style={styles.bulletText}>{toArabicDigits(idx + 1)}</Text>
-                </View>
-                <Text style={styles.itemText}>{item}</Text>
-              </View>
-            ))}
-          </View>
-        </View>
-      )}
-
-      {/* الفوائد */}
-      {hasFawaid && (
-        <View style={styles.sectionCard}>
-          <View style={styles.sectionHeader}>
-            <View style={styles.iconCircle}>
-              <Text style={styles.iconText}>💡</Text>
-            </View>
-            <Text style={styles.sectionTitle}>الفوائد والعِبر</Text>
-          </View>
-          <View style={styles.list}>
-            {commentary.fawaid!.map((item, idx) => (
-              <View key={`fawaid-${idx}`} style={styles.listItem}>
-                <View style={styles.bulletNumber}>
-                  <Text style={styles.bulletText}>{toArabicDigits(idx + 1)}</Text>
-                </View>
-                <Text style={styles.itemText}>{item}</Text>
-              </View>
-            ))}
-          </View>
-        </View>
-      )}
-
-      {/* المعنى الإجمالي — after ādāb and fawāʾid, matching the commentary audio order */}
-      {hasMeaning && (
-        <View style={styles.sectionCard}>
-          <View style={styles.sectionHeader}>
-            <View style={styles.iconCircle}>
-              <Text style={styles.iconText}>📖</Text>
-            </View>
-            <Text style={styles.sectionTitle}>المعنى الإجمالي</Text>
-          </View>
-          <Text style={styles.meaningText}>{commentary.meaning}</Text>
-        </View>
-      )}
-
-      {/* الآيات الكريمة ذات الصلة */}
+    <View style={styles.extras}>
       {hasAyat && (
         <View style={styles.sectionCard}>
           <View style={styles.sectionHeader}>
@@ -96,7 +94,7 @@ export function CommentarySection({ commentary }: CommentarySectionProps) {
             <Text style={styles.sectionTitle}>الآيات الكريمة ذات الصلة</Text>
           </View>
           <View style={styles.list}>
-            {commentary.relatedAyat!.map((ayah, idx) => (
+            {commentary!.relatedAyat!.map((ayah, idx) => (
               <View key={`ayah-${idx}`} style={styles.ayahCard}>
                 <Text style={styles.ayahText}>«{ayah.text}»</Text>
                 <Text style={styles.ayahRef}>[{ayah.ref}]</Text>
@@ -106,11 +104,10 @@ export function CommentarySection({ commentary }: CommentarySectionProps) {
         </View>
       )}
 
-      {/* المصادر والشروح */}
       {hasSources && (
         <View style={styles.sourcesCard}>
           <Text style={styles.sourcesHeader}>المصادر والشروح المعتمدة:</Text>
-          {commentary.sources!.map((source, idx) => (
+          {commentary!.sources!.map((source, idx) => (
             <Text key={`source-${idx}`} style={styles.sourceText}>
               • {source}
             </Text>
@@ -121,10 +118,26 @@ export function CommentarySection({ commentary }: CommentarySectionProps) {
   );
 }
 
+// Kept for callers that want the full commentary block in one component.
+export function CommentarySection({ commentary }: { commentary?: HadithCommentary }) {
+  if (!commentary) return null;
+  return (
+    <View style={styles.container}>
+      <AdabSection items={commentary.adab} />
+      <FawaidSection items={commentary.fawaid} />
+      <MeaningSection meaning={commentary.meaning} />
+      <CommentaryExtras commentary={commentary} />
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   container: {
     gap: theme.spacing.md,
     marginTop: theme.spacing.md,
+  },
+  extras: {
+    gap: theme.spacing.md,
   },
   sectionCard: {
     backgroundColor: theme.colors.surface,
@@ -224,24 +237,5 @@ const styles = StyleSheet.create({
     ...theme.typography.caption,
     color: theme.colors.textSecondary,
     lineHeight: 20,
-  },
-  emptyContainer: {
-    backgroundColor: theme.colors.surfaceSubtle,
-    borderRadius: theme.radius.md,
-    padding: theme.spacing.lg,
-    borderWidth: 1,
-    borderColor: theme.colors.borderSubtle,
-    marginTop: theme.spacing.md,
-    alignItems: 'center',
-  },
-  emptyTitle: {
-    ...theme.typography.subtitle,
-    color: theme.colors.textSecondary,
-    marginBottom: theme.spacing.xs,
-  },
-  emptyText: {
-    ...theme.typography.body,
-    color: theme.colors.textMuted,
-    textAlign: 'center',
   },
 });

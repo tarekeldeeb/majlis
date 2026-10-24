@@ -19,7 +19,11 @@ export interface HadithCommentary {
 }
 
 export interface HadithAudio {
+  number?: string | null;
   matn?: string | null;
+  adab?: string | null;
+  fawaid?: string | null;
+  meaning?: string | null;
   commentary?: string | null;
 }
 

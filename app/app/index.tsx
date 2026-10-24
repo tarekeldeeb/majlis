@@ -1,5 +1,6 @@
 import React from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ProgressBar } from '../src/components/ProgressBar';
@@ -73,11 +74,18 @@ export default function JourneyScreen() {
       <ScrollView style={styles.container} contentContainerStyle={styles.content}>
         {/* Hero */}
         <View style={styles.hero}>
+          <Pressable
+            onPress={() => router.push('/settings')}
+            style={styles.settingsBtn}
+            accessibilityRole="button"
+            accessibilityLabel="الإعدادات"
+          >
+            <Ionicons name="settings-outline" size={20} color="#FAF9F6" />
+          </Pressable>
           <Text style={styles.heroBrand}>مَجْلِس</Text>
           <View style={styles.heroRule} />
           <Text style={styles.heroTagline}>
-            مجالس السماع من جديد — اقرأ الحديث، واستمع إلى شرحه وفوائده، وناقشه في رحلة تعلُّم
-            متدرجة.
+            مجالس السماع من جديد — اقرأ الحديث، واستمع إلى شرحه وفوائده.
           </Text>
         </View>
 
@@ -131,6 +139,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: theme.spacing.lg,
     alignItems: 'center',
     gap: theme.spacing.sm,
+  },
+  settingsBtn: {
+    position: 'absolute',
+    top: theme.spacing.sm,
+    left: theme.spacing.sm,
+    padding: 8,
+    borderRadius: 999,
+    backgroundColor: 'rgba(255, 253, 247, 0.12)',
   },
   heroBrand: {
     fontSize: 34,
