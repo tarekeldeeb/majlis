@@ -143,7 +143,8 @@ const styles = StyleSheet.create({
   settingsBtn: {
     position: 'absolute',
     top: theme.spacing.sm,
-    left: theme.spacing.sm,
+    // Logical end edge: the left side in RTL, mirrored automatically on web.
+    end: theme.spacing.sm,
     padding: 8,
     borderRadius: 999,
     backgroundColor: 'rgba(255, 253, 247, 0.12)',

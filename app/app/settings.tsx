@@ -26,8 +26,15 @@ function Toggle({
       accessibilityState={{ checked: value }}
       accessibilityLabel={label}
     >
-      <View style={[styles.toggleTrack, value ? styles.toggleTrackOn : styles.toggleTrackOff]}>
-        <View style={[styles.toggleThumb, value ? styles.toggleThumbOn : styles.toggleThumbOff]} />
+      <View
+        style={[
+          styles.toggleTrack,
+          value ? styles.toggleTrackOn : styles.toggleTrackOff,
+          // The thumb rests at the line end when on, which is the left in RTL.
+          { justifyContent: value ? 'flex-end' : 'flex-start' },
+        ]}
+      >
+        <View style={styles.toggleThumb} />
       </View>
     </Pressable>
   );
@@ -125,7 +132,9 @@ const styles = StyleSheet.create({
     width: 48,
     height: 28,
     borderRadius: 14,
-    justifyContent: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 2,
   },
   toggleTrackOn: {
     backgroundColor: theme.colors.primary,
@@ -134,23 +143,15 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.progressTrack,
   },
   toggleThumb: {
-    position: 'absolute',
     width: 24,
     height: 24,
     borderRadius: 12,
     backgroundColor: '#FFFFFF',
-    top: 2,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.15,
     shadowRadius: 2,
     elevation: 2,
-  },
-  toggleThumbOn: {
-    left: 2,
-  },
-  toggleThumbOff: {
-    right: 2,
   },
   resetBtn: {
     alignSelf: 'flex-start',
