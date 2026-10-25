@@ -16,8 +16,8 @@ export function setupRTL(): void {
 }
 
 // Android resolves textAlign against the paragraph direction under RTL, so asking
-// for 'right' lands the text on the left. Native is RTL-only; web keeps CSS right.
-const TEXT_ALIGN = Platform.OS === 'web' ? ('right' as const) : ('left' as const);
+// for 'right' lands the text on the left. iOS and web treat it physically.
+const TEXT_ALIGN = Platform.OS === 'android' ? ('left' as const) : ('right' as const);
 
 export const theme = {
   colors: {
