@@ -11,10 +11,13 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "majlis.quranquiz.net"
+      "bundleIdentifier": "majlis.quranquiz.net",
+      "buildNumber": "1",
+      "appleTeamId": "FNSP52WBLF"
     },
     "android": {
       "package": "majlis.quranquiz.net",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#18181b"
       }
@@ -36,6 +39,7 @@
     },
     "plugins": [
       "expo-router",
+      "./plugins/withReleaseSigning",
       [
         "expo-audio",
         {

@@ -16,6 +16,15 @@ content/audio/**/*.wav
 # Local scratch caches for pipeline scripts
 .cache/
 
+# Local Claude Code settings and worktrees
+.claude/
+
+# Native projects are generated with `expo prebuild`; signing material stays local
+/app/ios/
+/app/android/
+*.jks
+*.keystore
+
 # Generated content QA reports (reproducible from the scripts)
 content/books/riyad_assalihin/content-audit.json
 content/books/riyad_assalihin/diacritization-qa.json
