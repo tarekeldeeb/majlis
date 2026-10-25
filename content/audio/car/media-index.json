@@ -1,0 +1,1482 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-25T23:15:23+00:00",
+  "book": {
+    "id": "nawawi40",
+    "title": "الأربعون النووية",
+    "author": "الإمام يحيى بن شرف النووي"
+  },
+  "thumbnail": "car/thumbnail.jpg",
+  "hadiths": [
+    {
+      "number": 1,
+      "title": "الحديث الأول",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/001-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 129.22,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/001-number.mp3",
+          "duration": 1.32
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/001-matn.mp3",
+          "duration": 38.37
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/001-adab.mp3",
+          "duration": 20.2
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/001-fawaid.mp3",
+          "duration": 37.48
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/001-meaning.mp3",
+          "duration": 31.85
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "الحديث الثاني",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/002-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 210.78,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/002-number.mp3",
+          "duration": 1.33
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/002-matn.mp3",
+          "duration": 92.77
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/002-adab.mp3",
+          "duration": 32.62
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/002-fawaid.mp3",
+          "duration": 48.98
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/002-meaning.mp3",
+          "duration": 35.08
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "الحديث الثالث",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/003-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 113.02,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/003-number.mp3",
+          "duration": 1.45
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/003-matn.mp3",
+          "duration": 20.74
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/003-adab.mp3",
+          "duration": 21.34
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/003-fawaid.mp3",
+          "duration": 39.54
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/003-meaning.mp3",
+          "duration": 29.95
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "الحديث الرابع",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/004-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 145.6,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/004-number.mp3",
+          "duration": 1.31
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/004-matn.mp3",
+          "duration": 53.73
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/004-adab.mp3",
+          "duration": 20.33
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/004-fawaid.mp3",
+          "duration": 35.93
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/004-meaning.mp3",
+          "duration": 34.3
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "الحديث الخامس",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/005-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 94.29,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/005-number.mp3",
+          "duration": 1.28
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/005-matn.mp3",
+          "duration": 17.4
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/005-adab.mp3",
+          "duration": 17.99
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/005-fawaid.mp3",
+          "duration": 26.63
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/005-meaning.mp3",
+          "duration": 30.99
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "الحديث السادس",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/006-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 117.36,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/006-number.mp3",
+          "duration": 1.36
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/006-matn.mp3",
+          "duration": 40.03
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/006-adab.mp3",
+          "duration": 16.67
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/006-fawaid.mp3",
+          "duration": 28.57
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/006-meaning.mp3",
+          "duration": 30.73
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "الحديث السابع",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/007-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 107.74,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/007-number.mp3",
+          "duration": 1.38
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/007-matn.mp3",
+          "duration": 15.3
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/007-adab.mp3",
+          "duration": 16.25
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/007-fawaid.mp3",
+          "duration": 39.36
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/007-meaning.mp3",
+          "duration": 35.45
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "الحديث الثامن",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/008-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 97.68,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/008-number.mp3",
+          "duration": 1.57
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/008-matn.mp3",
+          "duration": 23.43
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/008-adab.mp3",
+          "duration": 17.23
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/008-fawaid.mp3",
+          "duration": 22.68
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/008-meaning.mp3",
+          "duration": 32.77
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "الحديث التاسع",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/009-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 99.52,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/009-number.mp3",
+          "duration": 1.32
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/009-matn.mp3",
+          "duration": 19.93
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/009-adab.mp3",
+          "duration": 14.42
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/009-fawaid.mp3",
+          "duration": 28.59
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/009-meaning.mp3",
+          "duration": 35.26
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "الحديث العاشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/010-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 115.33,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/010-number.mp3",
+          "duration": 1.29
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/010-matn.mp3",
+          "duration": 36.88
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/010-adab.mp3",
+          "duration": 16.83
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/010-fawaid.mp3",
+          "duration": 29.82
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/010-meaning.mp3",
+          "duration": 30.51
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "الحديث الحادي عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/011-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 84.02,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/011-number.mp3",
+          "duration": 1.65
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/011-matn.mp3",
+          "duration": 20.06
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/011-adab.mp3",
+          "duration": 16.83
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/011-fawaid.mp3",
+          "duration": 18.78
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/011-meaning.mp3",
+          "duration": 26.7
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "الحديث الثاني عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/012-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 80.68,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/012-number.mp3",
+          "duration": 1.47
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/012-matn.mp3",
+          "duration": 11.96
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/012-adab.mp3",
+          "duration": 19.98
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/012-fawaid.mp3",
+          "duration": 19.72
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/012-meaning.mp3",
+          "duration": 27.55
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "الحديث الثالث عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/013-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 88.97,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/013-number.mp3",
+          "duration": 1.71
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/013-matn.mp3",
+          "duration": 15.42
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/013-adab.mp3",
+          "duration": 16.37
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/013-fawaid.mp3",
+          "duration": 31.14
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/013-meaning.mp3",
+          "duration": 24.33
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "الحديث الرابع عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/014-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 88.53,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/014-number.mp3",
+          "duration": 1.76
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/014-matn.mp3",
+          "duration": 15.58
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/014-adab.mp3",
+          "duration": 16.54
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/014-fawaid.mp3",
+          "duration": 24.81
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/014-meaning.mp3",
+          "duration": 29.84
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "الحديث الخامس عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/015-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 83.87,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/015-number.mp3",
+          "duration": 1.85
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/015-matn.mp3",
+          "duration": 19.87
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/015-adab.mp3",
+          "duration": 15.59
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/015-fawaid.mp3",
+          "duration": 21.97
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/015-meaning.mp3",
+          "duration": 24.59
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "الحديث السادس عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/016-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 85.71,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/016-number.mp3",
+          "duration": 1.61
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/016-matn.mp3",
+          "duration": 10.12
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/016-adab.mp3",
+          "duration": 17.5
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/016-fawaid.mp3",
+          "duration": 29.74
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/016-meaning.mp3",
+          "duration": 26.74
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "الحديث السابع عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/017-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 84.66,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/017-number.mp3",
+          "duration": 1.73
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/017-matn.mp3",
+          "duration": 18.37
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/017-adab.mp3",
+          "duration": 14.2
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/017-fawaid.mp3",
+          "duration": 23.89
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/017-meaning.mp3",
+          "duration": 26.47
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "الحديث الثامن عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/018-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 88.21,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/018-number.mp3",
+          "duration": 2.05
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/018-matn.mp3",
+          "duration": 22.24
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/018-adab.mp3",
+          "duration": 16.3
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/018-fawaid.mp3",
+          "duration": 23.95
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/018-meaning.mp3",
+          "duration": 23.67
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "الحديث التاسع عشر",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/019-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 130.84,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/019-number.mp3",
+          "duration": 1.67
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/019-matn.mp3",
+          "duration": 58.27
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/019-adab.mp3",
+          "duration": 16.02
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/019-fawaid.mp3",
+          "duration": 26.27
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/019-meaning.mp3",
+          "duration": 28.61
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "الحديث العشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/020-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 84.59,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/020-number.mp3",
+          "duration": 1.38
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/020-matn.mp3",
+          "duration": 14.15
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/020-adab.mp3",
+          "duration": 14.91
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/020-fawaid.mp3",
+          "duration": 27.39
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/020-meaning.mp3",
+          "duration": 26.76
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "الحديث الحادي والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/021-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 84.33,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/021-number.mp3",
+          "duration": 1.88
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/021-matn.mp3",
+          "duration": 13.61
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/021-adab.mp3",
+          "duration": 16.2
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/021-fawaid.mp3",
+          "duration": 24.84
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/021-meaning.mp3",
+          "duration": 27.8
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "الحديث الثاني والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/022-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 93.73,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/022-number.mp3",
+          "duration": 1.77
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/022-matn.mp3",
+          "duration": 19.89
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/022-adab.mp3",
+          "duration": 17.24
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/022-fawaid.mp3",
+          "duration": 25.55
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/022-meaning.mp3",
+          "duration": 29.28
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "الحديث الثالث والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/023-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 112.14,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/023-number.mp3",
+          "duration": 2.01
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/023-matn.mp3",
+          "duration": 28.57
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/023-adab.mp3",
+          "duration": 21.41
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/023-fawaid.mp3",
+          "duration": 28.8
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/023-meaning.mp3",
+          "duration": 31.35
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "الحديث الرابع والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/024-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 168.77,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/024-number.mp3",
+          "duration": 2.01
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/024-matn.mp3",
+          "duration": 88.78
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/024-adab.mp3",
+          "duration": 16.67
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/024-fawaid.mp3",
+          "duration": 32.1
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/024-meaning.mp3",
+          "duration": 29.21
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "الحديث الخامس والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/025-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 126.92,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/025-number.mp3",
+          "duration": 2.08
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/025-matn.mp3",
+          "duration": 48.29
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/025-adab.mp3",
+          "duration": 16.21
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/025-fawaid.mp3",
+          "duration": 30.99
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/025-meaning.mp3",
+          "duration": 29.35
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "الحديث السادس والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/026-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 107.71,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/026-number.mp3",
+          "duration": 2.0
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/026-matn.mp3",
+          "duration": 27.96
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/026-adab.mp3",
+          "duration": 15.31
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/026-fawaid.mp3",
+          "duration": 30.31
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/026-meaning.mp3",
+          "duration": 32.13
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "الحديث السابع والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/027-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 115.7,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/027-number.mp3",
+          "duration": 2.07
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/027-matn.mp3",
+          "duration": 40.8
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/027-adab.mp3",
+          "duration": 17.43
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/027-fawaid.mp3",
+          "duration": 27.33
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/027-meaning.mp3",
+          "duration": 28.07
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "الحديث الثامن والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/028-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 124.14,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/028-number.mp3",
+          "duration": 2.19
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/028-matn.mp3",
+          "duration": 38.13
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/028-adab.mp3",
+          "duration": 19.84
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/028-fawaid.mp3",
+          "duration": 32.42
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/028-meaning.mp3",
+          "duration": 31.56
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "الحديث التاسع والعشرون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/029-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 148.28,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/029-number.mp3",
+          "duration": 1.84
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/029-matn.mp3",
+          "duration": 72.25
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/029-adab.mp3",
+          "duration": 14.49
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/029-fawaid.mp3",
+          "duration": 28.37
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/029-meaning.mp3",
+          "duration": 31.33
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "الحديث الثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/030-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 95.78,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/030-number.mp3",
+          "duration": 1.57
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/030-matn.mp3",
+          "duration": 24.37
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/030-adab.mp3",
+          "duration": 13.71
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/030-fawaid.mp3",
+          "duration": 28.27
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/030-meaning.mp3",
+          "duration": 27.86
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "الحديث الحادي والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/031-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 97.27,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/031-number.mp3",
+          "duration": 1.88
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/031-matn.mp3",
+          "duration": 23.52
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/031-adab.mp3",
+          "duration": 15.07
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/031-fawaid.mp3",
+          "duration": 28.6
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/031-meaning.mp3",
+          "duration": 28.2
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "الحديث الثاني والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/032-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 93.83,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/032-number.mp3",
+          "duration": 2.21
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/032-matn.mp3",
+          "duration": 22.91
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/032-adab.mp3",
+          "duration": 15.14
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/032-fawaid.mp3",
+          "duration": 25.48
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/032-meaning.mp3",
+          "duration": 28.09
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "الحديث الثالث والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/033-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 93.48,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/033-number.mp3",
+          "duration": 2.19
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/033-matn.mp3",
+          "duration": 20.75
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/033-adab.mp3",
+          "duration": 15.85
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/033-fawaid.mp3",
+          "duration": 27.28
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/033-meaning.mp3",
+          "duration": 27.41
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "الحديث الرابع والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/034-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 95.38,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/034-number.mp3",
+          "duration": 2.15
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/034-matn.mp3",
+          "duration": 16.68
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/034-adab.mp3",
+          "duration": 16.84
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/034-fawaid.mp3",
+          "duration": 29.49
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/034-meaning.mp3",
+          "duration": 30.22
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "الحديث الخامس والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/035-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 117.55,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/035-number.mp3",
+          "duration": 2.11
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/035-matn.mp3",
+          "duration": 32.85
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/035-adab.mp3",
+          "duration": 21.64
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/035-fawaid.mp3",
+          "duration": 30.76
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/035-meaning.mp3",
+          "duration": 30.19
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "الحديث السادس والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/036-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 134.9,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/036-number.mp3",
+          "duration": 2.07
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/036-matn.mp3",
+          "duration": 50.06
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/036-adab.mp3",
+          "duration": 19.79
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/036-fawaid.mp3",
+          "duration": 31.18
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/036-meaning.mp3",
+          "duration": 31.8
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "الحديث السابع والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/037-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 112.03,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/037-number.mp3",
+          "duration": 1.99
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/037-matn.mp3",
+          "duration": 37.78
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/037-adab.mp3",
+          "duration": 15.7
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/037-fawaid.mp3",
+          "duration": 29.39
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/037-meaning.mp3",
+          "duration": 27.17
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "الحديث الثامن والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/038-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 118.36,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/038-number.mp3",
+          "duration": 2.33
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/038-matn.mp3",
+          "duration": 33.98
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/038-adab.mp3",
+          "duration": 19.55
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/038-fawaid.mp3",
+          "duration": 30.95
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/038-meaning.mp3",
+          "duration": 31.55
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "الحديث التاسع والثلاثون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/039-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 83.6,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/039-number.mp3",
+          "duration": 2.09
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/039-matn.mp3",
+          "duration": 13.28
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/039-adab.mp3",
+          "duration": 14.67
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/039-fawaid.mp3",
+          "duration": 25.82
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/039-meaning.mp3",
+          "duration": 27.74
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "الحديث الأربعون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/040-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 93.6,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/040-number.mp3",
+          "duration": 1.66
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/040-matn.mp3",
+          "duration": 21.69
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/040-adab.mp3",
+          "duration": 14.94
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/040-fawaid.mp3",
+          "duration": 28.77
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/040-meaning.mp3",
+          "duration": 26.54
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "الحديث الحادي والأربعون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/041-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 91.28,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/041-number.mp3",
+          "duration": 2.24
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/041-matn.mp3",
+          "duration": 17.83
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/041-adab.mp3",
+          "duration": 17.62
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/041-fawaid.mp3",
+          "duration": 24.06
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/041-meaning.mp3",
+          "duration": 29.53
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "title": "الحديث الثاني والأربعون",
+      "subtitle": "الأربعون النووية",
+      "artwork": "nawawi40/042-cover.jpg",
+      "thumbnail": "car/thumbnail.jpg",
+      "duration": 104.32,
+      "segments": [
+        {
+          "kind": "number",
+          "path": "nawawi40/042-number.mp3",
+          "duration": 2.08
+        },
+        {
+          "kind": "matn",
+          "path": "nawawi40/042-matn.mp3",
+          "duration": 31.45
+        },
+        {
+          "kind": "adab",
+          "path": "nawawi40/042-adab.mp3",
+          "duration": 13.66
+        },
+        {
+          "kind": "fawaid",
+          "path": "nawawi40/042-fawaid.mp3",
+          "duration": 27.64
+        },
+        {
+          "kind": "meaning",
+          "path": "nawawi40/042-meaning.mp3",
+          "duration": 29.49
+        }
+      ]
+    }
+  ]
+}
