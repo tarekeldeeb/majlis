@@ -1,11 +1,14 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { AdabSection, FawaidSection, MeaningSection, CommentaryExtras } from '../../../src/components/CommentarySection';
 import { HadithAudioPlayer } from '../../../src/components/HadithAudioPlayer';
 import { formatHadithTitle, theme, toArabicDigits } from '../../../src/constants/theme';
 import { getBook, getHadithByNumber, getHadithsForBook } from '../../../src/data';
+import { player, usePlayer } from '../../../src/player/engine';
+import { buildSegments } from '../../../src/player/segments';
 import { useProgress } from '../../../src/progress/progress';
+import { useSettings } from '../../../src/settings/settings';
 
 type SectionKey = 'matn' | 'adab' | 'fawaid' | 'meaning';
 
@@ -25,6 +28,12 @@ export default function HadithScreen() {
   const hadith = getHadithByNumber(currentBookId, num);
 
   const { isDone, toggleDone, markDone, markVisited } = useProgress();
+  const { settings } = useSettings();
+  const segments = useMemo(
+    () => buildSegments(hadith?.audio, settings.commentary),
+    [hadith, settings.commentary]
+  );
+  const playerState = usePlayer();
   const done = isDone(currentBookId, num);
   const [showDiscuss, setShowDiscuss] = useState(false);
   const { height: windowHeight } = useWindowDimensions();
@@ -44,10 +53,25 @@ export default function HadithScreen() {
     if (hasNext) router.replace(`/book/${currentBookId}/${num + 1}`);
   };
 
-  const handleAudioCompleted = () => {
+  // The engine outlives this screen, so completion is observed rather than called back.
+  const finishedHandled = useRef(false);
+  useEffect(() => {
+    if (!playerState.finished) {
+      finishedHandled.current = false;
+      return;
+    }
+    if (finishedHandled.current) return;
+    finishedHandled.current = true;
     markDone(currentBookId, num);
-    if (hasNext) router.replace(`/book/${currentBookId}/${num + 1}`);
-  };
+    if (!hasNext) return;
+    // Brief pause on "finished" before moving on, so the transition isn't abrupt.
+    const timer = setTimeout(() => router.replace(`/book/${currentBookId}/${num + 1}`), 900);
+    return () => clearTimeout(timer);
+  }, [playerState.finished, currentBookId, num, hasNext, markDone, router]);
+
+  useEffect(() => {
+    if (hadith) player.play(currentBookId, num, segments);
+  }, [hadith, currentBookId, num, segments]);
 
   const scrollRef = useRef<ScrollView>(null);
   const offsets = useRef<Partial<Record<SectionKey, number>>>({});
@@ -73,12 +97,11 @@ export default function HadithScreen() {
     [scrollToSection]
   );
 
-  const handleSegmentChange = useCallback(
-    (target: SectionKey) => {
-      scrollToSection(target);
-    },
-    [scrollToSection]
-  );
+  // Follow the narration: scroll the text to whichever part is playing.
+  useEffect(() => {
+    const segment = playerState.segments[playerState.currentIndex];
+    if (segment) scrollToSection(segment.target);
+  }, [playerState.currentIndex, playerState.segments, scrollToSection]);
 
   useEffect(() => {
     offsets.current = {};
@@ -139,11 +162,7 @@ export default function HadithScreen() {
             </Pressable>
           </View>
 
-          <HadithAudioPlayer
-            audio={hadith.audio}
-            onCompleted={handleAudioCompleted}
-            onSegmentChange={handleSegmentChange}
-          />
+          <HadithAudioPlayer segments={segments} />
         </View>
       </View>
 
