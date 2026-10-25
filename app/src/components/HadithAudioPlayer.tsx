@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { Asset } from 'expo-asset';
 import { setAudioModeAsync, useAudioPlaylist, useAudioPlaylistStatus } from 'expo-audio';
 import { SeekBar } from './SeekBar';
 import { theme, toArabicDigits } from '../constants/theme';
@@ -23,6 +24,13 @@ interface Segment {
 }
 
 const EMPTY_SOURCES: AudioAsset[] = [];
+
+// The native playlist only accepts resolved sources; a require() asset id is a bare number.
+function toPlaylistSource(source: AudioAsset) {
+  if (typeof source === 'string') return { uri: source };
+  const asset = Asset.fromModule(source);
+  return { uri: asset.localUri ?? asset.uri, name: asset.name ?? undefined };
+}
 
 function formatTime(seconds: number): string {
   if (!Number.isFinite(seconds) || seconds < 0) return '٠:٠٠';
@@ -99,7 +107,7 @@ export function HadithAudioPlayer({ audio, onCompleted, onSegmentChange }: Hadit
     setFinished(false);
     if (segments.length === 0) return;
 
-    for (const segment of segments) playlist.add(segment.source);
+    for (const segment of segments) playlist.add(toPlaylistSource(segment.source));
     setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
     playlist.play();
 
