@@ -4,8 +4,11 @@ const { withMainActivity, withAppDelegate } = require('@expo/config-plugins');
 // effect, so force the layout direction before React starts instead.
 
 const ANDROID_IMPORT = 'import com.facebook.react.modules.i18nmanager.I18nUtil';
+// Layout styles are written physical (e.g. left for what should sit right in
+// RTL), so keep the left/right swap on; text alignment is compensated in theme.ts.
 const ANDROID_CALLS = `    I18nUtil.getInstance().allowRTL(this, true)
-    I18nUtil.getInstance().forceRTL(this, true)`;
+    I18nUtil.getInstance().forceRTL(this, true)
+    I18nUtil.getInstance().swapLeftAndRightInRTL(this, true)`;
 
 const IOS_CALLS = `    RCTI18nUtil.sharedInstance().allowRTL(true)
     RCTI18nUtil.sharedInstance().forceRTL(true)

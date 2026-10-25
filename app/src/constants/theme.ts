@@ -15,6 +15,10 @@ export function setupRTL(): void {
   }
 }
 
+// Android resolves textAlign against the paragraph direction under RTL, so asking
+// for 'right' lands the text on the left. Native is RTL-only; web keeps CSS right.
+const TEXT_ALIGN = Platform.OS === 'web' ? ('right' as const) : ('left' as const);
+
 export const theme = {
   colors: {
     background: '#FAF9F6', // Warm off-white / parchment feel
@@ -76,34 +80,29 @@ export const theme = {
     matn: {
       fontSize: 23,
       lineHeight: 44,
-      textAlign: 'right' as const,
-      writingDirection: 'rtl' as const,
+      textAlign: TEXT_ALIGN,
     },
     title: {
       fontSize: 20,
       lineHeight: 28,
       fontWeight: '700' as const,
-      textAlign: 'right' as const,
-      writingDirection: 'rtl' as const,
+      textAlign: TEXT_ALIGN,
     },
     subtitle: {
       fontSize: 16,
       lineHeight: 24,
       fontWeight: '600' as const,
-      textAlign: 'right' as const,
-      writingDirection: 'rtl' as const,
+      textAlign: TEXT_ALIGN,
     },
     body: {
       fontSize: 15,
       lineHeight: 24,
-      textAlign: 'right' as const,
-      writingDirection: 'rtl' as const,
+      textAlign: TEXT_ALIGN,
     },
     caption: {
       fontSize: 13,
       lineHeight: 18,
-      textAlign: 'right' as const,
-      writingDirection: 'rtl' as const,
+      textAlign: TEXT_ALIGN,
     },
   },
 };

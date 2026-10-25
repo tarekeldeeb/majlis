@@ -62,23 +62,22 @@ export function SeekBar({ ratio, duration, onSeek, height = 6 }: SeekBarProps) {
       accessibilityRole="adjustable"
       accessibilityLabel="موضع التشغيل"
     >
+      {/* Row children are laid out from the start edge, which is the right in RTL. */}
       <View style={[styles.track, { height, borderRadius: height / 2 }]}>
         <View style={[styles.fill, { width: pct, height, borderRadius: height / 2 }]} />
+        <View
+          pointerEvents="none"
+          style={[
+            styles.thumb,
+            {
+              width: thumbSize,
+              height: thumbSize,
+              borderRadius: thumbSize / 2,
+              marginStart: -thumbSize / 2,
+            },
+          ]}
+        />
       </View>
-      <View
-        pointerEvents="none"
-        style={[
-          styles.thumb,
-          {
-            width: thumbSize,
-            height: thumbSize,
-            borderRadius: thumbSize / 2,
-            right: pct,
-            marginRight: -thumbSize / 2,
-            top: (height + 16 - thumbSize) / 2,
-          },
-        ]}
-      />
     </View>
   );
 }
@@ -90,18 +89,14 @@ const styles = StyleSheet.create({
   },
   track: {
     backgroundColor: theme.colors.progressTrack,
-    overflow: 'hidden',
     width: '100%',
-    position: 'relative',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   fill: {
     backgroundColor: theme.colors.gold,
-    position: 'absolute',
-    right: 0,
-    top: 0,
   },
   thumb: {
-    position: 'absolute',
     backgroundColor: theme.colors.gold,
     borderWidth: 2,
     borderColor: '#FAF9F6',
