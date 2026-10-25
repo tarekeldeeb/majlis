@@ -12,7 +12,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "majlis.quranquiz.net",
-      "buildNumber": "1",
+      "buildNumber": "2",
       "appleTeamId": "FNSP52WBLF"
     },
     "android": {
@@ -41,12 +41,15 @@
       "expo-router",
       "./plugins/withReleaseSigning",
       "./plugins/withAndroidAppName",
+      "./plugins/withAndroidAbiFilters",
+      "./plugins/withForcedRTL",
       [
         "expo-audio",
         {
           "recordAudioAndroid": false
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "scheme": "majlis"
   }
