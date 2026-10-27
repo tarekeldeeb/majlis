@@ -6,10 +6,11 @@ import MediaPlayer
 // now-playing metadata so CarPlay and the lock screen can drive it.
 public class MajlisCarModule: Module {
   private let player = AVPlayer()
-  private var queue: [[String: Any]] = []
-  private var currentIndex = 0
+  var queue: [[String: Any]] = []
+  var currentIndex = 0
   private var timeObserver: Any?
   private var endObserver: NSObjectProtocol?
+  private let carPlaySource = CarPlayContentSource()
 
   public func definition() -> ModuleDefinition {
     Name("MajlisCar")
@@ -18,6 +19,11 @@ public class MajlisCarModule: Module {
     OnCreate {
       self.configureSession()
       self.observeTime()
+      self.carPlaySource.owner = self
+      self.carPlaySource.reload()
+      MPPlayableContentManager.shared().dataSource = self.carPlaySource
+      MPPlayableContentManager.shared().delegate = self.carPlaySource
+      MPPlayableContentManager.shared().reloadData()
     }
 
     OnDestroy {
@@ -94,6 +100,10 @@ public class MajlisCarModule: Module {
     }
   }
 
+  func playCurrent() {
+    loadCurrent(autoplay: true)
+  }
+
   private func move(by offset: Int) {
     let next = currentIndex + offset
     guard queue.indices.contains(next) else { return }
@@ -165,5 +175,85 @@ public class MajlisCarModule: Module {
 private extension Array {
   subscript(safe index: Int) -> Element? {
     indices.contains(index) ? self[index] : nil
+  }
+}
+
+// MARK: - CarPlay browsing
+
+struct CarHadithEntry {
+  let id: String
+  let title: String
+  let artist: String
+  let segments: [[String: String]]
+}
+
+/// CarPlay needs an NSObject conformer, which the Expo Module class is not.
+final class CarPlayContentSource: NSObject, MPPlayableContentDataSource, MPPlayableContentDelegate {
+  weak var owner: MajlisCarModule?
+  private var library: [CarHadithEntry] = []
+
+  func reload() {
+    guard
+      let documents = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first,
+      let data = try? Data(contentsOf: documents.appendingPathComponent("car-index.json")),
+      let root = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
+      let entries = root["hadiths"] as? [[String: Any]]
+    else {
+      library = []
+      return
+    }
+
+    library = entries.compactMap { entry in
+      guard
+        let id = entry["id"] as? String,
+        let title = entry["title"] as? String,
+        let segments = entry["segments"] as? [[String: Any]]
+      else { return nil }
+      return CarHadithEntry(
+        id: id,
+        title: title,
+        artist: entry["artist"] as? String ?? "",
+        segments: segments.compactMap { segment in
+          guard let uri = segment["uri"] as? String else { return nil }
+          return ["uri": uri, "title": segment["title"] as? String ?? ""]
+        }
+      )
+    }
+  }
+
+  func numberOfChildItems(at indexPath: IndexPath) -> Int {
+    indexPath.isEmpty ? library.count : 0
+  }
+
+  func contentItem(at indexPath: IndexPath) -> MPContentItem? {
+    guard indexPath.count == 1, library.indices.contains(indexPath[0]) else { return nil }
+    let hadith = library[indexPath[0]]
+    let item = MPContentItem(identifier: hadith.id)
+    item.title = hadith.title
+    item.subtitle = hadith.artist
+    item.isPlayable = true
+    return item
+  }
+
+  func playableContentManager(
+    _ contentManager: MPPlayableContentManager,
+    initiatePlaybackOfContentItemAt indexPath: IndexPath,
+    completionHandler: @escaping (Error?) -> Void
+  ) {
+    guard indexPath.count == 1, library.indices.contains(indexPath[0]), let owner else {
+      completionHandler(nil)
+      return
+    }
+    let hadith = library[indexPath[0]]
+    owner.queue = hadith.segments.map { segment in
+      [
+        "uri": segment["uri"] ?? "",
+        "title": "\(hadith.title) — \(segment["title"] ?? "")",
+        "artist": hadith.artist,
+      ]
+    }
+    owner.currentIndex = 0
+    owner.playCurrent()
+    completionHandler(nil)
   }
 }
