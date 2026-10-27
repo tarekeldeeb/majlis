@@ -4,18 +4,17 @@ import { formatHadithTitle } from '../constants/theme';
 import { getBooks, getHadithsForBook } from '../data';
 import { coverUri, thumbnailUri } from './artwork';
 import { toFileUri } from './fileUri';
-import { buildSegments } from './segments';
+import { buildSegments, type CommentarySelection } from './segments';
 
 // The car browses without React, so the resolved file URIs are persisted here.
-const ALL_COMMENTARY = { adab: true, fawaid: true, meaning: true };
-
-export async function writeCarIndex(): Promise<void> {
+// It follows the reader's commentary choices so car and phone queues line up.
+export async function writeCarIndex(commentary: CommentarySelection): Promise<void> {
   const thumbnail = await thumbnailUri();
   const entries = [];
 
   for (const book of getBooks()) {
     for (const hadith of getHadithsForBook(book.id)) {
-      const segments = buildSegments(hadith.audio, ALL_COMMENTARY);
+      const segments = buildSegments(hadith.audio, commentary);
       if (segments.length === 0) continue;
 
       const resolved = [];

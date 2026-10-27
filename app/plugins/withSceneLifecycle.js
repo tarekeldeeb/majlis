@@ -71,12 +71,21 @@ const DEFERRED_SETUP = `    // SceneDelegate creates the window and the React ro
 module.exports = function withSceneLifecycle(config) {
   config = withInfoPlist(config, (cfg) => {
     cfg.modResults.UIApplicationSceneManifest = {
-      UIApplicationSupportsMultipleScenes: false,
+      // CarPlay runs as a second scene alongside the phone's.
+      UIApplicationSupportsMultipleScenes: true,
       UISceneConfigurations: {
         UIWindowSceneSessionRoleApplication: [
           {
             UISceneConfigurationName: 'Default Configuration',
             UISceneDelegateClassName: '$(PRODUCT_MODULE_NAME).SceneDelegate',
+          },
+        ],
+        // Implemented by the majlis-car module (CarPlaySceneDelegate.swift).
+        CPTemplateApplicationSceneSessionRoleApplication: [
+          {
+            UISceneClassName: 'CPTemplateApplicationScene',
+            UISceneConfigurationName: 'CarPlay',
+            UISceneDelegateClassName: 'MajlisCarPlaySceneDelegate',
           },
         ],
       },

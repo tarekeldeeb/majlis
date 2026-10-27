@@ -34,7 +34,7 @@ data class CarHadith(
   // The cover is loaded in-process by the session, which hands the bitmap to the car.
   fun mediaItems(): List<MediaItem> = segments.mapIndexed { index, segment ->
     MediaItem.Builder()
-      .setMediaId("$id#$index")
+      .setMediaId("$id:$index")
       .setUri(segment.uri)
       .setMediaMetadata(
         MediaMetadata.Builder()

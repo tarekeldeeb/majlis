@@ -43,6 +43,8 @@ class MajlisCarModule : Module() {
     "index" to player.currentMediaItemIndex,
     "count" to player.mediaItemCount,
     "ended" to (player.playbackState == Player.STATE_ENDED),
+    // Lets the app notice when Android Auto switched to another hadith.
+    "mediaId" to (player.currentMediaItem?.mediaId ?: ""),
   )
 
   private fun emitState() {

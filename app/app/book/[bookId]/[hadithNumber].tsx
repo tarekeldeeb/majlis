@@ -77,6 +77,14 @@ export default function HadithScreen() {
     });
   }, [hadith, currentBookId, num, segments, book?.title]);
 
+  // CarPlay / Android Auto can start another hadith; bring the screen along to it.
+  useEffect(() => {
+    const { source, bookId: playingBook, hadithNumber: playingNumber } = playerState;
+    if (source !== 'car' || !playingBook || !playingNumber) return;
+    if (playingBook === currentBookId && playingNumber === num) return;
+    router.replace(`/book/${playingBook}/${playingNumber}`);
+  }, [playerState.source, playerState.bookId, playerState.hadithNumber, currentBookId, num, router]);
+
   const scrollRef = useRef<ScrollView>(null);
   const offsets = useRef<Partial<Record<SectionKey, number>>>({});
   const pendingSection = useRef<SectionKey | null>(null);

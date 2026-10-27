@@ -17,6 +17,8 @@ export interface CarPlaybackState {
   index?: number;
   count?: number;
   ended?: boolean;
+  /** The playing queue item, "<bookId>:<hadithNumber>:<segment>". */
+  mediaId?: string;
 }
 
 // Native on both mobile platforms; the web build keeps expo-audio.

@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { setupRTL, theme } from '../src/constants/theme';
 import { writeCarIndex } from '../src/player/carIndex';
 import { ProgressProvider } from '../src/progress/progress';
-import { SettingsProvider } from '../src/settings/settings';
+import { SettingsProvider, useSettings } from '../src/settings/settings';
 
 // Force RTL immediately on module load
 setupRTL();
@@ -23,15 +23,24 @@ function MajlisHomeTitle() {
   );
 }
 
+// Keeps the car's hadith index (read without the UI running) in step with the
+// reader's commentary choices.
+function CarIndexSync() {
+  const { ready, settings } = useSettings();
+  useEffect(() => {
+    if (ready) void writeCarIndex(settings.commentary).catch(() => {});
+  }, [ready, settings.commentary]);
+  return null;
+}
+
 export default function RootLayout() {
   useEffect(() => {
     setupRTL();
-    // Lets the car service browse without the UI running; cheap once cached.
-    void writeCarIndex().catch(() => {});
   }, []);
 
   return (
     <SettingsProvider>
+      <CarIndexSync />
       <ProgressProvider>
         <StatusBar style="dark" />
         <Stack

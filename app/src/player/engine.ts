@@ -19,6 +19,8 @@ export interface PlayerState {
   currentIndex: number;
   finished: boolean;
   autoplayBlocked: boolean;
+  /** Who chose the current hadith: the app, or the car (CarPlay / Android Auto). */
+  source: 'app' | 'car';
 }
 
 const INITIAL: PlayerState = {
@@ -31,7 +33,14 @@ const INITIAL: PlayerState = {
   currentIndex: 0,
   finished: false,
   autoplayBlocked: false,
+  source: 'app',
 };
+
+// Native queue items are identified "<bookId>:<hadithNumber>:<segment>".
+function hadithOf(mediaId: string | undefined): string | null {
+  const cut = mediaId ? mediaId.lastIndexOf(':') : -1;
+  return cut > 0 ? mediaId!.slice(0, cut) : null;
+}
 
 // The native playlist accepts only resolved sources; a require() asset id is a bare number.
 function toSource(source: AudioAsset) {
@@ -58,6 +67,9 @@ class PlayerEngine {
   private blockedTimer: ReturnType<typeof setTimeout> | null = null;
   // Android plays through the Media3 session so the system and the car can bind to it.
   private useCar = MajlisCar.isSupported();
+  // The hadith just handed to the native player, until it reports playing it.
+  private awaitingHadith: string | null = null;
+  private queueSentAt: number | null = null;
 
   constructor() {
     this.playlist.addListener(STATUS_EVENT, (status: unknown) => this.handleStatus(status as Record<string, never>));
@@ -124,16 +136,38 @@ class PlayerEngine {
     // The screen may have moved on while the assets were resolving.
     if (this.state.bookId !== bookId || this.state.hadithNumber !== hadithNumber) return;
     MajlisCar.setQueue(items);
+    this.queueSentAt = Date.now();
   }
 
   private handleCarState(carState: MajlisCar.CarPlaybackState) {
     if (!carState.available) return;
+    const playing = hadithOf(carState.mediaId);
+
+    // Until the native player switches to the queue the app just sent, it still
+    // reports the previous hadith; that is not the car changing it.
+    if (this.awaitingHadith) {
+      const gaveUp = this.queueSentAt !== null && Date.now() - this.queueSentAt > 5000;
+      if (playing !== this.awaitingHadith && !gaveUp) return;
+      this.awaitingHadith = null;
+    }
+
     const patch: Partial<PlayerState> = {
       playing: !!carState.playing,
       currentTime: (carState.positionMs ?? 0) / 1000,
       duration: (carState.durationMs ?? 0) / 1000,
       currentIndex: carState.index ?? 0,
     };
+    if (playing && playing !== `${this.state.bookId}:${this.state.hadithNumber}`) {
+      // The car started another hadith; the screen follows it (see the hadith screen).
+      const cut = playing.lastIndexOf(':');
+      Object.assign(patch, {
+        bookId: playing.slice(0, cut),
+        hadithNumber: Number(playing.slice(cut + 1)),
+        segments: [],
+        finished: false,
+        source: 'car',
+      });
+    }
     if (carState.ended && !this.state.finished) patch.finished = true;
     this.set(patch);
   }
@@ -144,11 +178,13 @@ class PlayerEngine {
     segments: Segment[],
     meta?: { title: string; artist: string }
   ) {
-    const unchanged =
-      this.state.bookId === bookId &&
-      this.state.hadithNumber === hadithNumber &&
-      sameSegments(this.state.segments, segments);
-    if (unchanged) return;
+    const sameHadith = this.state.bookId === bookId && this.state.hadithNumber === hadithNumber;
+    if (sameHadith && sameSegments(this.state.segments, segments)) return;
+    // The car is already playing this hadith; the screen only supplies its labels.
+    if (sameHadith && this.state.source === 'car') {
+      this.set({ segments, source: 'app' });
+      return;
+    }
 
     this.clearBlockedTimer();
     this.set({
@@ -161,10 +197,13 @@ class PlayerEngine {
       currentIndex: 0,
       finished: false,
       autoplayBlocked: false,
+      source: 'app',
     });
     if (segments.length === 0) return;
 
     if (this.useCar) {
+      this.awaitingHadith = `${bookId}:${hadithNumber}`;
+      this.queueSentAt = null;
       void this.queueForCar(bookId, hadithNumber, segments, meta);
       return;
     }
