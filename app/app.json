@@ -49,6 +49,7 @@
       "./plugins/withAndroidAppName",
       "./plugins/withAndroidAbiFilters",
       "./plugins/withForcedRTL",
+      "./plugins/withSceneLifecycle",
       [
         "expo-audio",
         {
