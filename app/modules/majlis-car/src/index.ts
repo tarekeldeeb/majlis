@@ -19,8 +19,9 @@ export interface CarPlaybackState {
   ended?: boolean;
 }
 
-// The native module only exists on Android for now.
-const native = Platform.OS === 'android' ? requireNativeModule('MajlisCar') : null;
+// Native on both mobile platforms; the web build keeps expo-audio.
+const native =
+  Platform.OS === 'android' || Platform.OS === 'ios' ? requireNativeModule('MajlisCar') : null;
 
 export function isSupported(): boolean {
   return native != null;
