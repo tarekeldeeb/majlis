@@ -3,6 +3,7 @@ import { Pressable, Text } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { setupRTL, theme } from '../src/constants/theme';
+import { writeCarIndex } from '../src/player/carIndex';
 import { ProgressProvider } from '../src/progress/progress';
 import { SettingsProvider } from '../src/settings/settings';
 
@@ -25,6 +26,8 @@ function MajlisHomeTitle() {
 export default function RootLayout() {
   useEffect(() => {
     setupRTL();
+    // Lets the car service browse without the UI running; cheap once cached.
+    void writeCarIndex().catch(() => {});
   }, []);
 
   return (
