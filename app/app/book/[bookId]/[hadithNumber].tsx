@@ -370,7 +370,6 @@ const styles = StyleSheet.create({
   matnBody: {
     ...theme.typography.matn,
     color: theme.colors.text,
-    textAlign: 'justify',
     fontFamily: theme.matnFontFamily,
   },
   discussCard: {
