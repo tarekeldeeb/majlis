@@ -16,6 +16,9 @@
       "appleTeamId": "FNSP52WBLF",
       "infoPlist": {
         "UIBackgroundModes": ["audio"]
+      },
+      "entitlements": {
+        "com.apple.developer.carplay-audio": true
       }
     },
     "android": {
