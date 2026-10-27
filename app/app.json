@@ -13,7 +13,10 @@
       "supportsTablet": true,
       "bundleIdentifier": "majlis.quranquiz.net",
       "buildNumber": "3",
-      "appleTeamId": "FNSP52WBLF"
+      "appleTeamId": "FNSP52WBLF",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
     },
     "android": {
       "package": "majlis.quranquiz.net",

@@ -2,15 +2,29 @@ package expo.modules.majliscar
 
 import android.content.Intent
 import android.net.Uri
+import android.os.Handler
+import android.os.Looper
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
 import androidx.media3.common.Player
+import expo.modules.kotlin.functions.Queues
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
 import org.json.JSONArray
 
 class MajlisCarModule : Module() {
+  private val mainHandler = Handler(Looper.getMainLooper())
   private var playerListener: Player.Listener? = null
+  private var pendingQueue: String? = null
+
+  private fun player(): Player? = MajlisCarService.current?.player()
+
+  private fun ensureService() {
+    val context = appContext.reactContext ?: return
+    if (MajlisCarService.current == null) {
+      context.startService(Intent(context, MajlisCarService::class.java))
+    }
+  }
 
   private fun stateOf(player: Player): Map<String, Any> = mapOf(
     "available" to true,
@@ -19,11 +33,57 @@ class MajlisCarModule : Module() {
     "durationMs" to maxOf(player.duration, 0L),
     "index" to player.currentMediaItemIndex,
     "count" to player.mediaItemCount,
+    "ended" to (player.playbackState == Player.STATE_ENDED),
   )
 
   private fun emitState() {
-    val player = MajlisCarService.current?.player() ?: return
+    val player = player() ?: return
     sendEvent("playbackState", stateOf(player))
+  }
+
+  private fun attachListener(player: Player) {
+    if (playerListener != null) return
+    val listener = object : Player.Listener {
+      override fun onIsPlayingChanged(isPlaying: Boolean) = emitState()
+      override fun onPlaybackStateChanged(playbackState: Int) = emitState()
+      override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) = emitState()
+    }
+    player.addListener(listener)
+    playerListener = listener
+  }
+
+  private fun itemsFrom(queueJson: String): List<MediaItem> {
+    val entries = JSONArray(queueJson)
+    return (0 until entries.length()).map { index ->
+      val entry = entries.getJSONObject(index)
+      val metadata = MediaMetadata.Builder()
+        .setTitle(entry.optString("title"))
+        .setArtist(entry.optString("artist"))
+        .apply {
+          if (entry.has("artworkUri")) setArtworkUri(Uri.parse(entry.getString("artworkUri")))
+        }
+        .build()
+      MediaItem.Builder()
+        .setMediaId(entry.optString("id"))
+        .setUri(entry.getString("uri"))
+        .setMediaMetadata(metadata)
+        .build()
+    }
+  }
+
+  // The service is created asynchronously, so the queue waits for its player.
+  private fun applyQueue(attempt: Int = 0) {
+    val queueJson = pendingQueue ?: return
+    val player = player()
+    if (player == null) {
+      if (attempt < 40) mainHandler.postDelayed({ applyQueue(attempt + 1) }, 50)
+      return
+    }
+    pendingQueue = null
+    player.setMediaItems(itemsFrom(queueJson))
+    player.prepare()
+    player.play()
+    attachListener(player)
   }
 
   override fun definition() = ModuleDefinition {
@@ -31,61 +91,37 @@ class MajlisCarModule : Module() {
     Events("playbackState")
 
     Function("start") {
-      val context = appContext.reactContext ?: return@Function false
-      context.startService(Intent(context, MajlisCarService::class.java))
-
-      if (playerListener == null) {
-        val player = MajlisCarService.current?.player()
-        if (player != null) {
-          val listener = object : Player.Listener {
-            override fun onIsPlayingChanged(isPlaying: Boolean) = emitState()
-            override fun onPlaybackStateChanged(playbackState: Int) = emitState()
-            override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) = emitState()
-          }
-          player.addListener(listener)
-          playerListener = listener
-        }
-      }
+      ensureService()
       true
     }
 
-    Function("setQueue") { queueJson: String ->
-      val player = MajlisCarService.current?.player() ?: return@Function false
-      val entries = JSONArray(queueJson)
-      val items = (0 until entries.length()).map { index ->
-        val entry = entries.getJSONObject(index)
-        val metadata = MediaMetadata.Builder()
-          .setTitle(entry.optString("title"))
-          .setArtist(entry.optString("artist"))
-          .apply {
-            if (entry.has("artworkUri")) setArtworkUri(Uri.parse(entry.getString("artworkUri")))
-          }
-          .build()
-        MediaItem.Builder()
-          .setMediaId(entry.optString("id"))
-          .setUri(entry.getString("uri"))
-          .setMediaMetadata(metadata)
-          .build()
-      }
-      player.setMediaItems(items)
-      player.prepare()
+    // ExoPlayer may only be touched on the main thread.
+    AsyncFunction("setQueue") { queueJson: String ->
+      pendingQueue = queueJson
+      ensureService()
+      applyQueue()
       true
-    }
+    }.runOnQueue(Queues.MAIN)
 
-    Function("play") { MajlisCarService.current?.player()?.play() }
-    Function("pause") { MajlisCarService.current?.player()?.pause() }
+    AsyncFunction("play") {
+      ensureService()
+      val current = player()
+      if (current != null) current.play()
+      else mainHandler.postDelayed({ player()?.play() }, 200)
+    }.runOnQueue(Queues.MAIN)
 
-    Function("seekTo") { seconds: Double ->
-      MajlisCarService.current?.player()?.seekTo((seconds * 1000).toLong())
-    }
+    AsyncFunction("pause") { player()?.pause() }.runOnQueue(Queues.MAIN)
 
-    Function("next") { MajlisCarService.current?.player()?.seekToNextMediaItem() }
-    Function("previous") { MajlisCarService.current?.player()?.seekToPreviousMediaItem() }
+    AsyncFunction("seekTo") { seconds: Double ->
+      player()?.seekTo((seconds * 1000).toLong())
+    }.runOnQueue(Queues.MAIN)
 
-    Function("getState") {
-      val player = MajlisCarService.current?.player()
-        ?: return@Function mapOf("available" to false)
-      stateOf(player)
-    }
+    AsyncFunction("next") { player()?.seekToNextMediaItem() }.runOnQueue(Queues.MAIN)
+    AsyncFunction("previous") { player()?.seekToPreviousMediaItem() }.runOnQueue(Queues.MAIN)
+
+    AsyncFunction("getState") {
+      val current = player() ?: return@AsyncFunction mapOf("available" to false)
+      stateOf(current)
+    }.runOnQueue(Queues.MAIN)
   }
 }

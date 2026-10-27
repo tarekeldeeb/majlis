@@ -1,6 +1,7 @@
 import { Asset } from 'expo-asset';
 import { createAudioPlaylist, setAudioModeAsync } from 'expo-audio';
 import { useSyncExternalStore } from 'react';
+import * as MajlisCar from '../../modules/majlis-car/src';
 import type { AudioAsset } from '../data';
 import type { Segment } from './segments';
 
@@ -37,6 +38,23 @@ function toSource(source: AudioAsset) {
   return { uri: asset.localUri ?? asset.uri, name: asset.name ?? undefined };
 }
 
+/**
+ * Bundled audio is packed as hashed resources, which Media3 cannot open.
+ * Downloading the asset copies it to a real file path first.
+ */
+async function toFileUri(source: AudioAsset): Promise<string> {
+  if (typeof source === 'string') return source;
+  const asset = Asset.fromModule(source);
+  if (!asset.localUri) {
+    try {
+      await asset.downloadAsync();
+    } catch {
+      // Fall back to the bundled URI; playback will surface the error.
+    }
+  }
+  return asset.localUri ?? asset.uri;
+}
+
 function sameSegments(a: Segment[], b: Segment[]) {
   return (
     a.length === b.length &&
@@ -53,9 +71,18 @@ class PlayerEngine {
   private state: PlayerState = INITIAL;
   private listeners = new Set<() => void>();
   private blockedTimer: ReturnType<typeof setTimeout> | null = null;
+  // Android plays through the Media3 session so the system and the car can bind to it.
+  private useCar = MajlisCar.isSupported();
 
   constructor() {
     this.playlist.addListener(STATUS_EVENT, (status: unknown) => this.handleStatus(status as Record<string, never>));
+    if (this.useCar) {
+      MajlisCar.addPlaybackListener((carState) => this.handleCarState(carState));
+      // Media3 notifies on transitions only; the visible UI needs a steady clock.
+      setInterval(() => {
+        void MajlisCar.getState().then((carState) => this.handleCarState(carState));
+      }, 500);
+    }
   }
 
   getState = () => this.state;
@@ -91,7 +118,45 @@ class PlayerEngine {
     this.set(patch);
   }
 
-  play(bookId: string, hadithNumber: number, segments: Segment[]) {
+  private async queueForCar(
+    bookId: string,
+    hadithNumber: number,
+    segments: Segment[],
+    meta?: { title: string; artist: string }
+  ) {
+    const items: MajlisCar.CarQueueItem[] = [];
+    for (let index = 0; index < segments.length; index += 1) {
+      const segment = segments[index];
+      items.push({
+        id: `${bookId}:${hadithNumber}:${index}`,
+        uri: await toFileUri(segment.source),
+        title: meta?.title ? `${meta.title} — ${segment.label}` : segment.label,
+        artist: meta?.artist ?? '',
+      });
+    }
+    // The screen may have moved on while the assets were resolving.
+    if (this.state.bookId !== bookId || this.state.hadithNumber !== hadithNumber) return;
+    MajlisCar.setQueue(items);
+  }
+
+  private handleCarState(carState: MajlisCar.CarPlaybackState) {
+    if (!carState.available) return;
+    const patch: Partial<PlayerState> = {
+      playing: !!carState.playing,
+      currentTime: (carState.positionMs ?? 0) / 1000,
+      duration: (carState.durationMs ?? 0) / 1000,
+      currentIndex: carState.index ?? 0,
+    };
+    if (carState.ended && !this.state.finished) patch.finished = true;
+    this.set(patch);
+  }
+
+  play(
+    bookId: string,
+    hadithNumber: number,
+    segments: Segment[],
+    meta?: { title: string; artist: string }
+  ) {
     const unchanged =
       this.state.bookId === bookId &&
       this.state.hadithNumber === hadithNumber &&
@@ -99,7 +164,6 @@ class PlayerEngine {
     if (unchanged) return;
 
     this.clearBlockedTimer();
-    this.playlist.clear();
     this.set({
       bookId,
       hadithNumber,
@@ -113,6 +177,12 @@ class PlayerEngine {
     });
     if (segments.length === 0) return;
 
+    if (this.useCar) {
+      void this.queueForCar(bookId, hadithNumber, segments, meta);
+      return;
+    }
+
+    this.playlist.clear();
     for (const segment of segments) this.playlist.add(toSource(segment.source));
     setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
     this.playlist.play();
@@ -130,6 +200,11 @@ class PlayerEngine {
       this.replay();
       return;
     }
+    if (this.useCar) {
+      if (this.state.playing) MajlisCar.pause();
+      else MajlisCar.play();
+      return;
+    }
     if (this.state.playing) {
       this.playlist.pause();
     } else {
@@ -141,11 +216,20 @@ class PlayerEngine {
   replay() {
     this.clearBlockedTimer();
     this.set({ finished: false, autoplayBlocked: false });
+    if (this.useCar) {
+      MajlisCar.seekTo(0);
+      MajlisCar.play();
+      return;
+    }
     this.playlist.skipTo(0);
     this.playlist.play();
   }
 
   seekTo(seconds: number) {
+    if (this.useCar) {
+      MajlisCar.seekTo(seconds);
+      return;
+    }
     this.playlist.seekTo(seconds).catch(() => {});
   }
 

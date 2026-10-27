@@ -70,8 +70,12 @@ export default function HadithScreen() {
   }, [playerState.finished, currentBookId, num, hasNext, markDone, router]);
 
   useEffect(() => {
-    if (hadith) player.play(currentBookId, num, segments);
-  }, [hadith, currentBookId, num, segments]);
+    if (!hadith) return;
+    player.play(currentBookId, num, segments, {
+      title: formatHadithTitle(num),
+      artist: book?.title ?? '',
+    });
+  }, [hadith, currentBookId, num, segments, book?.title]);
 
   const scrollRef = useRef<ScrollView>(null);
   const offsets = useRef<Partial<Record<SectionKey, number>>>({});

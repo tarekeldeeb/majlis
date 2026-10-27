@@ -16,6 +16,7 @@ export interface CarPlaybackState {
   durationMs?: number;
   index?: number;
   count?: number;
+  ended?: boolean;
 }
 
 // The native module only exists on Android for now.
@@ -53,6 +54,11 @@ export function previous(): void {
   native?.previous();
 }
 
-export function getState(): CarPlaybackState {
-  return native?.getState() ?? { available: false };
+// Runs on the Android main thread, where Media3 requires all player access.
+export function getState(): Promise<CarPlaybackState> {
+  return native?.getState() ?? Promise.resolve({ available: false });
+}
+
+export function addPlaybackListener(listener: (state: CarPlaybackState) => void) {
+  return native?.addListener('playbackState', listener) ?? { remove: () => {} };
 }
