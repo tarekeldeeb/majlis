@@ -55,9 +55,9 @@ export function previous(): void {
   native?.previous();
 }
 
-// Runs on the Android main thread, where Media3 requires all player access.
+// Android answers asynchronously (main-thread hop); iOS answers synchronously.
 export function getState(): Promise<CarPlaybackState> {
-  return native?.getState() ?? Promise.resolve({ available: false });
+  return Promise.resolve(native?.getState() ?? { available: false });
 }
 
 export function addPlaybackListener(listener: (state: CarPlaybackState) => void) {
