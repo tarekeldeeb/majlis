@@ -5,7 +5,7 @@ import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ProgressBar } from '../src/components/ProgressBar';
 import { formatHadithTitle, theme, toArabicDigits } from '../src/constants/theme';
-import { getBook, getBooks } from '../src/data';
+import { getBook, getBooks, hasAudio } from '../src/data';
 import { nextHadithNumber, useProgress } from '../src/progress/progress';
 import type { Book } from '../src/types/content';
 
@@ -50,20 +50,26 @@ export default function JourneyScreen() {
         </View>
 
         <View style={styles.bookActionsRow}>
-          <Pressable
-            onPress={() => openHadith(book.id, next)}
-            style={({ pressed }) => [styles.primaryBtn, pressed && styles.primaryBtnPressed]}
-          >
-            <Text style={styles.primaryBtnText}>
-              {started ? 'واصل المجلس' : 'ابدأ المجلس'}
-            </Text>
-          </Pressable>
-          <Pressable
-            onPress={() => router.push(`/book/${book.id}`)}
-            style={({ pressed }) => [styles.secondaryBtn, pressed && styles.secondaryBtnPressed]}
-          >
-            <Text style={styles.secondaryBtnText}>تصفح الأحاديث</Text>
-          </Pressable>
+          {hasAudio(book.id) ? (
+            <>
+              <Pressable
+                onPress={() => openHadith(book.id, next)}
+                style={({ pressed }) => [styles.primaryBtn, pressed && styles.primaryBtnPressed]}
+              >
+                <Text style={styles.primaryBtnText}>
+                  {started ? 'واصل المجلس' : 'ابدأ المجلس'}
+                </Text>
+              </Pressable>
+              <Pressable
+                onPress={() => router.push(`/book/${book.id}`)}
+                style={({ pressed }) => [styles.secondaryBtn, pressed && styles.secondaryBtnPressed]}
+              >
+                <Text style={styles.secondaryBtnText}>تصفح الأحاديث</Text>
+              </Pressable>
+            </>
+          ) : (
+            <Text style={styles.bookPending}>التسجيل الصوتي قيد الإعداد — قريبًا بإذن الله</Text>
+          )}
         </View>
       </View>
     );
@@ -277,6 +283,11 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '700',
     color: theme.colors.goldDeep,
+  },
+  bookPending: {
+    ...theme.typography.caption,
+    color: theme.colors.textMuted,
+    paddingVertical: theme.spacing.sm,
   },
   bookActionsRow: {
     flexDirection: 'row',
