@@ -61,6 +61,11 @@ public class MajlisCarModule: Module {
     Function("next") { self.move(by: 1) }
     Function("previous") { self.move(by: -1) }
 
+    AsyncFunction("reloadLibrary") {
+      self.carPlaySource.reload()
+      MPPlayableContentManager.shared().reloadData()
+    }.runOnQueue(.main)
+
     Function("getState") { () -> [String: Any] in
       let item = self.player.currentItem
       let duration = item?.duration.seconds ?? 0
@@ -141,19 +146,29 @@ public class MajlisCarModule: Module {
       MPMediaItemPropertyTitle: entry["title"] as? String ?? "",
       MPMediaItemPropertyArtist: entry["artist"] as? String ?? "",
     ]
-    if let artworkUri = entry["artworkUri"] as? String,
-       let url = URL(string: artworkUri),
-       let data = try? Data(contentsOf: url),
-       let image = UIImage(data: data) {
-      info[MPMediaItemPropertyArtwork] = MPMediaItemArtwork(boundsSize: image.size) { _ in image }
+    if let artwork = nowPlayingArtwork(entry["artworkUri"] as? String) {
+      info[MPMediaItemPropertyArtwork] = artwork
     }
     MPNowPlayingInfoCenter.default().nowPlayingInfo = info
   }
 
+  // The lock screen and CarPlay draw the scrubber from these; they don't track the player.
+  private func updateNowPlayingProgress() {
+    let center = MPNowPlayingInfoCenter.default()
+    guard var info = center.nowPlayingInfo else { return }
+    let duration = player.currentItem?.duration.seconds ?? 0
+    if duration.isFinite { info[MPMediaItemPropertyPlaybackDuration] = duration }
+    info[MPNowPlayingInfoPropertyElapsedPlaybackTime] = player.currentTime().seconds
+    info[MPNowPlayingInfoPropertyPlaybackRate] = player.rate
+    center.nowPlayingInfo = info
+  }
+
   private func observeTime() {
     let interval = CMTime(seconds: 0.5, preferredTimescale: 600)
+    // Also fires when playback starts or stops, so a pause reaches Now Playing.
     timeObserver = player.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] _ in
       self?.emitState(ended: false)
+      self?.updateNowPlayingProgress()
     }
   }
 
@@ -178,12 +193,22 @@ private extension Array {
   }
 }
 
+private func nowPlayingArtwork(_ uri: String?) -> MPMediaItemArtwork? {
+  guard
+    let uri, let url = URL(string: uri),
+    let data = try? Data(contentsOf: url),
+    let image = UIImage(data: data)
+  else { return nil }
+  return MPMediaItemArtwork(boundsSize: image.size) { _ in image }
+}
+
 // MARK: - CarPlay browsing
 
 struct CarHadithEntry {
   let id: String
   let title: String
   let artist: String
+  let artworkUri: String?
   let segments: [[String: String]]
 }
 
@@ -191,6 +216,8 @@ struct CarHadithEntry {
 final class CarPlayContentSource: NSObject, MPPlayableContentDataSource, MPPlayableContentDelegate {
   weak var owner: MajlisCarModule?
   private var library: [CarHadithEntry] = []
+  // Every hadith shares one list thumbnail, so it is decoded once per reload.
+  private var thumbnail: MPMediaItemArtwork?
 
   func reload() {
     guard
@@ -200,6 +227,7 @@ final class CarPlayContentSource: NSObject, MPPlayableContentDataSource, MPPlaya
       let entries = root["hadiths"] as? [[String: Any]]
     else {
       library = []
+      thumbnail = nil
       return
     }
 
@@ -213,12 +241,14 @@ final class CarPlayContentSource: NSObject, MPPlayableContentDataSource, MPPlaya
         id: id,
         title: title,
         artist: entry["artist"] as? String ?? "",
+        artworkUri: entry["artworkUri"] as? String,
         segments: segments.compactMap { segment in
           guard let uri = segment["uri"] as? String else { return nil }
           return ["uri": uri, "title": segment["title"] as? String ?? ""]
         }
       )
     }
+    thumbnail = nowPlayingArtwork(entries.first?["thumbnailUri"] as? String)
   }
 
   func numberOfChildItems(at indexPath: IndexPath) -> Int {
@@ -231,6 +261,7 @@ final class CarPlayContentSource: NSObject, MPPlayableContentDataSource, MPPlaya
     let item = MPContentItem(identifier: hadith.id)
     item.title = hadith.title
     item.subtitle = hadith.artist
+    item.artwork = thumbnail
     item.isPlayable = true
     return item
   }
@@ -246,14 +277,17 @@ final class CarPlayContentSource: NSObject, MPPlayableContentDataSource, MPPlaya
     }
     let hadith = library[indexPath[0]]
     owner.queue = hadith.segments.map { segment in
-      [
+      var entry: [String: Any] = [
         "uri": segment["uri"] ?? "",
         "title": "\(hadith.title) — \(segment["title"] ?? "")",
         "artist": hadith.artist,
       ]
+      if let artworkUri = hadith.artworkUri { entry["artworkUri"] = artworkUri }
+      return entry
     }
     owner.currentIndex = 0
     owner.playCurrent()
+    contentManager.nowPlayingIdentifiers = [hadith.id]
     completionHandler(nil)
   }
 }

@@ -63,3 +63,8 @@ export function getState(): Promise<CarPlaybackState> {
 export function addPlaybackListener(listener: (state: CarPlaybackState) => void) {
   return native?.addListener('playbackState', listener) ?? { remove: () => {} };
 }
+
+/** Tells a connected car to re-read the index after the app rewrites it. */
+export function reloadLibrary(): void {
+  native?.reloadLibrary();
+}

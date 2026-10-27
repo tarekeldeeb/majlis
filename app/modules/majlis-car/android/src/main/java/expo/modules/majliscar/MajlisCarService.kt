@@ -36,6 +36,10 @@ class MajlisCarService : MediaLibraryService() {
 
   fun player(): Player? = session?.player
 
+  fun notifyLibraryChanged() {
+    session?.notifyChildrenChanged(ROOT_ID, CarLibrary.read(this).size, null)
+  }
+
   companion object {
     const val ROOT_ID = "root"
 
@@ -74,7 +78,7 @@ private class LibraryCallback(private val service: MajlisCarService) :
     pageSize: Int,
     params: MediaLibraryService.LibraryParams?,
   ): ListenableFuture<LibraryResult<ImmutableList<MediaItem>>> {
-    val items = CarLibrary.read(service).map { it.toMediaItem() }
+    val items = CarLibrary.read(service).map { it.toMediaItem(service) }
     return Futures.immediateFuture(LibraryResult.ofItemList(ImmutableList.copyOf(items), params))
   }
 
@@ -85,7 +89,7 @@ private class LibraryCallback(private val service: MajlisCarService) :
   ): ListenableFuture<LibraryResult<MediaItem>> {
     val hadith = CarLibrary.find(service, mediaId)
       ?: return Futures.immediateFuture(LibraryResult.ofError(LibraryResult.RESULT_ERROR_BAD_VALUE))
-    return Futures.immediateFuture(LibraryResult.ofItem(hadith.toMediaItem(), null))
+    return Futures.immediateFuture(LibraryResult.ofItem(hadith.toMediaItem(service), null))
   }
 
   // A browsed hadith becomes its whole segment queue.

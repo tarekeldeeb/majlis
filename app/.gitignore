@@ -9,3 +9,4 @@ web-build/
 assets/content/
 src/data/manifest.ts
 src/data/audio-manifest.ts
+src/data/artwork-manifest.ts

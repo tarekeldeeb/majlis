@@ -13,6 +13,8 @@ const manifestFile = path.resolve(appRoot, 'src/data/manifest.ts');
 const contentAudioDir = path.resolve(appRoot, '../content/audio');
 const targetAssetsAudioDir = path.resolve(appRoot, 'assets/content/audio');
 const audioManifestFile = path.resolve(appRoot, 'src/data/audio-manifest.ts');
+const targetArtworkDir = path.resolve(appRoot, 'assets/content/artwork');
+const artworkManifestFile = path.resolve(appRoot, 'src/data/artwork-manifest.ts');
 
 function copyDirRecursive(src, dest) {
   if (!fs.existsSync(src)) return;
@@ -201,7 +203,59 @@ export function getAudioAsset(relativePath: string | null | undefined): AudioAss
 fs.mkdirSync(path.dirname(audioManifestFile), { recursive: true });
 fs.writeFileSync(audioManifestFile, audioManifestCode, 'utf-8');
 
+// 5. Copy car artwork: a cover per hadith for Now Playing, one shared list thumbnail.
+fs.rmSync(targetArtworkDir, { recursive: true, force: true });
+
+const coverImports = [];
+const coverLines = [];
+
+if (fs.existsSync(contentAudioDir)) {
+  for (const entry of fs.readdirSync(contentAudioDir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+
+    const bookId = entry.name;
+    const covers = fs
+      .readdirSync(path.join(contentAudioDir, bookId))
+      .filter((f) => /^\d+-cover\.jpg$/.test(f))
+      .sort();
+    if (covers.length === 0) continue;
+
+    fs.mkdirSync(path.join(targetArtworkDir, bookId), { recursive: true });
+    for (const file of covers) {
+      fs.copyFileSync(path.join(contentAudioDir, bookId, file), path.join(targetArtworkDir, bookId, file));
+      const variable = `cover_${`${bookId}_${file}`.replace(/[^A-Za-z0-9]/g, '_')}`;
+      coverImports.push(`import ${variable} from '../../assets/content/artwork/${bookId}/${file}';`);
+      coverLines.push(`  '${bookId}:${parseInt(file, 10)}': ${variable},`);
+    }
+  }
+}
+
+const thumbnailFile = path.join(contentAudioDir, 'car', 'thumbnail.jpg');
+const hasThumbnail = fs.existsSync(thumbnailFile);
+if (hasThumbnail) {
+  fs.mkdirSync(path.join(targetArtworkDir, 'car'), { recursive: true });
+  fs.copyFileSync(thumbnailFile, path.join(targetArtworkDir, 'car', 'thumbnail.jpg'));
+  coverImports.push(`import thumbnail from '../../assets/content/artwork/car/thumbnail.jpg';`);
+}
+
+const artworkManifestCode = `// Generated automatically by scripts/sync-content.mjs
+// DO NOT EDIT MANUALLY
+
+${coverImports.join('\n')}
+
+/** Now Playing artwork per hadith, keyed by "<bookId>:<number>". */
+export const coverSources: Record<string, number> = {
+${coverLines.join('\n')}
+};
+
+/** The list thumbnail shared by every hadith in the car. */
+export const thumbnailSource: number | undefined = ${hasThumbnail ? 'thumbnail' : 'undefined'};
+`;
+
+fs.writeFileSync(artworkManifestFile, artworkManifestCode, 'utf-8');
+
 console.log(`✅ Content sync complete: ${bookDirs.length} books, ${totalHadiths} hadiths.`);
 console.log(`🔊 Synced ${audioEntries.length} narration file(s).`);
+console.log(`🖼  Synced ${coverLines.length} cover(s)${hasThumbnail ? ' and the car thumbnail' : ''}.`);
 console.log(`📝 Generated TypeScript manifest at: ${manifestFile}`);
 console.log(`📝 Generated audio manifest at: ${audioManifestFile}`);

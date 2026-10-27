@@ -1,12 +1,15 @@
 package expo.modules.majliscar
 
-import android.content.Intent
+import android.content.ComponentName
 import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
 import androidx.media3.common.Player
+import androidx.media3.session.MediaController
+import androidx.media3.session.SessionToken
+import com.google.common.util.concurrent.ListenableFuture
 import expo.modules.kotlin.functions.Queues
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
@@ -16,14 +19,20 @@ class MajlisCarModule : Module() {
   private val mainHandler = Handler(Looper.getMainLooper())
   private var playerListener: Player.Listener? = null
   private var pendingQueue: String? = null
+  private var controller: ListenableFuture<MediaController>? = null
 
   private fun player(): Player? = MajlisCarService.current?.player()
 
+  // Media3 only publishes a session once a controller connects: that is what posts
+  // the media notification and promotes playback to a foreground service. Binding
+  // also creates the service, so it is never started directly.
   private fun ensureService() {
+    if (controller != null) return
     val context = appContext.reactContext ?: return
-    if (MajlisCarService.current == null) {
-      context.startService(Intent(context, MajlisCarService::class.java))
-    }
+    val token = SessionToken(context, ComponentName(context, MajlisCarService::class.java))
+    controller = MediaController.Builder(context, token)
+      .setApplicationLooper(Looper.getMainLooper())
+      .buildAsync()
   }
 
   private fun stateOf(player: Player): Map<String, Any> = mapOf(
@@ -90,6 +99,11 @@ class MajlisCarModule : Module() {
     Name("MajlisCar")
     Events("playbackState")
 
+    OnDestroy {
+      controller?.let(MediaController::releaseFuture)
+      controller = null
+    }
+
     Function("start") {
       ensureService()
       true
@@ -118,6 +132,10 @@ class MajlisCarModule : Module() {
 
     AsyncFunction("next") { player()?.seekToNextMediaItem() }.runOnQueue(Queues.MAIN)
     AsyncFunction("previous") { player()?.seekToPreviousMediaItem() }.runOnQueue(Queues.MAIN)
+
+    AsyncFunction("reloadLibrary") {
+      MajlisCarService.current?.notifyLibraryChanged()
+    }.runOnQueue(Queues.MAIN)
 
     AsyncFunction("getState") {
       val current = player() ?: return@AsyncFunction mapOf("available" to false)

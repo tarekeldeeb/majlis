@@ -15,6 +15,12 @@
       </intent-filter>
     </service>
 
+    <!-- Exported read-only so Android Auto can load list artwork; see ArtworkProvider. -->
+    <provider
+      android:name="expo.modules.majliscar.ArtworkProvider"
+      android:authorities="${applicationId}.majliscar.artwork"
+      android:exported="true" />
+
     <meta-data
       android:name="com.google.android.gms.car.application"
       android:resource="@xml/automotive_app_desc" />

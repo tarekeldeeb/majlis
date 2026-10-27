@@ -3,6 +3,8 @@ import { createAudioPlaylist, setAudioModeAsync } from 'expo-audio';
 import { useSyncExternalStore } from 'react';
 import * as MajlisCar from '../../modules/majlis-car/src';
 import type { AudioAsset } from '../data';
+import { coverUri } from './artwork';
+import { toFileUri } from './fileUri';
 import type { Segment } from './segments';
 
 const STATUS_EVENT = 'playlistStatusUpdate';
@@ -36,23 +38,6 @@ function toSource(source: AudioAsset) {
   if (typeof source === 'string') return { uri: source };
   const asset = Asset.fromModule(source);
   return { uri: asset.localUri ?? asset.uri, name: asset.name ?? undefined };
-}
-
-/**
- * Bundled audio is packed as hashed resources, which Media3 cannot open.
- * Downloading the asset copies it to a real file path first.
- */
-async function toFileUri(source: AudioAsset): Promise<string> {
-  if (typeof source === 'string') return source;
-  const asset = Asset.fromModule(source);
-  if (!asset.localUri) {
-    try {
-      await asset.downloadAsync();
-    } catch {
-      // Fall back to the bundled URI; playback will surface the error.
-    }
-  }
-  return asset.localUri ?? asset.uri;
 }
 
 function sameSegments(a: Segment[], b: Segment[]) {
@@ -124,6 +109,7 @@ class PlayerEngine {
     segments: Segment[],
     meta?: { title: string; artist: string }
   ) {
+    const artworkUri = await coverUri(bookId, hadithNumber);
     const items: MajlisCar.CarQueueItem[] = [];
     for (let index = 0; index < segments.length; index += 1) {
       const segment = segments[index];
@@ -132,6 +118,7 @@ class PlayerEngine {
         uri: await toFileUri(segment.source),
         title: meta?.title ? `${meta.title} — ${segment.label}` : segment.label,
         artist: meta?.artist ?? '',
+        artworkUri,
       });
     }
     // The screen may have moved on while the assets were resolving.
