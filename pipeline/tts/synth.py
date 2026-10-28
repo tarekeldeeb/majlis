@@ -34,6 +34,7 @@ CONJUNCTION = re.compile(
     r"\s+(?=(?:وَ|فَ|ثُمَّ|لَكِنَّ|بَلْ|أَمَّا|إِنَّ|لِأَنَّ|حَتَّى|إِذَا|لَمَّا|حَيْثُ)\b)"
 )
 IBN = re.compile(r"\s+(?=(?:بن|بنُ|بِن|بْن)\s)")
+LETTER = re.compile(r"[ء-ي]")
 
 
 def _hard_split(part: str, max_chars: int):
@@ -129,7 +130,9 @@ def split_text(text: str, max_chars: int = 180):
             out.extend(_split_name_chain(chunk, 120))
         else:
             out.append(chunk)
-    return out
+    # Punctuation left alone, like the ". ." after a stripped citation, has nothing
+    # to read; sending it to SILMA only risks a stray sound at the end of the clip.
+    return [chunk for chunk in out if LETTER.search(chunk)]
 
 
 def _trim_silence(wave, sample_rate: int, keep_start: float = 0.15, keep_end: float = 0.12):

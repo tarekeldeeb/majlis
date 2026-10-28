@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T23:15:23+00:00",
+  "generatedAt": "2026-10-28T16:29:50+00:00",
   "book": {
     "id": "nawawi40",
     "title": "الأربعون النووية",
@@ -84,7 +84,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/003-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 113.02,
+      "duration": 112.88,
       "segments": [
         {
           "kind": "number",
@@ -94,7 +94,7 @@
         {
           "kind": "matn",
           "path": "nawawi40/003-matn.mp3",
-          "duration": 20.74
+          "duration": 20.6
         },
         {
           "kind": "adab",
@@ -714,7 +714,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/021-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 84.33,
+      "duration": 84.82,
       "segments": [
         {
           "kind": "number",
@@ -724,7 +724,7 @@
         {
           "kind": "matn",
           "path": "nawawi40/021-matn.mp3",
-          "duration": 13.61
+          "duration": 14.1
         },
         {
           "kind": "adab",
