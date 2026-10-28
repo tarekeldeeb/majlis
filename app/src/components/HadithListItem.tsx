@@ -1,6 +1,7 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { formatHadithTitle, theme, toArabicDigits } from '../constants/theme';
+import { matnText } from '../data';
 import type { Hadith } from '../types/content';
 
 interface HadithListItemProps {
@@ -11,7 +12,7 @@ interface HadithListItemProps {
 
 export function HadithListItem({ hadith, done = false, onPress }: HadithListItemProps) {
   // Extract a clean short excerpt of the matn
-  const fullMatn = hadith.matn?.arabic || '';
+  const fullMatn = matnText(hadith);
   const cleanMatn = fullMatn.replace(/\s+/g, ' ').trim();
   const excerpt = cleanMatn.length > 130 ? cleanMatn.slice(0, 130) + '...' : cleanMatn;
 

@@ -13,9 +13,11 @@ One JSON file per hadith at `content/books/<bookId>/hadith/<NNN>.json`, plus a `
   "matn": {
     "arabic": "…",               // verbatim from source — IMMUTABLE after ingest
     "sourceId": 40944,           // hadith id in AhmedBaset/hadith-json
-    "diacritized": "…",          // optional: tashkeel-transferred span (see pipeline/diacritize/), null if not matched
-    "diacritizationSource": {    // provenance for the transfer, present iff "diacritized" is present
+    "diacritized": "…",          // optional: fully diacritized reading text derived from "arabic" (tashkeel transfer,
+                                 // CATT, or CATT gap-fill; see pipeline/diacritize/). The app shows it and TTS reads it.
+    "diacritizationSource": {    // provenance, present iff "diacritized" is present
       "collection": "bukhari", "sourceId": 41796, "coverage": 0.70, "partial": true
+      // gap-fill instead: { "method": "catt-fill", "model": "…", "filledWords": 12, "corrections": ["…"] }
     }
   },
   "commentary": {

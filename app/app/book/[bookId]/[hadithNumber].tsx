@@ -4,7 +4,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { AdabSection, FawaidSection, MeaningSection, CommentaryExtras } from '../../../src/components/CommentarySection';
 import { HadithAudioPlayer } from '../../../src/components/HadithAudioPlayer';
 import { formatHadithTitle, theme, toArabicDigits } from '../../../src/constants/theme';
-import { getBook, getHadithByNumber, getHadithsForBook } from '../../../src/data';
+import { getBook, getHadithByNumber, getHadithsForBook, matnText } from '../../../src/data';
 import { player, usePlayer } from '../../../src/player/engine';
 import { buildSegments } from '../../../src/player/segments';
 import { useProgress } from '../../../src/progress/progress';
@@ -192,7 +192,7 @@ export default function HadithScreen() {
               <Text style={styles.matnLabel}>نَصُّ الْحَدِيثِ الشَّرِيفِ</Text>
             </View>
             <Text style={styles.matnBody} selectable>
-              {hadith.matn?.arabic}
+              {matnText(hadith)}
             </Text>
           </View>
         </View>

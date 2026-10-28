@@ -8,6 +8,8 @@ export interface RelatedAyah {
 export interface HadithMatn {
   arabic: string;
   sourceId?: number;
+  /** Fully diacritized reading text derived from `arabic`, when the pipeline produced one. */
+  diacritized?: string | null;
 }
 
 export interface HadithCommentary {

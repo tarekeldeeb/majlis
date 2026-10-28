@@ -18,6 +18,8 @@ All 1,896 Riyad al-Salihin hadiths are now diacritized: 558 via tashkeel-transfe
 
 **Correction (2026-10-22):** the tashkeel-transfer pass stored only the matched span in `matn.diacritized`, so its isnad prefix and takhrij suffix were missing from the TTS text. `pipeline/diacritize/rediacritize_transfer_full.py` now generates a full-matn CATT base for all 558 transfer hadiths, and `merge_transfer_spans.py` restores the original transfer diacritics word-by-word inside it, leaving CATT only at the boundaries. `qa_riyad.py` checks letter coverage and diacritic density; current QA passes 1,887/1,896, with the remaining 9 carrying source digits only.
 
+**Nawawi gaps (2026-10-28):** the in-source Nawawi diacritics had gaps, mostly a bare «صلى الله عليه وسلم», «اللهُ» without its shadda, and missing case endings. `pipeline/diacritize/complete_diacritics.py` copies CATT's marks onto bare letters only, never replacing a source mark (nor adding CATT's fatha on a waṣla alef or a sukun on a long vowel), and writes the result to `matn.diacritized`; commentary is completed in place. Every changed word is listed in `content/books/nawawi40/diacritization-fill.json` for review.
+
 ## Method
 
 1. Test set: hadith 001 matn + its approved commentary (contrasting registers: narration vs. explanation).
