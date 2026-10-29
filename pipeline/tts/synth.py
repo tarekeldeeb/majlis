@@ -190,25 +190,40 @@ def crossfade_concat(waves, sample_rate: int, fade_seconds: float = 0.08):
 def synthesize(tts, ref_audio: str, ref_text: str, text: str, nfe_step: int,
                speed: float, max_chars: int = 180, fade_seconds: float = 0.08,
                keep_start: float = 0.15, sentence_keep_end: float = 0.25,
-               lead_in: float = 0.0):
-    """Synthesize text chunk-by-chunk without SILMA's inter-chunk pauses."""
+               lead_in: float = 0.0, check=None, attempts: int = 1, report=None):
+    """Synthesize text chunk-by-chunk without SILMA's inter-chunk pauses.
+
+    With `check(chunk, wave, sample_rate)` (a 0-1 score, e.g. stt_check.SttCheck),
+    a chunk scoring under 0.5 is generated again, up to `attempts` times, and the
+    best take is kept; each chunk's best score is appended to `report`.
+    """
     chunks = split_text(text, max_chars=max_chars)
     waves = []
     sample_rate = None
     for chunk in chunks:
-        wav, sr, _ = tts.infer(
-            ref_file=str(ref_audio),
-            ref_text=ref_text,
-            gen_text=chunk,
-            cross_fade_duration=0,
-            nfe_step=nfe_step,
-            speed=speed,
-            normalize_numbers=False,
-            force_tashkeel=False,
-        )
-        sample_rate = sr
-        keep_end = sentence_keep_end if chunk.rstrip().endswith((".", "!", "؟", "؛", ":")) else 0.10
-        waves.append(_trim_silence(wav, sr, keep_start=keep_start, keep_end=keep_end))
+        best = None
+        for attempt in range(1, (attempts if check else 1) + 1):
+            wav, sr, _ = tts.infer(
+                ref_file=str(ref_audio),
+                ref_text=ref_text,
+                gen_text=chunk,
+                cross_fade_duration=0,
+                nfe_step=nfe_step,
+                speed=speed,
+                normalize_numbers=False,
+                force_tashkeel=False,
+            )
+            sample_rate = sr
+            keep_end = sentence_keep_end if chunk.rstrip().endswith((".", "!", "؟", "؛", ":")) else 0.10
+            wav = _trim_silence(wav, sr, keep_start=keep_start, keep_end=keep_end)
+            score = check(chunk, wav, sr) if check else 1.0
+            if best is None or score > best[0]:
+                best = (score, wav, attempt)
+            if score >= 0.5:
+                break
+        waves.append(best[1])
+        if report is not None:
+            report.append({"chunk": chunk, "score": round(best[0], 2), "attempts": attempt})
     out = crossfade_concat(waves, sample_rate, fade_seconds)
     if lead_in > 0:
         out = np.concatenate([
@@ -234,7 +249,7 @@ def join_with_pauses(waves, sample_rate: int, pause_seconds: float = 0.4):
 
 def synthesize_items(tts, ref_audio: str, ref_text: str, items, nfe_step: int,
                      speed: float, max_chars: int = 180, fade_seconds: float = 0.08,
-                     pause_seconds: float = 0.4):
+                     pause_seconds: float = 0.4, check=None, attempts: int = 1, report=None):
     """Synthesize bullet items independently with a clear pause between them."""
     waves = []
     sample_rate = None
@@ -252,6 +267,9 @@ def synthesize_items(tts, ref_audio: str, ref_text: str, items, nfe_step: int,
             fade_seconds=fade_seconds,
             keep_start=0.15,
             sentence_keep_end=0.12,
+            check=check,
+            attempts=attempts,
+            report=report,
         )
         sample_rate = sr
         waves.append(wav)

@@ -84,3 +84,7 @@ The project owner preferred a male narrator. SILMA is zero-shot, so the voice is
 - Stored at `pipeline/tts/voices/clartts107.wav` with its exact transcript; attribution in `pipeline/tts/voices/README.md`.
 - Same 79-word matn: ClArTTS reference produced **33 s** of audio (narration pace), versus **78 s** with an Alafasy Qurʾān reference (recitation cadence). The owner called ClArTTS a clear win.
 - **Final voice assignment:** male ClArTTS for the **matn**; SILMA's bundled female reference for the **commentary** (ādāb/fawāʾid/meaning). `generate_audio.py` defaults to both and exposes `--matn-ref-*` / `--comm-ref-*` overrides.
+
+## Dropped-word check (2026-10-29)
+
+SILMA generates each chunk in one pass sized by its character count, and now and then skips a short word wedged between punctuation: the shipped hadith 21 matn had lost «قُلْت» and «قُلْ». A Whisper sweep of all Nawawi narration confirmed that case and a shortened shahada in hadith 3, and nothing else. `generate_audio.py --stt-check` now transcribes every chunk with Whisper (`pipeline/tts/stt_check.py`) and scores it by its weakest word, measured on letters so that fused or misspelt words still count as heard. A chunk scoring under 0.5 is generated again, up to `--stt-attempts` times (default 4), and the best take kept; chunks that never come out whole are printed and listed under `sttWeak` in `content/audio/generation-state.json`.

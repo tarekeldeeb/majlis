@@ -225,6 +225,12 @@ def main():
     ap.add_argument("--comm-speed", type=float, default=0.84,
                     help="commentary speed; 0.84 -> effective 1.09")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--titles", default="",
+                    help="regenerate only these title clips (comma-separated), skipping hadith audio")
+    ap.add_argument("--skip-titles", action="store_true", help="leave the section title clips alone")
+    ap.add_argument("--stt-check", action="store_true",
+                    help="transcribe every chunk with Whisper and regenerate chunks that lost a word")
+    ap.add_argument("--stt-attempts", type=int, default=4, help="takes per chunk under --stt-check")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--matn-ref-audio", default=str(MATN_REF_AUDIO), help="matn reference WAV (<= 8 s)")
     ap.add_argument("--matn-ref-text", default=MATN_REF_TEXT, help="exact matn reference transcript")
@@ -246,11 +252,18 @@ def main():
     matn_ref_audio, matn_ref_text = resolve(args.matn_ref_audio, args.matn_ref_text, args.matn_ref_text_file, "matn")
     comm_ref_audio, comm_ref_text = resolve(args.comm_ref_audio, args.comm_ref_text, args.comm_ref_text_file, "commentary")
 
-    books = ["nawawi40", "riyad_assalihin"] if args.book == "all" else [b.strip() for b in args.book.split(",") if b.strip()]
-    queue = []
-    for book in books:
-        queue.extend((book, *item) for item in pending(book, args.start, args.limit, args.force))
-    titles = titles_pending(args.force)
+    if args.titles:
+        titles = [t.strip() for t in args.titles.split(",") if t.strip()]
+        unknown = [t for t in titles if t not in TITLES]
+        if unknown:
+            sys.exit(f"unknown title(s): {', '.join(unknown)}")
+        queue = []
+    else:
+        books = ["nawawi40", "riyad_assalihin"] if args.book == "all" else [b.strip() for b in args.book.split(",") if b.strip()]
+        queue = []
+        for book in books:
+            queue.extend((book, *item) for item in pending(book, args.start, args.limit, args.force))
+        titles = [] if args.skip_titles else titles_pending(args.force)
 
     print(
         f"queue: {len(queue)} hadith(s), {len(titles)} title clip(s); "
@@ -281,6 +294,21 @@ def main():
     t0 = time.perf_counter()
     tts = SilmaTTS(enable_normalizer=False)
     print(f"loaded in {time.perf_counter() - t0:.1f}s", flush=True)
+    stt = {}
+    if args.stt_check:
+        from stt_check import SttCheck
+        stt = {"check": SttCheck(), "attempts": args.stt_attempts}
+        print(f"STT check: Whisper on every chunk, up to {args.stt_attempts} takes", flush=True)
+
+    def note_stt(item_id, report):
+        """Log chunks that needed retries, and keep the ones that never came out whole."""
+        retried = sum(r["attempts"] > 1 for r in report)
+        weak = [r for r in report if r["score"] < 0.5]
+        if retried or weak:
+            print(f"  STT {item_id}: {retried} chunk(s) retried, {len(weak)} still weak", flush=True)
+        for r in weak:
+            print(f"    weak ({r['score']:.2f}): {r['chunk']}", flush=True)
+            state.setdefault("sttWeak", []).append({"id": item_id, **r})
 
     ok = failed = 0
     run_start = time.perf_counter()
@@ -290,6 +318,7 @@ def main():
         out = TITLE_DIR / f"{key}.mp3"
         try:
             wav = out.with_suffix(".wav")
+            report = []
             wav_data, sr = synthesize(
                 tts,
                 comm_ref_audio,
@@ -301,9 +330,12 @@ def main():
                 fade_seconds=CROSSFADE,
                 keep_start=0.2,
                 lead_in=0.15,
+                report=report,
+                **stt,
             )
             tts.export_wav(wav_data, str(wav))
             to_mp3(wav, out)
+            note_stt(f"title:{key}", report)
             print(f"title: {key} -> {out.name}", flush=True)
         except Exception as e:
             failed += 1
@@ -320,6 +352,7 @@ def main():
                 out.parent.mkdir(parents=True, exist_ok=True)
                 wav = out.with_suffix(".wav")
                 segment_speed = args.speed if kind in ("number", "matn") else args.comm_speed
+                report = []
                 if kind in ("adab", "fawaid"):
                     wav_data, sr = synthesize_items(
                         tts,
@@ -331,6 +364,8 @@ def main():
                         max_chars=CHUNK_LIMIT,
                         fade_seconds=CROSSFADE,
                         pause_seconds=BULLET_PAUSE,
+                        report=report,
+                        **stt,
                     )
                 else:
                     wav_data, sr = synthesize(
@@ -343,9 +378,12 @@ def main():
                         max_chars=CHUNK_LIMIT,
                         fade_seconds=CROSSFADE,
                         keep_start=0.2 if kind == "number" else 0.15,
+                        report=report,
+                        **stt,
                     )
                 tts.export_wav(wav_data, str(wav))
                 to_mp3(wav, out)
+                note_stt(f"{book}:{num}:{kind}", report)
 
             audio = dict(doc.get("audio") or {})
             for kind, path in paths.items():
