@@ -44,14 +44,18 @@ def word_coverage(text, heard):
 
 
 class SttCheck:
-    """Callable scorer for `synth.synthesize(check=...)`: 1.0 when every word is heard."""
+    """Callable scorer for `synth.synthesize(check=...)`: 1.0 when every word is heard.
+
+    `last_heard` keeps the latest transcript so callers can log what Whisper heard.
+    """
 
     def __init__(self, model="openai/whisper-base"):
         self.asr = pipeline("automatic-speech-recognition", model=model)
+        self.last_heard = ""
 
     def __call__(self, text, wave, sample_rate):
         audio = torchaudio.functional.resample(torch.from_numpy(wave).float(), sample_rate, 16000).numpy()
-        heard = self.asr({"raw": audio, "sampling_rate": 16000},
-                         generate_kwargs={"language": "arabic", "task": "transcribe"})["text"]
-        coverage = word_coverage(text, heard)
+        self.last_heard = self.asr({"raw": audio, "sampling_rate": 16000},
+                                   generate_kwargs={"language": "arabic", "task": "transcribe"})["text"].strip()
+        coverage = word_coverage(text, self.last_heard)
         return min(coverage) if coverage else 1.0

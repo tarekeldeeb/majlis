@@ -195,13 +195,14 @@ def synthesize(tts, ref_audio: str, ref_text: str, text: str, nfe_step: int,
 
     With `check(chunk, wave, sample_rate)` (a 0-1 score, e.g. stt_check.SttCheck),
     a chunk scoring under 0.5 is generated again, up to `attempts` times, and the
-    best take is kept; each chunk's best score is appended to `report`.
+    best take is kept. Each chunk goes into `report` with its best score, the take
+    kept, and every take's score and transcript (the check's `last_heard`).
     """
     chunks = split_text(text, max_chars=max_chars)
     waves = []
     sample_rate = None
     for chunk in chunks:
-        best = None
+        best, takes = None, []
         for attempt in range(1, (attempts if check else 1) + 1):
             wav, sr, _ = tts.infer(
                 ref_file=str(ref_audio),
@@ -217,13 +218,16 @@ def synthesize(tts, ref_audio: str, ref_text: str, text: str, nfe_step: int,
             keep_end = sentence_keep_end if chunk.rstrip().endswith((".", "!", "؟", "؛", ":")) else 0.10
             wav = _trim_silence(wav, sr, keep_start=keep_start, keep_end=keep_end)
             score = check(chunk, wav, sr) if check else 1.0
+            if check:
+                takes.append({"score": round(score, 2), "heard": getattr(check, "last_heard", "")})
             if best is None or score > best[0]:
                 best = (score, wav, attempt)
             if score >= 0.5:
                 break
         waves.append(best[1])
         if report is not None:
-            report.append({"chunk": chunk, "score": round(best[0], 2), "attempts": attempt})
+            report.append({"chunk": chunk, "score": round(best[0], 2), "attempts": attempt,
+                           "kept": best[2], "takes": takes})
     out = crossfade_concat(waves, sample_rate, fade_seconds)
     if lead_in > 0:
         out = np.concatenate([

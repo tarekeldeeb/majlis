@@ -65,6 +65,7 @@ MATN_REF_TEXT = "أَنَّ النَّبِيَّ صَلَّى اللَّهُ ع�
 COMM_REF_AUDIO = ROOT / "pipeline/tts/voices/arabic-speech-corpus-male.wav"
 COMM_REF_TEXT = "لِيَتَمَكَّنَ الْقَارِئُ مِنْ مُتَابَعَةِ تَطَوُّرِ الْقِصَّةِ الْخَبَرِيَّةِ بِشَكْلٍ سَلِسٍ وَفَعَّالٍ"
 STATE = AUDIO_DIR / "generation-state.json"
+STT_LOG = AUDIO_DIR / "stt-check.jsonl"  # one line per chunk: every take's score and transcript
 
 WIDTH = {"nawawi40": 3, "riyad_assalihin": 4}
 BIDI = re.compile(r"[‎‏‪-‮]")
@@ -214,6 +215,33 @@ def titles_pending(force):
     return [key for key in TITLES if force or not valid_mp3(TITLE_DIR / f"{key}.mp3")]
 
 
+def log_stt(state, item_id, report):
+    """Record what Whisper heard for every take of every chunk, and show the retried ones.
+
+    Every chunk is appended to STT_LOG; a chunk that needed another take is printed
+    with each take's score and transcript, and one that never came out whole is
+    also kept under state["sttWeak"].
+    """
+    at = time.strftime("%Y-%m-%dT%H:%M:%S%z")
+    with STT_LOG.open("a", encoding="utf-8") as log:
+        for r in report:
+            log.write(json.dumps({"id": item_id, "at": at, **r}, ensure_ascii=False) + "\n")
+    retried = [r for r in report if r["attempts"] > 1]
+    weak = [r for r in report if r["score"] < 0.5]
+    if not (retried or weak):
+        return
+    print(f"  STT {item_id}: {len(retried)} chunk(s) retried, {len(weak)} still weak", flush=True)
+    for r in report:
+        if r["attempts"] == 1 and r["score"] >= 0.5:
+            continue
+        print(f"    {'weak' if r['score'] < 0.5 else 'retried'}: {r['chunk']}", flush=True)
+        for n, take in enumerate(r["takes"], 1):
+            mark = "  <- kept" if n == r["kept"] else ""
+            print(f"      take {n} ({take['score']:.2f}): {take['heard']}{mark}", flush=True)
+        if r["score"] < 0.5:
+            state.setdefault("sttWeak", []).append({"id": item_id, **r})
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--book", default="all", help="book id, 'all', or a comma-separated list")
@@ -298,17 +326,12 @@ def main():
     if args.stt_check:
         from stt_check import SttCheck
         stt = {"check": SttCheck(), "attempts": args.stt_attempts}
-        print(f"STT check: Whisper on every chunk, up to {args.stt_attempts} takes", flush=True)
+        print(f"STT check: Whisper on every chunk, up to {args.stt_attempts} takes; "
+              f"transcripts -> {STT_LOG.relative_to(ROOT)}", flush=True)
 
     def note_stt(item_id, report):
-        """Log chunks that needed retries, and keep the ones that never came out whole."""
-        retried = sum(r["attempts"] > 1 for r in report)
-        weak = [r for r in report if r["score"] < 0.5]
-        if retried or weak:
-            print(f"  STT {item_id}: {retried} chunk(s) retried, {len(weak)} still weak", flush=True)
-        for r in weak:
-            print(f"    weak ({r['score']:.2f}): {r['chunk']}", flush=True)
-            state.setdefault("sttWeak", []).append({"id": item_id, **r})
+        if stt:
+            log_stt(state, item_id, report)
 
     ok = failed = 0
     run_start = time.perf_counter()
