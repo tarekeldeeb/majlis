@@ -36,9 +36,6 @@ python3 -m venv "$VENV"
 source "$VENV/bin/activate"
 pip install --quiet --upgrade pip certifi
 
-# catt-tashkeel declares onnxruntime-gpu (CUDA-only, no macOS build) but the
-# CPU onnxruntime package provides the same importable module.
-pip install --quiet --no-deps catt-tashkeel==1.0.2
 pip install --quiet onnxruntime numpy tqdm huggingface_hub transformers
 
 # silma-tts declares nemo_text_processing==1.1.0 (pynini, see above) - install
@@ -50,6 +47,11 @@ pip install --quiet \
   "torch>=2.0.0" "torchaudio>=2.0.0" "torchvision>=0.21" torchdiffeq \
   "tqdm>=4.65.0" transformers transformers_stream_generator unidecode vocos \
   "x_transformers>=1.31.14" torchcodec
+
+# catt-tashkeel (diacritization only) declares onnxruntime-gpu, which has no macOS
+# build; the CPU onnxruntime above provides the same module. Installed last and
+# without its declared dependencies, so no later pip run warns about them.
+pip install --quiet --no-deps catt-tashkeel==1.0.2
 
 python3 "$(dirname "$0")/patch_silma_no_nemo.py"
 
