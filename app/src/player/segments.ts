@@ -30,15 +30,15 @@ export function buildSegments(
   push(audio?.matn, 'نص الحديث', 'matn');
 
   if (commentary.adab) {
-    push('titles/adab.mp3', 'الآداب', 'adab');
+    push('titles/adab.m4a', 'الآداب', 'adab');
     push(audio?.adab, 'الآداب المستفادة', 'adab');
   }
   if (commentary.fawaid) {
-    push('titles/fawaid.mp3', 'الفوائد', 'fawaid');
+    push('titles/fawaid.m4a', 'الفوائد', 'fawaid');
     push(audio?.fawaid, 'الفوائد', 'fawaid');
   }
   if (commentary.meaning) {
-    push('titles/meaning.mp3', 'المعنى الإجمالي', 'meaning');
+    push('titles/meaning.m4a', 'المعنى الإجمالي', 'meaning');
     push(audio?.meaning, 'المعنى الإجمالي', 'meaning');
   }
 

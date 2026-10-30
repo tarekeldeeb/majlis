@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Verify generated TTS audio against the content files.
 
-Checks every approved hadith's number, matn, and commentary segment MP3s plus
+Checks every approved hadith's number, matn, and commentary segment clips plus
 the shared title clips. Reports durations, words-per-second, missing files, and
 suspicious durations. Writes a Markdown report and an optional local listening
 page.
@@ -25,6 +25,7 @@ WIDTH = {"nawawi40": 3, "riyad_assalihin": 4}
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from arabic_numbers import hadith_number_text
+from audio_format import AUDIO_EXT
 
 SEGMENTS = [
     ("number", "رقم الحديث"),
@@ -99,7 +100,7 @@ def main():
             if not text:
                 continue
             rel = audio.get(key)
-            path = (AUDIO_DIR / rel) if rel else (audio_dir / f"{num:0{width}d}-{key}.mp3")
+            path = (AUDIO_DIR / rel) if rel else (audio_dir / f"{num:0{width}d}-{key}{AUDIO_EXT}")
             sec = duration(path) if path.exists() else None
             rows.append({"number": num, "key": key, "label": label, "path": path,
                          "words": word_count(text), "sec": sec})
@@ -129,7 +130,7 @@ def main():
 
     title_rows = []
     for key, label in TITLES:
-        path = AUDIO_DIR / "titles" / f"{key}.mp3"
+        path = AUDIO_DIR / "titles" / f"{key}{AUDIO_EXT}"
         sec = duration(path) if path.exists() else None
         title_rows.append({"key": key, "label": label, "path": path, "sec": sec})
         if not path.exists() or path.stat().st_size == 0:
@@ -171,7 +172,7 @@ def main():
             if t["path"].exists():
                 html.append(
                     f"<div>{t['label']}</div><audio controls preload='none' "
-                    f"src='../titles/{t['key']}.mp3'></audio>"
+                    f"src='../titles/{t['key']}{AUDIO_EXT}'></audio>"
                 )
         for number in sorted({r["number"] for r in rows}):
             html.append(f"<h2>الحديث {number}</h2>")

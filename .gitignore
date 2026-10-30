@@ -8,11 +8,12 @@ build/
 __pycache__/
 *.pyc
 
-# TTS runtime state and intermediates (MP3 deliverables are tracked in Git LFS)
+# TTS runtime state and intermediates (audio clips are tracked in Git LFS)
 content/audio/generation-state.json
 content/audio/stt-check.jsonl
 content/audio/*.tmp
 content/audio/**/*.wav
+content/audio/**/*.part.*
 
 # Local scratch caches for pipeline scripts
 .cache/

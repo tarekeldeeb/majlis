@@ -3,9 +3,9 @@
 
 Safe to run while generation is active: files that are open or modified in the
 last 10 minutes are treated as in-flight and skipped. For every stable WAV:
-- if a non-empty MP3 already exists, remove the WAV;
-- otherwise convert to MP3 with the production settings, verify duration, then
-  remove the WAV.
+- if a non-empty clip already exists, remove the WAV;
+- otherwise encode it with the production settings (audio_format), verify
+  duration, then remove the WAV.
 
 Usage (from repo root):
   python3 -I pipeline/tts/sweep_wavs.py
@@ -16,14 +16,13 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from audio_format import AUDIO_EXT, ENCODE  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 AUDIO = ROOT / "content/audio"
 IN_FLIGHT_SECONDS = 600
-FFMPEG_ARGS = [
-    "-nostdin", "-threads", "1",
-    "-ac", "1", "-ar", "24000", "-b:a", "96k",
-    "-af", "afade=t=in:st=0:d=0.02",
-]
+FFMPEG_ARGS = ["-nostdin", "-threads", "1", *ENCODE, "-af", "afade=t=in:st=0:d=0.02"]
 
 
 def duration(path: Path):
@@ -52,14 +51,14 @@ def main():
             print(f"skip in-flight: {wav.relative_to(ROOT)}")
             skipped += 1
             continue
-        mp3 = wav.with_suffix(".mp3")
-        if mp3.exists() and mp3.stat().st_size:
-            if duration(mp3) > 1:
+        clip = wav.with_suffix(AUDIO_EXT)
+        if clip.exists() and clip.stat().st_size:
+            if duration(clip) > 1:
                 wav.unlink()
-                print(f"removed (mp3 exists): {wav.relative_to(ROOT)}")
+                print(f"removed (clip exists): {wav.relative_to(ROOT)}")
                 removed += 1
                 continue
-        tmp = mp3.with_suffix(".tmp.mp3")
+        tmp = clip.with_suffix(".tmp" + AUDIO_EXT)
         try:
             subprocess.run(
                 ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), *FFMPEG_ARGS, str(tmp)],
@@ -67,9 +66,9 @@ def main():
             )
             if abs(duration(wav) - duration(tmp)) > 1.0:
                 raise ValueError("duration mismatch")
-            tmp.replace(mp3)
+            tmp.replace(clip)
             wav.unlink()
-            print(f"converted: {wav.relative_to(ROOT)} -> {mp3.name}")
+            print(f"converted: {wav.relative_to(ROOT)} -> {clip.name}")
             converted += 1
         except Exception as exc:
             tmp.unlink(missing_ok=True)

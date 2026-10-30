@@ -143,8 +143,8 @@ export function getHadithByNumber(bookId: string, hadithNumber: number): Hadith 
 fs.mkdirSync(path.dirname(manifestFile), { recursive: true });
 fs.writeFileSync(manifestFile, manifestCode, 'utf-8');
 
-// 4. Copy narration MP3s and generate a static require map for them.
-// Hadith JSON references audio as "<bookId>/<file>.mp3"; Metro needs literal imports.
+// 4. Copy narration clips and generate a static require map for them.
+// Hadith JSON references audio as "<bookId>/<file>.m4a"; Metro needs literal imports.
 fs.rmSync(targetAssetsAudioDir, { recursive: true, force: true });
 
 const audioEntries = [];
@@ -157,7 +157,8 @@ if (fs.existsSync(contentAudioDir)) {
     const sourceBookDir = path.join(contentAudioDir, bookId);
     const files = fs
       .readdirSync(sourceBookDir)
-      .filter((f) => f.endsWith('.mp3'))
+      // A ".part" file is a clip the generator is still writing.
+      .filter((f) => f.endsWith('.m4a') && !f.includes('.part.'))
       .sort();
 
     if (files.length === 0) continue;

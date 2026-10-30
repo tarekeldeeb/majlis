@@ -1,4 +1,4 @@
-declare module '*.mp3' {
+declare module '*.m4a' {
   const asset: number | string;
   export default asset;
 }

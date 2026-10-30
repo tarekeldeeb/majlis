@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Generate SILMA TTS audio for approved Majlis hadiths.
 
-Writes one matn MP3 and one commentary MP3 per hadith under
-`content/audio/<bookId>/`, then records the relative paths in each hadith's
-`audio` field. Resumable: existing non-empty MP3s are skipped.
+Writes one HE-AAC (.m4a) clip per segment (number, matn, adab, fawaid,
+meaning) under `content/audio/<bookId>/` and records each clip's relative path
+in the hadith's `audio` field as soon as it exists. Crash-safe and resumable:
+clips and hadith files are replaced atomically, so a rerun skips every clip
+already written and never mistakes a cut-off one for finished.
 
 Run with the eval venv and the macOS library path:
   source .cache/eval-venv/bin/activate
@@ -49,6 +51,7 @@ import silma_tts.infer.utils_infer as ui
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from synth import synthesize, synthesize_items
 from arabic_numbers import hadith_number_text
+from audio_format import AUDIO_EXT, ENCODE
 
 ROOT = Path(__file__).resolve().parents[2]
 BOOKS_DIR = ROOT / "content/books"
@@ -138,10 +141,10 @@ def segment_item_texts(doc, kind):
 def segment_paths(book, num):
     width = WIDTH.get(book, 3)
     base = AUDIO_DIR / book
-    return {kind: base / f"{num:0{width}d}-{kind}.mp3" for kind in SEGMENT_ORDER}
+    return {kind: base / f"{num:0{width}d}-{kind}{AUDIO_EXT}" for kind in SEGMENT_ORDER}
 
 
-def valid_mp3(path):
+def valid_audio(path):
     return path.exists() and path.stat().st_size > 0
 
 
@@ -150,25 +153,44 @@ def commentary_text(c):
     return tts_text(" ".join(p.strip() for p in parts if isinstance(p, str) and p.strip()))
 
 
-def to_mp3(wav_path, mp3_path):
-    base = [
-        "ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-threads", "1",
-        "-i", str(wav_path),
-        "-ac", "1", "-ar", "24000", "-b:a", "96k",
-    ]
+def encode_audio(wav_path, out_path):
+    """Encode beside the target and rename into place: a crash never leaves a cut-off
+    clip that a resumed run would take for finished."""
+    part = out_path.with_name(out_path.stem + ".part" + out_path.suffix)
+    base = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-threads", "1", "-i", str(wav_path), *ENCODE]
     attempts = [
-        base + ["-af", "afade=t=in:st=0:d=0.02", str(mp3_path)],
-        base + [str(mp3_path)],
+        base + ["-af", "afade=t=in:st=0:d=0.02", str(part)],
+        base + [str(part)],
     ]
     last_error = None
     for command in attempts:
         try:
             subprocess.run(command, check=True)
+            os.replace(part, out_path)
             wav_path.unlink(missing_ok=True)
             return
         except subprocess.CalledProcessError as exc:
             last_error = exc
     raise last_error
+
+
+def write_json(fp, doc):
+    """Replace a hadith file atomically, so a crash mid-write cannot cut it short."""
+    tmp = fp.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    os.replace(tmp, fp)
+
+
+def record_audio(fp, book, paths):
+    """Point the hadith's audio fields at every clip that exists, re-reading the file
+    first so a long run never overwrites edits made to it meanwhile."""
+    doc = json.loads(fp.read_text(encoding="utf-8"))
+    audio = dict(doc.get("audio") or {})
+    for kind, path in paths.items():
+        audio[kind] = f"{book}/{path.name}" if valid_audio(path) else None
+    doc["audio"] = audio
+    write_json(fp, doc)
+    return doc
 
 
 def load_state():
@@ -202,7 +224,7 @@ def pending(book, start, limit, force):
         paths = segment_paths(book, num)
         missing = [
             kind for kind in SEGMENT_ORDER
-            if texts[kind] and (force or not valid_mp3(paths[kind]))
+            if texts[kind] and (force or not valid_audio(paths[kind]))
         ]
         if missing:
             docs.append((fp, doc, paths, missing, texts))
@@ -212,7 +234,7 @@ def pending(book, start, limit, force):
 
 
 def titles_pending(force):
-    return [key for key in TITLES if force or not valid_mp3(TITLE_DIR / f"{key}.mp3")]
+    return [key for key in TITLES if force or not valid_audio(TITLE_DIR / f"{key}{AUDIO_EXT}")]
 
 
 def log_stt(state, item_id, report):
@@ -338,7 +360,7 @@ def main():
     voices = {"matn": (matn_ref_audio, matn_ref_text), "commentary": (comm_ref_audio, comm_ref_text)}
 
     for key in titles:
-        out = TITLE_DIR / f"{key}.mp3"
+        out = TITLE_DIR / f"{key}{AUDIO_EXT}"
         try:
             wav = out.with_suffix(".wav")
             report = []
@@ -357,7 +379,7 @@ def main():
                 **stt,
             )
             tts.export_wav(wav_data, str(wav))
-            to_mp3(wav, out)
+            encode_audio(wav, out)
             note_stt(f"title:{key}", report)
             print(f"title: {key} -> {out.name}", flush=True)
         except Exception as e:
@@ -405,16 +427,17 @@ def main():
                         **stt,
                     )
                 tts.export_wav(wav_data, str(wav))
-                to_mp3(wav, out)
+                encode_audio(wav, out)
                 note_stt(f"{book}:{num}:{kind}", report)
+                # The clip counts the moment it exists, so a crash loses nothing done so far.
+                doc = record_audio(fp, book, paths)
 
-            audio = dict(doc.get("audio") or {})
-            for kind, path in paths.items():
-                audio[kind] = f"{book}/{path.name}" if valid_mp3(path) else None
+            doc = record_audio(fp, book, paths)
+            audio = doc["audio"]
 
             # Once all three commentary parts exist, the old unsplit file is redundant.
             split_ready = all(
-                texts[k] and valid_mp3(paths[k]) for k in ("adab", "fawaid", "meaning")
+                texts[k] and valid_audio(paths[k]) for k in ("adab", "fawaid", "meaning")
             )
             if split_ready:
                 legacy_rel = audio.get("commentary")
@@ -437,7 +460,7 @@ def main():
                 audio.pop("commentary", None)
 
             doc["audio"] = audio
-            fp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
+            write_json(fp, doc)
             state["generated"][f"{book}:{num}"] = {
                 "at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
                 "seconds": round(time.perf_counter() - item_t, 1),
@@ -454,8 +477,7 @@ def main():
             failed += 1
             state["failures"].append({"id": f"{book}:{num}", "error": str(e)})
             print(f"[{i}/{len(queue)}] FAILED {book}:{num}: {e}", flush=True)
-        if i % 5 == 0 or i == len(queue):
-            save_state(state)
+        save_state(state)
 
     save_state(state)
     print(f"done: {ok} generated, {failed} failed, {time.perf_counter()-run_start:.0f}s total")

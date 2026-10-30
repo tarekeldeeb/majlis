@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T00:23:22+00:00",
+  "generatedAt": "2026-10-30T14:39:49+00:00",
   "book": {
     "id": "nawawi40",
     "title": "الأربعون النووية",
@@ -14,32 +14,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/001-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 131.5,
+      "duration": 132.52,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/001-number.mp3",
-          "duration": 1.28
+          "path": "nawawi40/001-number.m4a",
+          "duration": 1.45
         },
         {
           "kind": "matn",
-          "path": "nawawi40/001-matn.mp3",
-          "duration": 40.24
+          "path": "nawawi40/001-matn.m4a",
+          "duration": 40.45
         },
         {
           "kind": "adab",
-          "path": "nawawi40/001-adab.mp3",
-          "duration": 20.3
+          "path": "nawawi40/001-adab.m4a",
+          "duration": 20.48
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/001-fawaid.mp3",
-          "duration": 37.66
+          "path": "nawawi40/001-fawaid.m4a",
+          "duration": 37.89
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/001-meaning.mp3",
-          "duration": 32.02
+          "path": "nawawi40/001-meaning.m4a",
+          "duration": 32.25
         }
       ]
     },
@@ -49,32 +49,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/002-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 212.32,
+      "duration": 213.41,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/002-number.mp3",
-          "duration": 1.28
+          "path": "nawawi40/002-number.m4a",
+          "duration": 1.53
         },
         {
           "kind": "matn",
-          "path": "nawawi40/002-matn.mp3",
-          "duration": 94.34
+          "path": "nawawi40/002-matn.m4a",
+          "duration": 94.55
         },
         {
           "kind": "adab",
-          "path": "nawawi40/002-adab.mp3",
-          "duration": 32.33
+          "path": "nawawi40/002-adab.m4a",
+          "duration": 32.51
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/002-fawaid.mp3",
-          "duration": 49.28
+          "path": "nawawi40/002-fawaid.m4a",
+          "duration": 49.49
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/002-meaning.mp3",
-          "duration": 35.09
+          "path": "nawawi40/002-meaning.m4a",
+          "duration": 35.33
         }
       ]
     },
@@ -84,32 +84,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/003-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 112.95,
+      "duration": 114.08,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/003-number.mp3",
-          "duration": 1.46
+          "path": "nawawi40/003-number.m4a",
+          "duration": 1.7
         },
         {
           "kind": "matn",
-          "path": "nawawi40/003-matn.mp3",
-          "duration": 20.76
+          "path": "nawawi40/003-matn.m4a",
+          "duration": 20.99
         },
         {
           "kind": "adab",
-          "path": "nawawi40/003-adab.mp3",
-          "duration": 21.27
+          "path": "nawawi40/003-adab.m4a",
+          "duration": 21.5
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/003-fawaid.mp3",
-          "duration": 39.12
+          "path": "nawawi40/003-fawaid.m4a",
+          "duration": 39.34
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/003-meaning.mp3",
-          "duration": 30.34
+          "path": "nawawi40/003-meaning.m4a",
+          "duration": 30.55
         }
       ]
     },
@@ -119,32 +119,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/004-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 145.18,
+      "duration": 146.34,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/004-number.mp3",
-          "duration": 1.39
+          "path": "nawawi40/004-number.m4a",
+          "duration": 1.62
         },
         {
           "kind": "matn",
-          "path": "nawawi40/004-matn.mp3",
-          "duration": 53.38
+          "path": "nawawi40/004-matn.m4a",
+          "duration": 53.59
         },
         {
           "kind": "adab",
-          "path": "nawawi40/004-adab.mp3",
-          "duration": 19.99
+          "path": "nawawi40/004-adab.m4a",
+          "duration": 20.22
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/004-fawaid.mp3",
-          "duration": 35.77
+          "path": "nawawi40/004-fawaid.m4a",
+          "duration": 36.01
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/004-meaning.mp3",
-          "duration": 34.65
+          "path": "nawawi40/004-meaning.m4a",
+          "duration": 34.9
         }
       ]
     },
@@ -154,32 +154,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/005-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 94.7,
+      "duration": 95.8,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/005-number.mp3",
-          "duration": 1.35
+          "path": "nawawi40/005-number.m4a",
+          "duration": 1.53
         },
         {
           "kind": "matn",
-          "path": "nawawi40/005-matn.mp3",
-          "duration": 17.42
+          "path": "nawawi40/005-matn.m4a",
+          "duration": 17.66
         },
         {
           "kind": "adab",
-          "path": "nawawi40/005-adab.mp3",
-          "duration": 18.28
+          "path": "nawawi40/005-adab.m4a",
+          "duration": 18.51
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/005-fawaid.mp3",
-          "duration": 27.08
+          "path": "nawawi40/005-fawaid.m4a",
+          "duration": 27.3
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/005-meaning.mp3",
-          "duration": 30.57
+          "path": "nawawi40/005-meaning.m4a",
+          "duration": 30.8
         }
       ]
     },
@@ -189,32 +189,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/006-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 117.44,
+      "duration": 118.6,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/006-number.mp3",
-          "duration": 1.29
+          "path": "nawawi40/006-number.m4a",
+          "duration": 1.53
         },
         {
           "kind": "matn",
-          "path": "nawawi40/006-matn.mp3",
-          "duration": 39.78
+          "path": "nawawi40/006-matn.m4a",
+          "duration": 40.02
         },
         {
           "kind": "adab",
-          "path": "nawawi40/006-adab.mp3",
-          "duration": 16.63
+          "path": "nawawi40/006-adab.m4a",
+          "duration": 16.81
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/006-fawaid.mp3",
-          "duration": 28.76
+          "path": "nawawi40/006-fawaid.m4a",
+          "duration": 29.01
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/006-meaning.mp3",
-          "duration": 30.98
+          "path": "nawawi40/006-meaning.m4a",
+          "duration": 31.23
         }
       ]
     },
@@ -224,32 +224,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/007-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 106.93,
+      "duration": 107.92,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/007-number.mp3",
-          "duration": 1.36
+          "path": "nawawi40/007-number.m4a",
+          "duration": 1.53
         },
         {
           "kind": "matn",
-          "path": "nawawi40/007-matn.mp3",
-          "duration": 15.44
+          "path": "nawawi40/007-matn.m4a",
+          "duration": 15.61
         },
         {
           "kind": "adab",
-          "path": "nawawi40/007-adab.mp3",
-          "duration": 16.53
+          "path": "nawawi40/007-adab.m4a",
+          "duration": 16.72
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/007-fawaid.mp3",
-          "duration": 38.75
+          "path": "nawawi40/007-fawaid.m4a",
+          "duration": 38.99
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/007-meaning.mp3",
-          "duration": 34.85
+          "path": "nawawi40/007-meaning.m4a",
+          "duration": 35.07
         }
       ]
     },
@@ -259,32 +259,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/008-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 97.5,
+      "duration": 98.55,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/008-number.mp3",
-          "duration": 1.41
+          "path": "nawawi40/008-number.m4a",
+          "duration": 1.62
         },
         {
           "kind": "matn",
-          "path": "nawawi40/008-matn.mp3",
-          "duration": 23.57
+          "path": "nawawi40/008-matn.m4a",
+          "duration": 23.81
         },
         {
           "kind": "adab",
-          "path": "nawawi40/008-adab.mp3",
-          "duration": 16.95
+          "path": "nawawi40/008-adab.m4a",
+          "duration": 17.15
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/008-fawaid.mp3",
-          "duration": 23.28
+          "path": "nawawi40/008-fawaid.m4a",
+          "duration": 23.46
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/008-meaning.mp3",
-          "duration": 32.29
+          "path": "nawawi40/008-meaning.m4a",
+          "duration": 32.51
         }
       ]
     },
@@ -294,32 +294,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/009-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 98.63,
+      "duration": 99.66,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/009-number.mp3",
-          "duration": 1.22
+          "path": "nawawi40/009-number.m4a",
+          "duration": 1.45
         },
         {
           "kind": "matn",
-          "path": "nawawi40/009-matn.mp3",
-          "duration": 19.77
+          "path": "nawawi40/009-matn.m4a",
+          "duration": 19.97
         },
         {
           "kind": "adab",
-          "path": "nawawi40/009-adab.mp3",
-          "duration": 14.14
+          "path": "nawawi40/009-adab.m4a",
+          "duration": 14.33
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/009-fawaid.mp3",
-          "duration": 28.39
+          "path": "nawawi40/009-fawaid.m4a",
+          "duration": 28.58
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/009-meaning.mp3",
-          "duration": 35.11
+          "path": "nawawi40/009-meaning.m4a",
+          "duration": 35.33
         }
       ]
     },
@@ -329,32 +329,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/010-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 116.84,
+      "duration": 117.91,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/010-number.mp3",
-          "duration": 1.28
+          "path": "nawawi40/010-number.m4a",
+          "duration": 1.53
         },
         {
           "kind": "matn",
-          "path": "nawawi40/010-matn.mp3",
-          "duration": 37.56
+          "path": "nawawi40/010-matn.m4a",
+          "duration": 37.8
         },
         {
           "kind": "adab",
-          "path": "nawawi40/010-adab.mp3",
-          "duration": 16.69
+          "path": "nawawi40/010-adab.m4a",
+          "duration": 16.89
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/010-fawaid.mp3",
-          "duration": 30.35
+          "path": "nawawi40/010-fawaid.m4a",
+          "duration": 30.55
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/010-meaning.mp3",
-          "duration": 30.96
+          "path": "nawawi40/010-meaning.m4a",
+          "duration": 31.14
         }
       ]
     },
@@ -364,32 +364,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/011-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 84.32,
+      "duration": 85.32,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/011-number.mp3",
-          "duration": 1.6
+          "path": "nawawi40/011-number.m4a",
+          "duration": 1.79
         },
         {
           "kind": "matn",
-          "path": "nawawi40/011-matn.mp3",
-          "duration": 20.4
+          "path": "nawawi40/011-matn.m4a",
+          "duration": 20.65
         },
         {
           "kind": "adab",
-          "path": "nawawi40/011-adab.mp3",
-          "duration": 17.06
+          "path": "nawawi40/011-adab.m4a",
+          "duration": 17.23
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/011-fawaid.mp3",
-          "duration": 18.5
+          "path": "nawawi40/011-fawaid.m4a",
+          "duration": 18.69
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/011-meaning.mp3",
-          "duration": 26.76
+          "path": "nawawi40/011-meaning.m4a",
+          "duration": 26.96
         }
       ]
     },
@@ -399,32 +399,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/012-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 81.92,
+      "duration": 82.93,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/012-number.mp3",
-          "duration": 1.59
+          "path": "nawawi40/012-number.m4a",
+          "duration": 1.79
         },
         {
           "kind": "matn",
-          "path": "nawawi40/012-matn.mp3",
-          "duration": 12.12
+          "path": "nawawi40/012-matn.m4a",
+          "duration": 12.37
         },
         {
           "kind": "adab",
-          "path": "nawawi40/012-adab.mp3",
-          "duration": 20.73
+          "path": "nawawi40/012-adab.m4a",
+          "duration": 20.9
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/012-fawaid.mp3",
-          "duration": 19.67
+          "path": "nawawi40/012-fawaid.m4a",
+          "duration": 19.88
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/012-meaning.mp3",
-          "duration": 27.81
+          "path": "nawawi40/012-meaning.m4a",
+          "duration": 27.99
         }
       ]
     },
@@ -434,32 +434,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/013-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 88.72,
+      "duration": 89.67,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/013-number.mp3",
-          "duration": 1.83
+          "path": "nawawi40/013-number.m4a",
+          "duration": 2.05
         },
         {
           "kind": "matn",
-          "path": "nawawi40/013-matn.mp3",
-          "duration": 15.69
+          "path": "nawawi40/013-matn.m4a",
+          "duration": 15.87
         },
         {
           "kind": "adab",
-          "path": "nawawi40/013-adab.mp3",
-          "duration": 16.37
+          "path": "nawawi40/013-adab.m4a",
+          "duration": 16.55
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/013-fawaid.mp3",
-          "duration": 30.78
+          "path": "nawawi40/013-fawaid.m4a",
+          "duration": 30.97
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/013-meaning.mp3",
-          "duration": 24.05
+          "path": "nawawi40/013-meaning.m4a",
+          "duration": 24.23
         }
       ]
     },
@@ -469,32 +469,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/014-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 88.0,
+      "duration": 89.08,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/014-number.mp3",
-          "duration": 1.8
+          "path": "nawawi40/014-number.m4a",
+          "duration": 2.05
         },
         {
           "kind": "matn",
-          "path": "nawawi40/014-matn.mp3",
-          "duration": 15.53
+          "path": "nawawi40/014-matn.m4a",
+          "duration": 15.7
         },
         {
           "kind": "adab",
-          "path": "nawawi40/014-adab.mp3",
-          "duration": 17.17
+          "path": "nawawi40/014-adab.m4a",
+          "duration": 17.41
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/014-fawaid.mp3",
-          "duration": 24.99
+          "path": "nawawi40/014-fawaid.m4a",
+          "duration": 25.17
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/014-meaning.mp3",
-          "duration": 28.51
+          "path": "nawawi40/014-meaning.m4a",
+          "duration": 28.75
         }
       ]
     },
@@ -504,32 +504,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/015-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 84.66,
+      "duration": 85.84,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/015-number.mp3",
-          "duration": 1.71
+          "path": "nawawi40/015-number.m4a",
+          "duration": 1.96
         },
         {
           "kind": "matn",
-          "path": "nawawi40/015-matn.mp3",
-          "duration": 19.75
+          "path": "nawawi40/015-matn.m4a",
+          "duration": 19.97
         },
         {
           "kind": "adab",
-          "path": "nawawi40/015-adab.mp3",
-          "duration": 15.81
+          "path": "nawawi40/015-adab.m4a",
+          "duration": 16.04
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/015-fawaid.mp3",
-          "duration": 22.63
+          "path": "nawawi40/015-fawaid.m4a",
+          "duration": 22.87
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/015-meaning.mp3",
-          "duration": 24.76
+          "path": "nawawi40/015-meaning.m4a",
+          "duration": 25.0
         }
       ]
     },
@@ -539,32 +539,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/016-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 85.19,
+      "duration": 86.25,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/016-number.mp3",
-          "duration": 1.69
+          "path": "nawawi40/016-number.m4a",
+          "duration": 1.87
         },
         {
           "kind": "matn",
-          "path": "nawawi40/016-matn.mp3",
-          "duration": 10.62
+          "path": "nawawi40/016-matn.m4a",
+          "duration": 10.83
         },
         {
           "kind": "adab",
-          "path": "nawawi40/016-adab.mp3",
-          "duration": 16.97
+          "path": "nawawi40/016-adab.m4a",
+          "duration": 17.15
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/016-fawaid.mp3",
-          "duration": 29.62
+          "path": "nawawi40/016-fawaid.m4a",
+          "duration": 29.86
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/016-meaning.mp3",
-          "duration": 26.29
+          "path": "nawawi40/016-meaning.m4a",
+          "duration": 26.54
         }
       ]
     },
@@ -574,32 +574,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/017-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 85.21,
+      "duration": 86.17,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/017-number.mp3",
-          "duration": 1.77
+          "path": "nawawi40/017-number.m4a",
+          "duration": 1.96
         },
         {
           "kind": "matn",
-          "path": "nawawi40/017-matn.mp3",
-          "duration": 18.94
+          "path": "nawawi40/017-matn.m4a",
+          "duration": 19.11
         },
         {
           "kind": "adab",
-          "path": "nawawi40/017-adab.mp3",
-          "duration": 13.64
+          "path": "nawawi40/017-adab.m4a",
+          "duration": 13.82
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/017-fawaid.mp3",
-          "duration": 24.41
+          "path": "nawawi40/017-fawaid.m4a",
+          "duration": 24.66
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/017-meaning.mp3",
-          "duration": 26.45
+          "path": "nawawi40/017-meaning.m4a",
+          "duration": 26.62
         }
       ]
     },
@@ -609,32 +609,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/018-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 88.94,
+      "duration": 90.02,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/018-number.mp3",
-          "duration": 1.84
+          "path": "nawawi40/018-number.m4a",
+          "duration": 2.05
         },
         {
           "kind": "matn",
-          "path": "nawawi40/018-matn.mp3",
-          "duration": 22.4
+          "path": "nawawi40/018-matn.m4a",
+          "duration": 22.61
         },
         {
           "kind": "adab",
-          "path": "nawawi40/018-adab.mp3",
-          "duration": 16.43
+          "path": "nawawi40/018-adab.m4a",
+          "duration": 16.64
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/018-fawaid.mp3",
-          "duration": 24.68
+          "path": "nawawi40/018-fawaid.m4a",
+          "duration": 24.91
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/018-meaning.mp3",
-          "duration": 23.59
+          "path": "nawawi40/018-meaning.m4a",
+          "duration": 23.81
         }
       ]
     },
@@ -644,32 +644,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/019-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 132.23,
+      "duration": 133.19,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/019-number.mp3",
-          "duration": 1.77
+          "path": "nawawi40/019-number.m4a",
+          "duration": 1.96
         },
         {
           "kind": "matn",
-          "path": "nawawi40/019-matn.mp3",
-          "duration": 58.96
+          "path": "nawawi40/019-matn.m4a",
+          "duration": 59.13
         },
         {
           "kind": "adab",
-          "path": "nawawi40/019-adab.mp3",
-          "duration": 16.37
+          "path": "nawawi40/019-adab.m4a",
+          "duration": 16.55
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/019-fawaid.mp3",
-          "duration": 26.29
+          "path": "nawawi40/019-fawaid.m4a",
+          "duration": 26.54
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/019-meaning.mp3",
-          "duration": 28.84
+          "path": "nawawi40/019-meaning.m4a",
+          "duration": 29.01
         }
       ]
     },
@@ -679,32 +679,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/020-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 85.13,
+      "duration": 86.19,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/020-number.mp3",
-          "duration": 1.42
+          "path": "nawawi40/020-number.m4a",
+          "duration": 1.62
         },
         {
           "kind": "matn",
-          "path": "nawawi40/020-matn.mp3",
-          "duration": 14.64
+          "path": "nawawi40/020-matn.m4a",
+          "duration": 14.85
         },
         {
           "kind": "adab",
-          "path": "nawawi40/020-adab.mp3",
-          "duration": 15.13
+          "path": "nawawi40/020-adab.m4a",
+          "duration": 15.36
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/020-fawaid.mp3",
-          "duration": 27.47
+          "path": "nawawi40/020-fawaid.m4a",
+          "duration": 27.65
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/020-meaning.mp3",
-          "duration": 26.47
+          "path": "nawawi40/020-meaning.m4a",
+          "duration": 26.71
         }
       ]
     },
@@ -714,32 +714,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/021-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 85.63,
+      "duration": 86.69,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/021-number.mp3",
-          "duration": 1.97
+          "path": "nawawi40/021-number.m4a",
+          "duration": 2.22
         },
         {
           "kind": "matn",
-          "path": "nawawi40/021-matn.mp3",
-          "duration": 14.22
+          "path": "nawawi40/021-matn.m4a",
+          "duration": 14.42
         },
         {
           "kind": "adab",
-          "path": "nawawi40/021-adab.mp3",
-          "duration": 16.28
+          "path": "nawawi40/021-adab.m4a",
+          "duration": 16.47
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/021-fawaid.mp3",
-          "duration": 25.28
+          "path": "nawawi40/021-fawaid.m4a",
+          "duration": 25.51
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/021-meaning.mp3",
-          "duration": 27.88
+          "path": "nawawi40/021-meaning.m4a",
+          "duration": 28.07
         }
       ]
     },
@@ -749,32 +749,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/022-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 95.62,
+      "duration": 96.59,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/022-number.mp3",
-          "duration": 2.11
+          "path": "nawawi40/022-number.m4a",
+          "duration": 2.3
         },
         {
           "kind": "matn",
-          "path": "nawawi40/022-matn.mp3",
-          "duration": 20.8
+          "path": "nawawi40/022-matn.m4a",
+          "duration": 20.99
         },
         {
           "kind": "adab",
-          "path": "nawawi40/022-adab.mp3",
-          "duration": 17.4
+          "path": "nawawi40/022-adab.m4a",
+          "duration": 17.58
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/022-fawaid.mp3",
-          "duration": 25.58
+          "path": "nawawi40/022-fawaid.m4a",
+          "duration": 25.77
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/022-meaning.mp3",
-          "duration": 29.73
+          "path": "nawawi40/022-meaning.m4a",
+          "duration": 29.95
         }
       ]
     },
@@ -784,32 +784,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/023-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 113.09,
+      "duration": 114.08,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/023-number.mp3",
-          "duration": 2.01
+          "path": "nawawi40/023-number.m4a",
+          "duration": 2.22
         },
         {
           "kind": "matn",
-          "path": "nawawi40/023-matn.mp3",
-          "duration": 28.61
+          "path": "nawawi40/023-matn.m4a",
+          "duration": 28.84
         },
         {
           "kind": "adab",
-          "path": "nawawi40/023-adab.mp3",
-          "duration": 21.24
+          "path": "nawawi40/023-adab.m4a",
+          "duration": 21.42
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/023-fawaid.mp3",
-          "duration": 29.68
+          "path": "nawawi40/023-fawaid.m4a",
+          "duration": 29.86
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/023-meaning.mp3",
-          "duration": 31.55
+          "path": "nawawi40/023-meaning.m4a",
+          "duration": 31.74
         }
       ]
     },
@@ -819,32 +819,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/024-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 169.44,
+      "duration": 170.48,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/024-number.mp3",
-          "duration": 2.09
+          "path": "nawawi40/024-number.m4a",
+          "duration": 2.3
         },
         {
           "kind": "matn",
-          "path": "nawawi40/024-matn.mp3",
-          "duration": 89.99
+          "path": "nawawi40/024-matn.m4a",
+          "duration": 90.19
         },
         {
           "kind": "adab",
-          "path": "nawawi40/024-adab.mp3",
-          "duration": 16.43
+          "path": "nawawi40/024-adab.m4a",
+          "duration": 16.64
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/024-fawaid.mp3",
-          "duration": 32.08
+          "path": "nawawi40/024-fawaid.m4a",
+          "duration": 32.25
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/024-meaning.mp3",
-          "duration": 28.85
+          "path": "nawawi40/024-meaning.m4a",
+          "duration": 29.1
         }
       ]
     },
@@ -854,32 +854,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/025-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 127.36,
+      "duration": 128.41,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/025-number.mp3",
-          "duration": 2.12
+          "path": "nawawi40/025-number.m4a",
+          "duration": 2.3
         },
         {
           "kind": "matn",
-          "path": "nawawi40/025-matn.mp3",
-          "duration": 48.78
+          "path": "nawawi40/025-matn.m4a",
+          "duration": 48.98
         },
         {
           "kind": "adab",
-          "path": "nawawi40/025-adab.mp3",
-          "duration": 16.32
+          "path": "nawawi40/025-adab.m4a",
+          "duration": 16.55
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/025-fawaid.mp3",
-          "duration": 30.52
+          "path": "nawawi40/025-fawaid.m4a",
+          "duration": 30.72
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/025-meaning.mp3",
-          "duration": 29.62
+          "path": "nawawi40/025-meaning.m4a",
+          "duration": 29.86
         }
       ]
     },
@@ -889,32 +889,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/026-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 107.3,
+      "duration": 108.44,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/026-number.mp3",
-          "duration": 1.92
+          "path": "nawawi40/026-number.m4a",
+          "duration": 2.13
         },
         {
           "kind": "matn",
-          "path": "nawawi40/026-matn.mp3",
-          "duration": 28.19
+          "path": "nawawi40/026-matn.m4a",
+          "duration": 28.41
         },
         {
           "kind": "adab",
-          "path": "nawawi40/026-adab.mp3",
-          "duration": 15.39
+          "path": "nawawi40/026-adab.m4a",
+          "duration": 15.61
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/026-fawaid.mp3",
-          "duration": 30.21
+          "path": "nawawi40/026-fawaid.m4a",
+          "duration": 30.46
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/026-meaning.mp3",
-          "duration": 31.59
+          "path": "nawawi40/026-meaning.m4a",
+          "duration": 31.83
         }
       ]
     },
@@ -924,32 +924,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/027-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 116.61,
+      "duration": 117.65,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/027-number.mp3",
-          "duration": 1.92
+          "path": "nawawi40/027-number.m4a",
+          "duration": 2.13
         },
         {
           "kind": "matn",
-          "path": "nawawi40/027-matn.mp3",
-          "duration": 41.04
+          "path": "nawawi40/027-matn.m4a",
+          "duration": 41.21
         },
         {
           "kind": "adab",
-          "path": "nawawi40/027-adab.mp3",
-          "duration": 18.1
+          "path": "nawawi40/027-adab.m4a",
+          "duration": 18.34
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/027-fawaid.mp3",
-          "duration": 27.33
+          "path": "nawawi40/027-fawaid.m4a",
+          "duration": 27.56
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/027-meaning.mp3",
-          "duration": 28.22
+          "path": "nawawi40/027-meaning.m4a",
+          "duration": 28.41
         }
       ]
     },
@@ -959,32 +959,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/028-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 122.93,
+      "duration": 124.07,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/028-number.mp3",
-          "duration": 2.23
+          "path": "nawawi40/028-number.m4a",
+          "duration": 2.47
         },
         {
           "kind": "matn",
-          "path": "nawawi40/028-matn.mp3",
-          "duration": 38.15
+          "path": "nawawi40/028-matn.m4a",
+          "duration": 38.4
         },
         {
           "kind": "adab",
-          "path": "nawawi40/028-adab.mp3",
-          "duration": 18.99
+          "path": "nawawi40/028-adab.m4a",
+          "duration": 19.2
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/028-fawaid.mp3",
-          "duration": 31.95
+          "path": "nawawi40/028-fawaid.m4a",
+          "duration": 32.17
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/028-meaning.mp3",
-          "duration": 31.61
+          "path": "nawawi40/028-meaning.m4a",
+          "duration": 31.83
         }
       ]
     },
@@ -994,32 +994,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/029-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 149.85,
+      "duration": 150.94,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/029-number.mp3",
-          "duration": 1.96
+          "path": "nawawi40/029-number.m4a",
+          "duration": 2.13
         },
         {
           "kind": "matn",
-          "path": "nawawi40/029-matn.mp3",
-          "duration": 73.05
+          "path": "nawawi40/029-matn.m4a",
+          "duration": 73.3
         },
         {
           "kind": "adab",
-          "path": "nawawi40/029-adab.mp3",
-          "duration": 14.87
+          "path": "nawawi40/029-adab.m4a",
+          "duration": 15.1
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/029-fawaid.mp3",
-          "duration": 28.5
+          "path": "nawawi40/029-fawaid.m4a",
+          "duration": 28.75
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/029-meaning.mp3",
-          "duration": 31.47
+          "path": "nawawi40/029-meaning.m4a",
+          "duration": 31.66
         }
       ]
     },
@@ -1029,32 +1029,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/030-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 97.04,
+      "duration": 98.12,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/030-number.mp3",
-          "duration": 1.45
+          "path": "nawawi40/030-number.m4a",
+          "duration": 1.7
         },
         {
           "kind": "matn",
-          "path": "nawawi40/030-matn.mp3",
-          "duration": 25.01
+          "path": "nawawi40/030-matn.m4a",
+          "duration": 25.26
         },
         {
           "kind": "adab",
-          "path": "nawawi40/030-adab.mp3",
-          "duration": 13.78
+          "path": "nawawi40/030-adab.m4a",
+          "duration": 13.99
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/030-fawaid.mp3",
-          "duration": 28.75
+          "path": "nawawi40/030-fawaid.m4a",
+          "duration": 28.93
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/030-meaning.mp3",
-          "duration": 28.05
+          "path": "nawawi40/030-meaning.m4a",
+          "duration": 28.24
         }
       ]
     },
@@ -1064,32 +1064,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/031-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 98.03,
+      "duration": 99.23,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/031-number.mp3",
-          "duration": 2.14
+          "path": "nawawi40/031-number.m4a",
+          "duration": 2.39
         },
         {
           "kind": "matn",
-          "path": "nawawi40/031-matn.mp3",
-          "duration": 24.6
+          "path": "nawawi40/031-matn.m4a",
+          "duration": 24.83
         },
         {
           "kind": "adab",
-          "path": "nawawi40/031-adab.mp3",
-          "duration": 15.36
+          "path": "nawawi40/031-adab.m4a",
+          "duration": 15.61
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/031-fawaid.mp3",
-          "duration": 28.28
+          "path": "nawawi40/031-fawaid.m4a",
+          "duration": 28.5
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/031-meaning.mp3",
-          "duration": 27.65
+          "path": "nawawi40/031-meaning.m4a",
+          "duration": 27.9
         }
       ]
     },
@@ -1099,32 +1099,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/032-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 94.17,
+      "duration": 95.21,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/032-number.mp3",
-          "duration": 2.07
+          "path": "nawawi40/032-number.m4a",
+          "duration": 2.3
         },
         {
           "kind": "matn",
-          "path": "nawawi40/032-matn.mp3",
-          "duration": 23.13
+          "path": "nawawi40/032-matn.m4a",
+          "duration": 23.29
         },
         {
           "kind": "adab",
-          "path": "nawawi40/032-adab.mp3",
-          "duration": 15.63
+          "path": "nawawi40/032-adab.m4a",
+          "duration": 15.87
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/032-fawaid.mp3",
-          "duration": 25.62
+          "path": "nawawi40/032-fawaid.m4a",
+          "duration": 25.85
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/032-meaning.mp3",
-          "duration": 27.72
+          "path": "nawawi40/032-meaning.m4a",
+          "duration": 27.9
         }
       ]
     },
@@ -1134,32 +1134,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/033-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 93.48,
+      "duration": 94.52,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/033-number.mp3",
-          "duration": 2.25
+          "path": "nawawi40/033-number.m4a",
+          "duration": 2.47
         },
         {
           "kind": "matn",
-          "path": "nawawi40/033-matn.mp3",
-          "duration": 20.83
+          "path": "nawawi40/033-matn.m4a",
+          "duration": 21.07
         },
         {
           "kind": "adab",
-          "path": "nawawi40/033-adab.mp3",
-          "duration": 16.36
+          "path": "nawawi40/033-adab.m4a",
+          "duration": 16.55
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/033-fawaid.mp3",
-          "duration": 26.77
+          "path": "nawawi40/033-fawaid.m4a",
+          "duration": 26.96
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/033-meaning.mp3",
-          "duration": 27.27
+          "path": "nawawi40/033-meaning.m4a",
+          "duration": 27.47
         }
       ]
     },
@@ -1169,32 +1169,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/034-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 96.6,
+      "duration": 97.69,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/034-number.mp3",
-          "duration": 2.25
+          "path": "nawawi40/034-number.m4a",
+          "duration": 2.47
         },
         {
           "kind": "matn",
-          "path": "nawawi40/034-matn.mp3",
-          "duration": 17.08
+          "path": "nawawi40/034-matn.m4a",
+          "duration": 17.32
         },
         {
           "kind": "adab",
-          "path": "nawawi40/034-adab.mp3",
-          "duration": 17.27
+          "path": "nawawi40/034-adab.m4a",
+          "duration": 17.49
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/034-fawaid.mp3",
-          "duration": 29.79
+          "path": "nawawi40/034-fawaid.m4a",
+          "duration": 30.03
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/034-meaning.mp3",
-          "duration": 30.21
+          "path": "nawawi40/034-meaning.m4a",
+          "duration": 30.38
         }
       ]
     },
@@ -1204,32 +1204,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/035-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 118.01,
+      "duration": 119.12,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/035-number.mp3",
-          "duration": 2.1
+          "path": "nawawi40/035-number.m4a",
+          "duration": 2.3
         },
         {
           "kind": "matn",
-          "path": "nawawi40/035-matn.mp3",
-          "duration": 33.97
+          "path": "nawawi40/035-matn.m4a",
+          "duration": 34.22
         },
         {
           "kind": "adab",
-          "path": "nawawi40/035-adab.mp3",
-          "duration": 22.39
+          "path": "nawawi40/035-adab.m4a",
+          "duration": 22.61
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/035-fawaid.mp3",
-          "duration": 29.56
+          "path": "nawawi40/035-fawaid.m4a",
+          "duration": 29.78
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/035-meaning.mp3",
-          "duration": 29.99
+          "path": "nawawi40/035-meaning.m4a",
+          "duration": 30.21
         }
       ]
     },
@@ -1239,32 +1239,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/036-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 135.66,
+      "duration": 136.6,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/036-number.mp3",
-          "duration": 2.04
+          "path": "nawawi40/036-number.m4a",
+          "duration": 2.22
         },
         {
           "kind": "matn",
-          "path": "nawawi40/036-matn.mp3",
-          "duration": 50.9
+          "path": "nawawi40/036-matn.m4a",
+          "duration": 51.11
         },
         {
           "kind": "adab",
-          "path": "nawawi40/036-adab.mp3",
-          "duration": 19.62
+          "path": "nawawi40/036-adab.m4a",
+          "duration": 19.79
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/036-fawaid.mp3",
-          "duration": 31.36
+          "path": "nawawi40/036-fawaid.m4a",
+          "duration": 31.57
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/036-meaning.mp3",
-          "duration": 31.74
+          "path": "nawawi40/036-meaning.m4a",
+          "duration": 31.91
         }
       ]
     },
@@ -1274,32 +1274,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/037-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 112.4,
+      "duration": 113.48,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/037-number.mp3",
-          "duration": 2.14
+          "path": "nawawi40/037-number.m4a",
+          "duration": 2.39
         },
         {
           "kind": "matn",
-          "path": "nawawi40/037-matn.mp3",
-          "duration": 37.98
+          "path": "nawawi40/037-matn.m4a",
+          "duration": 38.23
         },
         {
           "kind": "adab",
-          "path": "nawawi40/037-adab.mp3",
-          "duration": 16.01
+          "path": "nawawi40/037-adab.m4a",
+          "duration": 16.21
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/037-fawaid.mp3",
-          "duration": 29.0
+          "path": "nawawi40/037-fawaid.m4a",
+          "duration": 29.18
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/037-meaning.mp3",
-          "duration": 27.27
+          "path": "nawawi40/037-meaning.m4a",
+          "duration": 27.47
         }
       ]
     },
@@ -1309,32 +1309,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/038-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 118.71,
+      "duration": 119.71,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/038-number.mp3",
-          "duration": 2.29
+          "path": "nawawi40/038-number.m4a",
+          "duration": 2.47
         },
         {
           "kind": "matn",
-          "path": "nawawi40/038-matn.mp3",
-          "duration": 34.36
+          "path": "nawawi40/038-matn.m4a",
+          "duration": 34.56
         },
         {
           "kind": "adab",
-          "path": "nawawi40/038-adab.mp3",
-          "duration": 19.87
+          "path": "nawawi40/038-adab.m4a",
+          "duration": 20.05
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/038-fawaid.mp3",
-          "duration": 30.94
+          "path": "nawawi40/038-fawaid.m4a",
+          "duration": 31.14
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/038-meaning.mp3",
-          "duration": 31.25
+          "path": "nawawi40/038-meaning.m4a",
+          "duration": 31.49
         }
       ]
     },
@@ -1344,32 +1344,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/039-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 84.32,
+      "duration": 85.49,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/039-number.mp3",
-          "duration": 2.06
+          "path": "nawawi40/039-number.m4a",
+          "duration": 2.3
         },
         {
           "kind": "matn",
-          "path": "nawawi40/039-matn.mp3",
-          "duration": 13.59
+          "path": "nawawi40/039-matn.m4a",
+          "duration": 13.82
         },
         {
           "kind": "adab",
-          "path": "nawawi40/039-adab.mp3",
-          "duration": 14.53
+          "path": "nawawi40/039-adab.m4a",
+          "duration": 14.76
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/039-fawaid.mp3",
-          "duration": 26.2
+          "path": "nawawi40/039-fawaid.m4a",
+          "duration": 26.45
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/039-meaning.mp3",
-          "duration": 27.94
+          "path": "nawawi40/039-meaning.m4a",
+          "duration": 28.16
         }
       ]
     },
@@ -1379,32 +1379,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/040-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 94.8,
+      "duration": 95.89,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/040-number.mp3",
-          "duration": 1.48
+          "path": "nawawi40/040-number.m4a",
+          "duration": 1.7
         },
         {
           "kind": "matn",
-          "path": "nawawi40/040-matn.mp3",
-          "duration": 23.15
+          "path": "nawawi40/040-matn.m4a",
+          "duration": 23.38
         },
         {
           "kind": "adab",
-          "path": "nawawi40/040-adab.mp3",
-          "duration": 15.05
+          "path": "nawawi40/040-adab.m4a",
+          "duration": 15.27
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/040-fawaid.mp3",
-          "duration": 28.35
+          "path": "nawawi40/040-fawaid.m4a",
+          "duration": 28.58
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/040-meaning.mp3",
-          "duration": 26.77
+          "path": "nawawi40/040-meaning.m4a",
+          "duration": 26.96
         }
       ]
     },
@@ -1414,32 +1414,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/041-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 90.77,
+      "duration": 91.89,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/041-number.mp3",
-          "duration": 2.01
+          "path": "nawawi40/041-number.m4a",
+          "duration": 2.22
         },
         {
           "kind": "matn",
-          "path": "nawawi40/041-matn.mp3",
-          "duration": 17.79
+          "path": "nawawi40/041-matn.m4a",
+          "duration": 18.0
         },
         {
           "kind": "adab",
-          "path": "nawawi40/041-adab.mp3",
-          "duration": 17.17
+          "path": "nawawi40/041-adab.m4a",
+          "duration": 17.41
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/041-fawaid.mp3",
-          "duration": 24.18
+          "path": "nawawi40/041-fawaid.m4a",
+          "duration": 24.4
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/041-meaning.mp3",
-          "duration": 29.62
+          "path": "nawawi40/041-meaning.m4a",
+          "duration": 29.86
         }
       ]
     },
@@ -1449,32 +1449,32 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/042-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 103.98,
+      "duration": 105.12,
       "segments": [
         {
           "kind": "number",
-          "path": "nawawi40/042-number.mp3",
-          "duration": 2.14
+          "path": "nawawi40/042-number.m4a",
+          "duration": 2.39
         },
         {
           "kind": "matn",
-          "path": "nawawi40/042-matn.mp3",
-          "duration": 31.92
+          "path": "nawawi40/042-matn.m4a",
+          "duration": 32.17
         },
         {
           "kind": "adab",
-          "path": "nawawi40/042-adab.mp3",
-          "duration": 13.51
+          "path": "nawawi40/042-adab.m4a",
+          "duration": 13.74
         },
         {
           "kind": "fawaid",
-          "path": "nawawi40/042-fawaid.mp3",
-          "duration": 27.1
+          "path": "nawawi40/042-fawaid.m4a",
+          "duration": 27.3
         },
         {
           "kind": "meaning",
-          "path": "nawawi40/042-meaning.mp3",
-          "duration": 29.31
+          "path": "nawawi40/042-meaning.m4a",
+          "duration": 29.52
         }
       ]
     }

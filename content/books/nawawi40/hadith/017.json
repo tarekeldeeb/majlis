@@ -40,11 +40,11 @@
     ]
   },
   "audio": {
-    "matn": "nawawi40/017-matn.mp3",
-    "number": "nawawi40/017-number.mp3",
-    "adab": "nawawi40/017-adab.mp3",
-    "fawaid": "nawawi40/017-fawaid.mp3",
-    "meaning": "nawawi40/017-meaning.mp3"
+    "matn": "nawawi40/017-matn.m4a",
+    "number": "nawawi40/017-number.m4a",
+    "adab": "nawawi40/017-adab.m4a",
+    "fawaid": "nawawi40/017-fawaid.m4a",
+    "meaning": "nawawi40/017-meaning.m4a"
   },
   "review": {
     "status": "approved",
