@@ -47,6 +47,23 @@ os.environ.setdefault("SSL_CERT_FILE", __import__("certifi").where())
 
 from silma_tts.api import SilmaTTS
 import silma_tts.infer.utils_infer as ui
+import soundfile
+import torch
+import torchaudio
+
+
+def _read_wav(path, *args, **kwargs):
+    """torchaudio.load for the WAV references SILMA conditions on, without torchcodec.
+
+    torchaudio now decodes through torchcodec, which needs FFmpeg's shared libraries
+    in the very versions it was built for; a mismatch (Ubuntu 22.04: "Could not load
+    libtorchcodec_core5.so ... libdav1d.so.5") stopped the run before the first clip.
+    """
+    data, rate = soundfile.read(str(path), dtype="float32", always_2d=True)
+    return torch.from_numpy(data.T.copy()), rate
+
+
+torchaudio.load = _read_wav
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from synth import PASS_SCORE, synthesize, synthesize_items
