@@ -41,6 +41,21 @@ pip install --quiet \
 
 python3 "$(dirname "$0")/patch_silma_no_nemo.py"
 
+# Clips are HE-AAC (audio_format.py), which needs Apple's AudioToolbox encoder.
+ffmpeg -hide_banner -encoders 2>/dev/null | grep -q " aac_at " \
+  || { echo "This ffmpeg has no aac_at encoder; HE-AAC needs macOS's AudioToolbox."; exit 1; }
+
+# Generation runs offline (run_batch.sh), so fetch the models it needs once now:
+# SILMA and its vocoder, and whisper-base for --stt-check.
+SSL_CERT_FILE="$(python3 -c 'import certifi; print(certifi.where())')" \
+DYLD_LIBRARY_PATH="/opt/homebrew/lib:${DYLD_LIBRARY_PATH:-}" python3 - <<'PY'
+from silma_tts.api import SilmaTTS
+from transformers import pipeline
+SilmaTTS(enable_normalizer=False)
+pipeline("automatic-speech-recognition", model="openai/whisper-base")
+print("models cached")
+PY
+
 echo ""
 echo "Setup done. Before running any script that uses SilmaTTS, in this shell:"
 echo "  source $VENV/bin/activate"
