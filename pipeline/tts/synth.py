@@ -35,6 +35,9 @@ CONJUNCTION = re.compile(
 )
 IBN = re.compile(r"\s+(?=(?:بن|بنُ|بِن|بْن)\s)")
 LETTER = re.compile(r"[ء-ي]")
+# A chunk passes --stt-check when its weakest word scores this much (stt_check gives
+# a word Whisper heard nothing for a 0).
+PASS_SCORE = 0.5
 
 
 def _hard_split(part: str, max_chars: int):
@@ -194,7 +197,7 @@ def synthesize(tts, ref_audio: str, ref_text: str, text: str, nfe_step: int,
     """Synthesize text chunk-by-chunk without SILMA's inter-chunk pauses.
 
     With `check(chunk, wave, sample_rate)` (a 0-1 score, e.g. stt_check.SttCheck),
-    a chunk scoring under 0.5 is generated again, up to `attempts` times, and the
+    a chunk scoring under PASS_SCORE is generated again, up to `attempts` times, and the
     best take is kept. Each chunk goes into `report` with its best score, the take
     kept, and every take's score and transcript (the check's `last_heard`).
     """
@@ -222,7 +225,7 @@ def synthesize(tts, ref_audio: str, ref_text: str, text: str, nfe_step: int,
                 takes.append({"score": round(score, 2), "heard": getattr(check, "last_heard", "")})
             if best is None or score > best[0]:
                 best = (score, wav, attempt)
-            if score >= 0.5:
+            if score >= PASS_SCORE:
                 break
         waves.append(best[1])
         if report is not None:

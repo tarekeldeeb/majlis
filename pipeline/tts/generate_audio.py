@@ -49,7 +49,7 @@ from silma_tts.api import SilmaTTS
 import silma_tts.infer.utils_infer as ui
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from synth import synthesize, synthesize_items
+from synth import PASS_SCORE, synthesize, synthesize_items
 from arabic_numbers import hadith_number_text
 from audio_format import AUDIO_EXT, encode
 
@@ -240,18 +240,18 @@ def log_stt(state, item_id, report):
         for r in report:
             log.write(json.dumps({"id": item_id, "at": at, **r}, ensure_ascii=False) + "\n")
     retried = [r for r in report if r["attempts"] > 1]
-    weak = [r for r in report if r["score"] < 0.5]
+    weak = [r for r in report if r["score"] < PASS_SCORE]
     if not (retried or weak):
         return
     print(f"  STT {item_id}: {len(retried)} chunk(s) retried, {len(weak)} still weak", flush=True)
     for r in report:
-        if r["attempts"] == 1 and r["score"] >= 0.5:
+        if r["attempts"] == 1 and r["score"] >= PASS_SCORE:
             continue
-        print(f"    {'weak' if r['score'] < 0.5 else 'retried'}: {r['chunk']}", flush=True)
+        print(f"    {'weak' if r['score'] < PASS_SCORE else 'retried'}: {r['chunk']}", flush=True)
         for n, take in enumerate(r["takes"], 1):
             mark = "  <- kept" if n == r["kept"] else ""
             print(f"      take {n} ({take['score']:.2f}): {take['heard']}{mark}", flush=True)
-        if r["score"] < 0.5:
+        if r["score"] < PASS_SCORE:
             state.setdefault("sttWeak", []).append({"id": item_id, **r})
 
 
