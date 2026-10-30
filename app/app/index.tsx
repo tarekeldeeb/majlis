@@ -91,7 +91,7 @@ export default function JourneyScreen() {
           <Text style={styles.heroBrand}>مَجْلِس</Text>
           <View style={styles.heroRule} />
           <Text style={styles.heroTagline}>
-            مجالس السماع من جديد — اقرأ الحديث، واستمع إلى شرحه وفوائده.
+            استمع إلى الحديث ومعانيه في سيارتك.
           </Text>
         </View>
 
