@@ -17,12 +17,11 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from audio_format import AUDIO_EXT, ENCODE  # noqa: E402
+from audio_format import AUDIO_EXT, encode  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 AUDIO = ROOT / "content/audio"
 IN_FLIGHT_SECONDS = 600
-FFMPEG_ARGS = ["-nostdin", "-threads", "1", *ENCODE, "-af", "afade=t=in:st=0:d=0.02"]
 
 
 def duration(path: Path):
@@ -60,10 +59,7 @@ def main():
                 continue
         tmp = clip.with_suffix(".tmp" + AUDIO_EXT)
         try:
-            subprocess.run(
-                ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), *FFMPEG_ARGS, str(tmp)],
-                check=True,
-            )
+            encode(wav, tmp, fade_in=True)
             if abs(duration(wav) - duration(tmp)) > 1.0:
                 raise ValueError("duration mismatch")
             tmp.replace(clip)

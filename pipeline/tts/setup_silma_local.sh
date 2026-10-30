@@ -17,8 +17,20 @@ set -euo pipefail
 
 VENV=.cache/eval-venv
 
-command -v brew >/dev/null || { echo "Homebrew required (for ffmpeg)."; exit 1; }
-brew list ffmpeg >/dev/null 2>&1 || brew install ffmpeg
+case "$(uname -s)" in
+  Darwin)
+    command -v brew >/dev/null || { echo "Homebrew required (for ffmpeg)."; exit 1; }
+    brew list ffmpeg >/dev/null 2>&1 || brew install ffmpeg
+    ;;
+  Linux)
+    # Ubuntu: sudo add-apt-repository multiverse   (fdkaac needs libfdk-aac2)
+    #         sudo apt install ffmpeg fdkaac python3-venv
+    for tool in ffmpeg python3; do
+      command -v "$tool" >/dev/null \
+        || { echo "Missing $tool. On Ubuntu: sudo apt install ffmpeg fdkaac python3-venv"; exit 1; }
+    done
+    ;;
+esac
 
 python3 -m venv "$VENV"
 source "$VENV/bin/activate"
@@ -41,9 +53,9 @@ pip install --quiet \
 
 python3 "$(dirname "$0")/patch_silma_no_nemo.py"
 
-# Clips are HE-AAC (audio_format.py), which needs Apple's AudioToolbox encoder.
-ffmpeg -hide_banner -encoders 2>/dev/null | grep -q " aac_at " \
-  || { echo "This ffmpeg has no aac_at encoder; HE-AAC needs macOS's AudioToolbox."; exit 1; }
+# Clips are HE-AAC (audio_format.py): Apple's aac_at on macOS, FDK on Linux.
+python3 -c "import sys; sys.path.insert(0, 'pipeline/tts'); import audio_format; \
+print('HE-AAC encoder:', audio_format.encoder())"
 
 # Generation runs offline (run_batch.sh), so fetch the models it needs once now:
 # SILMA and its vocoder, and whisper-base for --stt-check.

@@ -22,3 +22,28 @@ python3 -I pipeline/commentary/make_excerpts.py
 python3 -I pipeline/commentary/validate_batches.py pipeline/commentary/batches/*.json
 python3 -I pipeline/commentary/apply_riyad_batch.py pipeline/commentary/batches/<batch>.json
 ```
+
+## Narrating a whole book (macOS, or Ubuntu with an NVIDIA GPU)
+
+Clips are HE-AAC 32 kbps `.m4a` (`tts/audio_format.py`): Apple's encoder on macOS, Fraunhofer FDK on Linux. SILMA runs on CUDA or Apple's GPU automatically.
+
+```bash
+# Ubuntu 22.04 (one time)
+sudo add-apt-repository -y multiverse && sudo apt update
+sudo apt install -y git git-lfs ffmpeg fdkaac python3-venv && git lfs install
+# macOS (one time): brew install git-lfs ffmpeg && git lfs install
+
+git clone git@github.com:tarekeldeeb/majlis.git && cd majlis
+bash pipeline/tts/setup_silma_local.sh     # Python env, encoder check, models (needs internet once)
+
+# Run to completion: stays awake, restarts after a crash, resumes from the first missing clip.
+bash pipeline/tts/run_until_done.sh --book riyad_assalihin --stt-check --skip-titles
+tail -f ~/majlis-tts.log                    # progress: [hadith/total] lines with an ETA
+```
+
+Each clip lands in `content/audio/<book>/` and in its hadith's `audio` field as soon as it exists, so nothing is lost if the machine stops: run the same command again. To save progress to GitHub without triggering a web deploy:
+
+```bash
+git add content/audio/riyad_assalihin content/books/riyad_assalihin/hadith
+git commit -m "Narrate Riyad al-Salihin (in progress) [skip ci]" && git push
+```

@@ -51,7 +51,7 @@ import silma_tts.infer.utils_infer as ui
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from synth import synthesize, synthesize_items
 from arabic_numbers import hadith_number_text
-from audio_format import AUDIO_EXT, ENCODE
+from audio_format import AUDIO_EXT, encode
 
 ROOT = Path(__file__).resolve().parents[2]
 BOOKS_DIR = ROOT / "content/books"
@@ -157,21 +157,12 @@ def encode_audio(wav_path, out_path):
     """Encode beside the target and rename into place: a crash never leaves a cut-off
     clip that a resumed run would take for finished."""
     part = out_path.with_name(out_path.stem + ".part" + out_path.suffix)
-    base = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-threads", "1", "-i", str(wav_path), *ENCODE]
-    attempts = [
-        base + ["-af", "afade=t=in:st=0:d=0.02", str(part)],
-        base + [str(part)],
-    ]
-    last_error = None
-    for command in attempts:
-        try:
-            subprocess.run(command, check=True)
-            os.replace(part, out_path)
-            wav_path.unlink(missing_ok=True)
-            return
-        except subprocess.CalledProcessError as exc:
-            last_error = exc
-    raise last_error
+    try:
+        encode(wav_path, part, fade_in=True)
+    except subprocess.CalledProcessError:
+        encode(wav_path, part)  # without the 20 ms fade-in if that filter fails
+    os.replace(part, out_path)
+    wav_path.unlink(missing_ok=True)
 
 
 def write_json(fp, doc):

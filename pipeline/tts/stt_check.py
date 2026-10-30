@@ -50,7 +50,9 @@ class SttCheck:
     """
 
     def __init__(self, model="openai/whisper-base"):
-        self.asr = pipeline("automatic-speech-recognition", model=model)
+        # On an NVIDIA GPU Whisper runs there too, so it keeps up with SILMA.
+        device = 0 if torch.cuda.is_available() else -1
+        self.asr = pipeline("automatic-speech-recognition", model=model, device=device)
         self.last_heard = ""
 
     def __call__(self, text, wave, sample_rate):
