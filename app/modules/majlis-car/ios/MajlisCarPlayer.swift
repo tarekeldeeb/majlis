@@ -55,11 +55,14 @@ final class MajlisCarPlayer {
   private(set) var library: [CarHadith] = []
   private(set) var thumbnail: UIImage?
 
-  private let player = AVPlayer()
+  private let player = AVQueuePlayer()
   private var queue: [CarQueueItem] = []
+  /// The player items of `queue`, index for index, so the playing item maps back to its segment.
+  private var items: [AVPlayerItem] = []
   private var currentIndex = 0
   private var timeObserver: Any?
   private var endObserver: NSObjectProtocol?
+  private var itemObserver: NSKeyValueObservation?
 
   private init() {
     setupRemoteCommands()
@@ -69,6 +72,16 @@ final class MajlisCarPlayer {
       self?.publishState(ended: false)
       self?.updateNowPlayingProgress()
     }
+    // The queue player moves to the next segment on its own; follow it.
+    itemObserver = player.observe(\.currentItem) { [weak self] _, _ in
+      DispatchQueue.main.async { self?.currentItemDidChange() }
+    }
+    endObserver = NotificationCenter.default.addObserver(
+      forName: AVPlayerItem.didPlayToEndTimeNotification, object: nil, queue: .main
+    ) { [weak self] note in
+      guard let self, let item = note.object as? AVPlayerItem, item === self.items.last else { return }
+      self.publishState(ended: true)
+    }
     reloadLibrary()
   }
 
@@ -76,9 +89,8 @@ final class MajlisCarPlayer {
 
   func setQueue(_ items: [CarQueueItem]) {
     onMain {
-      self.queue = items
-      self.currentIndex = 0
-      self.loadCurrent()
+      self.queue = items.filter { URL(string: $0.uri) != nil }
+      self.load(from: 0)
     }
   }
 
@@ -176,29 +188,42 @@ final class MajlisCarPlayer {
     let next = currentIndex + offset
     guard queue.indices.contains(next) else { return }
     currentIndex = next
-    loadCurrent()
+    if offset == 1, player.items().count > 1 {
+      // Already queued, so skipping does not stop the audio output either.
+      player.advanceToNextItem()
+      player.play()
+    } else {
+      load(from: next)
+    }
   }
 
-  private func loadCurrent() {
-    guard queue.indices.contains(currentIndex), let url = URL(string: queue[currentIndex].uri) else { return }
+  /// Queues every segment from `index` on, so AVQueuePlayer goes from one clip to
+  /// the next without stopping the audio output. Swapping items in a plain AVPlayer
+  /// left a short gap at each boundary; over CarPlay that gap can restart the audio
+  /// stream to the car, and the head unit drops the start of the next clip: all but
+  /// the last letter of a one-word title.
+  private func load(from index: Int) {
+    guard queue.indices.contains(index) else { return }
     activateSession()
-    let item = AVPlayerItem(url: url)
-    player.replaceCurrentItem(with: item)
-    publishMetadata(queue[currentIndex])
-    player.play()
-
-    if let endObserver { NotificationCenter.default.removeObserver(endObserver) }
-    endObserver = NotificationCenter.default.addObserver(
-      forName: .AVPlayerItemDidPlayToEndTime, object: item, queue: .main
-    ) { [weak self] _ in
-      guard let self else { return }
-      if self.currentIndex + 1 < self.queue.count {
-        self.currentIndex += 1
-        self.loadCurrent()
-      } else {
-        self.publishState(ended: true)
-      }
+    currentIndex = index
+    items = queue.compactMap { URL(string: $0.uri).map(AVPlayerItem.init(url:)) }
+    player.removeAllItems()
+    player.actionAtItemEnd = .advance
+    for item in items[index...] {
+      player.insert(item, after: nil)
     }
+    player.play()
+  }
+
+  private func currentItemDidChange() {
+    guard let item = player.currentItem, let index = items.firstIndex(where: { $0 === item }) else { return }
+    currentIndex = index
+    // Hold the last clip at its end, as the single AVPlayer did, so the final state
+    // still reports the hadith's last segment instead of an empty player.
+    player.actionAtItemEnd = index == items.count - 1 ? .pause : .advance
+    publishMetadata(queue[index])
+    updateNowPlayingProgress()
+    publishState(ended: false)
   }
 
   private func publishState(ended: Bool) {
