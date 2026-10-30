@@ -17,9 +17,19 @@ import com.google.common.util.concurrent.ListenableFuture
 class MajlisCarService : MediaLibraryService() {
   private var session: MediaLibrarySession? = null
 
+  /** Set for a hadith chosen in the car, which plays on into the hadiths after it. */
+  private var continuous = false
+
+  /** The hadith the player finished and went on from by itself, "<bookId>:<hadithNumber>". */
+  var continuedFrom: String? = null
+    private set
+
   override fun onCreate() {
     super.onCreate()
     val player = ExoPlayer.Builder(this).build()
+    player.addListener(object : Player.Listener {
+      override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) = followQueue(player)
+    })
     session = MediaLibrarySession.Builder(this, player, LibraryCallback(this)).build()
     current = this
   }
@@ -39,6 +49,29 @@ class MajlisCarService : MediaLibraryService() {
   fun notifyLibraryChanged() {
     session?.notifyChildrenChanged(ROOT_ID, CarLibrary.read(this).size, null)
   }
+
+  /** Every new queue starts afresh; only a hadith the car chose plays on into the next. */
+  fun queueStarted(byCar: Boolean) {
+    continuous = byCar
+    continuedFrom = null
+  }
+
+  // A hadith chosen in the car runs straight into the next one, queued while its last
+  // segment plays so the audio never stops; once it is left, the finished one is dropped.
+  private fun followQueue(player: Player) {
+    val current = player.currentMediaItem ?: return
+    val previous = hadithOf(player.getMediaItemAt(0).mediaId)
+    if (hadithOf(current.mediaId) != previous) {
+      continuedFrom = previous
+      player.removeMediaItems(0, player.currentMediaItemIndex)
+    }
+    if (continuous && player.currentMediaItemIndex == player.mediaItemCount - 1) {
+      CarLibrary.after(this, hadithOf(current.mediaId))?.let { player.addMediaItems(it.mediaItems()) }
+    }
+  }
+
+  // Queue items are "<bookId>:<hadithNumber>:<segment>".
+  private fun hadithOf(mediaId: String) = mediaId.substringBeforeLast(':')
 
   companion object {
     const val ROOT_ID = "root"
@@ -92,17 +125,24 @@ private class LibraryCallback(private val service: MajlisCarService) :
     return Futures.immediateFuture(LibraryResult.ofItem(hadith.toMediaItem(service), null))
   }
 
-  // A browsed hadith becomes its whole segment queue.
+  // A browsed hadith becomes its whole segment queue, and plays on into the next ones.
   override fun onAddMediaItems(
     session: MediaSession,
     controller: MediaSession.ControllerInfo,
     mediaItems: MutableList<MediaItem>,
   ): ListenableFuture<MutableList<MediaItem>> {
     val resolved = mutableListOf<MediaItem>()
+    var browsed = false
     for (item in mediaItems) {
       val hadith = CarLibrary.find(service, item.mediaId)
-      if (hadith != null) resolved += hadith.mediaItems() else resolved += item
+      if (hadith != null) {
+        resolved += hadith.mediaItems()
+        browsed = true
+      } else {
+        resolved += item
+      }
     }
+    if (browsed) service.queueStarted(byCar = true)
     return Futures.immediateFuture(resolved)
   }
 }

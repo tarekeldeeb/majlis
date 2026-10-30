@@ -21,6 +21,8 @@ export interface PlayerState {
   autoplayBlocked: boolean;
   /** Who chose the current hadith: the app, or the car (CarPlay / Android Auto). */
   source: 'app' | 'car';
+  /** The hadith a car-chosen run finished and went on from, "<bookId>:<hadithNumber>". */
+  continuedFrom: string | null;
 }
 
 const INITIAL: PlayerState = {
@@ -34,6 +36,7 @@ const INITIAL: PlayerState = {
   finished: false,
   autoplayBlocked: false,
   source: 'app',
+  continuedFrom: null,
 };
 
 // Native queue items are identified "<bookId>:<hadithNumber>:<segment>".
@@ -156,6 +159,7 @@ class PlayerEngine {
       currentTime: (carState.positionMs ?? 0) / 1000,
       duration: (carState.durationMs ?? 0) / 1000,
       currentIndex: carState.index ?? 0,
+      continuedFrom: carState.continuedFrom || null,
     };
     if (playing && playing !== `${this.state.bookId}:${this.state.hadithNumber}`) {
       // The car started another hadith; the screen follows it (see the hadith screen).
@@ -198,6 +202,7 @@ class PlayerEngine {
       finished: false,
       autoplayBlocked: false,
       source: 'app',
+      continuedFrom: null,
     });
     if (segments.length === 0) return;
 

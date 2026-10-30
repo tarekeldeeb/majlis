@@ -77,13 +77,24 @@ export default function HadithScreen() {
     });
   }, [hadith, currentBookId, num, segments, book?.title]);
 
-  // CarPlay / Android Auto can start another hadith; bring the screen along to it.
+  // CarPlay / Android Auto can start another hadith, or play on from this one into the
+  // next; bring the screen along, marking this hadith done if the player finished it.
   useEffect(() => {
-    const { source, bookId: playingBook, hadithNumber: playingNumber } = playerState;
+    const { source, bookId: playingBook, hadithNumber: playingNumber, continuedFrom } = playerState;
     if (source !== 'car' || !playingBook || !playingNumber) return;
     if (playingBook === currentBookId && playingNumber === num) return;
+    if (continuedFrom === `${currentBookId}:${num}`) markDone(currentBookId, num);
     router.replace(`/book/${playingBook}/${playingNumber}`);
-  }, [playerState.source, playerState.bookId, playerState.hadithNumber, currentBookId, num, router]);
+  }, [
+    playerState.source,
+    playerState.bookId,
+    playerState.hadithNumber,
+    playerState.continuedFrom,
+    currentBookId,
+    num,
+    markDone,
+    router,
+  ]);
 
   const scrollRef = useRef<ScrollView>(null);
   const offsets = useRef<Partial<Record<SectionKey, number>>>({});

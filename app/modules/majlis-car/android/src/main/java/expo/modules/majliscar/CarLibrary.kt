@@ -76,6 +76,14 @@ object CarLibrary {
   fun find(context: Context, mediaId: String): CarHadith? =
     read(context).firstOrNull { it.id == mediaId }
 
+  /** The hadith after [id] in the index, as long as it is from the same book. */
+  fun after(context: Context, id: String): CarHadith? {
+    val hadiths = read(context)
+    val index = hadiths.indexOfFirst { it.id == id }
+    if (index < 0) return null
+    return hadiths.getOrNull(index + 1)?.takeIf { it.id.substringBefore(':') == id.substringBefore(':') }
+  }
+
   /** The only files the artwork provider will serve: images this index points at. */
   fun artworkFiles(context: Context): Map<String, File> =
     read(context)

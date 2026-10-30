@@ -56,10 +56,15 @@ final class MajlisCarPlayer {
   private(set) var thumbnail: UIImage?
 
   private let player = AVQueuePlayer()
+  /// The playing hadith's segments, then the next hadith's once they are queued behind it.
   private var queue: [CarQueueItem] = []
   /// The player items of `queue`, index for index, so the playing item maps back to its segment.
   private var items: [AVPlayerItem] = []
   private var currentIndex = 0
+  /// Set for a hadith chosen in the car, which plays on into the hadiths after it.
+  private var continuous = false
+  /// The hadith the player finished and went on from by itself, "<bookId>:<hadithNumber>".
+  private var continuedFrom: String?
   private var timeObserver: Any?
   private var endObserver: NSObjectProtocol?
   private var itemObserver: NSKeyValueObservation?
@@ -87,15 +92,14 @@ final class MajlisCarPlayer {
 
   // MARK: Transport
 
+  /// The app's queue; the app moves on to the next hadith itself.
   func setQueue(_ items: [CarQueueItem]) {
-    onMain {
-      self.queue = items.filter { URL(string: $0.uri) != nil }
-      self.load(from: 0)
-    }
+    start(items, continuous: false)
   }
 
+  /// A hadith chosen in the car, which plays on into the next ones even without the app.
   func play(_ hadith: CarHadith) {
-    setQueue(hadith.queue)
+    start(hadith.queue, continuous: true)
   }
 
   func resume() {
@@ -133,6 +137,8 @@ final class MajlisCarPlayer {
       "ended": ended,
       // Lets the app notice when CarPlay switched to another hadith.
       "mediaId": queue.indices.contains(currentIndex) ? queue[currentIndex].id : "",
+      // Lets the app mark the hadith done that the player finished and went on from.
+      "continuedFrom": continuedFrom ?? "",
     ]
   }
 
@@ -184,6 +190,15 @@ final class MajlisCarPlayer {
     try? session.setActive(true)
   }
 
+  private func start(_ items: [CarQueueItem], continuous: Bool) {
+    onMain {
+      self.continuous = continuous
+      self.continuedFrom = nil
+      self.queue = items.filter { URL(string: $0.uri) != nil }
+      self.load(from: 0)
+    }
+  }
+
   private func move(by offset: Int) {
     let next = currentIndex + offset
     guard queue.indices.contains(next) else { return }
@@ -216,14 +231,51 @@ final class MajlisCarPlayer {
   }
 
   private func currentItemDidChange() {
-    guard let item = player.currentItem, let index = items.firstIndex(where: { $0 === item }) else { return }
+    guard let item = player.currentItem, var index = items.firstIndex(where: { $0 === item }) else { return }
+    // Playback ran on into the next hadith, so the one before it is done: drop it.
+    let previous = Self.hadithID(of: queue[0].id)
+    if Self.hadithID(of: queue[index].id) != previous {
+      continuedFrom = previous
+      queue.removeFirst(index)
+      items.removeFirst(index)
+      index = 0
+    }
     currentIndex = index
+    if index == queue.count - 1 { queueNextHadith() }
     // Hold the last clip at its end, as the single AVPlayer did, so the final state
     // still reports the hadith's last segment instead of an empty player.
     player.actionAtItemEnd = index == items.count - 1 ? .pause : .advance
     publishMetadata(queue[index])
     updateNowPlayingProgress()
     publishState(ended: false)
+  }
+
+  /// Queues the next hadith behind the last segment of one chosen in the car, so the
+  /// player runs straight into it. Waiting for the end to load it would stop the
+  /// audio output, and the car would drop the start of the hadith number (see `load`).
+  private func queueNextHadith() {
+    guard continuous, let last = queue.last, let next = hadith(after: Self.hadithID(of: last.id)) else { return }
+    let added = next.queue.filter { URL(string: $0.uri) != nil }
+    let addedItems = added.compactMap { URL(string: $0.uri).map(AVPlayerItem.init(url:)) }
+    queue += added
+    items += addedItems
+    for item in addedItems {
+      player.insert(item, after: nil)
+    }
+  }
+
+  /// The hadith after `id` in the car index, as long as it is from the same book.
+  private func hadith(after id: String) -> CarHadith? {
+    guard let index = library.firstIndex(where: { $0.id == id }), index + 1 < library.count else { return nil }
+    let next = library[index + 1]
+    let sameBook = next.id.prefix(while: { $0 != ":" }) == id.prefix(while: { $0 != ":" })
+    return sameBook ? next : nil
+  }
+
+  /// "<bookId>:<hadithNumber>" of a queue item id "<bookId>:<hadithNumber>:<segment>".
+  private static func hadithID(of itemID: String) -> String {
+    guard let cut = itemID.lastIndex(of: ":") else { return itemID }
+    return String(itemID[..<cut])
   }
 
   private func publishState(ended: Bool) {

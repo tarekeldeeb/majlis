@@ -45,6 +45,8 @@ class MajlisCarModule : Module() {
     "ended" to (player.playbackState == Player.STATE_ENDED),
     // Lets the app notice when Android Auto switched to another hadith.
     "mediaId" to (player.currentMediaItem?.mediaId ?: ""),
+    // Lets the app mark the hadith done that the player finished and went on from.
+    "continuedFrom" to (MajlisCarService.current?.continuedFrom ?: ""),
   )
 
   private fun emitState() {
@@ -91,6 +93,8 @@ class MajlisCarModule : Module() {
       return
     }
     pendingQueue = null
+    // The app moves on to the next hadith itself.
+    MajlisCarService.current?.queueStarted(byCar = false)
     player.setMediaItems(itemsFrom(queueJson))
     player.prepare()
     player.play()

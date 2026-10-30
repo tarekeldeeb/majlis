@@ -19,6 +19,8 @@ export interface CarPlaybackState {
   ended?: boolean;
   /** The playing queue item, "<bookId>:<hadithNumber>:<segment>". */
   mediaId?: string;
+  /** The hadith the player finished and went on from by itself, "<bookId>:<hadithNumber>". */
+  continuedFrom?: string;
 }
 
 // Native on both mobile platforms; the web build keeps expo-audio.
