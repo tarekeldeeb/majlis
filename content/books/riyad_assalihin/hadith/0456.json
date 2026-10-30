@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "وعن أبي سعيد الخدري رضي الله عنه أن النبي صلى الله عليه وسلم قال: «أوتروا قبل أن تصبحوا». ((رواه مسلم)).",
     "sourceId": 41521,
-    "diacritized": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللَّهِ عَنْهُ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ » أَوْتِرُوا قَبْلَ أَنْ تُصْبِحُوا». ((رَوَاهُ مُسْلِمٌ)).",
+    "diacritized": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللَّهِ عَنْهُ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ » أَوْتِرُوا قَبْلَ أَنْ تُصْبِحُوا». ((رَوَاهُ مُسْلِمٌ)).",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.697,
+        "density": 0.895,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 4,
+        "checkedAt": "2026-10-30"
       }
     }
   },

@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "وعن النعمان بن بشير رضي الله عنهما عن النبي صلى الله عليه وسلم قال: «الدعاء هو العبادة».",
     "sourceId": 41851,
-    "diacritized": "وَعَنْ النُّعْمَانِ بْنُ بَشِير رَضِيَ اللَّهِ عَنْهُمَا عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ » الدُّعَاءُ هُوَ الْعِبَادَةِ».",
+    "diacritized": "وَعَنْ النُّعْمَانِ بْنُ بَشِيرٍ رَضِيَ اللَّهِ عَنْهُمَا عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ » الدُّعَاءُ هُوَ الْعِبَادَةِ».",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.618,
+        "density": 0.853,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 5,
+        "checkedAt": "2026-10-30"
       }
     }
   },

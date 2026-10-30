@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "وعنه قال: قال رسول الله صلى الله عليه وسلم «الدنيا سجن المؤمن وجنة الكافر» ((رواه مسلم)).",
     "sourceId": 42751,
-    "diacritized": "وَعَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم » الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرُ» ((رَوَاهُ مُسْلِمٌ)).",
+    "diacritized": "وَعَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ » الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرُ» ((رَوَاهُ مُسْلِمٌ)).",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.636,
+        "density": 0.864,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 4,
+        "checkedAt": "2026-10-30"
       }
     }
   },

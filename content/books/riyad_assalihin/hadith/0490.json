@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "وعنه قال: كان النبي صلى الله عليه وسلم ، يصلي من الليل مثنى مثنى، ويوتر بركعة. ((متفق عليه)) .",
     "sourceId": 41555,
-    "diacritized": "وَعَنْهُ قَالَ: كَانَ النَّبِيُّ صلى الله عليه وسلم يُصَلِّي مِنَ اللَّيْلِ مَثْنَى مَثْنَى، وَيُوتِرُ بِرَكْعَةٍ. ((مُتَّفَقٌ عَلَيْهِ)) .",
+    "diacritized": "وَعَنْهُ قَالَ: كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُصَلِّي مِنَ اللَّيْلِ مَثْنَى مَثْنَى، وَيُوتِرُ بِرَكْعَةٍ. ((مُتَّفَقٌ عَلَيْهِ)) .",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.701,
+        "density": 0.925,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 4,
+        "checkedAt": "2026-10-30"
       }
     }
   },

@@ -20,6 +20,8 @@ All 1,896 Riyad al-Salihin hadiths are now diacritized: 558 via tashkeel-transfe
 
 **Nawawi gaps (2026-10-28):** the in-source Nawawi diacritics had gaps, mostly a bare «صلى الله عليه وسلم», «اللهُ» without its shadda, and missing case endings. `pipeline/diacritize/complete_diacritics.py` copies CATT's marks onto bare letters only, never replacing a source mark (nor adding CATT's fatha on a waṣla alef or a sukun on a long vowel), and writes the result to `matn.diacritized`; commentary is completed in place. Every changed word is listed in `content/books/nawawi40/diacritization-fill.json` for review.
 
+**Riyad gaps (2026-10-30):** the same fill completed 5,729 words in 739 Riyad texts (punctuation-aware alignment, so words glued across «:»/«،» line up). It also exposed 70 matns where the 2026-10-22 CATT run had drifted («صٍدوَرهٍم», «فْنَعَمْ»); those were rebuilt from `matn.arabic` in 300-character chunks. Words CATT leaves bare by habit are written in their one correct form: the honorific «صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ», «لَا», «قَالَ». `content/books/riyad_assalihin/diacritization-fill.json` lists all of it for review; `qa_riyad.py` passes 1,896/1,896.
+
 ## Method
 
 1. Test set: hadith 001 matn + its approved commentary (contrasting registers: narration vs. explanation).

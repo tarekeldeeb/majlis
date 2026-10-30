@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "وعن علي قال: نهى رسول الله صلى الله عليه وسلم أن تحلق المرأة رأسها. ((رواه النسائي)).",
     "sourceId": 42027,
-    "diacritized": "وَعَنْ عَلَيَّ قَالَ: نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا ((رَوَاهُ النَّسَائِيُّ)).",
+    "diacritized": "وَعَنْ عَلَيَّ قَالَ: نَهَى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنْ تَحْلِقَ الْمَرْأَةُ رَأْسَهَا ((رَوَاهُ النَّسَائِيُّ)).",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.651,
+        "density": 0.889,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 4,
+        "checkedAt": "2026-10-30"
       }
     }
   },

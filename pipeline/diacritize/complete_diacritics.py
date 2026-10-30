@@ -43,6 +43,7 @@ ROOT = Path(__file__).resolve().parents[2]
 LETTER = re.compile(r"[ء-ي]")
 MARK = re.compile(r"[ً-ْٰ]")
 STRIP = re.compile(r"[ً-ْٰـ]")
+NON_WORD = re.compile(r"([^ء-يً-ْٰـ]+)")  # spaces and punctuation
 SHADDA, SUKUN, ALEF = "ّ", "ْ", "ا"
 DAMMA, KASRA = "ُ", "ِ"
 CHUNK_CHARS = 300  # CATT decodes letter by letter, so cost grows with the square of the length
@@ -126,8 +127,12 @@ def needs_fill(text):
 
 
 def complete(text, predicted):
-    """Fill `text` from CATT's `predicted`, aligned word by word on letters alone."""
-    pieces = re.split(r"(\s+)", text)
+    """Fill `text` from CATT's `predicted`, aligned word by word on letters alone.
+
+    Words are split at punctuation as well as spaces: the sources often glue a word
+    to the next across a mark («فقال:»ائذن», «عنك،وإذا»).
+    """
+    pieces = NON_WORD.split(text)
     slots = [n for n, piece in enumerate(pieces) if base(piece)]
     pred = [token for token in predicted.split() if base(token)]
     matcher = difflib.SequenceMatcher(None, [base(pieces[n]) for n in slots], [base(t) for t in pred],
@@ -152,7 +157,9 @@ def diacritize(model, texts):
     """CATT predictions for many texts at once, splitting long ones under its limit."""
     jobs, spans = [], []
     for text in texts:
-        chunks = chunk_text(STRIP.sub("", text), max_chars=CHUNK_CHARS)
+        # CATT drops punctuation, which would merge glued words; give it spaces instead.
+        chunks = [NON_WORD.sub(" ", chunk).strip()
+                  for chunk in chunk_text(STRIP.sub("", text), max_chars=CHUNK_CHARS)]
         spans.append((len(jobs), len(chunks)))
         jobs.extend(chunks)
     # A batch pads to its longest input, so batching by length saves most of the work.

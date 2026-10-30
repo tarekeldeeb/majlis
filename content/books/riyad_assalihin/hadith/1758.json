@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "وعنه أن رسول الله صلى الله عليه وسلم قال: «كان زكريا عليه السلام نجاراً» ((رواه مسلم)).",
     "sourceId": 42823,
-    "diacritized": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ » كَانَ زَكَرِيَّا عَلَيْهِ السَّلَامِ نَجَّارًا» ((رَوَاهُ مُسْلِمٌ)).",
+    "diacritized": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ » كَانَ زَكَرِيَّا عَلَيْهِ السَّلَامِ نَجَّارًا» ((رَوَاهُ مُسْلِمٌ)).",
     "diacritizationSource": {
       "method": "transfer+catt-boundaries",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.651,
+        "density": 0.889,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 4,
+        "checkedAt": "2026-10-30"
       }
     }
   },

@@ -9,7 +9,7 @@
   "matn": {
     "arabic": "عن جابر رضي الله عنه قال: كنا إذا صعدنا كبرنا، وإذا نزلنا سبحنا. ((رواه البخاري)).",
     "sourceId": 41361,
-    "diacritized": "عَنْ جَابِرٌ رَضِيَ اللَّهِ عَنْهُ قَالَ: كُنَّا إذَا صَعِدْنَا كَبِرْنَا، وَإِذَا نَزَلْنَا سَبَّحْنَا. ((رَوَاهُ الْبُخَارِيُّ)).",
+    "diacritized": "عَنْ جَابِرٌ رَضِيَ اللَّهِ عَنْهُ قَالَ: كُنَّا إِذَا صَعِدْنَا كَبِرْنَا، وَإِذَا نَزَلْنَا سَبَّحْنَا. ((رَوَاهُ الْبُخَارِيُّ)).",
     "diacritizationSource": {
       "method": "catt-auto-full",
       "model": "abjadai/catt (encoder-decoder)",
@@ -26,10 +26,16 @@
       },
       "qa": {
         "checkedAt": "2026-10-22",
-        "density": 0.817,
+        "density": 0.833,
         "letterRatio": 1.0,
         "hasDigits": false,
         "status": "pass"
+      },
+      "gapFill": {
+        "method": "catt-fill",
+        "model": "abjadai/catt (encoder-decoder)",
+        "filledWords": 1,
+        "checkedAt": "2026-10-30"
       }
     }
   },
