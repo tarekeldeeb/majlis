@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T19:13:33+00:00",
+  "generatedAt": "2026-10-30T00:23:22+00:00",
   "book": {
     "id": "nawawi40",
     "title": "الأربعون النووية",
@@ -714,7 +714,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/021-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 86.08,
+      "duration": 85.63,
       "segments": [
         {
           "kind": "number",
@@ -724,7 +724,7 @@
         {
           "kind": "matn",
           "path": "nawawi40/021-matn.mp3",
-          "duration": 14.67
+          "duration": 14.22
         },
         {
           "kind": "adab",
