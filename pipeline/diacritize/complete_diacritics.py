@@ -8,11 +8,15 @@ the source left bare (or onto a shadda that lacks its vowel), so vetted marks ar
 never replaced. CATT's habit of putting a fatha on a waṣla alef ("بِاَللَّهِ") and
 a sukun on long-vowel letters is not carried over.
 
-- matn: written to `matn.diacritized` with `matn.diacritizationSource`;
-  `matn.arabic` stays verbatim (immutable after ingest). A few source defects
-  (CORRECTIONS) are fixed in the derived text only.
-- commentary: completed in place (project text), provenance in
-  `commentary.diacritizationSource`.
+- matn: the gaps of an existing `matn.diacritized` are filled (Riyad's tashkeel
+  transfer and CATT text keep their marks); without one, it is built from
+  `matn.arabic`, which stays verbatim (immutable after ingest). A few source
+  defects (CORRECTIONS) are fixed in that derived text only.
+- commentary: completed in place (project text).
+- provenance: a new `diacritizationSource`, or a `gapFill` note beside the one
+  already there.
+- crash-safe: with --predictions, CATT's output is saved after every batch and a
+  rerun resumes; each hadith file is replaced atomically.
 
 Every changed word is listed in content/books/<book>/diacritization-fill.json for review.
 
@@ -70,21 +74,28 @@ def base(token):
 def fill_token(source, predicted):
     """Copy predicted marks onto the letters `source` left bare. Returns (token, marks added)."""
     wanted = [marks for _, marks in letter_groups(predicted)]
-    out, added, k, i = [], 0, 0, 0
-    previous_vowel = ""
+    # [char, marks] per character; marks is None for anything that is not a letter.
+    pieces, letters, i = [], [], 0
     while i < len(source):
-        ch = source[i]
-        if not LETTER.match(ch):
-            out.append(ch)
-            i += 1
-            continue
-        j = i + 1
-        while j < len(source) and MARK.match(source[j]):
-            j += 1
-        own, new = source[i + 1:j], wanted[k] if k < len(wanted) else ""
+        ch, j = source[i], i + 1
+        if LETTER.match(ch):
+            while j < len(source) and MARK.match(source[j]):
+                j += 1
+            letters.append(len(pieces))
+            pieces.append([ch, source[i + 1:j]])
+        else:
+            pieces.append([ch, None])
+        i = j
+    added, previous_vowel = 0, ""
+    for k, p in enumerate(letters):
+        ch, own = pieces[p]
+        new = wanted[k] if k < len(wanted) else ""
+        after = pieces[letters[k + 1]] if k + 1 < len(letters) else ("", "")
         if not own:
             if ch == ALEF:
                 new = ""  # a bare alef is a long vowel or a waṣla; it takes no mark
+            elif after[0] in (ALEF, "ى") and after[1]:
+                new = ""  # the source wrote this letter's vowel on the alef after it: «لاَ», «إِلاَّ», «شَيْئاً»
             elif new == SUKUN and ((ch == "و" and previous_vowel == DAMMA)
                                    or (ch == "ي" and previous_vowel == KASRA)):
                 new = ""  # long vowel, not a consonant
@@ -92,11 +103,9 @@ def fill_token(source, predicted):
         elif set(own) == {SHADDA}:
             vowel = "".join(m for m in new if m != SHADDA)
             own, added = own + vowel, added + len(vowel)
-        out.append(ch + own)
+        pieces[p][1] = own
         previous_vowel = next((m for m in own if m != SHADDA), "")
-        k += 1
-        i = j
-    return "".join(out), added
+    return "".join(ch + (marks or "") for ch, marks in pieces), added
 
 
 def needs_fill(text):
@@ -164,13 +173,18 @@ def main():
 
     files = sorted((ROOT / "content/books" / args.book / "hadith").glob("*.json"))
     docs = [(fp, json.loads(fp.read_text(encoding="utf-8"))) for fp in files]
-    refs, texts = [], []
+    refs, texts, derived = [], [], []
     for d, (_, doc) in enumerate(docs):
-        matn = doc["matn"]["arabic"]
-        for old, new in CORRECTIONS.get(doc["id"], []):
-            if old not in matn:
-                sys.exit(f"{doc['id']}: correction no longer matches the source")
-            matn = matn.replace(old, new)
+        # Fill the reading text already derived (Riyad's tashkeel transfer and CATT, an
+        # earlier fill) so its marks are kept; otherwise start from the verbatim source.
+        matn = doc["matn"].get("diacritized")
+        derived.append(bool(matn))
+        if not matn:
+            matn = doc["matn"]["arabic"]
+            for old, new in CORRECTIONS.get(doc["id"], []):
+                if old not in matn:
+                    sys.exit(f"{doc['id']}: correction no longer matches the source")
+                matn = matn.replace(old, new)
         refs.append((d, "matn", None))
         texts.append(matn)
         c = doc.get("commentary") or {}
@@ -182,18 +196,26 @@ def main():
                 refs.append((d, field, i))
                 texts.append(item)
 
-    # The matn always goes to CATT; commentary only where a letter is left bare.
-    wanted = [text for (_, field, _), text in zip(refs, texts) if field == "matn" or needs_fill(text)]
+    # Only texts with a letter left bare go to CATT.
+    wanted = [text for text in texts if needs_fill(text)]
     cache = {}
     if args.predictions and args.predictions.exists():
         cache = json.loads(args.predictions.read_text(encoding="utf-8"))
-    todo = sorted({text for text in wanted if text not in cache})
+    todo = sorted({text for text in wanted if text not in cache}, key=len)
     print(f"{len(texts)} texts from {len(docs)} hadiths; {len(wanted)} need CATT, {len(todo)} not cached",
           file=sys.stderr)
     if todo:
-        cache.update(zip(todo, diacritize(CATTEncoderDecoder(), todo)))
-        if args.predictions:
-            args.predictions.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+        model = CATTEncoderDecoder()
+        # Batches of similar length, the cache saved after each, so a crash loses one batch.
+        step = 48
+        for start in range(0, len(todo), step):
+            batch = todo[start:start + step]
+            cache.update(zip(batch, diacritize(model, batch)))
+            if args.predictions:
+                tmp = args.predictions.with_suffix(".tmp")
+                tmp.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+                os.replace(tmp, args.predictions)
+            print(f"  CATT {start + len(batch)}/{len(todo)}", file=sys.stderr, flush=True)
     predicted = [cache.get(text, text) for text in texts]
 
     today = date.today().isoformat()
@@ -210,18 +232,25 @@ def main():
             report.append({"hadith": doc["number"], "field": field if i is None else f"{field}[{i}]",
                            "words": [f"{a} → {b}" for a, b in changes]})
 
+    def fill_record(words):
+        return {"method": "catt-fill", "model": "abjadai/catt (encoder-decoder)", "filledWords": words,
+                "checkedAt": today}
+
+    def record(holder, words, extra=None):
+        """A fresh provenance, or a gapFill note beside the one already there."""
+        if "diacritizationSource" in holder:
+            holder["diacritizationSource"]["gapFill"] = fill_record(words)
+        else:
+            holder["diacritizationSource"] = {**fill_record(words), **(extra or {})}
+
+    changed = 0
     for d, (fp, doc) in enumerate(docs):
         matn_text, matn_changes = filled[(d, "matn", None)]
-        corrections = [new for _, new in CORRECTIONS.get(doc["id"], [])]
-        if matn_changes or corrections:
+        corrections = [] if derived[d] else [new for _, new in CORRECTIONS.get(doc["id"], [])]
+        touched = bool(matn_changes or corrections)
+        if touched:
             doc["matn"]["diacritized"] = matn_text
-            doc["matn"]["diacritizationSource"] = {
-                "method": "catt-fill",
-                "model": "abjadai/catt (encoder-decoder)",
-                "filledWords": len(matn_changes),
-                **({"corrections": corrections} if corrections else {}),
-                "checkedAt": today,
-            }
+            record(doc["matn"], len(matn_changes), {"corrections": corrections} if corrections else None)
         c = doc.get("commentary") or {}
         commentary_words = 0
         if (d, "meaning", None) in filled:
@@ -232,14 +261,13 @@ def main():
                 c[field][i], changes = filled[(d, field, i)]
                 commentary_words += len(changes)
         if commentary_words:
-            c["diacritizationSource"] = {
-                "method": "catt-fill",
-                "model": "abjadai/catt (encoder-decoder)",
-                "filledWords": commentary_words,
-                "checkedAt": today,
-            }
-        if not args.dry_run:
-            fp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            record(c, commentary_words)
+            touched = True
+        if touched and not args.dry_run:
+            tmp = fp.with_suffix(".json.tmp")
+            tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            os.replace(tmp, fp)
+            changed += 1
 
     report_path = ROOT / "content/books" / args.book / "diacritization-fill.json"
     if not args.dry_run:
@@ -248,7 +276,7 @@ def main():
     words = sum(len(r["words"]) for r in report)
     print(f"{words} words completed in {len(report)} texts; marks added: matn {totals['matn']}, "
           f"commentary {totals['commentary']}; words CATT could not align (left as is): {totals['unmatched']}"
-          + (" [dry run]" if args.dry_run else f"; report: {report_path.relative_to(ROOT)}"))
+          + (" [dry run]" if args.dry_run else f"; {changed} files written; report: {report_path.relative_to(ROOT)}"))
     for r in report[:12]:
         print(f"  {r['hadith']:3} {r['field']:10} " + " | ".join(r["words"][:4]))
 
