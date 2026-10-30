@@ -12,7 +12,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "majlis.quranquiz.net",
-      "buildNumber": "3",
+      "buildNumber": "4",
       "appleTeamId": "FNSP52WBLF",
       "infoPlist": {
         "UIBackgroundModes": ["audio"]
@@ -23,7 +23,7 @@
     },
     "android": {
       "package": "majlis.quranquiz.net",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "backgroundColor": "#18181b"
       }
