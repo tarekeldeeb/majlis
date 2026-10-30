@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T14:39:49+00:00",
+  "generatedAt": "2026-10-30T18:39:46+00:00",
   "book": {
     "id": "nawawi40",
     "title": "الأربعون النووية",
@@ -84,7 +84,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/003-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 114.08,
+      "duration": 113.91,
       "segments": [
         {
           "kind": "number",
@@ -94,7 +94,7 @@
         {
           "kind": "matn",
           "path": "nawawi40/003-matn.m4a",
-          "duration": 20.99
+          "duration": 20.82
         },
         {
           "kind": "adab",
@@ -119,7 +119,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/004-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 146.34,
+      "duration": 146.77,
       "segments": [
         {
           "kind": "number",
@@ -134,7 +134,7 @@
         {
           "kind": "adab",
           "path": "nawawi40/004-adab.m4a",
-          "duration": 20.22
+          "duration": 20.65
         },
         {
           "kind": "fawaid",
@@ -294,7 +294,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/009-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 99.66,
+      "duration": 99.91,
       "segments": [
         {
           "kind": "number",
@@ -304,7 +304,7 @@
         {
           "kind": "matn",
           "path": "nawawi40/009-matn.m4a",
-          "duration": 19.97
+          "duration": 20.22
         },
         {
           "kind": "adab",
@@ -609,7 +609,7 @@
       "subtitle": "الأربعون النووية",
       "artwork": "nawawi40/018-cover.jpg",
       "thumbnail": "car/thumbnail.jpg",
-      "duration": 90.02,
+      "duration": 89.76,
       "segments": [
         {
           "kind": "number",
@@ -619,7 +619,7 @@
         {
           "kind": "matn",
           "path": "nawawi40/018-matn.m4a",
-          "duration": 22.61
+          "duration": 22.35
         },
         {
           "kind": "adab",
