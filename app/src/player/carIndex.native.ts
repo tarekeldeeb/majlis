@@ -15,7 +15,8 @@ export async function writeCarIndex(commentary: CommentarySelection): Promise<vo
   for (const book of getBooks()) {
     for (const hadith of getHadithsForBook(book.id)) {
       const segments = buildSegments(hadith.audio, commentary);
-      if (segments.length === 0) continue;
+      // The shared section titles come with every hadith; only its own matn means it is narrated.
+      if (!segments.some((segment) => segment.target === 'matn')) continue;
 
       const resolved = [];
       for (const segment of segments) {
