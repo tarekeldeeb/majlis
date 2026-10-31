@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { execFileSync } from 'node:child_process';
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -23,6 +24,10 @@ const artworkManifestFile = path.resolve(appRoot, 'src/data/artwork-manifest.ts'
 // book's Hugging Face dataset.
 const BUNDLED_HADITHS = 50;
 
+// Files without a hadith number (the shared section titles) always ship.
+const isBundled = (file) => !(parseInt(file, 10) > BUNDLED_HADITHS);
+const isCover = (file) => /^\d+-cover\.jpg$/.test(file);
+
 const LFS_POINTER = 'version https://git-lfs.github.com/spec/v1';
 
 /** The size recorded in a Git LFS pointer file, or null when the file holds its real content. */
@@ -38,6 +43,37 @@ function lfsPointerSize(file) {
 
 function fileSize(file) {
   return lfsPointerSize(file) ?? fs.statSync(file).size;
+}
+
+/** A file's content hash: its LFS oid, read from the pointer or computed the same way. */
+function fileOid(file) {
+  if (lfsPointerSize(file) !== null) {
+    return fs.readFileSync(file, 'utf8').match(/^oid sha256:([0-9a-f]{64})$/m)[1];
+  }
+  return crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+}
+
+// Four base64 characters per hadith (from `first`, "...." where there is none) hash the
+// files the apps download for it, so they fetch a hadith again once it is re-narrated.
+function hadithDigests(dir, files) {
+  const byHadith = new Map();
+  for (const file of files) {
+    const number = parseInt(file, 10);
+    byHadith.set(number, [...(byHadith.get(number) ?? []), file]);
+  }
+  const numbers = [...byHadith.keys()].sort((a, b) => a - b);
+  let hashes = '';
+  for (let number = numbers[0]; number <= numbers[numbers.length - 1]; number++) {
+    const group = (byHadith.get(number) ?? []).sort();
+    hashes += group.length
+      ? crypto
+          .createHash('sha256')
+          .update(group.map((file) => `${file} ${fileOid(path.join(dir, file))}`).join('\n'))
+          .digest('base64url')
+          .slice(0, 4)
+      : '....';
+  }
+  return { first: numbers[0], hashes };
 }
 
 // The deploy checks out LFS pointers only; fetch the content of just the files the app
@@ -183,6 +219,7 @@ fs.rmSync(targetAssetsAudioDir, { recursive: true, force: true });
 
 const audioEntries = [];
 const remoteLines = [];
+const digestLines = [];
 let remoteClips = 0;
 let remoteBytes = 0;
 
@@ -192,20 +229,26 @@ if (fs.existsSync(contentAudioDir)) {
 
     const bookId = entry.name;
     const sourceBookDir = path.join(contentAudioDir, bookId);
-    const files = fs
-      .readdirSync(sourceBookDir)
+    const names = fs.readdirSync(sourceBookDir);
+    const files = names
       // A ".part" file is a clip the generator is still writing.
       .filter((f) => f.endsWith('.m4a') && !f.includes('.part.'))
       .sort();
-    // Clips without a hadith number (the shared section titles) always ship.
-    const isBundled = (f) => !(parseInt(f, 10) > BUNDLED_HADITHS);
     const bundled = files.filter(isBundled);
     const remote = files.filter((f) => !isBundled(f));
+    const remoteCovers = names.filter((f) => isCover(f) && !isBundled(f));
 
     if (remote.length > 0) {
-      const bytes = remote.reduce((sum, f) => sum + fileSize(path.join(sourceBookDir, f)), 0);
-      remoteLines.push(`  '${bookId}': { clips: ${remote.length}, bytes: ${bytes} },`);
-      remoteClips += remote.length;
+      const bytes = [...remote, ...remoteCovers].reduce(
+        (sum, f) => sum + fileSize(path.join(sourceBookDir, f)),
+        0
+      );
+      remoteLines.push(
+        `  '${bookId}': { clips: ${remote.length}, covers: ${remoteCovers.length}, bytes: ${bytes} },`
+      );
+      const { first, hashes } = hadithDigests(sourceBookDir, [...remote, ...remoteCovers]);
+      digestLines.push(`  '${bookId}': { first: ${first}, hashes: '${hashes}' },`);
+      remoteClips += remote.length + remoteCovers.length;
       remoteBytes += bytes;
     }
     if (bundled.length === 0) continue;
@@ -248,9 +291,17 @@ export function getAudioAsset(relativePath: string | null | undefined): AudioAss
   return audioSources[relativePath];
 }
 
-/** Narration left out of the app, per book: what the apps download and the web streams. */
-export const remoteAudio: Record<string, { clips: number; bytes: number }> = {
+/**
+ * Narration left out of the app, per book: what the apps download (clips and car covers,
+ * with their total size) and the web streams.
+ */
+export const remoteAudio: Record<string, { clips: number; covers: number; bytes: number }> = {
 ${remoteLines.join('\n')}
+};
+
+/** A content hash per downloadable hadith: 4 characters each, from hadith \`first\`. */
+export const remoteDigests: Record<string, { first: number; hashes: string }> = {
+${digestLines.join('\n')}
 };
 `;
 
@@ -270,7 +321,7 @@ if (fs.existsSync(contentAudioDir)) {
     const bookId = entry.name;
     const covers = fs
       .readdirSync(path.join(contentAudioDir, bookId))
-      .filter((f) => /^\d+-cover\.jpg$/.test(f))
+      .filter((f) => isCover(f) && isBundled(f))
       .sort();
     if (covers.length === 0) continue;
 
@@ -313,7 +364,7 @@ fs.writeFileSync(artworkManifestFile, artworkManifestCode, 'utf-8');
 console.log(`✅ Content sync complete: ${bookDirs.length} books, ${totalHadiths} hadiths.`);
 console.log(`🔊 Synced ${audioEntries.length} narration file(s).`);
 if (remoteClips > 0) {
-  console.log(`☁️  Left ${remoteClips} clip(s) (${Math.round(remoteBytes / 1e6)} MB) to Hugging Face.`);
+  console.log(`☁️  Left ${remoteClips} file(s) (${Math.round(remoteBytes / 1e6)} MB) to Hugging Face.`);
 }
 console.log(`🖼  Synced ${coverLines.length} cover(s)${hasThumbnail ? ' and the car thumbnail' : ''}.`);
 console.log(`📝 Generated TypeScript manifest at: ${manifestFile}`);

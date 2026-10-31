@@ -50,6 +50,7 @@
       "./plugins/withAndroidAbiFilters",
       "./plugins/withForcedRTL",
       "./plugins/withSceneLifecycle",
+      "./plugins/withBackupRules",
       [
         "expo-audio",
         {

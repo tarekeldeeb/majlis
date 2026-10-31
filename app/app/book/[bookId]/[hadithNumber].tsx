@@ -3,8 +3,10 @@ import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } fr
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { AdabSection, FawaidSection, MeaningSection, CommentaryExtras } from '../../../src/components/CommentarySection';
 import { HadithAudioPlayer } from '../../../src/components/HadithAudioPlayer';
+import { NarrationDownload } from '../../../src/components/NarrationDownload';
 import { formatHadithTitle, theme, toArabicDigits } from '../../../src/constants/theme';
 import { getBook, getHadithByNumber, getHadithsForBook, matnText } from '../../../src/data';
+import { prioritize, useBookDownload } from '../../../src/player/downloads';
 import { player, usePlayer } from '../../../src/player/engine';
 import { buildSegments } from '../../../src/player/segments';
 import { useProgress } from '../../../src/progress/progress';
@@ -29,10 +31,20 @@ export default function HadithScreen() {
 
   const { isDone, toggleDone, markDone, markVisited } = useProgress();
   const { settings } = useSettings();
+  const download = useBookDownload(currentBookId);
   const segments = useMemo(
     () => buildSegments(hadith?.audio, settings.commentary),
-    [hadith, settings.commentary]
+    // A downloading hadith becomes playable once its files land.
+    [hadith, settings.commentary, download.done]
   );
+  // Narrated, but neither bundled with the app nor downloaded to this device yet.
+  const needsDownload = !!hadith?.audio?.matn && segments.length === 0;
+
+  // A running download fetches the hadith on screen next.
+  useEffect(() => {
+    if (needsDownload && download.status === 'downloading') prioritize(currentBookId, num);
+  }, [needsDownload, download.status, currentBookId, num]);
+
   const playerState = usePlayer();
   const done = isDone(currentBookId, num);
   const [showDiscuss, setShowDiscuss] = useState(false);
@@ -185,7 +197,11 @@ export default function HadithScreen() {
             </Pressable>
           </View>
 
-          <HadithAudioPlayer segments={segments} />
+          {needsDownload ? (
+            <NarrationDownload bookId={currentBookId} hadithNumber={num} download={download} />
+          ) : (
+            <HadithAudioPlayer segments={segments} />
+          )}
         </View>
       </View>
 

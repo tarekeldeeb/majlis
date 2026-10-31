@@ -45,5 +45,13 @@ public class MajlisCarModule: Module {
     Function("getState") { () -> [String: Any] in
       MajlisCarPlayer.shared.state()
     }
+
+    // Downloaded narration can always be fetched again, so it stays out of iCloud backups.
+    Function("excludeFromBackup") { (uri: String) in
+      guard var url = URL(string: uri) else { return }
+      var values = URLResourceValues()
+      values.isExcludedFromBackup = true
+      try url.setResourceValues(values)
+    }
   }
 }

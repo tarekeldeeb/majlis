@@ -1,10 +1,12 @@
 import { coverSources, thumbnailSource } from '../data/artwork-manifest';
+import { downloadedCover } from './downloads';
 import { toFileUri } from './fileUri';
 
 /** The hadith's Now Playing artwork, as a file the native players can open. */
 export async function coverUri(bookId: string, hadithNumber: number): Promise<string | undefined> {
   const source = coverSources[`${bookId}:${hadithNumber}`];
-  return source === undefined ? undefined : toFileUri(source);
+  // Past the bundled hadiths, the cover comes down with the narration.
+  return source === undefined ? downloadedCover(bookId, hadithNumber) : toFileUri(source);
 }
 
 /** The list thumbnail shared by every hadith in the car. */

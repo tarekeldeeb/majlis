@@ -6,73 +6,83 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { ProgressBar } from '../src/components/ProgressBar';
 import { formatHadithTitle, theme, toArabicDigits } from '../src/constants/theme';
 import { getBook, getBooks, hasAudio } from '../src/data';
+import { useBookDownload } from '../src/player/downloads';
 import { nextHadithNumber, useProgress } from '../src/progress/progress';
 import type { Book } from '../src/types/content';
+
+function BookCard({ book, onOpen }: { book: Book; onOpen: (bookId: string, num: number) => void }) {
+  const router = useRouter();
+  const { bookProgress } = useProgress();
+  const download = useBookDownload(book.id);
+  const progress = bookProgress(book.id);
+  const doneCount = progress.done.length;
+  const ratio = book.count > 0 ? doneCount / book.count : 0;
+  const next = nextHadithNumber(progress, book.count);
+  const started = doneCount > 0 || progress.last !== null;
+
+  return (
+    <View style={styles.bookCard}>
+      <View style={styles.bookHeaderRow}>
+        <View style={styles.bookTitleGroup}>
+          <Text style={styles.bookTitle}>{book.title}</Text>
+          <Text style={styles.bookAuthor}>{book.author}</Text>
+        </View>
+        <View style={styles.countPill}>
+          <Text style={styles.countPillText}>{toArabicDigits(book.count)} حديثًا</Text>
+        </View>
+      </View>
+
+      <View style={styles.progressGroup}>
+        <ProgressBar ratio={ratio} />
+        <View style={styles.progressLabelRow}>
+          <Text style={styles.progressLabel}>
+            أتممت {toArabicDigits(doneCount)} من {toArabicDigits(book.count)}
+          </Text>
+          <Text style={styles.progressPct}>{toArabicDigits(Math.round(ratio * 100))}٪</Text>
+        </View>
+        {download.status !== 'idle' && download.status !== 'done' && (
+          <Text style={styles.downloadNote}>
+            {download.status === 'downloading' ? 'جارٍ تنزيل التسجيلات' : 'تنزيل التسجيلات متوقف'} —{' '}
+            {toArabicDigits(Math.floor((download.done / download.total) * 100))}٪
+          </Text>
+        )}
+      </View>
+
+      <View style={styles.bookActionsRow}>
+        {hasAudio(book.id) ? (
+          <>
+            <Pressable
+              onPress={() => onOpen(book.id, next)}
+              style={({ pressed }) => [styles.primaryBtn, pressed && styles.primaryBtnPressed]}
+            >
+              <Text style={styles.primaryBtnText}>
+                {started ? 'واصل المجلس' : 'ابدأ المجلس'}
+              </Text>
+            </Pressable>
+            <Pressable
+              onPress={() => router.push(`/book/${book.id}`)}
+              style={({ pressed }) => [styles.secondaryBtn, pressed && styles.secondaryBtnPressed]}
+            >
+              <Text style={styles.secondaryBtnText}>تصفح الأحاديث</Text>
+            </Pressable>
+          </>
+        ) : (
+          <Text style={styles.bookPending}>التسجيل الصوتي قيد الإعداد — قريبًا بإذن الله</Text>
+        )}
+      </View>
+    </View>
+  );
+}
 
 export default function JourneyScreen() {
   const router = useRouter();
   const books = getBooks();
-  const { bookProgress, lastVisited } = useProgress();
+  const { lastVisited } = useProgress();
 
   const continueBook = lastVisited ? getBook(lastVisited.bookId) : undefined;
 
   const openHadith = (bookId: string, num: number) => {
     router.push(`/book/${bookId}/${num}`);
-  };
-
-  const renderBookCard = (book: Book) => {
-    const progress = bookProgress(book.id);
-    const doneCount = progress.done.length;
-    const ratio = book.count > 0 ? doneCount / book.count : 0;
-    const next = nextHadithNumber(progress, book.count);
-    const started = doneCount > 0 || progress.last !== null;
-
-    return (
-      <View key={book.id} style={styles.bookCard}>
-        <View style={styles.bookHeaderRow}>
-          <View style={styles.bookTitleGroup}>
-            <Text style={styles.bookTitle}>{book.title}</Text>
-            <Text style={styles.bookAuthor}>{book.author}</Text>
-          </View>
-          <View style={styles.countPill}>
-            <Text style={styles.countPillText}>{toArabicDigits(book.count)} حديثًا</Text>
-          </View>
-        </View>
-
-        <View style={styles.progressGroup}>
-          <ProgressBar ratio={ratio} />
-          <View style={styles.progressLabelRow}>
-            <Text style={styles.progressLabel}>
-              أتممت {toArabicDigits(doneCount)} من {toArabicDigits(book.count)}
-            </Text>
-            <Text style={styles.progressPct}>{toArabicDigits(Math.round(ratio * 100))}٪</Text>
-          </View>
-        </View>
-
-        <View style={styles.bookActionsRow}>
-          {hasAudio(book.id) ? (
-            <>
-              <Pressable
-                onPress={() => openHadith(book.id, next)}
-                style={({ pressed }) => [styles.primaryBtn, pressed && styles.primaryBtnPressed]}
-              >
-                <Text style={styles.primaryBtnText}>
-                  {started ? 'واصل المجلس' : 'ابدأ المجلس'}
-                </Text>
-              </Pressable>
-              <Pressable
-                onPress={() => router.push(`/book/${book.id}`)}
-                style={({ pressed }) => [styles.secondaryBtn, pressed && styles.secondaryBtnPressed]}
-              >
-                <Text style={styles.secondaryBtnText}>تصفح الأحاديث</Text>
-              </Pressable>
-            </>
-          ) : (
-            <Text style={styles.bookPending}>التسجيل الصوتي قيد الإعداد — قريبًا بإذن الله</Text>
-          )}
-        </View>
-      </View>
-    );
   };
 
   return (
@@ -117,7 +127,9 @@ export default function JourneyScreen() {
         <View style={styles.sectionHeadingRow}>
           <Text style={styles.sectionHeading}>رحلتك في كتب الحديث</Text>
         </View>
-        {books.map(renderBookCard)}
+        {books.map((book) => (
+          <BookCard key={book.id} book={book} onOpen={openHadith} />
+        ))}
 
         <Text style={styles.footerNote}>وقفٌ لله تعالى — مشروع مفتوح المصدر برخصة وقف العامة</Text>
       </ScrollView>
@@ -283,6 +295,10 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '700',
     color: theme.colors.goldDeep,
+  },
+  downloadNote: {
+    ...theme.typography.caption,
+    color: theme.colors.primary,
   },
   bookPending: {
     ...theme.typography.caption,

@@ -72,3 +72,8 @@ export function addPlaybackListener(listener: (state: CarPlaybackState) => void)
 export function reloadLibrary(): void {
   native?.reloadLibrary();
 }
+
+/** Keeps a downloaded folder out of iCloud backups; Android's backup rules exclude it. */
+export function excludeFromBackup(uri: string): void {
+  if (Platform.OS === 'ios') native?.excludeFromBackup(uri);
+}

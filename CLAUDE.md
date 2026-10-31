@@ -22,7 +22,7 @@ Named after *majālis al-samāʿ* — the traditional gatherings where hadith bo
 Three layers; the heavy lifting happens at build time, not runtime:
 
 1. **Content pipeline (build-time):** hadith text from `AhmedBaset/hadith-json` + sunnah.com API; commentary (ādāb/fawāʾid/meanings) drafted by LLM grounded in classical shurūḥ (public-domain Arabic originals, e.g. Ibn Rajab's Jāmiʿ al-ʿUlūm wal-Ḥikam), then human-reviewed; output = versioned JSON assets: book → chapter → hadith → {matn, ādāb, fawāʾid, meaning, related āyāt, audio refs}.
-2. **Audio (build-time):** pre-generated with an open Arabic TTS (evaluate Habibi / ClArTTS-trained models on fully diacritized text), every file QA'd, hosted on a free CDN. Device TTS only as fallback for dynamic chat replies.
+2. **Audio (build-time):** pre-generated with an open Arabic TTS (evaluate Habibi / ClArTTS-trained models on fully diacritized text), every file QA'd, kept in Git LFS. The apps bundle each book's first 50 hadiths; the rest is hosted on Hugging Face (`quranquiznet/majlis-<bookId>`), streamed on the web and downloaded on demand by iOS/Android. Device TTS only as fallback for dynamic chat replies.
 3. **Chat backend (runtime):** RAG over the hadith + its commentary. MCP integrations: **Tarteel MCP** (`https://mcp.tarteel.ai/mcp`) for Quranic cross-references — note it is Quran-only (`search_verses`, `get_verse`, `get_juz`), it has no hadith tools — plus hadith-mcp / sunnah.com for related narrations.
 
 ## Planned layout

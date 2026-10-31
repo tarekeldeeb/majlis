@@ -47,3 +47,18 @@ Each clip lands in `content/audio/<book>/` and in its hadith's `audio` field as 
 git add content/audio/riyad_assalihin content/books/riyad_assalihin/hadith
 git commit -m "Narrate Riyad al-Salihin (in progress) [skip ci]" && git push
 ```
+
+## Publishing a book's narration
+
+The apps bundle the first 50 hadiths of every book (`BUNDLED_HADITHS` in `app/scripts/sync-content.mjs`). The rest is served from the book's public Hugging Face dataset, `quranquiznet/majlis-<book>`: the web app streams it and the iOS and Android apps download it. Every clip and cover is also committed to Git LFS; the deploy fetches only the bundled ones.
+
+```bash
+python3 pipeline/car/make-cover-art.py --book riyad_assalihin     # car covers, beside the clips
+# as quranquiznet (the shell's HF_TOKEN is another account): clips at the root, covers under covers/
+env -u HF_TOKEN hf upload quranquiznet/majlis-riyad_assalihin content/audio/riyad_assalihin . \
+  --type dataset --include "*.m4a" --include README.md
+env -u HF_TOKEN hf upload quranquiznet/majlis-riyad_assalihin content/audio/riyad_assalihin covers \
+  --type dataset --include "*-cover.jpg"
+```
+
+Upload re-narrated clips before building the apps: the build records a content hash per hadith, and a phone downloads a hadith again when its hash changes. The dataset card is `content/audio/<book>/README.md`.

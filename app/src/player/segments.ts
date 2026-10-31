@@ -1,5 +1,6 @@
-import { getAudioAsset, type AudioAsset } from '../data';
+import { hadithClips, type AudioAsset } from '../data';
 import type { HadithAudio } from '../types/content';
+import { resolveClip } from './clips';
 
 export type PlayerSection = 'matn' | 'adab' | 'fawaid' | 'meaning';
 
@@ -15,14 +16,20 @@ export interface CommentarySelection {
   meaning: boolean;
 }
 
-/** The ordered narration for one hadith, honouring the chosen commentary parts. */
+/**
+ * The ordered narration for one hadith, honouring the chosen commentary parts. Empty
+ * until every clip of the hadith is at hand (bundled, downloaded or streamed), so a
+ * download in progress never starts a hadith with parts missing.
+ */
 export function buildSegments(
   audio: HadithAudio | undefined,
   commentary: CommentarySelection
 ): Segment[] {
+  if (hadithClips(audio).some((path) => resolveClip(path) === undefined)) return [];
+
   const list: Segment[] = [];
   const push = (path: string | null | undefined, label: string, target: PlayerSection) => {
-    const source = getAudioAsset(path);
+    const source = resolveClip(path);
     if (source !== undefined) list.push({ source, label, target });
   };
   // A part's spoken title is shared by every hadith; it plays only before the part's own clip.
@@ -33,7 +40,7 @@ export function buildSegments(
     label: string,
     target: PlayerSection
   ) => {
-    if (getAudioAsset(path) === undefined) return;
+    if (resolveClip(path) === undefined) return;
     push(title, titleLabel, target);
     push(path, label, target);
   };

@@ -30,7 +30,9 @@ One JSON file per hadith at `content/books/<bookId>/hadith/<NNN>.json`, plus a `
     "sources": ["…"]             // the shurūḥ this commentary is grounded in
   },
   "audio": {
-    "matn": null,                // CDN path once generated, e.g. "nawawi40/001-matn.m4a"
+    "matn": null,                // path under content/audio/ once generated, e.g. "nawawi40/001-matn.m4a";
+                                 // past a book's first 50 hadiths it is fetched from the
+                                 // Hugging Face dataset quranquiznet/majlis-<book> (pipeline/README.md)
     "commentary": null
   },
   "review": {
