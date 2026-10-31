@@ -1,0 +1,373 @@
+{
+  "about": "Corrections to matn.diacritized, the reading text; matn.arabic is the source verbatim. Made by pipeline/diacritize/fix_reading_text.py.",
+  "baseline": "597ddc0~1",
+  "notes": "Hadith 30 was also corrected when the text was diacritized (pipeline/diacritize/complete_diacritics.py, CORRECTIONS): a sukun on a space and a reversed quote around «سننه» in «الدَّارَقُطْنِيُّ فِي «سُنَنِهِ»».",
+  "rules": {
+    "joined-waw": {
+      "description": "the source detaches the waw of the honorific: «عَلَيْهِ وَ سَلَّمَ» reads «عَلَيْهِ وَسَلَّمَ»",
+      "count": 45
+    },
+    "dagger-alif-rahman": {
+      "description": "«الرَّحْمٰنِ» with the dagger alif, as the classical orthography writes it",
+      "count": 4
+    },
+    "radiya-allahu": {
+      "description": "«رَضِيَ اللَّهُ»: Allah is the subject, not «اللَّهِ»",
+      "count": 0
+    },
+    "salla-allahu": {
+      "description": "«صَلَّى اللَّهُ عَلَيْهِ»: Allah is the subject, not «اللَّهِ»",
+      "count": 0
+    },
+    "ani-bni": {
+      "description": "«عَنِ ابْنِ»: genitive after the preposition, not «عَنْ ابْنُ»",
+      "count": 0
+    },
+    "azza-wajalla": {
+      "description": "«عَزَّ وَجَلَّ» read as the noun «عِزٌّ»",
+      "count": 0
+    },
+    "zanni-abdi": {
+      "description": "«أَنَا عِنْدَ ظَنِّ عَبْدِي», not «ظُنَّ»",
+      "count": 0
+    },
+    "allahu-subject": {
+      "description": "Allah as the subject of «قَالَ»، «يَقُولُ»، «رَحِمَهُ», not «اللَّهِ»",
+      "count": 0
+    },
+    "dotless-radiya": {
+      "description": "the source's «رضى الله» read as the noun «رِضًى اللَّهِ»; «رَضِيَ اللَّهُ»",
+      "count": 0
+    },
+    "dotless-kunya": {
+      "description": "the source's kunya «أبى» read as the verb «أَبَى»; «أَبِي» after «عَنْ»/«بْنُ», with the name after it in the genitive",
+      "count": 0
+    },
+    "repeated-honorific": {
+      "description": "the source repeats half the honorific: «وسلمى الله عليه وسلم» reads «وَسَلَّمَ»",
+      "count": 0
+    },
+    "source-typo": {
+      "description": "a misspelt word in the source: «حتي» → «حَتَّى», «إلىس» → «أَلَيْسَ», «امراتى» → «امْرَأَتِي»",
+      "count": 0
+    },
+    "garbled-alif-maqsura": {
+      "description": "«حَتَّى» and «عَلَى» given the marks of another word («حَتْىً»، «عِلَىْ»)",
+      "count": 0
+    },
+    "reviewed": {
+      "description": "a word reviewed in context: a ya-word the diacritizer gave a fatha (read «ā»), an active verb read as passive, or a wrong case beside it",
+      "count": 0
+    },
+    "dotless-ya": {
+      "description": "a final «ى» read as a ya, written «ي»: after a kasra («فِى» → «فِي») or with its own mark («رَضِىَ» → «رَضِيَ»), and the letter name «الزَّاي»",
+      "count": 0
+    },
+    "citation-stop": {
+      "description": "a full stop before the closing citation («رَوَاهُ …», «مُتَّفَقٌ عَلَيْهِ», or a grading «حَدِيثٌ حَسَنٌ، رَوَاهُ …» that opens it), which is not part of the hadith",
+      "count": 1
+    }
+  },
+  "fixes": [
+    {
+      "hadith": 2,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 2,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 2,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 3,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 3,
+      "rule": "dagger-alif-rahman",
+      "before": "الرَّحْمَن",
+      "after": "الرَّحْمٰن"
+    },
+    {
+      "hadith": 4,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 4,
+      "rule": "dagger-alif-rahman",
+      "before": "الرَّحْمَن",
+      "after": "الرَّحْمٰن"
+    },
+    {
+      "hadith": 5,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 6,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 8,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 9,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 9,
+      "rule": "dagger-alif-rahman",
+      "before": "الرَّحْمَن",
+      "after": "الرَّحْمٰن"
+    },
+    {
+      "hadith": 10,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 11,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 11,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 12,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 13,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 13,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 14,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 15,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 16,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 17,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 18,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 18,
+      "rule": "dagger-alif-rahman",
+      "before": "الرَّحْمَن",
+      "after": "الرَّحْمٰن"
+    },
+    {
+      "hadith": 19,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 20,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 22,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 23,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 24,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 25,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 25,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 26,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 27,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 27,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 27,
+      "rule": "citation-stop",
+      "before": "النَّاسُ» رَوَاهُ",
+      "after": "النَّاسُ». رَوَاهُ"
+    },
+    {
+      "hadith": 28,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 30,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 31,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 32,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 32,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 33,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 34,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 35,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 36,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 37,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 38,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 39,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 40,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 41,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    },
+    {
+      "hadith": 42,
+      "rule": "joined-waw",
+      "before": "وَ سَلَّمَ",
+      "after": "وَسَلَّمَ"
+    }
+  ]
+}

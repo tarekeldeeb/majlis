@@ -56,6 +56,8 @@ def word(bare: str) -> str:
 ALLAH = f"ا{M}ل{M}ل{M}ه"
 
 RULES = {
+    "joined-waw": "the source detaches the waw of the honorific: «عَلَيْهِ وَ سَلَّمَ» reads «عَلَيْهِ وَسَلَّمَ»",
+    "dagger-alif-rahman": "«الرَّحْمٰنِ» with the dagger alif, as the classical orthography writes it",
     "radiya-allahu": "«رَضِيَ اللَّهُ»: Allah is the subject, not «اللَّهِ»",
     "salla-allahu": "«صَلَّى اللَّهُ عَلَيْهِ»: Allah is the subject, not «اللَّهِ»",
     "ani-bni": "«عَنِ ابْنِ»: genitive after the preposition, not «عَنْ ابْنُ»",
@@ -72,12 +74,21 @@ RULES = {
     "an active verb read as passive, or a wrong case beside it",
     "dotless-ya": "a final «ى» read as a ya, written «ي»: after a kasra («فِى» → «فِي») "
     "or with its own mark («رَضِىَ» → «رَضِيَ»), and the letter name «الزَّاي»",
-    "citation-stop": "a full stop before the closing citation («رَوَاهُ …», «مُتَّفَقٌ عَلَيْهِ»), "
-    "which is not part of the hadith",
+    "citation-stop": "a full stop before the closing citation («رَوَاهُ …», «مُتَّفَقٌ عَلَيْهِ», or a grading "
+    "«حَدِيثٌ حَسَنٌ، رَوَاهُ …» that opens it), which is not part of the hadith",
 }
 
-# Phrase rules: (rule, regex, replacement, only these hadiths or None).
+# Corrections made before the text reached this script, noted in the log.
+NOTES = {
+    "nawawi40": "Hadith 30 was also corrected when the text was diacritized "
+                "(pipeline/diacritize/complete_diacritics.py, CORRECTIONS): a sukun on a space and a "
+                "reversed quote around «سننه» in «الدَّارَقُطْنِيُّ فِي «سُنَنِهِ»».",
+}
+
+# Phrase rules: (rule, regex, replacement, only these hadiths per book, or None for all).
 PHRASES = [
+    ("joined-waw", re.compile(f"{START}(و{M})\\s+(س{M}ل{M}م{M}){END}"), "\\1\\2", None),
+    ("dagger-alif-rahman", re.compile(f"(ا{M}ل{M}ر{M}ح{M}م){FATHA}(ن)"), "\\1\u0670\\2", None),
     ("radiya-allahu", re.compile(f"{START}(ر{M}ض{M}ي{M}\\s+{ALLAH}){KASRA}(?!{MARK})"), "\\1" + DAMMA, None),
     ("salla-allahu", re.compile(f"{START}(ص{M}ل{M}ى{M}\\s+{ALLAH}){KASRA}(?!{MARK})"), "\\1" + DAMMA, None),
     ("ani-bni", re.compile(f"{START}((?:[وف]{M})?ع{M})ن{M}(\\s+ا{M}ب{M}ن){DAMMA}(?!{MARK})"),
@@ -87,18 +98,18 @@ PHRASES = [
     ("zanni-abdi", re.compile(f"{START}ظُن(?:َّ|َّ)(?=\\s+ع{M}ب{M}د{M}ي)"),
      "ظ" + FATHA + "ن" + SHADDA + KASRA, None),
     ("allahu-subject", re.compile(f"{START}((?:ق{M}ا{M}ل{M}|ي{M}ق{M}و{M}ل{M})\\s+{ALLAH}){KASRA}(?!{MARK})"),
-     "\\1" + DAMMA, {244, 556, 756, 908, 1657}),
+     "\\1" + DAMMA, {"riyad_assalihin": {244, 556, 756, 908, 1657}}),
     ("allahu-subject", re.compile(f"((?:ر{M}ح{M}م{M}ه{M})\\s+{ALLAH}){KASRA}(?!{MARK})"),
-     "\\1" + DAMMA, {224, 1444, 1573}),
+     "\\1" + DAMMA, {"riyad_assalihin": {224, 1444, 1573}}),
 ]
 
 # The genitive of a name after the kunya «أَبِي», where the diacritizer gave another case.
 KUNYA_NAMES = {"سَلَمَةُ": "سَلَمَةَ", "ذَرَّ": "ذَرٍّ", "مَسْعُودٌ": "مَسْعُودٍ", "عَبْدُ": "عَبْدِ",
                "هُنَيْدَةُ": "هُنَيْدَةَ"}
 
-# Source corruptions and words reviewed one by one: (hadith, rule, before, after).
-# `before` is matched exactly in that hadith's text and replaced everywhere in it.
-TABLE = [
+# Source corruptions and words reviewed one by one, per book: (hadith, rule, before, after).
+# `before` is matched in that hadith's text (marks in any order) and replaced everywhere in it.
+TABLES = {"riyad_assalihin": [
     (947, "source-typo", "إلَىْسَ", "أَلَيْسَ"),
     (1413, "garbled-alif-maqsura", "عِلَىْ", "عَلَى"),
     (1714, "garbled-alif-maqsura", "عَلَىْ", "عَلَى"),
@@ -239,13 +250,18 @@ TABLE = [
     # alef maqsura words with a wrong vowel before it
     (1129, "reviewed", "فَرَسَى", "فَرْسَى"),
     (866, "reviewed", "أَفْرَى الْفَرَى", "أَفْرَى الْفِرَى"),
-]
+]}
 
 R_RIDA = re.compile(f"{START}(ر{M}ض{M}ى{M})(\\s+)(ا{M}ل{M}ل{M}ه{M})(?=\\s)")
 R_KUNYA = re.compile(f"({START}(?:و{M})?ع{M}ن{M}|{START}(?:ا{M})?ب{M}ن{M})(\\s+)(أ{M}ب{M}ى{M})(\\s+)(\\S+)")
 R_HONORIFIC = re.compile(f"{word('وسلم')}ى\\s+{word('الله')}\\s+{word('عليه')}\\s+({word('وسلم')})")
 R_HATTA = re.compile(f"{START}ح{M}ت{M}([يى]){M}{END}")
-R_CITATION = re.compile(f"{START}(?:\\(\\(\\s*)?(?:{word('رواه')}|{word('متفق')}\\s+{word('عليه')}){END}")
+R_CITATION = re.compile(f"{START}(?:\\(\\(\\s*)?(?:{word('رواه')}|{word('رويناه')}|{word('متفق')}\\s+{word('عليه')}){END}")
+# A grading that opens the citation («حَدِيثٌ حَسَنٌ، رَوَاهُ …»): the full stop goes before it,
+# unless it is quoted («وَقَالَ: حَدِيثٌ حَسَنٌ»), closing an earlier citation.
+R_GRADING = re.compile(f"{START}(?:\\(\\(\\s*)?{word('حديث')}\\s+(?:{word('حسن')}|{word('صحيح')})"
+                       f"(?:\\s+{word('صحيح')})?\\s*[،,.]?\\s*(?:\\(\\(\\s*)?$")
+R_QUOTED = re.compile(f"(?:^|\\s)(?:[وف]{M})?{word('قال')}\\s*:?\\s*$")
 WORD = re.compile(f"[{LETTER}ً-ْٰـ]+")
 SENTENCE_END = ".!؟?؛:…"
 
@@ -289,7 +305,7 @@ def corpus_spelling(texts: dict[int, str], target: str) -> str:
     return seen.most_common(1)[0][0] if seen else canon(target)
 
 
-def fix(texts: dict[int, str]) -> tuple[dict[int, str], list[dict]]:
+def fix(book: str, texts: dict[int, str]) -> tuple[dict[int, str], list[dict]]:
     """Apply every rule in order; returns the new texts and one log entry per change."""
     out, log = dict(texts), []
     radiya, allahu, abi, hatta = (corpus_spelling(texts, w) for w in ("رَضِيَ", "اللَّهُ", "أَبِي", "حَتَّى"))
@@ -306,7 +322,7 @@ def fix(texts: dict[int, str]) -> tuple[dict[int, str], list[dict]]:
     for number in out:
         # 1. case endings of fixed formulas
         for rule, rx, repl, only in PHRASES:
-            if only is None or number in only:
+            if only is None or number in only.get(book, ()):
                 apply(number, rule, rx, repl)
 
         # 2. the source's dotless ya read as other words
@@ -335,7 +351,7 @@ def fix(texts: dict[int, str]) -> tuple[dict[int, str], list[dict]]:
         apply(number, "garbled-alif-maqsura", R_HATTA, hatta_word(False))
 
     # 3–4. the reviewed table
-    for number, rule, before, after in TABLE:
+    for number, rule, before, after in TABLES.get(book, []):
         if re.search(loose(before), out[number]):
             apply(number, rule, re.compile(loose(before)), lambda m, a=canon(after): a)
         elif not re.search(loose(after), out[number]):
@@ -367,7 +383,11 @@ def fix(texts: dict[int, str]) -> tuple[dict[int, str], list[dict]]:
         # 6. a full stop before the closing citation
         text = out[number]
         for m in reversed(list(R_CITATION.finditer(text))):
-            k = m.start() - 1
+            start = m.start()
+            graded = R_GRADING.search(text, 0, start)
+            if graded and not R_QUOTED.search(text, 0, graded.start()):
+                start = graded.start()
+            k = start - 1
             while k >= 0 and text[k].isspace():
                 k -= 1
             if k < 0 or text[k] in SENTENCE_END or text[k] == "(":
@@ -416,6 +436,7 @@ def write_log(book: str, log: list[dict], baseline: str | None) -> Path:
         "about": "Corrections to matn.diacritized, the reading text; matn.arabic is the source "
                  "verbatim. Made by pipeline/diacritize/fix_reading_text.py.",
         "baseline": baseline or old.get("baseline"),
+        **({"notes": NOTES[book]} if book in NOTES else {}),
         "rules": {rule: {"description": text, "count": counts[rule]} for rule, text in RULES.items()},
         "fixes": sorted(entries, key=lambda e: (e["hadith"], list(RULES).index(e["rule"]))),
     }
@@ -429,23 +450,32 @@ def main() -> int:
     ap.add_argument("--apply", action="store_true", help="write the corrected text and the log")
     ap.add_argument("--baseline", help="git revision of the uncorrected machine-diacritized text: "
                     "rebuild the whole log from it, and check it gives the same text")
+    ap.add_argument("--rebuild", action="store_true",
+                    help="with --baseline, after changing a rule: write the text rebuilt from the baseline")
     args = ap.parse_args()
 
     files, texts = load(args.book)
-    fixed, log = fix(texts)
-    changed = sorted(n for n in fixed if fixed[n] != texts[n])
+    fixed, log = fix(args.book, texts)
     for rule, count in Counter(e["rule"] for e in log).most_common():
         print(f"{rule}: {count}")
-    print(f"hadiths changed: {len(changed)}" + ("" if args.apply else " (dry run)"))
 
     if args.baseline:
         _, base = load(args.book, args.baseline)
-        rebuilt, log = fix(base)
+        rebuilt, log = fix(args.book, base)
         differ = [n for n in fixed if rebuilt.get(n) != fixed[n]]
+        if differ and not args.rebuild:
+            sys.exit(f"the rules applied to {args.baseline} differ from the current text in {differ[:10]}; "
+                     "if a rule changed, write the rebuilt text with --rebuild")
         if differ:
-            sys.exit(f"the rules applied to {args.baseline} differ from the current text in {differ[:10]}")
-        print(f"rules applied to {args.baseline} give the corrected text exactly; {len(log)} fixes logged")
+            print(f"rebuilt from {args.baseline}; differs from the rules applied to the current text in "
+                  f"{len(differ)} hadiths: {differ}")
+            fixed = {n: rebuilt.get(n, fixed[n]) for n in fixed}
+        else:
+            print(f"rules applied to {args.baseline} give the corrected text exactly")
+        print(f"{len(log)} fixes logged")
 
+    changed = sorted(n for n in fixed if fixed[n] != texts[n])
+    print(f"hadiths changed: {len(changed)}" + ("" if args.apply else " (dry run)"))
     if args.apply:
         for number in changed:
             fp = files[number]

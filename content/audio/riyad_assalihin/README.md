@@ -71,12 +71,12 @@ read aloud, and shown in the app, is the reading text `matn.diacritized`: the so
 diacritized, then corrected where the source or the machine diacritizer was wrong. Every
 correction, with its hadith and the text before and after, is in
 [`content/books/riyad_assalihin/reading-text-fixes.json`](https://github.com/tarekeldeeb/majlis/blob/main/content/books/riyad_assalihin/reading-text-fixes.json):
-3,026 corrections in 1,851 hadiths, made (and reproducible from the uncorrected text) by
+3,023 corrections in 1,851 hadiths, made (and reproducible from the uncorrected text) by
 [`pipeline/diacritize/fix_reading_text.py`](https://github.com/tarekeldeeb/majlis/blob/main/pipeline/diacritize/fix_reading_text.py).
 
 | Correction | Count | Example |
 |---|---:|---|
-| A full stop before the closing citation, which is not part of the hadith | 1,739 | «الْإِيمَانِ. ((مُتَّفَقٌ عَلَيْهِ))» |
+| A full stop before the closing citation, or the grading that opens it («حَدِيثٌ صَحِيحٌ، رَوَاهُ …»), which is not part of the hadith | 1,736 | «الْإِيمَانِ. ((مُتَّفَقٌ عَلَيْهِ))» |
 | A final ya the source writes dotless («ى»), which the narrator read as «ā», written «ي» | 496 | «يَأْتِى» → «يَأْتِي» |
 | «رَضِيَ اللَّهُ», not «رَضِيَ اللَّهِ» | 446 | |
 | Words reviewed in context: a ya-word given a fatha, an active verb read as passive, or a wrong case beside them | 134 | «فَاتَّقَى اللَّهَ وَاصْبَرَى» → «فَاتَّقِي اللَّهَ وَاصْبِرِي» |
