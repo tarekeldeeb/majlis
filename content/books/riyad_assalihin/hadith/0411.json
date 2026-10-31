@@ -40,8 +40,11 @@
     ]
   },
   "audio": {
-    "matn": null,
-    "commentary": null
+    "matn": "riyad_assalihin/0411-matn.m4a",
+    "number": "riyad_assalihin/0411-number.m4a",
+    "adab": "riyad_assalihin/0411-adab.m4a",
+    "fawaid": "riyad_assalihin/0411-fawaid.m4a",
+    "meaning": "riyad_assalihin/0411-meaning.m4a"
   },
   "review": {
     "status": "approved",

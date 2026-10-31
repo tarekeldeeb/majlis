@@ -39,8 +39,11 @@
     ]
   },
   "audio": {
-    "matn": null,
-    "commentary": null
+    "matn": "riyad_assalihin/1794-matn.m4a",
+    "number": "riyad_assalihin/1794-number.m4a",
+    "adab": "riyad_assalihin/1794-adab.m4a",
+    "fawaid": "riyad_assalihin/1794-fawaid.m4a",
+    "meaning": "riyad_assalihin/1794-meaning.m4a"
   },
   "review": {
     "status": "approved",
