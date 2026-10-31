@@ -50,7 +50,8 @@ https://huggingface.co/datasets/quranquiznet/majlis-riyad_assalihin/resolve/main
 ## How it was made
 
 - **Text.** The matn comes from [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json),
-  fully diacritized for reading aloud. The commentary was drafted with an LLM grounded in
+  fully diacritized for reading aloud and corrected where the source or the diacritizer was
+  wrong (listed below). The commentary was drafted with an LLM grounded in
   Ibn ʿUthaymīn's *Sharḥ Riyāḍ al-Ṣāliḥīn*. Tarek Eldeeb reviewed the corpus on 2026-10-23;
   a second scholarly review is pending.
 - **Voices.** Generated with [SILMA TTS v1](https://huggingface.co/silma-ai/silma-tts)
@@ -62,6 +63,35 @@ https://huggingface.co/datasets/quranquiznet/majlis-riyad_assalihin/resolve/main
   (CC-BY-4.0; Nawar Halabi).
 - **Checks.** Every chunk was transcribed with Whisper (`openai/whisper-base`) and generated
   again, up to four takes, when a word was missing.
+
+## Corrections to the source text
+
+The source text is kept verbatim (`matn.arabic` in the repository) and never changed. What is
+read aloud, and shown in the app, is the reading text `matn.diacritized`: the source fully
+diacritized, then corrected where the source or the machine diacritizer was wrong. Every
+correction, with its hadith and the text before and after, is in
+[`content/books/riyad_assalihin/reading-text-fixes.json`](https://github.com/tarekeldeeb/majlis/blob/main/content/books/riyad_assalihin/reading-text-fixes.json):
+3,026 corrections in 1,851 hadiths, made (and reproducible from the uncorrected text) by
+[`pipeline/diacritize/fix_reading_text.py`](https://github.com/tarekeldeeb/majlis/blob/main/pipeline/diacritize/fix_reading_text.py).
+
+| Correction | Count | Example |
+|---|---:|---|
+| A full stop before the closing citation, which is not part of the hadith | 1,739 | «الْإِيمَانِ. ((مُتَّفَقٌ عَلَيْهِ))» |
+| A final ya the source writes dotless («ى»), which the narrator read as «ā», written «ي» | 496 | «يَأْتِى» → «يَأْتِي» |
+| «رَضِيَ اللَّهُ», not «رَضِيَ اللَّهِ» | 446 | |
+| Words reviewed in context: a ya-word given a fatha, an active verb read as passive, or a wrong case beside them | 134 | «فَاتَّقَى اللَّهَ وَاصْبَرَى» → «فَاتَّقِي اللَّهَ وَاصْبِرِي» |
+| «عَنِ ابْنِ», not «عَنْ ابْنُ» | 68 | |
+| The kunya «أَبِي» the source writes «أبى», read as the verb «أَبَى» | 37 | «عَنْ أَبَى هُرَيْرَةَ» → «عَنْ أَبِي هُرَيْرَةَ» |
+| «رَضِيَ اللَّهُ» the source writes «رضى», read as the noun «رِضًى اللَّهِ» | 31 | |
+| The source repeats half the honorific, «وسلمى الله عليه وسلم»; read «وَسَلَّمَ» | 27 | |
+| Words misspelt in the source: «حتي»، «إلىس»، «امراتى» | 18 | «حُتِّي» → «حَتَّى» |
+| «حَتَّى» and «عَلَى» given another word's marks | 13 | «حَتّى» → «حَتَّى» |
+| Allah as the subject: «قَالَ اللَّهُ»، «يَقُولُ اللَّهُ»، «رَحِمَهُ اللَّهُ» | 8 | |
+| «عَزَّ وَجَلَّ», not «عِزٌّ وَجَلَّ» | 6 | |
+| «ظَنِّ عَبْدِي», not «ظُنَّ عَبْدِي» | 2 | |
+| «صَلَّى اللَّهُ», not «صَلَّى اللَّهِ» | 1 | |
+
+Other slips of the machine diacritization remain; they await the scholarly review.
 
 ## License
 

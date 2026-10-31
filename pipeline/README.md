@@ -10,7 +10,7 @@ Build-time stages; each stage reads/writes `content/` and is safe to re-run:
    - `validate_batches.py <batch.json...>` checks every entry before applying.
    - `apply_riyad_batch.py <batch.json>` writes commentary into the hadith files and marks review as deferred.
    - `punctuate_commentary.py [--apply]` adds conservative clause commas to read-aloud commentary.
-3. **diacritize/** — tashkeel transfer, CATT fallback, `rediacritize_transfer_full.py` (full-matn CATT for partial transfer spans), `qa_riyad.py` (structural QA + flag clearing), `diacritize_commentary.py` (only strings below the density threshold).
+3. **diacritize/** — `fix_reading_text.py --book <book> [--apply] [--baseline <rev>]` corrects the reading text where the source or the diacritizer was wrong (case endings of fixed formulas, the dotless final ya, source typos, a reviewed table, a full stop before the citation) and logs every correction to `content/books/<book>/reading-text-fixes.json`; tashkeel transfer, CATT fallback, `rediacritize_transfer_full.py` (full-matn CATT for partial transfer spans), `qa_riyad.py` (structural QA + flag clearing), `diacritize_commentary.py` (only strings below the density threshold).
 4. **tts/** — generate per-segment audio for `approved` hadiths with SILMA: number + matn in the male ClArTTS voice, and ādāb/fawāʾid/meaning in the male Arabic Speech Corpus voice. `run_batch.sh --book nawawi40` is resumable, writes HE-AAC 32 kbps clips (`pipeline/tts/audio_format.py`) to `content/audio/<book>/<NNN>-{number,matn,adab,fawaid,meaning}.m4a` plus shared `content/audio/titles/*.m4a`, and records the paths in each hadith's `audio` field. `synth.py` does punctuation-aware chunking (180 chars, with long narrator chains split at `بن`), 8 ms edge fades and a 20 ms crossfade to avoid SILMA's inter-chunk silence and clicks; Ādāb/Fawāʾid bullets get an explicit 0.8 s pause.
 5. **package/** — bundle `approved` content + audio manifests into app assets; must exclude anything not approved.
 
@@ -60,5 +60,7 @@ env -u HF_TOKEN hf upload quranquiznet/majlis-riyad_assalihin content/audio/riya
 env -u HF_TOKEN hf upload quranquiznet/majlis-riyad_assalihin content/audio/riyad_assalihin covers \
   --type dataset --include "*-cover.jpg"
 ```
+
+When the reading text changes, `python3 pipeline/tts/drop_stale_clips.py --book <book> --since <rev> --delete` removes exactly the clips whose text changed since `<rev>`, and the batch run above narrates them again.
 
 Upload re-narrated clips before building the apps: the build records a content hash per hadith, and a phone downloads a hadith again when its hash changes. The dataset card is `content/audio/<book>/README.md`.
