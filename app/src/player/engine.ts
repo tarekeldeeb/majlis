@@ -52,6 +52,13 @@ function toSource(source: AudioAsset) {
   return { uri: asset.localUri ?? asset.uri, name: asset.name ?? undefined };
 }
 
+// A browser refuses to start audio on a page the reader hasn't touched yet, as when the
+// page was opened straight from a link; calling play() there only fails.
+function mayAutoplay(): boolean {
+  const { navigator } = globalThis as { navigator?: { userActivation?: { hasBeenActive: boolean } } };
+  return navigator?.userActivation?.hasBeenActive ?? true;
+}
+
 function sameSegments(a: Segment[], b: Segment[]) {
   return (
     a.length === b.length &&
@@ -216,14 +223,29 @@ class PlayerEngine {
     this.playlist.clear();
     for (const segment of segments) this.playlist.add(toSource(segment.source));
     setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
+    if (!mayAutoplay()) {
+      this.set({ autoplayBlocked: true });
+      return;
+    }
     this.playlist.play();
+    this.watchAutoplay(0);
+  }
 
+  // expo-audio's web playlist reports playing as soon as play() is called, even when the
+  // browser refuses it. Once the clip has loaded, time that hasn't moved means it was
+  // refused: reset the player and ask for a tap. A clip still streaming in gets longer.
+  private watchAutoplay(checks: number) {
     this.blockedTimer = setTimeout(() => {
       this.blockedTimer = null;
-      if (this.playlist.currentTime < 0.05 && !this.state.playing) {
-        this.set({ autoplayBlocked: true });
+      const status = this.playlist.currentStatus;
+      if (this.playlist.currentTime >= 0.05 || !status.playing) return;
+      if ((!status.isLoaded || status.isBuffering) && checks < 8) {
+        this.watchAutoplay(checks + 1);
+        return;
       }
-    }, 2000);
+      this.playlist.pause();
+      this.set({ playing: false, autoplayBlocked: true });
+    }, checks === 0 ? 2000 : 1000);
   }
 
   playOrPause() {
