@@ -89,4 +89,6 @@ class SttCheck:
         self.last_heard = self.asr({"raw": audio, "sampling_rate": 16000},
                                    generate_kwargs={"language": "arabic", "task": "transcribe"})["text"].strip()
         coverage = word_coverage(text, spell_digits(self.last_heard))
+        # How much of the chunk was heard, to choose between takes that all miss a word.
+        self.last_mean = float(np.mean(coverage)) if coverage else 1.0
         return min(coverage) if coverage else 1.0

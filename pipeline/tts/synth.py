@@ -221,10 +221,12 @@ def synthesize(tts, ref_audio: str, ref_text: str, text: str, nfe_step: int,
             keep_end = sentence_keep_end if chunk.rstrip().endswith((".", "!", "؟", "؛", ":")) else 0.10
             wav = _trim_silence(wav, sr, keep_start=keep_start, keep_end=keep_end)
             score = check(chunk, wav, sr) if check else 1.0
+            # Between takes that all miss a word, keep the one where more of it was heard.
+            heard = getattr(check, "last_mean", score) if check else 1.0
             if check:
                 takes.append({"score": round(score, 2), "heard": getattr(check, "last_heard", "")})
-            if best is None or score > best[0]:
-                best = (score, wav, attempt)
+            if best is None or (score, heard) > (best[0], best[3]):
+                best = (score, wav, attempt, heard)
             if score >= PASS_SCORE:
                 break
         waves.append(best[1])
