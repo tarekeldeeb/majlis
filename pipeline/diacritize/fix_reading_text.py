@@ -68,7 +68,8 @@ RULES = {
     "dotless-kunya": "the source's kunya «أبى» read as the verb «أَبَى»; «أَبِي» after «عَنْ»/«بْنُ», "
     "with the name after it in the genitive",
     "repeated-honorific": "the source repeats half the honorific: «وسلمى الله عليه وسلم» reads «وَسَلَّمَ»",
-    "source-typo": "a misspelt word in the source: «حتي» → «حَتَّى», «إلىس» → «أَلَيْسَ», «امراتى» → «امْرَأَتِي»",
+    "source-typo": "a misspelt word in the source: «حتي» → «حَتَّى», «إلىس» → «أَلَيْسَ», «امراتى» → «امْرَأَتِي», "
+    "«فليأمروا» → «فَلْيُؤَمِّرُوا»",
     "garbled-alif-maqsura": "«حَتَّى» and «عَلَى» given the marks of another word («حَتْىً»، «عِلَىْ»)",
     "reviewed": "a word reviewed in context: a ya-word the diacritizer gave a fatha (read «ā»), "
     "an active verb read as passive, or a wrong case beside it",
@@ -114,6 +115,7 @@ TABLES = {"riyad_assalihin": [
     (1413, "garbled-alif-maqsura", "عِلَىْ", "عَلَى"),
     (1714, "garbled-alif-maqsura", "عَلَىْ", "عَلَى"),
     (1736, "source-typo", "امَرَاتَى", "امْرَأَتِي"),
+    (281, "source-typo", "فَلْيَأْمُرُوا", "فَلْيُؤَمِّرُوا"),
     # «في» given a fatha, so read «وَفَّى»
     (114, "reviewed", "وَفَّى رِوَايَةٍ", "وَفِي رِوَايَةٍ"),
     (1185, "reviewed", "وَفَّى الثَّانِيَةَ", "وَفِي الثَّانِيَةِ"),
@@ -293,7 +295,7 @@ def loose(s: str) -> str:
 def bare(s: str) -> str:
     """Letters only, with ya and hamza seats folded, to check a fix changed no wording."""
     s = re.sub(f"{MARK}|[\\s.،]", "", s).replace("ى", "ي")
-    return re.sub("[أإآ]", "ا", s)
+    return re.sub("[أإآؤئ]", "ا", s)
 
 
 def corpus_spelling(texts: dict[int, str], target: str) -> str:

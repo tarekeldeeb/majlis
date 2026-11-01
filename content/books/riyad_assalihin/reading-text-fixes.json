@@ -47,8 +47,8 @@
       "count": 27
     },
     "source-typo": {
-      "description": "a misspelt word in the source: «حتي» → «حَتَّى», «إلىس» → «أَلَيْسَ», «امراتى» → «امْرَأَتِي»",
-      "count": 18
+      "description": "a misspelt word in the source: «حتي» → «حَتَّى», «إلىس» → «أَلَيْسَ», «امراتى» → «امْرَأَتِي», «فليأمروا» → «فَلْيُؤَمِّرُوا»",
+      "count": 19
     },
     "garbled-alif-maqsura": {
       "description": "«حَتَّى» and «عَلَى» given the marks of another word («حَتْىً»، «عِلَىْ»)",
@@ -3499,6 +3499,12 @@
       "rule": "citation-stop",
       "before": "رَكْبٌ رَوَاهُ",
       "after": "رَكْبٌ. رَوَاهُ"
+    },
+    {
+      "hadith": 281,
+      "rule": "source-typo",
+      "before": "فَلْيَأْمُرُوا",
+      "after": "فَلْيُؤَمِّرُوا"
     },
     {
       "hadith": 281,

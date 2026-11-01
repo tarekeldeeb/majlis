@@ -71,7 +71,7 @@ read aloud, and shown in the app, is the reading text `matn.diacritized`: the so
 diacritized, then corrected where the source or the machine diacritizer was wrong. Every
 correction, with its hadith and the text before and after, is in
 [`content/books/riyad_assalihin/reading-text-fixes.json`](https://github.com/tarekeldeeb/majlis/blob/main/content/books/riyad_assalihin/reading-text-fixes.json):
-3,023 corrections in 1,851 hadiths, made (and reproducible from the uncorrected text) by
+3,024 corrections in 1,851 hadiths, made (and reproducible from the uncorrected text) by
 [`pipeline/diacritize/fix_reading_text.py`](https://github.com/tarekeldeeb/majlis/blob/main/pipeline/diacritize/fix_reading_text.py).
 
 | Correction | Count | Example |
@@ -84,7 +84,7 @@ correction, with its hadith and the text before and after, is in
 | The kunya «أَبِي» the source writes «أبى», read as the verb «أَبَى» | 37 | «عَنْ أَبَى هُرَيْرَةَ» → «عَنْ أَبِي هُرَيْرَةَ» |
 | «رَضِيَ اللَّهُ» the source writes «رضى», read as the noun «رِضًى اللَّهِ» | 31 | |
 | The source repeats half the honorific, «وسلمى الله عليه وسلم»; read «وَسَلَّمَ» | 27 | |
-| Words misspelt in the source: «حتي»، «إلىس»، «امراتى» | 18 | «حُتِّي» → «حَتَّى» |
+| Words misspelt in the source: «حتي»، «إلىس»، «امراتى»، «فليأمروا» | 19 | «حُتِّي» → «حَتَّى» |
 | «حَتَّى» and «عَلَى» given another word's marks | 13 | «حَتّى» → «حَتَّى» |
 | Allah as the subject: «قَالَ اللَّهُ»، «يَقُولُ اللَّهُ»، «رَحِمَهُ اللَّهُ» | 8 | |
 | «عَزَّ وَجَلَّ», not «عِزٌّ وَجَلَّ» | 6 | |
