@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { AdabSection, FawaidSection, MeaningSection, CommentaryExtras } from '../../../src/components/CommentarySection';
@@ -47,12 +47,10 @@ export default function HadithScreen() {
 
   const playerState = usePlayer();
   const done = isDone(currentBookId, num);
-  const [showDiscuss, setShowDiscuss] = useState(false);
   const { height: windowHeight } = useWindowDimensions();
 
   useEffect(() => {
     if (hadith) markVisited(currentBookId, num);
-    setShowDiscuss(false);
   }, [currentBookId, num, hadith, markVisited]);
 
   const hasPrev = num > 1;
@@ -236,21 +234,10 @@ export default function HadithScreen() {
         </View>
         <CommentaryExtras commentary={hadith.commentary} />
 
-        {/* Discussion panel (Phase 2 entry point) */}
-        {showDiscuss && (
-          <View style={styles.discussCard}>
-            <Text style={styles.discussTitle}>مناقشة الحديث</Text>
-            <Text style={styles.discussText}>
-              المناقشة التفاعلية قادمة في المرحلة الثانية بإذن الله: ستحاور مساعدًا مستندًا إلى
-              نص الحديث وشرحه ومصادره، يجيبك بحجج موثقة دون إفتاء.
-            </Text>
-          </View>
-        )}
-
         <View style={{ height: Math.max(120, windowHeight) }} />
       </ScrollView>
 
-      {/* Journey action bar: done / discuss */}
+      {/* Journey action bar */}
       <View style={styles.actionBar}>
         <Pressable
           onPress={() => toggleDone(currentBookId, num)}
@@ -263,18 +250,6 @@ export default function HadithScreen() {
           <Text style={done ? styles.actionBtnTextOnGold : styles.actionBtnTextOutline}>
             {done ? '✓ تَمَّ' : 'أتممتُ الحديث'}
           </Text>
-        </Pressable>
-
-        <Pressable
-          onPress={() => setShowDiscuss((v) => !v)}
-          style={({ pressed }) => [
-            styles.actionBtn,
-            styles.actionBtnOutline,
-            showDiscuss && styles.actionBtnActive,
-            pressed && styles.actionBtnPressed,
-          ]}
-        >
-          <Text style={styles.actionBtnTextOutline}>ناقش</Text>
         </Pressable>
       </View>
     </View>
@@ -407,23 +382,6 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontFamily: theme.matnFontFamily,
   },
-  discussCard: {
-    backgroundColor: theme.colors.primaryLight,
-    borderColor: theme.colors.primaryBorder,
-    borderWidth: 1,
-    borderRadius: theme.radius.md,
-    padding: theme.spacing.md,
-    gap: 6,
-  },
-  discussTitle: {
-    ...theme.typography.subtitle,
-    color: theme.colors.primary,
-  },
-  discussText: {
-    ...theme.typography.body,
-    color: theme.colors.textSecondary,
-    lineHeight: 24,
-  },
   bottomSpacer: {
     height: 96,
   },
@@ -458,9 +416,6 @@ const styles = StyleSheet.create({
   actionBtnOutline: {
     borderWidth: 1,
     borderColor: 'rgba(255, 253, 247, 0.45)',
-  },
-  actionBtnActive: {
-    backgroundColor: 'rgba(255, 253, 247, 0.12)',
   },
   actionBtnDone: {
     backgroundColor: theme.colors.gold,
